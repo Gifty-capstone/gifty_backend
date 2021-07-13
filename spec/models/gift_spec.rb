@@ -1,5 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Gift, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe 'relationhips' do
+    it { should have_many(:friend_gifts) }
+    it { should have_many(:friends).through(:friend_gifts) }
+  end
 end
