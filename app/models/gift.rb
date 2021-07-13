@@ -1,5 +1,4 @@
 class Gift < ApplicationRecord
-
   validates :name, :description, presence: true
 
   has_many :friend_gifts

@@ -1,7 +1,6 @@
 class User < ApplicationRecord
   validates :name, :email, :birthday, :icon, presence: true
-  validates_uniqueness_of :email
+  validates :email, uniqueness: true
 
   has_many :friends
-
 end
