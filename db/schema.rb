@@ -10,28 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_13_210907) do
+ActiveRecord::Schema.define(version: 2021_07_14_135828) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "friend_gifts", force: :cascade do |t|
-    t.bigint "friend_id"
-    t.bigint "gift_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["friend_id"], name: "index_friend_gifts_on_friend_id"
-    t.index ["gift_id"], name: "index_friend_gifts_on_gift_id"
-  end
 
   create_table "friends", force: :cascade do |t|
     t.string "name"
     t.date "birthday"
     t.integer "icon"
-    t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_friends_on_user_id"
   end
 
   create_table "gifts", force: :cascade do |t|
@@ -40,6 +29,8 @@ ActiveRecord::Schema.define(version: 2021_07_13_210907) do
     t.integer "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "friend_id"
+    t.index ["friend_id"], name: "index_gifts_on_friend_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -51,7 +42,5 @@ ActiveRecord::Schema.define(version: 2021_07_13_210907) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "friend_gifts", "friends"
-  add_foreign_key "friend_gifts", "gifts"
-  add_foreign_key "friends", "users"
+  add_foreign_key "gifts", "friends"
 end
