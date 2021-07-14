@@ -4,4 +4,8 @@ class Friend < ApplicationRecord
   belongs_to :user
   has_many :friend_gifts
   has_many :gifts, through: :friend_gifts
+
+  def self.need_gift
+    binding.pry
+  end
 end

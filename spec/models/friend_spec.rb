@@ -13,6 +13,16 @@ RSpec.describe Friend do
   end
   describe 'instance methods' do 
     it 'returns an enum value for a friend if a gift has been purchased or pending' do 
+      friend1 = create :friend, birthday: '1989-09-29'
+      gift1 = create :gift, status: 1, updated_at: '2021-10-10'
+      friend2 = create :friend, birthday: '1989-09-29'
+      gift2 = create :gift, status: 1, updated_at: '2021-05-15'
+      
+      create :friend_gift, friend: friend1, gift: gift1
+      create :friend_gift, friend: friend2, gift: gift2
+      binding.pry
+      
+      
 
     end
   end
