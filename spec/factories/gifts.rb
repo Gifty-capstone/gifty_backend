@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :gift do
-    name { "MyString" }
-    description { "MyText" }
+    name { Faker::Commerce.product_name }
+    description { Faker::Lorem.sentence }
   end
 end

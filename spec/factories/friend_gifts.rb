@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :friend_gift do
-    nfriend { nil }
-    gift { nil }
+    friend 
+    gift 
   end
 end
