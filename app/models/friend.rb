@@ -1,5 +1,5 @@
 class Friend < ApplicationRecord
-  validates :name, :birthday, :icon, presence: true
+  validates :name, :birthday, presence: true
 
   has_many :gifts
 

@@ -8,8 +8,6 @@ user = User.create!( name: 'Dione Travis', email: 'user@email.com', birthday: '2
 friend_1 = Friend.create!( name: 'Kendall', birthday: '2020-12-11')
 friend_2 = Friend.create!( name: 'Melanie', birthday: '2020-11-09')
 friend_3 = Friend.create!( name: 'Rachel', birthday: '2020-07-08')
-# friend_4 = Friend.create( name: 'Joey', birthday: '04/08/1990', icon: 6)
-# friend_5 = Friend.create( name: 'Brisa', birthday: '05/22/1990', icon: 7)
 
 gift_1 = Gift.create!( name: 'Lego', description: 'building blocks', status: 1, friend_id: 1 )
 gift_2 = Gift.create!( name: 'Monopoly', description: 'capitalisnm 101', status: 0, friend_id: 1 )

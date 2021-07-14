@@ -6,15 +6,12 @@ describe 'User Friends' do
       it 'sends all  of a users friends' do
         user1 = create :user
         friend1 = create :friend, birthday: '1989-09-29', user: user1
-        gift1 = create :gift, status: 1, updated_at: '2021-10-10'
+        gift1 = create :gift, status: 1, updated_at: '2021-10-10', friend: friend1
         friend2 = create :friend, birthday: '1989-09-29', user: user1
-        gift2 = create :gift, status: 1, updated_at: '2021-05-15'
+        gift2 = create :gift, status: 1, updated_at: '2021-05-15', friend: friend2
         friend3 = create :friend, birthday: '1989-09-29', user: user1
-        gift3 = create :gift, status: 0, updated_at: '2021-05-15'
+        gift3 = create :gift, status: 0, updated_at: '2021-05-15', friend: friend3
         
-        create :friend_gift, friend: friend1, gift: gift1
-        create :friend_gift, friend: friend2, gift: gift2
-        create :friend_gift, friend: friend2, gift: gift2
         get "/api/v1/users/#{user1.id}/friends"
         friends = JSON.parse(response.body, symbolize_names: true)
         expect(response).to be_successful
