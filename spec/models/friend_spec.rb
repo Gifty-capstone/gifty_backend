@@ -11,4 +11,9 @@ RSpec.describe Friend do
     it { is_expected.to validate_presence_of(:birthday) }
     it { is_expected.to validate_presence_of(:icon) }
   end
+  describe 'instance methods' do 
+    it 'returns an enum value for a friend if a gift has been purchased or pending' do 
+
+    end
+  end
 end
