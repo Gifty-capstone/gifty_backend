@@ -1,5 +1,5 @@
 class Gift < ApplicationRecord
-  enum status: [:pending, :purchased]
+  enum status: { pending: 0, purchased: 1 }
   validates :name, :description, :status, presence: true
 
   has_many :friend_gifts
