@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 2021_07_13_210907) do
   create_table "friend_gifts", force: :cascade do |t|
     t.bigint "friend_id"
     t.bigint "gift_id"
-    t.integer "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["friend_id"], name: "index_friend_gifts_on_friend_id"
@@ -38,6 +37,7 @@ ActiveRecord::Schema.define(version: 2021_07_13_210907) do
   create_table "gifts", force: :cascade do |t|
     t.string "name"
     t.string "description"
+    t.integer "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
