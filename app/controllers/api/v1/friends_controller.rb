@@ -1,9 +1,8 @@
 class Api::V1::FriendsController < ApplicationController
-  before_action :set_user 
+  before_action :set_user
   before_action :set_friend, only: [:show]
   def index
     render json: UserSerializer.new(@user, include: [:friends])
-
   end
 
   def show
@@ -18,11 +17,13 @@ class Api::V1::FriendsController < ApplicationController
       render json: { errors: friend.errors.full_messages }, status: :bad_request
     end
   end
-  
+
   private
+
   def friend_params
     params.permit(:name, :memo, :user_id, :birthday)
   end
+
   def set_user
     @user = User.find(params[:user_id])
   end
