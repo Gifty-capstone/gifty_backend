@@ -3,7 +3,5 @@ class FriendSerializer
   attributes :name, :birthday, :id, :memo
   has_many :gifts
 
-  attribute :need_gift do |object|
-    object.need_gift
-  end
+  attribute :need_gift, &:need_gift
 end
