@@ -2,6 +2,9 @@
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
+Gift.destory_all
+Friend.destroy_all
+User.destroy_all
 user = User.create!( name: 'Dione Travis', email: 'user@email.com', birthday: '2020-11-03')
 
 
