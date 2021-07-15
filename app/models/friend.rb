@@ -1,6 +1,6 @@
 class Friend < ApplicationRecord
   validates :name, :birthday, presence: true
-
+  belongs_to :user
   has_many :gifts
 
   def need_gift

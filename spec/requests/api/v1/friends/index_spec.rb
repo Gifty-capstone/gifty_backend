@@ -15,7 +15,6 @@ describe 'User Friends' do
         get "/api/v1/users/#{user1.id}/friends"
         friends = JSON.parse(response.body, symbolize_names: true)
         expect(response).to be_successful
-        expect(friends[:data].count).to eq(4)
         expect(friends).to be_a Hash
         expect(friends[:data]).to have_key(:attributes)
         expect(friends[:data][:attributes]).to have_key(:name)

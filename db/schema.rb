@@ -18,9 +18,11 @@ ActiveRecord::Schema.define(version: 2021_07_14_224325) do
   create_table "friends", force: :cascade do |t|
     t.string "name"
     t.date "birthday"
+    t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "memo"
+    t.index ["user_id"], name: "index_friends_on_user_id"
   end
 
   create_table "gifts", force: :cascade do |t|
@@ -41,5 +43,6 @@ ActiveRecord::Schema.define(version: 2021_07_14_224325) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "friends", "users"
   add_foreign_key "gifts", "friends"
 end
