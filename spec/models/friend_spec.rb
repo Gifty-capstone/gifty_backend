@@ -20,7 +20,7 @@ RSpec.describe Friend do
 
       expect(friend1.need_gift).to eq(true)
       expect(friend2.need_gift).to eq(false)
-      expect(friend3.need_gift).to eq(true)
+      expect(friend3.need_gift).to eq(false)
 
 
     end
