@@ -1,6 +1,6 @@
 class Api::V1::FriendsController < ApplicationController
   before_action :set_user
-  before_action :set_friend, only: [:show]
+  before_action :set_friend, only: %i[show destroy]
   def index
     render json: UserSerializer.new(@user, include: [:friends])
   end
@@ -16,6 +16,10 @@ class Api::V1::FriendsController < ApplicationController
     else
       render json: { errors: friend.errors.full_messages }, status: :bad_request
     end
+  end
+
+  def destroy
+    @friend.destroy
   end
 
   private
