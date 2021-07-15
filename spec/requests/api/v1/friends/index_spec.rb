@@ -25,6 +25,7 @@ describe 'User Friends' do
         expect(friends[:included].first[:attributes]).to have_key(:birthday)
         expect(friends[:included].first[:attributes]).to have_key(:id)
         expect(friends[:included].first[:attributes]).to have_key(:need_gift)
+        expect(friends[:included].first[:attributes]).to have_key(:memo)
       end
     end
   end
