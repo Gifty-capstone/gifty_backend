@@ -10,8 +10,20 @@ RSpec.describe 'Destroy Friend' do
 
       expect(response).to be_successful
       expect(response.status).to eq(204)
-      
+
       expect(Friend.count).to eq(0)
+    end
+  end
+
+  describe 'sad path' do
+    it 'cant destroys a friend that doesnt exisit' do
+      user = create :user
+      friend1 = create :friend, birthday: '1989-09-29', user: user
+
+      delete "/api/v1/users/#{user.id}/friends/5"
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq(404)
     end
   end
 end

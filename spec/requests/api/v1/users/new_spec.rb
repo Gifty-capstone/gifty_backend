@@ -33,29 +33,6 @@ RSpec.describe 'User Registration Endpoint', type: :request do
     expect(attributes[:birthday]).to be_a(String)
   end
 
-  xit 'returns an error with duplicate users' do
-    body = {
-      "name": "Dione Travis",
-      "email": "Dione@example.com",
-      "birthday": "2020-10-10"
-    }
-
-    headers = {
-      'Content-Type' => 'application/json',
-      'Accept' => 'application/json'
-    }
-
-    post '/api/v1/users', headers: headers, params: body.to_json
-
-    expect(response).to_not be_successful
-    expect(response.status).to eq(400)
-
-    user = JSON.parse(response.body, symbolize_names: true)
-
-    expect(user[:email]).to eq(["has already been taken"])
-  end
-
-
   it 'can return an error with missing field' do
     body = {
       "email": "Dione@example.com",
