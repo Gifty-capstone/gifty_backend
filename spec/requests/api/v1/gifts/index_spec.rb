@@ -57,7 +57,7 @@ describe 'Friend Gifts - GET api/v1/gifts' do
         friends = JSON.parse(response.body, symbolize_names: true)
 
         expect(response).to_not be_successful
-        expect(friends).to be_a Hash
+        expect(response.status).to eq(404)
       end
     end
   end
