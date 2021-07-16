@@ -11,10 +11,6 @@ class Api::V1::UsersController < ApplicationController
     end
   end
 
-  def destroy
-    User.destroy(params[:id])
-  end
-
   private
 
   def user_params

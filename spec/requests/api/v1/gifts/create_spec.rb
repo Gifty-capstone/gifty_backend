@@ -49,6 +49,11 @@ RSpec.describe 'Create Gift - POST api/v1/gifts' do
         headers = {"CONTENT_TYPE" => "application/json"}
 
         post "/api/v1/users/#{@user.id}/friends/#{@friend1.id}/gifts", headers: headers, params: JSON.generate(gift: params)
+
+        friend_created = Friend.last
+
+        expect(response).not_to be_successful
+        expect(friend_created).not_to have_attribute(:extra_param)
       end
     end
   end
