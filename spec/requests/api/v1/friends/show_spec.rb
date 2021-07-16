@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 describe 'User Friends show' do
-  describe 'User Friends Show' do 
-    describe  'Happy path' do 
+  describe 'User Friends Show' do
+    describe  'Happy path' do
       it 'sends a user friends with gifts' do
         user = create :user
         friend = create :friend, birthday: '1989-09-29', user: user
@@ -11,7 +11,7 @@ describe 'User Friends show' do
         create :gift, status: 0,  friend: friend
         create :gift, status: 0,  friend: friend
 
-        
+
         get "/api/v1/users/#{user.id}/friends/#{friend.id}"
         friend = JSON.parse(response.body, symbolize_names: true)
         expect(response).to be_successful
@@ -24,7 +24,20 @@ describe 'User Friends show' do
         expect(friend[:included].first[:attributes]).to have_key(:name)
         expect(friend[:included].first[:attributes]).to have_key(:description)
         expect(friend[:included].first[:attributes]).to have_key(:status)
+      end
+    end
 
+    describe  'Sad path' do
+      it 'throws error if Specific friend does not exist' do
+        user = create :user
+        friend = create :friend, birthday: '1989-09-29', user: user
+        friend2 = create :friend, birthday: '1989-09-29', user: user
+
+
+        get "/api/v1/users/#{user.id}/friends/10"
+
+        expect(response).to_not be_successful
+        expect(response.status).to eq(404)
       end
     end
   end
