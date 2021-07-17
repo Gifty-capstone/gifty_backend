@@ -24,13 +24,14 @@ class Api::V1::GiftsController < ApplicationController
   end
 
   def update
-    if params[:status] == ("purchased" || "pending")
+    if params[:status] == ('purchased' || 'pending')
       @gift.update(gift_params)
       render json: GiftSerializer.new(@gift), status: :created
     else
-      render json: { errors: "Invalid status" }, status: :bad_request
+      render json: { errors: 'Invalid status' }, status: :bad_request
     end
   end
+
   private
 
   def gift_params
