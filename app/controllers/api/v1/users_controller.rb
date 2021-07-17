@@ -1,5 +1,5 @@
 class Api::V1::UsersController < ApplicationController
-  before_action :find_user, only: %i[ destroy]
+  before_action :find_user, only: %i[destroy]
 
   def create
     user = User.new(user_params)
