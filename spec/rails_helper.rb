@@ -72,7 +72,8 @@ Shoulda::Matchers.configure do |config|
  VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   config.hook_into :webmock
-  config.filter_sensitive_data('<api_key_name>') { ENV['figaro_masked_variable'] }
+  # config.filter_sensitive_data('<api_key_name>') { ENV['figaro_masked_variable'] }
+  config.filter_sensitive_data('<api_key>') { ENV['ETSY_API_KEY'] }
   config.configure_rspec_metadata!
   # This line lets cassettes re-record as needed
   # config.default_cassette_options = { record: :new_episodes, re_record_interval: 7.days }
