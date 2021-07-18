@@ -3,13 +3,15 @@ class Product
               :keyword,
               :name,
               :description,
-              :image_url
+              :cost,
+              :product_url
 
   def initialize(data, keyword)
     @id = nil
     @keyword = keyword
     @name = data[:title]
+    @cost = data[:price]
     @description = data[:description]
-    @image_url = data[:url]
+    @product_url = data[:url]
   end
 end

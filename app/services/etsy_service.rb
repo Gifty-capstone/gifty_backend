@@ -17,3 +17,6 @@ class EtsyService
     end
   end
 end
+
+
+# http://localhost:3000/api/v1/etsy?tag=diamond&processing_min=50.00&processing_max	=
