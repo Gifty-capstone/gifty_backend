@@ -40,6 +40,7 @@ If you are running this API locally, follow the steps below:
 | `post`   | `/api/v1/users/:user_id/friends/:friend_id/gifts`          | Create a friends gift                    |name: 'String', description: 'String', status: 'Pending' || 'Purchased'|
 | `get`    | `/api/v1/users/:user_id/friends/:friend_id/gifts/:gift_id` | Fetch a specific gift                    |none                                                                   |
 | `delete` | `/api/v1/users/:user_id/friends/:friend_id/gifts/:gift_id` | Delete a specific gift                   |none                                                                   |
+| `patch`  | `/api/v1/users/:user_id/friends/:friend_id/gifts/:gift_id` | Update the status of a specific gift     | status: 'pending' || 'purchased'                                       |
 
 ## Examples
  **Fetch all user's friends**
