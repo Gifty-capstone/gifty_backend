@@ -8,7 +8,7 @@ RSpec.describe 'edit Gift - POST api/v1/gifts' do
   end
 
   describe 'happy path' do
-    it 'edits a gift with correct params' do
+    it 'edits a gift with correct params', :vcr do
       patch "/api/v1/users/#{@user.id}/friends/#{@friend1.id}/gifts/#{@gift.id}",
             params: {
               status: 'purchased'
@@ -25,7 +25,7 @@ RSpec.describe 'edit Gift - POST api/v1/gifts' do
     end
 
     describe 'sad path' do
-      it 'return an error if any attribute is missing' do
+      it 'return an error if any attribute is missing', :vcr do
         patch "/api/v1/users/#{@user.id}/friends/#{@friend1.id}/gifts/#{@gift.id}",
               params: { status: 'chicken' }
 

@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://openapi.etsy.com/v2/listings/active?api_key=<api_key>&tags=Gorgeous%20Wool%20Bench
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.5.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Cloud-Trace-Context:
+      - 6293e40a0c8bd301ee9db59fc228dc82/5436747746448507129;o=0
+      X-Etsy-Request-Uuid:
+      - Eult7hwCQdRShXbqQhJC7IKgBS4c
+      X-Ratelimit-Limit:
+      - '10000'
+      X-Ratelimit-Remaining:
+      - '9937'
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 19 Jul 2021 17:01:13 GMT
+      Content-Length:
+      - '497'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - user_prefs=pdTJW7y4mq-HJcNWOxrvptYKSCdjZACChK_rb8Lo6LzSnBwd8ohYBgA.; expires=Tue,
+        19-Jul-2022 17:01:13 GMT; Max-Age=31536000; path=/; domain=.etsy.com
+    body:
+      encoding: UTF-8
+      string: '{"count":0,"results":[],"params":{"limit":25,"offset":0,"page":null,"keywords":null,"sort_on":"created","sort_order":"down","min_price":null,"max_price":null,"color":null,"color_accuracy":0,"tags":"Gorgeous
+        Wool Bench","taxonomy_id":null,"location":null,"lat":null,"lon":null,"region":null,"geo_level":"city","accepts_gift_cards":"false","translate_keywords":"false"},"type":"Listing","pagination":{"effective_limit":25,"effective_offset":0,"next_offset":null,"effective_page":1,"next_page":null}}'
+  recorded_at: Mon, 19 Jul 2021 17:01:13 GMT
+recorded_with: VCR 6.0.0

@@ -3,7 +3,7 @@ require 'rails_helper'
 describe 'User Friends show' do
   describe 'User Friends Show' do
     describe  'Happy path' do
-      it 'sends a user friends with gifts' do
+      it 'sends a user friends with gifts', :vcr do
         user = create :user
         friend = create :friend, birthday: '1989-09-29', user: user
         create :gift, status: 0,  friend: friend
@@ -28,7 +28,7 @@ describe 'User Friends show' do
     end
 
     describe  'Sad path' do
-      it 'throws error if Specific friend does not exist' do
+      it 'throws error if Specific friend does not exist', :vcr do
         user = create :user
         friend = create :friend, birthday: '1989-09-29', user: user
         friend2 = create :friend, birthday: '1989-09-29', user: user

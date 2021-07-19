@@ -5,7 +5,7 @@ describe 'Friend Gifts show - GET api/v1/gifts' do
     it 'Shows a specific gift of the friend', :vcr do
       user = create :user
       friend = create :friend, birthday: '1989-09-29', user: user
-      gift1 = create :gift, status: 0, friend: friend
+      gift1 = create :gift, status: 0, friend: friend, name: "nintendo"
 
       get "/api/v1/users/#{user.id}/friends/#{friend.id}/gifts/#{gift1.id}"
 

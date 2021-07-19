@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'Friend Gifts - GET api/v1/gifts' do
   describe  'Happy path' do
-    it 'list all  of friend gifts' do
+    it 'list all  of friend gifts', :vcr do
       user = create :user
       friend1 = create :friend, birthday: '1989-09-29', user: user
       gift1 = create :gift, status: 0, friend: friend1
