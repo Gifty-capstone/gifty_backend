@@ -29,6 +29,11 @@ If you are running this API locally, follow the steps below:
   4. Run command `rails s` and navigate to http://localhost:3000 to consume API endpoints below via your browser or postman
   5. To determine active user ids in the application for use of create and conversation endpoints run `rails c` to open the rails console, then type `User.all` to return all users in the Database specificially refernce the User that will be used for all calls which should be `id: 1`
 
+## Test it Out In Postman
+ It is as easy as clicking on the orange button, cloning to your web or local computer, and running the test suite!
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/15385541-baecb7fe-082d-4588-aeca-017c48ea9996?action=collection%2Ffork&collection-url=entityId%3D15385541-baecb7fe-082d-4588-aeca-017c48ea9996%26entityType%3Dcollection%26workspaceId%3D78760afa-4b3c-4c63-bc73-e34ecd234cc5)
+
 ## Endpoints
 | Method   | URL                                                        | Description                              | Accepted Params                               |
 | -------- | -----------------------------------------------------------| ---------------------------------------- |-----------------------------------------------                       |
