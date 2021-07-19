@@ -3,13 +3,13 @@ class Api::V1::GiftsController < ApplicationController
   before_action :find_gift, only: %i[show destroy update]
 
   def index
-    Rails.cache.fetch(@friend.to_s, expires_in: 2.minutes) do
+    Rails.cache.fetch(@friend.to_s, expires_in: 30.seconds) do
       render json: FriendSerializer.new(@friend, include: [:gifts])
     end
   end
 
   def show
-    Rails.cache.fetch(@gift.to_s, expires_in: 2.minutes) do
+    Rails.cache.fetch(@gift.to_s, expires_in: 30.seconds) do
       render json: GiftSerializer.new(@gift)
     end
   end

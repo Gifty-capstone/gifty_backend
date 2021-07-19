@@ -1,0 +1,661 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://openapi.etsy.com/v2/listings/active?api_key=<api_key>&tags=Guitar
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.5.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      X-Cloud-Trace-Context:
+      - 4659d552c771a1ebf3787234edd054f1/481573863425244330;o=0
+      X-Etsy-Request-Uuid:
+      - EuKWBlYEpfEzNxKSa1vGy8hQtmf6
+      X-Ratelimit-Limit:
+      - '10000'
+      X-Ratelimit-Remaining:
+      - '9912'
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - user_prefs=1jXhWXnyiWFEj-Sy_x8i2mpUvf1jZACChK8Xs2F0dF5pTo4OeUQsAwA.; expires=Tue,
+        19-Jul-2022 19:24:27 GMT; Max-Age=31535999; path=/; domain=.etsy.com
+      Content-Type:
+      - application/json
+      Via:
+      - 1.1 google, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 19 Jul 2021 19:24:28 GMT
+      X-Served-By:
+      - cache-den8273-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1626722668.837185,VS0,VE995
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":50100,"results":[{"listing_id":892590768,"state":"active","user_id":363591868,"category_id":null,"title":"Luxurious
+        Bag Strap  Guitar Strap Camera Strap Shoulder Strap Evening Bag","description":"With
+        this bag strap I can offer something very special. \nIt is a hand-embroidered
+        border, which reminds of museum quality, or of the monastery work of past
+        times.\nIt is finest bullion embroidery, made to the millimeter by a professional
+        embroiderer, the back, which can be seen on a photo, shows the effort.\nThe
+        gold, on black velvet, has a luxurious appearance, it looks like real. \nFor
+        the illustration I have chosen a small Persian fur bag, for my taste the strap
+        on a small bag looks especially good.\nIt has a length of 115 cm, including
+        the carabiner.\nA length adjuster cannot be incorporated because of the raised
+        nature of the material.\nBut also great as a small handle!\nI will gladly
+        make this replacement strap according to your wishes regarding the length,
+        please ask.\nAs shown on another photo, this strap is also available in gold\/silver
+        with crystal clear glass stone, you tell me which version you prefer.\nWith
+        this bag strap or handle you can be sure of great admiration\nWidth 4 cm.","creation_tsz":1626722462,"ending_tsz":1637353262,"original_creation_tsz":1605643274,"last_modified_tsz":1626722462,"price":"85.00","currency_code":"EUR","quantity":1,"sku":[],"tags":["Guitar
+        Strap","Evening Bag","Velvet","Luxurious Bag Strap","Gold"],"materials":[],"shop_section_id":30578228,"featured_rank":null,"state_tsz":1605643274,"url":"https:\/\/www.etsy.com\/listing\/892590768\/luxurious-bag-strap-guitar-strap-camera?utm_source=gifty&utm_medium=api&utm_campaign=api","views":79,"num_favorers":4,"shipping_template_id":112818876683,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":161,"taxonomy_path":["Bags
+        & Purses","Handbags","Shoulder Bags"],"used_manufacturer":false,"is_vintage":false},{"listing_id":585477100,"state":"active","user_id":15024508,"category_id":null,"title":"Guitar
+        Hero Necklace - 18&quot; handmade chain necklace with pewter &quot;guitar
+        pick&quot; pendants.","description":"Handmade chain of gunmetal plated rings
+        with five pewter pendants shaped like guitar picks. Approx 18&quot; long.\n\nCheck
+        SHOP INFO page for current COUPON CODE.","creation_tsz":1626722460,"ending_tsz":1637353260,"original_creation_tsz":1520620678,"last_modified_tsz":1626722460,"price":"80.00","currency_code":"USD","quantity":1,"sku":[],"tags":["handmade
+        jewelry","handmade in nyc","Tied In Chains","Tied In Chain","mixed media necklace","multichain
+        necklace","chainmail jewelry","chainmail necklace","etsynyteam","pendant","guitar
+        jewelry"],"materials":["jump rings","lobster clasp","pewter pendant"],"shop_section_id":16596815,"featured_rank":null,"state_tsz":1598077019,"url":"https:\/\/www.etsy.com\/listing\/585477100\/guitar-hero-necklace-18-handmade-chain?utm_source=gifty&utm_medium=api&utm_campaign=api","views":66,"num_favorers":1,"shipping_template_id":82478828754,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1221,"taxonomy_path":["Jewelry","Necklaces","Chains"],"used_manufacturer":false,"is_vintage":false},{"listing_id":908833180,"state":"active","user_id":378439483,"category_id":null,"title":"Acoustic
+        Guitar tumbler file,  20oz Tumbler Design Template for Sublimation, Guitar
+        Full Tumbler Wrap instant download, Music teacher","description":"Perfect
+        for  a Music lover or music instructor, teacher etc.  With the look of smooth
+        wood.\nThe look of acoustic guitar with blue pick.  Made to look like 3d \nEven
+        a spot to add name. \n\nThis will come with a warped file and a straight file
+        in PNG. All files are saved on a 8.5x11 file.  This fits most 20 oz skinny
+        tumblers but you may have to do a little resizing as there are small differences
+        in tumblers. The straight file can be used for other sublimation projects
+        or if you need to resize and adjust for another brand tumbler. This file can
+        be resized if needed.\n\n\nInstant download for the digital design (you will
+        not receive a tumbler, it is for the instant design only)\nPlease make sure
+        you know how to sublimate on tumblers and that you have correct supplies before
+        purchasing)\n\n\n\n\n\nDue to being digital files, I am unable to offer refunds.
+        Please make sure you know how to download files and use your png for sublimation
+        before ordering. I am not familiar with all design software so I can not answer
+        questions about your design space. \n\nColors may not be exact due to screen
+        brightness and\/or printer settings\n\nU S A G E I N F O\n__________________________________________\n\nYou
+        may NOT re-sell any downloaded art as digital designs. See info below.\n\nCommercial
+        Usage:\nYou can use this for physical end products such as tumblers, t-shirts,
+        mugs, etc. \nI do not limit you on the amount of items you can create for
+        commercial purposes but you must follow the exclusions below.\n\nCommercial
+        Usage Exclusions:\n\n\u2022 DO NOT sell the design as-is as a stand-alone
+        item such as a poster, transfers etc\n\u2022 DO NOT use in digital work that
+        is sold or distributed\n\u2022 DO NOT distribute the files in any way. They
+        cannot be shared for any use, including personal.\nTHIS DESIGN IS FOR END
+        PRODUCTS ONLY\n Because of the digital nature of this product I can not offer
+        refunds but pleas let me know if you need anything. \n\n\u2605COPYRIGHT &
+        LEGAL TERMS OF USE\nPlease note that all items are for Physical items only  File
+        sharing, distributing, or selling the designs, or ANY elements within them,
+        in any other format including templates, websites, brochures, advertising
+        or on any products is strictly prohibited.  17 U.S.C. 106(3), 17 U.S.C. \u00a7109(c)\nSOME
+        IMAGES AND DESIGNS were created by Michelle Raye Designs and are protected
+        under domestic and international copyright laws (aside from licensed character
+        images or trademarks) according to 17 U.S.C. Section 501. \n\n\n\n\n\nColors
+        may not be exact due to screen brightness and\/or printer settings.","creation_tsz":1626722419,"ending_tsz":1637353219,"original_creation_tsz":1607710067,"last_modified_tsz":1626722419,"price":"5.00","currency_code":"USD","quantity":74,"sku":[],"tags":["sublimation","sublimation
+        graphics","instant download","png file","20 oz tumbler","best seller","Christmas
+        gift","music","music teacher","clipart","acoustic guitar","digital design","music
+        tumbler"],"materials":[],"shop_section_id":33059192,"featured_rank":null,"state_tsz":1621216589,"url":"https:\/\/www.etsy.com\/listing\/908833180\/acoustic-guitar-tumbler-file-20oz?utm_source=gifty&utm_medium=api&utm_campaign=api","views":163,"num_favorers":45,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"i_did","is_supply":"true","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":true,"file_data":"3
+        PNG","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":77,"taxonomy_path":["Art
+        & Collectibles","Drawing & Illustration","Digital"],"used_manufacturer":false,"is_vintage":false},{"listing_id":933023356,"state":"active","user_id":324772214,"category_id":null,"title":"Floral
+        Guitar Picks","description":"*Note that prices are for 3, 6, or 12 picks.
+        \n\nWhat&#39;s the number one thing you touch when playing guitar besides
+        your strings? Your PICK!  We were tired of the boring, generic picks made
+        of flimsy plastic and wanted something that felt great and made us smile each
+        time we picked (haha) it up! So we came up with these fun floral designs and
+        print them on high quality acrylic plastic. The print covers the entire pick
+        in a thick coating, unlike most other printed picks which is digitally printed
+        on basic plastic. This provides a nice texture and a true luxury feel. We
+        are very proud of the quality of these picks and think you will love them!\n\nThese
+        are our custom designs printed onto 0.7mm celluloid picks. The thickness allows
+        for slight flex while strumming but also maintains enough stiffness for picking.
+        It&#39;s the perfect all-around guitar pick!\n\n**If you have a preference
+        for which picks you receive, please reference the numbers in the last photo
+        and let us know. Otherwise, we will provide a random assortment. The 12-pack
+        includes one of each design unless otherwise specified.\n\nThese are real
+        guitar picks intended for playing guitar, but are also great for crafts or
+        jewelry!","creation_tsz":1626722417,"ending_tsz":1637353217,"original_creation_tsz":1611258690,"last_modified_tsz":1626722417,"price":"4.99","currency_code":"USD","quantity":12,"sku":[],"tags":["guitar
+        pick","pick","guitar","accessory","gift","cute","pretty","print","girl","flower","floral","spring","mothers
+        day"],"materials":["enhanced acrylic plastic","guitar pick"],"shop_section_id":null,"featured_rank":null,"state_tsz":1620991939,"url":"https:\/\/www.etsy.com\/listing\/933023356\/floral-guitar-picks?utm_source=gifty&utm_medium=api&utm_campaign=api","views":169,"num_favorers":44,"shipping_template_id":null,"processing_min":1,"processing_max":1,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":2099,"taxonomy_path":["Books,
+        Movies & Music","Music","Picks & Slides","Picks"],"used_manufacturer":false,"is_vintage":false},{"listing_id":641808628,"state":"active","user_id":30155519,"category_id":null,"title":"Guitar
+        Truss Rod Cover - Custom Engraved - For GIBSON USA - PERSONALIZED Text - Black","description":"Custom
+        Engraved Truss Rod Cover\n\nThis listing is for a 2 Ply Truss Rod Cover Engraved
+        with Your Personalized Text. Mounting Screws are included. These TrussRod
+        Covers are 100% made in the USA. If you have any questions, feel free to contact
+        us.\n\n When you place your order: Send us a message letting us know what
+        you want your plate to say, how you want it laid out, as well as the font(s)
+        you would like us to use. We can use any standard windows compatible font
+        (.ttf file). Keep in mind that the more characters your text has, the smaller
+        it will be engraved (if it becomes too small the insides of letters can &quot;chip
+        out&quot;). We have a default &quot;Block&quot; & &quot;Script&quot;, but
+        if you want something specific please have an actual font name (we will not
+        do font matching or searching for you).\n\nPlease Note: This is not a Gibson
+        Brand product. However, the shape of this aftermarket plate is designed to
+        fit in place of the common sized plate that is used on most Gibson USA Models.
+        It is 59mm Tall & 27mm Wide (the holes are spaced at 52mm apart). Sometimes
+        manufacturers use inconsistent specs or variations on small parts like these,
+        so please measure your particular guitar to be sure it will fit correctly.","creation_tsz":1626722389,"ending_tsz":1637353189,"original_creation_tsz":1541118373,"last_modified_tsz":1626722389,"price":"19.99","currency_code":"USD","quantity":13,"sku":[],"tags":["Guitar","Gibson","Epiphone","ESP","LTD","Ibanez","Jackson","Casino","Hardware","Parts","Engraved","PRS","Taylor"],"materials":["ABS","Plastic","2ply","Black","White"],"shop_section_id":20218310,"featured_rank":null,"state_tsz":1626020648,"url":"https:\/\/www.etsy.com\/listing\/641808628\/guitar-truss-rod-cover-custom-engraved?utm_source=gifty&utm_medium=api&utm_campaign=api","views":12117,"num_favorers":104,"shipping_template_id":29225294712,"processing_min":1,"processing_max":2,"who_made":"collective","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":2015,"taxonomy_path":["Books,
+        Movies & Music","Music","Musical Instruments","Stringed Instruments","Guitars"],"used_manufacturer":false,"is_vintage":false},{"listing_id":242652718,"state":"active","user_id":6972218,"category_id":null,"title":"Sterling
+        silver guitar pick, I pick you forever, Hand Stamped Guitar Pick, Playable,
+        Plectrum 24 gauge, Gift for Boyfriend, Him, Husband","description":"I pick
+        you forever\n\nphoto is an example, your pick will be made to order.\n\nA
+        sterling silver guitar pick has been stamped with the words, I pick you Forever.  *Date
+        can be added on opposite side of pick as Forever. Will be done in format such
+        as 01.14.15. Specify date or name or initials maximum 8 letters in personalization
+        field.\nGiven a brushed finish. If you specify personalization that is too
+        long to fit and I will message you to shorten and your order may be delayed.
+        Please note the maximum of 8 letters.\n\n24 gauge. Cannot have wording on
+        the back.\n\nMeasures 30mm high or just over 1 1\/4 inch and 25.5mm or 1 inch
+        wide.\n\n*optional leather carrying case - additional charge can be added
+        at checkout.\n\nThis item is sterling silver and may tarnish over time.  It
+        can easily be cleaned with a jewelry cleaning\/polishing cloth.\n\n*if you
+        have different wording you would like please send me a message for a custom
+        order*\n\nThis item has been hand stamped with metal stamps and a hammer by
+        me. Not all letters may line up perfectly, and not all letters may be stamped
+        the same depth. This is not a defect, but makes your item unique.\n\nSee more
+        of my shop here :\nhttp:\/\/www.etsy.com\/shop\/BeachCoveJewelry\n*please
+        view all photos for reference.\n\nThis item ships from the United States.
+        If you are purchasing from outside the United States, you may have Customs
+        Fees\/ Duties at time of delivery. This is NOT included in the cost of item,
+        or shipping cost and is the responsibilty of the buyer.","creation_tsz":1626722340,"ending_tsz":1637353140,"original_creation_tsz":1438466203,"last_modified_tsz":1626722340,"price":"39.99","currency_code":"USD","quantity":98,"sku":[],"tags":["guitar
+        pick","hand stamped pick","playable pick","musician gift","gift for boyfriend","music
+        lover","sterling silver","plectrum","wedding gift groom","I pick you forever","anniversary
+        gift","Rocker cursive style","gift for him"],"materials":["24 gauge sterling
+        silver guitar pick"],"shop_section_id":18876953,"featured_rank":null,"state_tsz":1620784204,"url":"https:\/\/www.etsy.com\/listing\/242652718\/sterling-silver-guitar-pick-i-pick-you?utm_source=gifty&utm_medium=api&utm_campaign=api","views":76874,"num_favorers":5551,"shipping_template_id":67815668484,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":"men","occasion":null,"style":["Modern"],"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":2099,"taxonomy_path":["Books,
+        Movies & Music","Music","Picks & Slides","Picks"],"used_manufacturer":false,"is_vintage":false},{"listing_id":636838916,"state":"active","user_id":13229149,"category_id":null,"title":"Jerry
+        Garcia Grateful Dead Dire wolf","description":"Screen printed100%cotton tee
+        printed with Jerry Garcia Grateful Dead Wolf Guitar","creation_tsz":1626722320,"ending_tsz":1637353120,"original_creation_tsz":1539385029,"last_modified_tsz":1626722320,"price":"20.00","currency_code":"USD","quantity":15,"sku":[],"tags":["embroidery","grateful
+        dead","dead and company","Jerry Garcia","screen print","gifts","steal your
+        face","guitar"],"materials":[],"shop_section_id":20256387,"featured_rank":null,"state_tsz":1625875552,"url":"https:\/\/www.etsy.com\/listing\/636838916\/jerry-garcia-grateful-dead-dire-wolf?utm_source=gifty&utm_medium=api&utm_campaign=api","views":3766,"num_favorers":189,"shipping_template_id":242805924,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":11165,"taxonomy_path":["Clothing","Unisex
+        Adult Clothing","Tops & Tees","T-shirts","Graphic Tees"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1001038941,"state":"active","user_id":368163657,"category_id":null,"title":"A
+        Little Country A Little Rock &#39;N Roll Png,Rock &#39;N Roll Leopard Png
+        For Mug, Rock and Roll Png, 80&#39;s Rock N Roll Png For Shirt-DE01","description":"Included
+        Files: PNG\nYou will not receive an item in the mail. The download is automatically
+        sent once payment is made.\n- PNG file high resolution and transparent background,
+        to be used as clipart and many more\n\nThis is a digital download for you
+        to print as many times as you wish\nThis file is intended for personal & small
+        business use (For example: printing on physical products for sales)\n\nOur
+        digital download files will save you time and money by allowing you to create
+        your own hard templates to use to create as many transfers you need to complete
+        your finished garments and apparel.\nThese file are for personal and commercial
+        use. You may use the files to make and sell items for personal use or your
+        business use but you cannot resell the files as is.\nOnce payment is confirmed,
+        you will be able to download and use them immediately!\nPlease let me know
+        if you have any questions or concerns and I will gladly help!","creation_tsz":1626722188,"ending_tsz":1637352988,"original_creation_tsz":1618414974,"last_modified_tsz":1626722188,"price":"2.99","currency_code":"USD","quantity":370,"sku":["TASP12042117"],"tags":["DE01","Rock
+        ''N Roll","80''s Rock","Southern png","country png","Vector Digital File","a
+        little bit of","a little rock and","a little rock n roll","colorful guitars","File
+        as described","Applicable"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1625765442,"url":"https:\/\/www.etsy.com\/listing\/1001038941\/a-little-country-a-little-rock-n-roll?utm_source=gifty&utm_medium=api&utm_campaign=api","views":475,"num_favorers":217,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":true,"file_data":"1
+        PNG","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":2078,"taxonomy_path":["Art
+        & Collectibles","Prints","Digital Prints"],"used_manufacturer":false,"is_vintage":false},{"listing_id":793493350,"state":"active","user_id":247713782,"category_id":null,"title":"Guitar
+        Holder, Guitar Hanger, Guitar Hook, Guitar Wall Mount, Guitar Wall Hook, Guitar
+        Holder Wall Mount, Guitar Hanger Wall","description":"GUITAR WALL MOUNT\n\n-These
+        guitar wall mounts will make your home look stylish and organized. \n\n-They
+        come in seven nice colors; black, white,silver, cooper, yellow, green and
+        glow in the dark green. \n\n-We can also customize and add your NAME on them.
+        Keep your guitar safe with these awesome guitar mounts!\n\n-High Quality Plastic
+        Filament (PLA)\n\n-Durable material\n\n-Easy to install\n\n-Screws are included\n\n-DIMENTIONS(NECK):
+        2 INCHES FOR GUITAR AND 1.6 INCHES FOR UKELELE\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n*If
+        you want to customize the dimentions of any product, please place your order
+        and leave a note with the dimentions. Thank you :)","creation_tsz":1626722136,"ending_tsz":1637352936,"original_creation_tsz":1589166072,"last_modified_tsz":1626722136,"price":"14.99","currency_code":"USD","quantity":99,"sku":["3"],"tags":["guitar","guitar
+        wall hanger","acustic guitar","musical instruments","guitar stand","guitar
+        hook","hook for wall","holder guitar","guitar gift","music","guitar hanger","guitar
+        mount","electronic guitar"],"materials":["Plastic"],"shop_section_id":null,"featured_rank":null,"state_tsz":1614631592,"url":"https:\/\/www.etsy.com\/listing\/793493350\/guitar-holder-guitar-hanger-guitar-hook?utm_source=gifty&utm_medium=api&utm_campaign=api","views":2739,"num_favorers":202,"shipping_template_id":126335072199,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"4.2","item_weight_unit":"oz","item_length":"4.1","item_width":"3","item_height":"3.9","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":true,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":2015,"taxonomy_path":["Books,
+        Movies & Music","Music","Musical Instruments","Stringed Instruments","Guitars"],"used_manufacturer":false,"is_vintage":false},{"listing_id":208785713,"state":"active","user_id":55242635,"category_id":null,"title":"Michael
+        Houser - Widespread Panic, 11 x 17 Hand Drawn, Black & White Print by Artist
+        Jessie Rae Gadbury","description":"This beautiful drawing of Michael &quot;Mikey&quot;
+        Houser from Widespread Panic is by artist Jessie Rae Gadbury. Her prints became
+        extremely popular on the Panic lot scene during 2002 - 2006. Since she is
+        no longer selling her prints on tour, here&#39;s your rare chance to finally
+        add these amazing works of art to your poster collection. Each print measures
+        11 x 17 inches.\n\nDOMESTIC SHIPPING (USPS 1st Class or Priority Mail):\n*
+        FREE SHIPPING on all orders over $35!!!\n* Orders under $35- 1st print ships
+        for $5, add only $1 for each additional print!","creation_tsz":1626722105,"ending_tsz":1637352905,"original_creation_tsz":1414458254,"last_modified_tsz":1626722105,"price":"30.00","currency_code":"USD","quantity":4,"sku":[],"tags":["widespread
+        panic","wsp","wp","lot print","black and white","hippie art","hand drawn","music
+        poster","Mikey","Michael Houser","fan art","Mike","guitar"],"materials":["pencil","safety
+        pins","little white boats","mesa boogies"],"shop_section_id":16251240,"featured_rank":6,"state_tsz":1626722104,"url":"https:\/\/www.etsy.com\/listing\/208785713\/michael-houser-widespread-panic-11-x-17?utm_source=gifty&utm_medium=api&utm_campaign=api","views":2338,"num_favorers":124,"shipping_template_id":6851214763,"processing_min":1,"processing_max":2,"who_made":"collective","is_supply":"false","when_made":"2002_2009","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":119,"taxonomy_path":["Art
+        & Collectibles","Prints"],"used_manufacturer":false,"is_vintage":false},{"listing_id":273714488,"state":"active","user_id":41937122,"category_id":null,"title":"Electric
+        Bass Guitar. Luthier Three-string Bass by DaShtick Guitars.","description":"Electric
+        Three-string fretless bass by DaShtick fitted with a magnetic pickup. \n\nThis
+        instrument was made to order, however, it can be used as a reference for building
+        a similar instrument.\n\nPlease, use the CUSTOM ORDER option if you are interested
+        in purchasing a fretted or fretless bass guitar.\n\nHere&#39;s a clip with
+        the bass being played: \n\nhttps:\/\/www.youtube.com\/watch?v=0IbDWfpnqMg&feature=youtu.be","creation_tsz":1626722097,"ending_tsz":1637352897,"original_creation_tsz":1458899064,"last_modified_tsz":1626722097,"price":"750.00","currency_code":"EUR","quantity":1,"sku":[],"tags":["bass","bass
+        guitar","luthier bass","threestringguitar","handcarved","handcrafted","cbg","alternative
+        music","electric bass","dashtick","bass player","unique gift","doublebass"],"materials":["ash","ebony","copper","leather"],"shop_section_id":18817979,"featured_rank":null,"state_tsz":1624029402,"url":"https:\/\/www.etsy.com\/listing\/273714488\/electric-bass-guitar-luthier-three?utm_source=gifty&utm_medium=api&utm_campaign=api","views":3738,"num_favorers":107,"shipping_template_id":35729993893,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":2015,"taxonomy_path":["Books,
+        Movies & Music","Music","Musical Instruments","Stringed Instruments","Guitars"],"used_manufacturer":false,"is_vintage":false},{"listing_id":975982951,"state":"active","user_id":444193350,"category_id":null,"title":"Lilo
+        & Stitch DLP Postcard Disney Pin Disneyland Paris Create a Lot","description":"This
+        pin features Sitch and Lilo from the movie Lilo and Stitch. The 2 pin were
+        originally on a postcard and linked to each other by 2 metal rings. The post
+        card is not included with the pin.  The left pin is stitch that has an angry
+        face playing is guitar. The right pin is Lilo also playing her guitar. She
+        has a red flower in her hair. \n\nShipping is a flat $4, combine items to
+        save on shipping.","creation_tsz":1626722094,"ending_tsz":1637352894,"original_creation_tsz":1615077957,"last_modified_tsz":1626722094,"price":"15.00","currency_code":"USD","quantity":2,"sku":[],"tags":["disney
+        pin","disney world","pin trading","disneyland","rapunzel","ariel","mickey","castle","stitch","paris","dlp","lilo","guitar"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1626722092,"url":"https:\/\/www.etsy.com\/listing\/975982951\/lilo-stitch-dlp-postcard-disney-pin?utm_source=gifty&utm_medium=api&utm_campaign=api","views":37,"num_favorers":23,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2010_2019","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":10841,"taxonomy_path":["Jewelry","Brooches,
+        Pins & Clips","Pins & Badges"],"used_manufacturer":false,"is_vintage":false},{"listing_id":896736178,"state":"active","user_id":31739572,"category_id":null,"title":"WILLEM
+        GEBBEN White Glaze Round Box or Container w TURTLE Lid - Animal Tortoise Reptile
+        Art For Guitar Picks, Paper Clips, Small Jewelry.","description":"Willem Gebben
+        makes traditional wood-fired stoneware and porcelain at his studio, HILLCREST
+        POTTERY, in rural Wisconsin.\n\nThis TURTLE POT is Wood-Fired Stoneware (White
+        Glaze) with finger wipes on the sides and raised dots around the circumstance
+        of the lid. The cute lifelike turtle on the top is approximately 2 inches
+        long (including its tail) with small circular bumps on its shell. It has a
+        distinct face with penetrating eyes and four detailed feet.  The circular
+        box is approx. 3 3\/8 inches wide and 2 1\/2 inches high. It&#39;s a creamy
+        white. The interior is slightly tan with light brown speckles. There is a
+        slight imperfection on the circular edge, but this bears no impact on the
+        lid fitting correctly and is barely noticeable. This small container could
+        be used to hold spare change, earrings, rings, or other small jewelry, paper
+        clips, guitar picks or whatever you choose. It would make a great gift - especially
+        for someone who likes turtles or tortoises - or someone who collects boxes.\n\nThis
+        pot has Willem Gebben&#39;s stamp (Maker&#39;s Mark for Hoillcrest Pottery)
+        contained within a small circle near the base.\n  \nGebben&#39;s beautiful
+        handmade pottery is not only useful, it also adds creativity to your daily
+        life and adds beauty to your home or office.\n\nThe main emphasis of Gebben
+        is to create a wide variety of wood-fired functional pottery. Using techniques
+        that are thousands of years old, Willem mixes and dries the clay himself,
+        then forms each piece by hand on a foot-powered wheel, applying home-made
+        glazes before firing the new pots in wood-burning kilns. These kilns, designed
+        after ancient Chinese models, are what give Willem\u2019s pieces a sturdy
+        grace and quiet beauty. To achieve this look, cords of wood are burned below
+        the chambers in which the pottery has been painstakingly stacked. It takes
+        18 hours to achieve a temperature of 2,350 degrees Fahrenheit; then the pottery
+        creations are allowed to slowly cool. Because of these processes, each pot
+        is unique - no two are exactly alike.\n\nNote: None of the pottery made by
+        Gebben contain lead, and they are dishwasher safe and ideal for the oven and
+        microwave. \n\nSpecial Note: sometimes the camera leaves flash patterns on
+        the photos & colors change with natural light vs. artificial lights.\n\nThis
+        will be sent via USPS Priority Mail in the U.S. (with tracking & insurance)
+        and via USPS International Mail (with insurance) elsewhere.   *See Shipping
+        & Policies for more information.\n\nBIOGRAPHICAL INFORMATION:\nWillem Gebben
+        is a traditional potter making functional pots. Born in Delft, the Netherlands,
+        he received his BS degree from Grand Valley State University in Michigan,
+        and in 1976 apprenticed with master potter David Eeles at Shepherds Well Pottery
+        in Mosterton, Dorset, England.\n\nGebben\u2019s impressive work is included
+        in private collections throughout the U.S., Europe, Australia, the Middle
+        East, and Japan. Also, Gebben is part of the Western Wisconsin Pottery Tour,
+        an annual fall tour of Wisconsin ceramic artists&#39; studios.\n\nHis wood-fired
+        stoneware and porcelain pots have been featured in numerous periodicals, books
+        such as THE ART OF CONTEMPORARY AMERICAN POTTERY (Krause Publications) and
+        WOOD-FIRED CERAMICS - CONTEMPORARY PRACTICES (University of Pennsylvania Press),
+        and also television shows. Public collections of his work include Plains Art
+        Museum, Fargo, ND; University of St. Thomas, St. Paul, MN; Charles A. Wustum
+        Museum of Fine Arts, Racine, WI; The Detroit Institute of Art, Detroit, MI;
+        and the United States Embassy, Tokyo, Japan.\n\nThe main emphasis of Gebben
+        is to create a wide variety of wood-fired functional pottery. Using techniques
+        that are thousands of years old, Willem mixes and dries the clay himself,
+        then forms each piece by hand on a foot-powered wheel, applying home-made
+        glazes before firing the new pots in wood-burning kilns. It takes 18 hours
+        to achieve a temperature of 2,350 degrees Fahrenheit; then the pottery creations
+        are allowed to slowly cool.\n\nGebben\u2019s sure sense of form and expert
+        handling of surface, texture, and detailing make each piece a true work of
+        art. His pottery consists of Once-fired, Wood-fired, and Salt-Glazed Stoneware
+        as well as Porcelain.\n\nYou can view examples of his work in the &quot;Gallery&quot;
+        Section under the heading &quot;Ceramics&quot; on Portal.Wisconsin, (www.portalwisconsin.org)
+        an online gallery to promote the arts in Wisconsin. Also, you can watch a
+        YouTube video of Willem Gebben at work (http:\/\/www.youtube.com\/watch?v=Qgb-OsYvVS0).\n\nARTIST
+        STATEMENT:\n\u201cIt is important for me to work within the traditional role
+        of potter;\nmaking pots that are meant to be used.\nIt is this aspect of craft
+        that separates it from the other arts,\nsuch as painting or sculpture. It
+        is through the elements of touch and use\nthat the communication between the
+        object and the user occurs.\n\nI am also very interested in form,\nwhich in
+        large part is what the art of pottery is about;\nthe tactile qualities, the
+        weight, how the pots feel in the hand.\n\nIn this age of increasing dependence
+        on machine-made things\nand the worship of technology,\nI think it is essential
+        that handmade objects are still made\nand used as a way for us to communicate
+        with each other.\u201d","creation_tsz":1626722066,"ending_tsz":1637352866,"original_creation_tsz":1606178842,"last_modified_tsz":1626722066,"price":"38.00","currency_code":"USD","quantity":1,"sku":[],"tags":["Willem
+        Gebben","Wood-fired Pottery","Stoneware","Traditional Art","Hillcrest Pottery","Dutch
+        Artist","Handcrafted Pottery","Home Decor","Small round box","Turtle Tortoise","Paper
+        Clip Holder","Jewelry Earrings Box","Guitar Pick Holder"],"materials":["A
+        Wood Fired Kiln","Handcrafted Traditional Pottery","Creativity","Artistic
+        Discipline","Hard Work","Clay","Glazes"],"shop_section_id":13319852,"featured_rank":null,"state_tsz":1606178842,"url":"https:\/\/www.etsy.com\/listing\/896736178\/willem-gebben-white-glaze-round-box-or?utm_source=gifty&utm_medium=api&utm_campaign=api","views":27,"num_favorers":1,"shipping_template_id":66825505612,"processing_min":1,"processing_max":2,"who_made":"collective","is_supply":"false","when_made":"2010_2019","item_weight":"18","item_weight_unit":"oz","item_length":"7","item_width":"7","item_height":"7","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":["Traditional"],"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":6096,"taxonomy_path":["Art
+        & Collectibles","Fine Art Ceramics"],"used_manufacturer":false,"is_vintage":false},{"listing_id":874182778,"state":"active","user_id":12543035,"category_id":null,"title":"Light
+        Pink Acoustic Guitar Bodysuit - Musical Instrument One Piece. Explore more!","description":"Your
+        new little girl will have to much fun interacting with you in her light pink
+        acoustic guitar bodysuit. \n\nThis outfit is for all of you music fanatics
+        out there!  You can &#39;play&#39; guitar on your cute little child&#39;s
+        arm!\n\nPersonalize it even more by adding strings to the instrument or an
+        amp.\n\nhttps:\/\/www.etsy.com\/EviesGift\/listing\/100393282\/add-strings-to-any-existing-guitar?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1602881746661\n\nhttps:\/\/www.etsy.com\/EviesGift\/listing\/249225879\/add-an-amp-and-cord-to-any-existing?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1602881771896\n\nSize
+        Chart\n\n{Newborn}\t\n{0-3M}\t       \n{3-6M}\t         \n{6-12M}\t              \n{18M}\t        \n{24M}\t        \n\nPlease
+        make sure and list all the details needed in the notes to seller for us to
+        create your outfit how you would like it.\n\n\n*Also please keep in mind all
+        orders are made by hand individually and are not all exactly the same. While
+        I take pride in trying to make each order perfect it may have slight and minor
+        cosmetic imperfections in the sewing.*\n\n\n\n****CARE INSTRUCTIONS****\nI
+        encourage all outfits be washed inside out in COLD water. I prefer items be
+        HUNG to dry but can also be dried using a tumble dry on LOW. Keep in mind
+        before ordering that all fabric will fray over time and with repeated washing&#39;s
+        but I do all I can to help slow down that process by applying fray check to
+        every single raw fabric edge. There may, with time, end up being some stray
+        threads that are purely cosmetic and can be remedied with a quick trim and
+        it will look great again. If desired you can lightly press the applique with
+        an iron. Thank you!","creation_tsz":1626721996,"ending_tsz":1637352796,"original_creation_tsz":1602881821,"last_modified_tsz":1626721996,"price":"20.00","currency_code":"USD","quantity":1,"sku":[],"tags":["fall","Halloween
+        costume","Music","Boy Music","Guitar Bodysuit","Boy Gift","Musical Gift","Cute
+        boy gift","taylor guitar","musical bodysuit","guitar center","baby shower
+        gift","instrument outfit"],"materials":["Cotton","Bodysuit","Applique","Thread","Fray
+        Check","Heat N Bond"],"shop_section_id":11663555,"featured_rank":null,"state_tsz":1626623593,"url":"https:\/\/www.etsy.com\/listing\/874182778\/light-pink-acoustic-guitar-bodysuit?utm_source=gifty&utm_medium=api&utm_campaign=api","views":88,"num_favorers":9,"shipping_template_id":14311657158,"processing_min":2,"processing_max":7,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"6","item_weight_unit":"oz","item_length":"10","item_width":"8","item_height":"2","item_dimensions_unit":"in","is_private":false,"recipient":"babies","occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":405,"taxonomy_path":["Clothing","Girls''
+        Clothing","Baby Girls'' Clothing","Bodysuits"],"used_manufacturer":false,"is_vintage":false},{"listing_id":473187333,"state":"active","user_id":92067834,"category_id":null,"title":"Eddie
+        Van Halen #1, 11x14 in, 29x36 cm, Signed Art Print w\/ COA","description":"This
+        listing is for an 11x14&quot; print of Eddie Van Halen from an original mixed
+        media ink drawing. Each one is hand signed by the artist and a Certificate
+        of Authenticity is included certifying that there are no unsigned copies known
+        to exist.\n\nPrints come rolled in a Crystal Clear sleeve and shipped in an
+        extra rigid cardboard mailing tube.\n\nNOTE: The frames in the listing photos
+        are not included. They are for visualization purposes only.\n\nTo buy this
+        print framed, please use the following link:\nhttps:\/\/www.etsy.com\/listing\/892555708\/  \n\n\n-------------------------------------------------------------\n\nTo
+        see all of my music art prints, visit my shop:\nhttp:\/\/rankinartstudio.etsy.com\/","creation_tsz":1626721994,"ending_tsz":1637352794,"original_creation_tsz":1471548881,"last_modified_tsz":1626721994,"price":"17.00","currency_code":"USD","quantity":1,"sku":[],"tags":["eddie
+        van halen","van halen","rock and roll","music","guitar","poster","david lee
+        roth","michael anthony","alex van halen","frankenstrat","celebrity","painting","drawing"],"materials":["acid
+        free","pigmented inks","matte finish"],"shop_section_id":19761745,"featured_rank":2,"state_tsz":1617063972,"url":"https:\/\/www.etsy.com\/listing\/473187333\/eddie-van-halen-1-11x14-in-29x36-cm?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1369,"num_favorers":70,"shipping_template_id":27021250022,"processing_min":1,"processing_max":1,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":"2","item_weight_unit":"oz","item_length":"14","item_width":"3","item_height":"3","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":121,"taxonomy_path":["Art
+        & Collectibles","Prints","Gicl\u00e9e"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1040108622,"state":"active","user_id":430661100,"category_id":null,"title":"Laser
+        cut Acoustic Guitar Money Jar, available in 2 different sizes horizontal and
+        vertical options. Stand option available.","description":"This is a must have
+        for all guitarists!!\n\nWhether you&#39;re looking for a novel way to start
+        saving for your dream guitar or maybe your just looking for a different way
+        to collect all of the guitar picks you have caught during gigs. This is for
+        you and a perfect way to start.\n\nOur &#39;Acoustic Guitar&#39; bank comes
+        in 2 different sizes with 3 variations:\n\n- A 13&quot; horizontal version
+        with fitted stand\n- A 26&quot; tall vertical version with optional stand
+        or\n- A 26&quot; long horizontal version with fitted stand\n\nWe currently
+        offer this product in painted MDF with an outline colour of your choice or
+        a more rustic 4mm Oak veneer for the outline. \n\nBoth products will be painted
+        black on the edges and only the outer layer will be coloured or finished with
+        our Oak veneer. \n\nOrdering your guitar:\n\nWhen you are ordering your guitar
+        please select\n\n- The guitar size you wish\n- The finish you wish\n\nIf the
+        colour you want is not available or listed. Please provide the colour you
+        wish in the personalisation section.\n\n*Please note*\n\nImages are for visualisation
+        purposes and actual product may vary slightly.","creation_tsz":1626721937,"ending_tsz":1637352737,"original_creation_tsz":1626721937,"last_modified_tsz":1626722655,"price":"10.00","currency_code":"GBP","quantity":999,"sku":[],"tags":["acoustic
+        guitar bank","acoustic guitar","laser engraved","laser cut","glowforge","music","guitarist
+        gift","save for a axe","new guitar","money jar","bank","piggy bank","gift
+        for guitarist"],"materials":[],"shop_section_id":34376606,"featured_rank":null,"state_tsz":1626721937,"url":"https:\/\/www.etsy.com\/listing\/1040108622\/laser-cut-acoustic-guitar-money-jar?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":145132653615,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1097,"taxonomy_path":["Home
+        & Living","Office","Banks & Cash Boxes"],"used_manufacturer":false,"is_vintage":false},{"listing_id":804221789,"state":"active","user_id":27332123,"category_id":null,"title":"American
+        Flag Tele or Strat Pick Guard","description":"3 ply, telecaster or stratocaster
+        pickguard with graphical image UV printed on the face. This is a very robust
+        printing style that is very scratch and fade resistant. Please check that
+        the pickguard has the same screw hole configuration and pick up cutouts as
+        the telecaster or strat you are planning to put it on. These will generally
+        fit almost all standard American or Mexican made tele or strat. If you require
+        a different pickguard size or style, please choose a different model in the
+        drop down menu. See how many screws yours needs(not including the small screws
+        for the pickups) and also how many pickups and if they&#39;re single coil
+        or humbuckers. If you have any questions, feel free to send me a message.
+        Free shipping to the US. Orders will go out in under 3 business days unless
+        out of stock. Shipped from the US. All sales are final.","creation_tsz":1626721885,"ending_tsz":1637352685,"original_creation_tsz":1588609885,"last_modified_tsz":1626721885,"price":"34.99","currency_code":"USD","quantity":93,"sku":[],"tags":["pickguard","telecaster","guitar","custom","American
+        Flag","Statocaster","Tele","Strat"],"materials":[],"shop_section_id":30353857,"featured_rank":null,"state_tsz":1613871104,"url":"https:\/\/www.etsy.com\/listing\/804221789\/american-flag-tele-or-strat-pick-guard?utm_source=gifty&utm_medium=api&utm_campaign=api","views":212,"num_favorers":7,"shipping_template_id":90963141896,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"4","item_weight_unit":"oz","item_length":"8","item_width":"7","item_height":"0.25","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":2015,"taxonomy_path":["Books,
+        Movies & Music","Music","Musical Instruments","Stringed Instruments","Guitars"],"used_manufacturer":false,"is_vintage":false},{"listing_id":756439083,"state":"active","user_id":12636261,"category_id":null,"title":"Dimebag
+        Darrell (pink)","description":"This is a painting I did using spray paint
+        with stencils on canvas.  *This is not a print.  It\u2019s a wood frame, stretched
+        with canvas.  Painting is ready to hang with metal wire on back.  Painted
+        black boarders on the .75&quot; depth of the canvas.  \nThe paintings are
+        routinely recreated as they\u2019re sold. The new painting is almost the exact
+        same in the picture that is used in the listing, but that means there may
+        be very subtle differences, but usually not noticeable \nThis is Dimebag Darrell
+        from the band Pantara. Glossy white, grey and black image... \nwith pink goatee.\n16&quot;
+        x 20&quot; x .75&quot;\n*with international shipping, expect at least 2 weeks
+        for arrival after confirmation of it being sent.\nThanks!","creation_tsz":1626721858,"ending_tsz":1637352658,"original_creation_tsz":1574698353,"last_modified_tsz":1626721858,"price":"119.99","currency_code":"USD","quantity":1,"sku":[],"tags":["Dimebag
+        Darrell","Guitar","Pantara","Metal","Music","Hardcore","Stencil art","Spray
+        paint artwork","Heavy metal","Cowboys from hell","black","rock","guitar hero"],"materials":["Spraypaint","Stencil","Canvas"],"shop_section_id":11698780,"featured_rank":null,"state_tsz":1574698353,"url":"https:\/\/www.etsy.com\/listing\/756439083\/dimebag-darrell-pink?utm_source=gifty&utm_medium=api&utm_campaign=api","views":103,"num_favorers":6,"shipping_template_id":78599460576,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"2010_2019","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":113,"taxonomy_path":["Art
+        & Collectibles","Painting","Spray Paint"],"used_manufacturer":false,"is_vintage":false},{"listing_id":489904625,"state":"active","user_id":47186563,"category_id":null,"title":"Guitar
+        Strap, Hand-tooled Leather, Adjustable, Original Design","description":"This
+        strap is adjustable in length from 36&quot; to 48&quot; and measures 2.5&quot;
+        wide with a 1.25&quot; wide tongue. The upper surface is stained light orange
+        with red accents and the underside is unstained. \n\nMy instrument straps
+        are made out of high quality vegetable tanned cowhide and are hand-made, not
+        machine stamped. I make my original design straps in my small Maine workshop.
+        The upper surface is finished with a light layer of wax as added protection.
+        The strap can either be attached to a strap button on the neck heel or tied
+        at the headstock - the total adjustment length is from strap button hole to
+        strap button hole exclusive of the headstock tie.\n\nMost straps can be shortened
+        or lengthened on request at the time of ordering. The strap button hole for
+        the lower bout of your instrument can be enlarged on request to accommodate
+        an input jack.  Please send me a request at the time of ordering.\n\nPlease
+        take a look at my other instrument straps available in my Etsy shop and thanks
+        for looking. If you see a design you like but are interested in a different
+        color, please contact me. I&#39;d be happy to make a custom strap for you.\n\nTreat
+        yourself to a beautiful hand-made instrument strap - your fine musical instrument
+        deserves it and so do you.","creation_tsz":1626721836,"ending_tsz":1637352636,"original_creation_tsz":1478365438,"last_modified_tsz":1626721836,"price":"86.00","currency_code":"USD","quantity":1,"sku":[],"tags":["guitar
+        strap","strap","hand-tooled","leather","adjustable","Nancy Sferra","OldStage","Old
+        Stage","original design","guitar","orange","hand tooled"],"materials":["leather","cowhide","hand
+        tooled"],"shop_section_id":16763272,"featured_rank":null,"state_tsz":1596780129,"url":"https:\/\/www.etsy.com\/listing\/489904625\/guitar-strap-hand-tooled-leather?utm_source=gifty&utm_medium=api&utm_campaign=api","views":144,"num_favorers":3,"shipping_template_id":13016269359,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"2010_2019","item_weight":"12","item_weight_unit":"oz","item_length":"4","item_width":"4","item_height":"4","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":358,"taxonomy_path":["Books,
+        Movies & Music","Music","Instrument Straps"],"used_manufacturer":false,"is_vintage":false},{"listing_id":263715103,"state":"active","user_id":9131396,"category_id":null,"title":"Toughtek
+        Non slip Coyote Brown Fabric 54 by 36 inches","description":"This fabric is
+        a 100 percent polyester, knit, stretchable fabric that has a coating of neoprene
+        rubber applied to it\nIs a unique fabric that holds up strongly to wear and
+        abrasion while also offering grip and non-skid in both wet and dry conditions
+        \n\nWaterproof, fire retardant, washable, and excellent for sewing and welding
+        and is soft and washable and easily could be cut with a scissor or blade\nUsed
+        in Many Applications anywhere you need a waterproof, non-skid, abrasion resistant
+        including the dog boots I make\n\n\u2022Sole of slippers, moccasins and baby
+        shoes\n\u2022Clothing\n\u2022Gloves\/Mitten Palm Patches\n\u2022Outdoor furniture\n\u2022Shoulder
+        Strap Patches\n\u2022Bag\/Luggage Panels\n\u2022Wheelchair Cushion Bottoms\n\n______________________________________________________________________________________________________________________\n\nFor
+        EU and International shipping.\n\nCooling Off period does not applied to my
+        custom items. Custom Item are non-refundable and non-returnable due to hygiene
+        reason. So, please make sure you give us correct measurements and that your
+        pooch could tolerate boots.\n\nReturn are accepted for supplies except for
+        samples. Please contact me within 14 days and you have 30 days from contacting
+        us to return item. After 30 days item is not valid for return. You must return
+        item in which it was receive and you are responsible for shipping item back
+        to us and once we receive and inspected Item we will refund within 14 days
+        excluding shipping charges. If item is damage please submit a picture of proof
+        and you will receive a full refund or exchange including shipping and we will
+        supply a return label. \n\nOutside the EU, the Consumer Rights Directive does
+        not apply to US seller and out of courtesy we are Implementing some policy
+        rules like extended 14 days to contact us and 30 days to return item in order
+        to continue servicing EU customers on Etsy.\n\nCustom order are shipped within
+        two to four weeks depending on the time of the year. Christmas holidays could
+        take up to four weeks or longer but we will notify you if extra time is needed.
+        So, please place custom orders if needed for the holiday at least 2 months
+        prior.\n\nSupplies item are shipped within 2 to 3 business days of order received
+        excluding weekend and holidays. Delivery depending where you are located could
+        take from 2 to 8 weeks. \n\nBy purchasing this item or any item in our shop
+        you agree by our shop policy terms and conditions.\n\n\nImport duties, taxes
+        and charges are not included in the item price or shipping charges. These
+        charges, which may sometimes be high, are your responsibility. Please check
+        with your country&#39;s customs office to find out what these additional costs
+        will be prior to purchasing.\n\n&quot;Per U.S. and international government
+        regulations, I cannot mark purchases as gifts and must declare the actual
+        value. Falsifying customs forms is illegal and can result in your package
+        being confiscated, fines levied and\/or other penalties","creation_tsz":1626721795,"ending_tsz":1637352595,"original_creation_tsz":1452701628,"last_modified_tsz":1626721795,"price":"28.73","currency_code":"USD","quantity":5,"sku":[],"tags":["Toughtek
+        Black","Baby Shoe Fabric","Waterproof Fabric","Outside Fabric","Guitar Strap
+        Fabric","Glove Fabric","Soiling Fabric","Slipper Fabric","Baby Mat Fabric","Baby
+        Grip Fabric","Non Skid Fabric","Shoe Sole Fabric","Non Slip"],"materials":[],"shop_section_id":21458500,"featured_rank":null,"state_tsz":1625013345,"url":"https:\/\/www.etsy.com\/listing\/263715103\/toughtek-non-slip-coyote-brown-fabric-54?utm_source=gifty&utm_medium=api&utm_campaign=api","views":427,"num_favorers":24,"shipping_template_id":14896350875,"processing_min":1,"processing_max":2,"who_made":"someone_else","is_supply":"true","when_made":"2020_2021","item_weight":"34","item_weight_unit":"oz","item_length":"15","item_width":"1","item_height":"12","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":6451,"taxonomy_path":["Craft
+        Supplies & Tools","Fabric & Notions","Fabric"],"used_manufacturer":false,"is_vintage":false},{"listing_id":784268887,"state":"active","user_id":205753757,"category_id":null,"title":"Peace
+        Love Music Sublimation Design, Guitar, Vintage, Retro, PNG Sublimation, Sublimation
+        Digital Download, PNG, Graphics","description":"*Please read Entire Description
+        before purchasing!*\nSublimation Design; This is an INSTANT DOWNLOAD:\nAfter
+        purchasing your order you will receive a link to download your digital items,
+        once Payment is cleared through ETSY.\nNO PHYSICAL ITEMS WILL BE SENT.\n\nWHAT
+        YOU WILL RECEIVE:\nIn this file you will receive:\n-1 PNG File; 300DPI\n-Watermarks
+        will be removed upon purchase.\n\nThis PNG is mainly used for creating sublimation
+        products; t-shirts, mugs, bags, pillows\u2026etc.\nPlease be aware this is
+        NOT an SVG File, cannot be used as one, and are finished files that cannot
+        be edited.\nIt is the buyer\u2019s responsibility to check software\/printing
+        compatibility for these files; there are NO refunds on digital products.\n\n\nTERMS
+        AND CONDITIONS:\nBy purchasing this download you agree to the following:\n\n-You
+        MAY use for Personal and Small Business use;  (Made by YOU; NO mass producing.)\n-You
+        MAY use this file to create PHYSICAL products for resale;  t-shirts, mugs,
+        totes etc. \n\n***If you wish to use file for selling sublimation transfers,
+        prints, stickers etc, you MUST purchase a separate Transfer License.  This
+        can be found here: https:\/\/www.etsy.com\/ca\/listing\/710500193\/sublimation-transfer-license-single\n\n-You
+        MAY NOT distribute, sell or share this digital file. Examples Include but
+        not limited to; reselling in ANY manner\/gifting, uploading to sharing websites\/Facebook
+        Groups.\n\n-You MAY NOT modify\/change file to incorporate into other digital
+        artwork to resell in ANY form.\n\n-You may NOT use or share my designs with\/on
+        any print on demand\/commercial websites such as ; Zazzle, Cafepress, Screaming
+        Owl, Amazon, Society6, Wayfair, Spoonflower, Printiful, Alibaba, AliExpress,
+        Zulilly, Wish, Jane.com etc.\n\n\u00a9All designs copyright by Bella B Studio.  Purchasing
+        this file does not transfer copyright.\n\n**Due to the increasing number of
+        registered trademarked words\/phrases daily, Bella B Studio is not responsible
+        for trademark violations. If you are creating products for resell it is your
+        responsibility to check each phrase for new trademarks in your category.\n\n--\nPeace
+        Love Music Sublimation Design, Guitar, Vintage, Retro, PNG Sublimation, Sublimation
+        Digital Download, PNG, Graphics, For sublimation, Sublimation Graphics, Digital
+        Graphics","creation_tsz":1626721791,"ending_tsz":1637352591,"original_creation_tsz":1583407067,"last_modified_tsz":1626721791,"price":"5.50","currency_code":"CAD","quantity":981,"sku":[],"tags":["Ready
+        To Print","Sublimation","Digital Download","Sublimation Design","printable","sublimation
+        download","PNG sublimation","grunge","doodle","glitter","vintage guitar","retro
+        guitar","music"],"materials":["PNG 300DPI"],"shop_section_id":26435881,"featured_rank":null,"state_tsz":1607880397,"url":"https:\/\/www.etsy.com\/listing\/784268887\/peace-love-music-sublimation-design?utm_source=gifty&utm_medium=api&utm_campaign=api","views":163,"num_favorers":42,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"i_did","is_supply":"true","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":true,"file_data":"1
+        ZIP","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":77,"taxonomy_path":["Art
+        & Collectibles","Drawing & Illustration","Digital"],"used_manufacturer":false,"is_vintage":false},{"listing_id":973872458,"state":"active","user_id":395998520,"category_id":null,"title":"Peace
+        Love Music Png, Png Download, Png Printable, Digital Print Design, Instant
+        Digital Download.","description":"Peace Love Music Png, Png Download, Png
+        Printable, Digital Print Design, Instant Digital Download.\n\n\nContact me
+        if the files don&#39;t work, i&#39;m glad to help !\n\nAll PNG files are 300dpi
+        and are sent as finished files and are not for editing.\n----------------------------------------------------------------\nDistribution
+        of files in whole or in part, without express written consent, is strictly
+        prohibited by law.\n----------------------------------------------------------------\n-
+        You MAY use this file to create, blend to your own art, cut and\/or print
+        items for personal & commercial use, gifts, and finished products you will
+        sell.\n- You MAY NOT transfer, share, give, or sell the actual digital file
+        in any digital format.\n----------------------------------------------------------------\nDigital
+        File That Is To Be Used With A Cutting Machine,  It Is Your Responsibility
+        To Know What Your Machine Needs.\n\nFeel Free to Use this file for personal
+        and business use. I just ask that you watermark your photos to protect the
+        integrity of my design. \n----------------------------------------------------------------\n\nThank
+        you for visiting. If you have any questions please feel free to contact us.","creation_tsz":1626721791,"ending_tsz":1637352591,"original_creation_tsz":1616658222,"last_modified_tsz":1626721791,"price":"5.40","currency_code":"GBP","quantity":90,"sku":[],"tags":["png","svg","digital
+        download","png download","Sublimation Digital","Digital Print Design","INSTANT
+        DIGITAL","INSTANT DOWNLOAD","Digital Print","Png File","Png For Sublimation","Peace","Guitar"],"materials":["digital
+        download"],"shop_section_id":33248072,"featured_rank":null,"state_tsz":1616658223,"url":"https:\/\/www.etsy.com\/listing\/973872458\/peace-love-music-png-png-download-png?utm_source=gifty&utm_medium=api&utm_campaign=api","views":29,"num_favorers":3,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":true,"file_data":"1
+        PNG","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":2078,"taxonomy_path":["Art
+        & Collectibles","Prints","Digital Prints"],"used_manufacturer":false,"is_vintage":false},{"listing_id":862655363,"state":"active","user_id":213654005,"category_id":null,"title":"Takamine
+        Guitar Headstock Neck METAL Sticker premium #11","description":"Takamine decal
+        METAL Sticker \nPREMIUM QUALITY DECAL\n\nSize: 62 mm X 28 mm.\nQuality: premium\nColor:
+        silver (mirror)\nMaterial: nickel (metal)\nMounting film for easy application
+        included. 3M adhesive layer.","creation_tsz":1626721767,"ending_tsz":1637352567,"original_creation_tsz":1598726479,"last_modified_tsz":1626721767,"price":"17.00","currency_code":"USD","quantity":4,"sku":[],"tags":["headstock","guitar
+        stickers","guitar decals","guitar inlays","les paul gibson","guitar headstock
+        sticker","kay sticker","KAY decal","B C  Rich decal","Takamine guitar stickers","Takamine
+        guitar decal","Takamine headstock"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1621663322,"url":"https:\/\/www.etsy.com\/listing\/862655363\/takamine-guitar-headstock-neck-metal?utm_source=gifty&utm_medium=api&utm_campaign=api","views":698,"num_favorers":4,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"MACHINE_en","has_variations":false,"taxonomy_id":2015,"taxonomy_path":["Books,
+        Movies & Music","Music","Musical Instruments","Stringed Instruments","Guitars"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1054072239,"state":"active","user_id":9441486,"category_id":null,"title":"godzilla
+        t-shirt, rock and roll tee, geeky, band t-shirt, gift for musician, music
+        gift, guitar shirt, nerdy gift, lowbrow art, funny, s-4xl","description":"Godzilla
+        rocks the guitar! If you like rock and roll, are a guitar player, or just
+        like geeky Japanese inspired t-shirts, you&#39;ll love this crazy lowbrow
+        monster tee.\n\nYour choice in bright blue\n1. Men&#39;s 6.0 oz jersey knit
+        t-shirt.\n2. Unisex, 4.5 oz, ring spun, fine knit jersey t-shirt, or\n3. ladies&#39;
+        4.5 oz slim fit, ring spun, fine jersey tee\n\nSizes s thru 4xl\n\nCheck out
+        other cool t-shits here:\nhttps:\/\/www.etsy.com\/shop\/apesnort\n\n---------------------------------------------------------------------------------\n\n\nAPESNORT
+        TEES\n\nMen&#39;s Heavy Weight Tee\n\n\u2022100% cotton preshrunk jersey knit\n(some
+        colors contain polyester)\n\u2022Seamless double-needle \u215e collar\n\u2022Taped
+        neck and shoulders\n\u2022Double-needle sleeves & bottom hems\n\n---------------------------------------------------------------------------------\n\nUnisex
+        Fine Jersey Tee\n\n\u2022 4.5 oz. 30 singles fine knit jersey\n\u2022 100%
+        ring-spun, USA cotton\n\u2022 Reactive-dyed for longer lasting color\n\u2022
+        Prewashed to minimize shrinkage\n\n\u2022Tubular construction\n\u2022 Ribbed
+        crew neck\n\u2022 Taped neck and shoulders to provide durability\n\u2022 Double-needle
+        sleeves and bottom hem\n\u2022 Tear Anywhere label\n\n---------------------------------------------------------------------------------\n\nladies&#39;
+        slim fit fine jersey tee\n\n\u2022 4.5 oz. 30 singles fine knit jersey\n\u2022
+        100% Polyester ring-spun, USA cotton\n\u2022 Reactive-dyed for longer lasting
+        color\n\u2022 Prewashed to minimize shrinkage\n\n\n\u2022 Side-seamed construction
+        for a slim, feminine fit\n\u2022 Self-fabric collar\n\u2022 Taped neck to
+        provide durability\n\u2022 Double-needle sleeves and bottom hem\n\u2022 Tear
+        Anywhere label\n\n---------------------------------------------------------------------------------\n\nYouth
+        Cotton Heavy Weight Tee\n\n\u2022100% cotton preshrunk jersey knit\n(some
+        heathers contain polyester)\n\u2022Seamless double-needle \u215e collar\n\u2022Taped
+        neck and shoulders\n\u2022Double-needle sleeves & bottom hems\n\n---------------------------------------------------------------------------------\n\nPRODUCT
+        MEASUREMENT \/ SIZING\n\nBody length is measured from highest point on the
+        shoulder to hem.\nChest is measured 1&quot; down from the arm pit across to
+        the other arm pit.\nMeasurements are provided by manufacturer.\n\n\nUNISEX,
+        AND MEN&#39;S T-SHIRT MEASUREMENTS\n\nS = 28&quot; body length x 18&quot;
+        chest\nM = 29&quot; body length x 20&quot; chest\nL = 30&quot; body length
+        x 22&quot; chest\nXL = 31&quot; body length x 24&quot; chest\nXXL = 32&#39;
+        body length x 26&quot; chest\n3XL = 33&quot; body length x 28&quot; chest\n4XL
+        = 34&quot; body length x 30&quot; chest\n\n---------------------------------------------------------------------------------\n\nWOMEN&#39;S
+        TEE MEASUREMENTS\n\nS = 25&quot; body length x 16.5&quot; chest\nM = 26&quot;
+        body length x 17.5&quot; chest\nL = 27&quot; body length x 18.5&quot; chest\nXL
+        = 28&quot; body length x19.5&quot; chest\nXXL = 29&#39;&#39; body length x
+        20.5&quot; chest\n\n---------------------------------------------------------------------------------\n\nYOUTH
+        TEE MEASUREMENTS\n\nS = 17&quot; chest x 21.50&quot; body length\nM = 18&quot;
+        chest x 23&quot; body length\nL = 19&quot; chest x 25&quot; body length\nXL
+        = 20&quot; chest x 25&quot; body length\n\n\nMost of our shirts are 100% cotton,
+        with the exception of a few heathered colors. Cotton can shrink up to 15%
+        depending on how you launder it, so please account for this when ordering.\n\n\n------------------------------------------------------------------------------------------\n\n\nORDERING
+        \n\nSimply choose the options that you would like from the drop down menu
+        when ordering. If you are on a mobile device and do not see a size selection,
+        or any other option that may apply, please leave a note on the order during
+        the checkout process. If we have any question, or are missing any information,
+        we will need to contact you prior to the order shipping.\n\n\n-------------------------------------------------------------------------------------------\n\nSHIPPING\n\nWe
+        ship USPS First Class on all packages unless otherwise indicated. Transit
+        times within the US are not guaranteed, but are typically 1-5 mail days, depending
+        on where you live in proximity to us here in beautiful Pine Junction, Colorado.
+        \n\nYou can add Priority Shipping to your order to speed up the delivery.
+        Priority times (only available in the US) are between 1-3 mail days, depending
+        on where you are in proximity to us in Pine Junction, Colorado.\n\n\n\nHere
+        is a link to the PRIORITY SHIPPING upgrade:\n\n\nhttps:\/\/www.etsy.com\/listing\/267970048\/priority-shipping-upgrade?ref=shop_home_active_1\n\n\n------------------------------------------------------------------------------------------\n\n\nTRANSIT
+        TIMES\n\nTo US addresses are generally 1-5 business days\nTo Canada are between
+        5-14 days depending on customs\nTo Worldwide are between 7-21 days depending
+        on customs\n\n**We are not responsible for duties imposed by customs. They
+        may or may not charge you tax, it is strictly up to their discretion**\n\n\n**These
+        are estimates only and can vary greatly due to customs holding items at the
+        border***\n\n\n--------------------------------------------------------------------------------------------\n\n\nRETURNS
+        \/ EXCHANGES\n\nWe gladly accept returns or exchanges within 14 days of the
+        date of delivery. The USPS tracking number you are provided after we ship
+        tells us when the package arrived to you. The return postage to send the item
+        back to us for exchange or return is your responsibility. We will cover the
+        postage to ship any replacements to you. Any refunds will be minus shipping
+        charges.\n\n--------------------------------------------------------------------------------------------\n\nMY
+        MAIN CONCERN IS TO ENSURE YOU ARE 100% SATISFIED AND WILL LEAVE ME A 5 STAR
+        REVIEW. IF THERE IS ANYTHING THAT NEEDS ATTENTION, PLEASE ADDRESS IT WITH
+        US BEFORE LEAVING YOUR FEEDBACK. OUR CUSTOMERS ARE OUR MOST IMPORTANT PART
+        OF OUR BUSINESS, AND WE WANT YOU HAPPY!","creation_tsz":1626721697,"ending_tsz":1637352497,"original_creation_tsz":1626721697,"last_modified_tsz":1626721699,"price":"18.95","currency_code":"USD","quantity":921,"sku":[],"tags":["godzilla
+        t-shirt","rock and roll tee","geeky","band t-shirt","gift for musician","music
+        gift","guitar shirt","nerdy gift","lowbrow art","funny","godzilla","japanese
+        design","monster"],"materials":["tshirt","cotton","ink","computer"],"shop_section_id":6924419,"featured_rank":null,"state_tsz":1626721697,"url":"https:\/\/www.etsy.com\/listing\/1054072239\/godzilla-t-shirt-rock-and-roll-tee-geeky?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":43979061586,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":"men","occasion":null,"style":null,"non_taxable":true,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":11110,"taxonomy_path":["Clothing","Men''s
+        Clothing","Shirts & Tees","T-shirts","Graphic Tees"],"used_manufacturer":false,"is_vintage":false},{"listing_id":606260646,"state":"active","user_id":159471371,"category_id":null,"title":"I&#39;m
+        With The Band \/ Band Baby ONESIE\u00ae \/ Music ONESIE\u00ae \/ Baby Boy
+        \/ Baby Girl \/ Baby Shower Gift","description":"I&#39;m With The Band infant
+        ONESIE\u00ae \/ bodysuit. Short or long sleeve.\n\nCLOTHING COLOR OPTIONS:
+        White Only \n\nFONT COLOR OPTIONS: Black, Gray, Baby Blue, Medium Pink (PLEASE
+        NOTE- Colors may vary slightly on different computer\/monitor screens)\n\nBRAND:
+        We use both Carter&#39;s infant bodysuits and Gerber infant ONESIES\u00ae.
+        \n\nLEGAL NOTE:  The term &quot;ONESIE\u00ae&quot; is a registered trademark
+        owned by Gerber Childrenswear. The term &quot;ONESIE\u00ae&quot;, &quot;ONESIES\u00ae&quot;
+        or any other term similar are all used in reference to label and describe
+        genuine Gerber Childrenswear products sold by Pepperoni Pancakes. \n\nMATERIAL:
+        100% Cotton Rib\n\nCARE INSTRUCTIONS: All decorated garments should be washed
+        in cold or warm water inside out. Tumble dry low heat. NO IRONING.\n\nGraphic
+        is printed using professional heat transfer vinyl and industrial heat press.  \n\n\n****CURRENT
+        PROCESSING TIMES****\n\nAll orders will be processed and ready to ship within
+        3-5 business days unless other special arrangements are made and greed upon
+        between myself and the buyer.\n\nI use the Etsy address listed on your transaction
+        for shipping, so please make sure that it is accurate. \n\nAll orders will
+        ship via USPS First Class for orders under 1 lb in weight. All other orders
+        will ship via USPS Priority Mail. Please contact me if you have a request
+        for an order to be expedited BEFORE placing your order. This way, I can let
+        you know ahead of time if it is possible to do so and this will make any special
+        shipping arrangements easier.\n\n****REFUNDS AND EXCHANGES POLICY INFO****\n\nAll
+        of the items in my shop are made to order and designed especially for you!!
+        Due to this nature, I cannot offer any refunds or exchanges.\n\nHowever, I
+        take pride in every piece that I print and each item is carefully inspected
+        before shipping to make sure you are getting the highest quality possible!
+        But if by chance you notice a flaw, I will be more than happy to send a new
+        order. Please promptly contact me within 7 days of delivery of your purchase,
+        along with any photos of the item so that I may quickly resolve the matter
+        for you. ANY AND ALL DUPLICATE ORDERS ARE SUBJECT TO MY APPROVAL.\n\nAs always,
+        we appreciate your business and look forward to continue providing you with
+        fun designs and excellent customer service! Have a great day!","creation_tsz":1626721616,"ending_tsz":1637352416,"original_creation_tsz":1528635548,"last_modified_tsz":1626721616,"price":"13.99","currency_code":"USD","quantity":2,"sku":[],"tags":["baby
+        shower","baby gift","baby boy","baby girl","I''m with the band","guitar baby","rock
+        star baby","band baby","music baby","funny baby","music onesie","band onesie"],"materials":["cotton","short
+        sleeve","long sleeve"],"shop_section_id":24091895,"featured_rank":null,"state_tsz":1625111147,"url":"https:\/\/www.etsy.com\/listing\/606260646\/im-with-the-band-band-baby-onesie-music?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1096,"num_favorers":237,"shipping_template_id":57820572143,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"4","item_weight_unit":"oz","item_length":"12","item_width":"9","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":2124,"taxonomy_path":["Clothing","Unisex
+        Kids'' Clothing","Unisex Baby Clothing","Bodysuits"],"used_manufacturer":false,"is_vintage":false}],"params":{"limit":25,"offset":0,"page":null,"keywords":null,"sort_on":"created","sort_order":"down","min_price":null,"max_price":null,"color":null,"color_accuracy":0,"tags":"Guitar","taxonomy_id":null,"location":null,"lat":null,"lon":null,"region":null,"geo_level":"city","accepts_gift_cards":"false","translate_keywords":"false"},"type":"Listing","pagination":{"effective_limit":25,"effective_offset":0,"next_offset":25,"effective_page":1,"next_page":2}}'
+  recorded_at: Mon, 19 Jul 2021 19:24:28 GMT
+recorded_with: VCR 6.0.0

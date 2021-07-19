@@ -2,13 +2,13 @@ class Api::V1::FriendsController < ApplicationController
   before_action :set_user
   before_action :set_friend, only: %i[show destroy]
   def index
-    Rails.cache.fetch(@user.to_s, expires_in: 2.minutes) do
+    Rails.cache.fetch(@user.to_s, expires_in: 30.seconds) do
       render json: UserSerializer.new(@user, include: [:friends])
     end
   end
 
   def show
-    Rails.cache.fetch(@friend.to_s, expires_in: 2.minutes) do
+    Rails.cache.fetch(@friend.to_s, expires_in: 30.seconds) do
       render json: FriendSerializer.new(@friend, include: [:gifts])
     end
   end

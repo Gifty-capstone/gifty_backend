@@ -1,0 +1,464 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://openapi.etsy.com/v2/listings/active?api_key=<api_key>&tags=nintendo
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.5.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      X-Cloud-Trace-Context:
+      - fd2a4035d11e53fbe3f4745d87df4c3a/5898861421100295253;o=0
+      X-Etsy-Request-Uuid:
+      - EuLFrc-qP8tQ_7AWtyLo-kUDH18e
+      X-Ratelimit-Limit:
+      - '10000'
+      X-Ratelimit-Remaining:
+      - '9916'
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - user_prefs=yGmbNTv1CNQ9n09ZgJEfeRqLBgxjZACChK8X02B0dF5pTo4OeUQsAwA.; expires=Tue,
+        19-Jul-2022 19:24:22 GMT; Max-Age=31535999; path=/; domain=.etsy.com
+      Content-Type:
+      - application/json
+      Via:
+      - 1.1 google, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 19 Jul 2021 19:24:23 GMT
+      X-Served-By:
+      - cache-den8248-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1626722663.881069,VS0,VE862
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":50100,"results":[{"listing_id":1040601069,"state":"active","user_id":37212788,"category_id":null,"title":"Silver
+        Wing Feather Enamel Pin","description":"I WILL STILL BE SHIPPING INTERNATIONALLY.
+        Shipping delays are to be expected due to the current COVID-19 situation.
+        \n\nPin Details:\n\n- Hard enamel\n- Gold plating\n- 1.5 inches\n- Double
+        rubber clutch\n- Backed on illustrated card\n\n\n\u2605  SHIPPING INFO \u2605\n\nCanadian
+        standard shipping is with Canada Post, US shipping is with ChitChats\/USPS,
+        and other International shipping is with ChitChats\/Asendia. Outside of Canada
+        it can take about 3-7 weeks to arrive. Tracking is included with US, and some
+        international orders (including United Kingdom, Germany, Singapore, Australia).
+        Tracked Canadian shipping can be selected. Please note that I can\u2019t be
+        held responsible for any mail loss.","creation_tsz":1626722425,"ending_tsz":1637353225,"original_creation_tsz":1624425706,"last_modified_tsz":1626722425,"price":"16.00","currency_code":"CAD","quantity":25,"sku":[],"tags":["pokemon","silver
+        wing","lugia","feather","pikachu","nintendo","enamel pin","lapel pin","shumi
+        collective","ho oh","rainbow wing","video games","heart gold soul"],"materials":[],"shop_section_id":29154623,"featured_rank":null,"state_tsz":1624507065,"url":"https:\/\/www.etsy.com\/listing\/1040601069\/silver-wing-feather-enamel-pin?utm_source=gifty&utm_medium=api&utm_campaign=api","views":55,"num_favorers":30,"shipping_template_id":85276446315,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":41,"taxonomy_path":["Accessories","Patches
+        & Pins","Pins & Pinback Buttons"],"used_manufacturer":false,"is_vintage":false},{"listing_id":856734237,"state":"active","user_id":48748438,"category_id":null,"title":"Sakura
+        Shaker Mold A S027 \/ Shaker Mold \/ Silicone Mold","description":"Use with
+        Epoxy Resin\n\n10 mm Thickness\n\n* Through-Cavity Mold.\n\n   Through-Cavity
+        Mold have to pour resin over the surface level of mold.\n\n   I have many
+        molds that design for making more space of cavity so I don&#39;t make the
+        back wall of shaker. \nThe work piece&#39;s cavity depth is 10 mm.\n   Please
+        pour resin over the surface level of mold to create the back side. The surface
+        tension of resin\ncan help you to do that. After cured, you can make another
+        side by film and coating as usall.\n\n   Anyway I have designed the CSM (
+        Cover Sheet Mold ) for an option.\n\nhttps:\/\/www.instagram.com\/p\/CISfLn2grnP\/\nhttps:\/\/www.instagram.com\/p\/CHKPuxeAWkU\/\nhttps:\/\/www.instagram.com\/p\/CCalb5aDAQs\/","creation_tsz":1626722377,"ending_tsz":1637353177,"original_creation_tsz":1597765196,"last_modified_tsz":1626722377,"price":"5.40","currency_code":"USD","quantity":4,"sku":[],"tags":["silicone
+        mold","resin mold","Epoxy Resin mold","shake mold","\ud558\ud2b8 \uc250\uc774\ucee4","\u30b7\u30ea\u30b3\u30f3\u30e2\u30fc\u30eb\u30c9
+        \u30b7\u30a7\u30a4\u30ab\u30fc","Nintendo switch","Game boy mold","Star shaker
+        mold","Heart Shaker Mold","Revolver Gun Mold","Cassette Player Mold","Bow
+        Ribbon Mold"],"materials":["Silicone"],"shop_section_id":27726424,"featured_rank":null,"state_tsz":1613631603,"url":"https:\/\/www.etsy.com\/listing\/856734237\/sakura-shaker-mold-a-s027-shaker-mold?utm_source=gifty&utm_medium=api&utm_campaign=api","views":460,"num_favorers":208,"shipping_template_id":80275696967,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":6227,"taxonomy_path":["Craft
+        Supplies & Tools","Molds"],"used_manufacturer":false,"is_vintage":false},{"listing_id":593256586,"state":"active","user_id":77395752,"category_id":null,"title":"Retro
+        NES cartridge Nintendo Switch Game Case - Custom labels for any game -  Great
+        gift and stocking stuffer for holiday season","description":"Custom switch
+        game cases for any switch game you have! Store your Nintendo Switch games
+        in a cool retro way!  Miniature NES cases!  \n\nThese cases are 3d printed
+        from a high quality PLA, have a metal pin hinge, and holds the game with a
+        friction fit.  The labels are custom stickers that will be provided - just
+        list the game(s) that you want to have stickers for, and they&#39;ll be included
+        with the purchase.\n\nEach is sold for $7.00 each, but if you buy 4, you get
+        a $4 discount.\n\nAs with any 3D printed item, they are custom made one by
+        one and subject to some imperfections and differences from one to another.  As
+        there is an amount of time and effort that goes into printing these and making
+        labels, each sale is final.  If there are any questions please feel free to
+        send me a note.  Combined shipping costs with multiple purchase.","creation_tsz":1626722367,"ending_tsz":1637353167,"original_creation_tsz":1523513988,"last_modified_tsz":1626722367,"price":"6.00","currency_code":"USD","quantity":1,"sku":[],"tags":["Zelda","smash
+        brothers","Christmas","stocking stuffer","gamer","gift","NES","Video Game","Cartridge","Case","Classic","nintendo
+        switch","vintage"],"materials":["3d printed","PLA","plastic"],"shop_section_id":null,"featured_rank":null,"state_tsz":1620066749,"url":"https:\/\/www.etsy.com\/listing\/593256586\/retro-nes-cartridge-nintendo-switch-game?utm_source=gifty&utm_medium=api&utm_campaign=api","views":42855,"num_favorers":2670,"shipping_template_id":138610944523,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"4","item_weight_unit":"oz","item_length":"9","item_width":"6","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1040112556,"state":"active","user_id":228862388,"category_id":null,"title":"Nintendo
+        Game Boy Advance SP GBA AGS-001 + 2 Games + Charger Working","description":"The
+        system is used and as such shows some scratches\/marks on the outside, the
+        inside is nicer with fewer marks, the screen is great shape with only minor
+        wear. Please check the photos for further detail.\n\nWorks perfectly, the
+        battery holds a strong charge.\n\nIncludes Game Boy Advance SP, Generic Charger,
+        2 Hot Wheels Games, and Carrying Case.\n\nFeel free to contact us with any
+        questions.\n\nBe sure to check out our shop for more videogames.","creation_tsz":1626722356,"ending_tsz":1637353156,"original_creation_tsz":1626722356,"last_modified_tsz":1626722357,"price":"109.99","currency_code":"USD","quantity":1,"sku":[],"tags":["Nintendo","Game
+        Boy Advance SP","GBA SP","Game Boy Advance","AGS-001","Hot Wheels"],"materials":[],"shop_section_id":31774899,"featured_rank":null,"state_tsz":1626722356,"url":"https:\/\/www.etsy.com\/listing\/1040112556\/nintendo-game-boy-advance-sp-gba-ags-001?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":121599301124,"processing_min":3,"processing_max":5,"who_made":"someone_else","is_supply":"false","when_made":"before_2002","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":true},{"listing_id":806748733,"state":"active","user_id":61143790,"category_id":null,"title":"FAST
+        SHIPPING!!! Game On Stencil, Video Game Stencil, Arcade Cookie Stencil, Cake
+        Stencil.","description":"FAST Shipping!!!\n\nGet your baking on! Our Game
+        On Cookie Stencil is made on a 5.5 inch x 5.5 inch template. The wording is
+        made in a pixel style font and measures about 2.5 inches wide x 1.2 inches
+        tall.  Use this cookie stencil for decorating video game and arcade themed
+        cookies!\n\nLooking for more Gamers designs? Shop our Video Game Controller
+        Cookie Stencil!\n\nAll BakeArt Stencils are designed and made in the USA.
+        We use a food safe plastic that is 5 mil in thickness, very durable and absolutely
+        reusable! All of our 5.5&quot; x 5.5&quot; templates fit the Stencil Genie
+        and Stencil Snap holders.\n\nUsually ship  between 1-2 business days.","creation_tsz":1626722326,"ending_tsz":1637353126,"original_creation_tsz":1589044072,"last_modified_tsz":1626722326,"price":"5.50","currency_code":"USD","quantity":9,"sku":[],"tags":["Nintendo
+        Cookies","Xbox Cookies","Video Games Stencil","Game On Stencil","Game","Hand
+        Write Stencil","Cookie Tools","Royal Icing Stencil","Airbrush Stencil","Child
+        Party Coookies","Cake Stencil","Game on","Cookie Stencil"],"materials":[],"shop_section_id":20235606,"featured_rank":null,"state_tsz":1619555580,"url":"https:\/\/www.etsy.com\/listing\/806748733\/fast-shipping-game-on-stencil-video-game?utm_source=gifty&utm_medium=api&utm_campaign=api","views":46,"num_favorers":15,"shipping_template_id":54788197271,"processing_min":1,"processing_max":3,"who_made":"collective","is_supply":"true","when_made":"2020_2021","item_weight":"1","item_weight_unit":"oz","item_length":"9","item_width":"7","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":6842,"taxonomy_path":["Craft
+        Supplies & Tools","Canvas & Surfaces","Stencils, Templates & Transfers","Stencils"],"used_manufacturer":false,"is_vintage":false},{"listing_id":953704994,"state":"active","user_id":447522791,"category_id":null,"title":"Pink
+        Leaf Animal Crossing Nintendo Switch Lite Skin, New Horizons Limited Edition
+        Nintendo Switch Lite Console Vinyl Wrap Cover, 3M Vinyl","description":"Pink
+        Leaf Animal Crossing Nintendo Switch Lite Skin, New Horizons Limited Edition
+        Nintendo Switch Lite Console Vinyl Wrap Cover, 3M Vinyl\n\nFEATURES:\n-Premium
+        3M vinyl, guaranteed residue free\n-Vivid eco-solvent inks for best image
+        quality\n-Precision cut for the perfect fitment\n-Air release, bubble free
+        for easy installation \n-Made in Australia \n-FREE delivery with all orders\n\nFULL
+        SET VINYL INCLUDES:\n1x Console vinyl wrap\n\n+Tempered glass *optional","creation_tsz":1626722312,"ending_tsz":1637353112,"original_creation_tsz":1613991475,"last_modified_tsz":1626722312,"price":"28.99","currency_code":"AUD","quantity":2,"sku":[],"tags":["nintendo
+        cover vinyl","Switch lite skin","Pastel Switch Lite","switch lite cover","animal
+        crossing skin","new horizons sticker","ACNH vinyl wrap","tom nook skin","tom
+        nook island wrap","crossings vinyl skin","switch lite edition","pink leaf
+        acnh"],"materials":["3M Vinyl"],"shop_section_id":32663318,"featured_rank":null,"state_tsz":1613991475,"url":"https:\/\/www.etsy.com\/listing\/953704994\/pink-leaf-animal-crossing-nintendo?utm_source=gifty&utm_medium=api&utm_campaign=api","views":112,"num_favorers":47,"shipping_template_id":130716581462,"processing_min":1,"processing_max":1,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1900,"taxonomy_path":["Electronics
+        & Accessories","Decals & Skins","Laptop","Laptop Skins"],"used_manufacturer":false,"is_vintage":false},{"listing_id":972272287,"state":"active","user_id":281078808,"category_id":null,"title":"Pack
+        of 4 Sailor Moon Thumb Grip Caps For Switch \/Switch Lite - Joystick Cap -
+        Joy-Con Silicone Cover - Pack of 4","description":"\ud83d\udd25About Switch
+        Thumb Grip Caps \uff1a\n\n- Pack of 4\n- Made of Silicone\n- For Switch and
+        Switch Lite.\n- Decorate your Switch\/Switch Lite\n- Protect your Switch controller
+        thumb sticks in perfect condition.\n\n\u26a1\ufe0fAbout our shipping:\n\n-
+        Provide tracking information\n- Due to the outbreak of COVID-19,Delivery may
+        be delayed. If you are in a hurry to receive the order, please consider it
+        before placing an order.\n- Shipping usually takes is about 15-21 business
+        days right now.\n- US\/UK\/Germany: 7-10 business days on average.\n\n\u2764\ufe0fShop
+        Policy\uff1a\n\n- Check out our other listings. We offer free shipping on
+        USA orders over $35.\n- If you are not satisfied with the product, please
+        contact me first for replacement or return\n\n\u2764\ufe0fThank you for choosing
+        Coco Koala!","creation_tsz":1626722312,"ending_tsz":1637353112,"original_creation_tsz":1614614157,"last_modified_tsz":1626722312,"price":"66.07","currency_code":"HKD","quantity":77,"sku":["MZMSN-A","MZMSN-B","MZMSN-A+MZMSN-B"],"tags":["Switch
+        Thumb Grip","Nintendo switch lite","Joystick cap","Switch Accessories","thumb
+        Grip cover","thumb grip caps","thumb grip paw","Fruit Thumb Grip","Switch
+        Lite Skin","switch lite case","switchpro thumb grip","xbox one thumb grip","PS4
+        thumb grip cap"],"materials":["Silicone"],"shop_section_id":29293438,"featured_rank":null,"state_tsz":1626651737,"url":"https:\/\/www.etsy.com\/listing\/972272287\/pack-of-4-sailor-moon-thumb-grip-caps?utm_source=gifty&utm_medium=api&utm_campaign=api","views":21388,"num_favorers":10054,"shipping_template_id":96202389925,"processing_min":1,"processing_max":5,"who_made":"i_did","is_supply":"true","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1022141497,"state":"active","user_id":53206255,"category_id":null,"title":"Kirby
+        SVG Pack","description":"Kirby SVG Pack for Cricut Products.  Kirby looks
+        like a piece of gum.","creation_tsz":1626722309,"ending_tsz":1637353109,"original_creation_tsz":1621452759,"last_modified_tsz":1626722309,"price":"1.50","currency_code":"USD","quantity":976,"sku":[],"tags":["Kirby
+        SVG","Nintendo SVG","Mario SVG","Smash Bro SVG","Sword SVG","chef SVG","fire
+        SVG","ice SVG","Magic SVG","Arcade SVG","ArcadeSVG","Pink SVG","Krby SVG"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1621452759,"url":"https:\/\/www.etsy.com\/listing\/1022141497\/kirby-svg-pack?utm_source=gifty&utm_medium=api&utm_campaign=api","views":191,"num_favorers":18,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"i_did","is_supply":"true","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":true,"file_data":"1
+        PDF, 1 ZIP","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":77,"taxonomy_path":["Art
+        & Collectibles","Drawing & Illustration","Digital"],"used_manufacturer":false,"is_vintage":false},{"listing_id":865293914,"state":"active","user_id":369457085,"category_id":null,"title":"Animal
+        Crossing Jar Stickers | Celeste Wishing Stars | Pascal Scallops | Leif Plants","description":"All
+        orders are shipped through USPS with ***no tracking number. They should arrive
+        by the first week but may take a little over two weeks.\n\nUnfortunately,
+        I will not be able to provide refunds and handle returns but if there is a
+        problem with your order please, please send me a message and I\u2019ll do
+        my best to fix the issue!\n\n-\n\n\u2727 Celeste Star Jar\n\u2727 Leif Daisies
+        Mason Jar\n\u2727 Pascal Scallop Jar\n\nThese are drawn, printed, and cut
+        at home by hand and with a Cricut machine! \n\nEach sticker is approximately
+        2.5 inches tall and the width is 2.4 inches and lower. Please message me for
+        specific measurements if needed!\n\nThey are made with waterproof matte sticker
+        paper with the option of a glossy or matte laminate on top\u2014 perfect for
+        decorating water bottles, laptops and more!","creation_tsz":1626722178,"ending_tsz":1637352978,"original_creation_tsz":1601465845,"last_modified_tsz":1626722178,"price":"3.00","currency_code":"USD","quantity":91,"sku":[],"tags":["Nintendo","AC","Cute","Plants","Scallops","Stars","Jar","Sticker","Celeste","Leif","Pascal","Animal
+        Crossing"],"materials":[],"shop_section_id":null,"featured_rank":1,"state_tsz":1626179571,"url":"https:\/\/www.etsy.com\/listing\/865293914\/animal-crossing-jar-stickers-celeste?utm_source=gifty&utm_medium=api&utm_campaign=api","views":10619,"num_favorers":5391,"shipping_template_id":111370091949,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":77,"taxonomy_path":["Art
+        & Collectibles","Drawing & Illustration","Digital"],"used_manufacturer":false,"is_vintage":false},{"listing_id":989664159,"state":"active","user_id":106982529,"category_id":null,"title":"Pokemon
+        Heartgold and Soulsilver Reproductions - Nintendo DS","description":"Revisit
+        the Johto region with these iconic games, Pokemon HeartGold and Pokemon SoulSilver.\n\nThese
+        are high quality, brand new manufactured reproduction cartridges and circuit
+        boards to give you the highest quality product. If you want an affordable
+        way to play these games, this is the absolute best way! These cartridges work
+        near identically to the originals, they save, battle and trade perfectly.
+        These however do NOT work with the PokeWalker. Only original games can work
+        with the PokeWalker.\n\nWe aim to bring the highest quality reproduction games
+        in the USA","creation_tsz":1626722121,"ending_tsz":1637352921,"original_creation_tsz":1616894398,"last_modified_tsz":1626722121,"price":"19.99","currency_code":"USD","quantity":16,"sku":[],"tags":["NDS","nintendo","nintendo
+        ds","soul silver","soulsilver","heartgold","heart gold","pokemon","pokemon
+        gen 2","pokemon heart gold","pokemon soul silver","pokemon heartgold","pokemon
+        soulsilver"],"materials":[],"shop_section_id":34678023,"featured_rank":null,"state_tsz":1626390006,"url":"https:\/\/www.etsy.com\/listing\/989664159\/pokemon-heartgold-and-soulsilver?utm_source=gifty&utm_medium=api&utm_campaign=api","views":2243,"num_favorers":133,"shipping_template_id":134960543435,"processing_min":1,"processing_max":1,"who_made":"someone_else","is_supply":"false","when_made":"2020_2021","item_weight":"3","item_weight_unit":"oz","item_length":"9","item_width":"6","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":852566887,"state":"active","user_id":101168330,"category_id":null,"title":"Wii
+        Game Box - K\u00f6ffin Protective Display Case (K005)","description":"Our
+        rugged and protective K\u00f6ffins Game Display Cases are designed for collectors
+        to be able to protect their games while also being highly viewable and freely
+        handled. Dust and wear has been defeated. This and all our stands are made
+        in our workshop in the USA, we use material that is made in USA. Quality and
+        satisfaction is guaranteed.\n\nThis Display Case is designed to hold 1 Wii
+        game box.  It snaps together easily and tightly with our custom designed tabbed
+        system. \n\nThese are a must have for the serious collector who is looking
+        to up their display-game.  \n\nRespect Your Collection!\n\nFEATURES\n\nMATERIAL:
+        This case is made out of durable laser cut acrylic. Professionally designed
+        to put the focus and respect on your collectible but still remain stylish.\n\nSTABILITY:
+        Since this case is professionally designed to hug your collectible, there
+        is no issue with wobbling or fitting properly. Rest assured the game will
+        stay firmly in place.\n\nPROTECTED: We cover each piece of the case in a protective
+        film to avoid scratching in transit. Please make sure to peel off this film
+        when your case arrives.\n\nEASE OF USE: This case snaps together easily, no
+        glue, screws or tools are necessary to assemble. No special material is needed
+        to clean or dust them off.\n\nWORRY-FREE PURCHASE: We have been in business
+        since 2012 and you can expect fast responses to your questions or concerns.
+        We have a hassle-free returns\/exchange policy and will always work with you
+        to give you the best RCG experience possible :)\n\n*Listing is for the case
+        only, does not include the game.\n\nBrought to you by Rose Colored Gaming","creation_tsz":1626722020,"ending_tsz":1637352820,"original_creation_tsz":1597080899,"last_modified_tsz":1626722020,"price":"17.99","currency_code":"USD","quantity":990,"sku":["K005"],"tags":["retro
+        gaming","organization","display","retro","holder","stand","wii","wii game
+        case","case","physical media","nintendo","protection","collector"],"materials":["Acrylic"],"shop_section_id":29960869,"featured_rank":null,"state_tsz":1617896326,"url":"https:\/\/www.etsy.com\/listing\/852566887\/wii-game-box-koffin-protective-display?utm_source=gifty&utm_medium=api&utm_campaign=api","views":200,"num_favorers":34,"shipping_template_id":82301314949,"processing_min":1,"processing_max":5,"who_made":"collective","is_supply":"false","when_made":"made_to_order","item_weight":"10.5","item_weight_unit":"oz","item_length":"8.5","item_width":"6.5","item_height":"3.25","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1038744302,"state":"active","user_id":355051269,"category_id":null,"title":"Zelda
+        & Loftwing Amiibo - Release Day","description":"This listing is for The Legend
+        of Zelda: Skyward Sword HD Amiibo card for Zelda & Loftwing, featuring an
+        original style created by EmalueleBGN!\n\nNote: You are buying the card and
+        the art. Paying to support artists and creators. The Amiibo data provided
+        is only to be used as a backup to your legally owned property. This allows
+        collectors to have usable data without opening their packages or adding wear,
+        ruining their collection&#39;s value. This also allows redundancy in the case
+        of accident, theft, or data corruption.\n\nMy cards are all printed on high
+        quality, matte photo sticker paper, and applied to hotel grade NTAG215 cards.
+        These cards are high quality and a crisp clear image.\n\nShipping will be
+        combined for multiple cards, and free within the US if you hit the shipping
+        limit. Please contact me if you think you overpaid for shipping and I will
+        manually adjust, as Etsy sometimes calculates incorrectly. Typically it&#39;s
+        approximately $5-$8 within the US (based on weight).\n\nEmanuele has offered
+        these designs for free to the public, so if all you need is to download and
+        print your own please do so! He does not make cards, only the art for them.
+        In an effort to offer more styles and help this wonderful artist get recognition
+        and payment for their hard work, all profits from this listing are to be split
+        evenly with the artist. At the time of this listing, this is the only known
+        listing for these styles that is in collaboration with the original artist
+        and using his work with permission. These styles can all be found and downloaded
+        for free from here: https:\/\/mega.nz\/#F!98gAVIoQ!jShhXGdxx3hxdP1g3NmDLA\n\nThank
+        you for supporting artists and creators.","creation_tsz":1626721994,"ending_tsz":1637352794,"original_creation_tsz":1626465321,"last_modified_tsz":1626721994,"price":"5.00","currency_code":"USD","quantity":947,"sku":[],"tags":["Amiibo","Amiibo
+        Cards","Skyward Sword","Legend of Zelda","LOZSS","Zelda","Loftwing","Link","LoZ","Switch","Nintendo"],"materials":["NTAG215
+        Cards","Matte Photo Stickers"],"shop_section_id":30408477,"featured_rank":null,"state_tsz":1626466284,"url":"https:\/\/www.etsy.com\/listing\/1038744302\/zelda-loftwing-amiibo-release-day?utm_source=gifty&utm_medium=api&utm_campaign=api","views":482,"num_favorers":30,"shipping_template_id":108344206303,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"1","item_weight_unit":"oz","item_length":"7","item_width":"5","item_height":"0.5","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":1608,"taxonomy_path":["Toys
+        & Games","Toys","Electronic Toys"],"used_manufacturer":false,"is_vintage":false},{"listing_id":268211503,"state":"active","user_id":5453361,"category_id":null,"title":"Animal
+        Crossing Coin Purse\/Pouch","description":"Adorable Animal Crossing (New Leaf)
+        inspired coin purse. Measures 4.5&quot;x3&quot;, smooth satiny fabric printed
+        with designs I created. The lining matches the zipper fabric.\n\nSHIPPING:\nPlease
+        view shipping information and policies in the shop announcement.","creation_tsz":1626721909,"ending_tsz":1637352709,"original_creation_tsz":1455491884,"last_modified_tsz":1626721909,"price":"10.00","currency_code":"USD","quantity":2,"sku":[],"tags":["animal
+        crossing","new leaf","nintendo","isabelle","reese","cute","coin","purse","pouch","acnl","wallet"],"materials":["Fabric"],"shop_section_id":23026291,"featured_rank":null,"state_tsz":1616360365,"url":"https:\/\/www.etsy.com\/listing\/268211503\/animal-crossing-coin-pursepouch?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1211,"num_favorers":463,"shipping_template_id":51858006736,"processing_min":2,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":["Kawaii"],"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":1,"taxonomy_path":["Accessories"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1031860382,"state":"active","user_id":192150042,"category_id":null,"title":"Monster
+        Hunter Rise Joystick Caps for Nintendo Switch\/Switch Lite-Thumb Grip Silicone
+        Cover for Joy-con Controller-Purple Thumbstick","description":"Monster Hunter
+        Rise Joystick Caps for Nintendo Switch\/Switch Lite-Thumb Grip Silicone Cover
+        for Joy-con Controller-Purple Thumbstick\n\nAbout this Cute Thumb Grip Caps
+        For Switch\/Switch Lite\n\n**Made of Silicone\uff1aensure they will not slide
+        of\n\n**Ship in 1-5 days\uff08No need to wait a few weeks\uff09\n\n**Customized
+        your Nintendo Switch or Switch Lite with these super cute silicone thumb grips\n\n**Compatible
+        with both Nintendo Switch and Switch Lite\n\n**Perfect accessory to complement
+        your switch console and give a new nice look\n\n**Keep your switch controller
+        thumb sticks in perfect condition and comfortable for game play\n\n**Note:
+        selling joy-con protector & grip cover only, not include the Joy-con\n\n**Please
+        note that the colours may differ slightly due to monitor settings\n\nAbout
+        Shipping\n\n**Check out our other listings for Nintendo Switch thumb grips,
+        skins, cases, covers & game box. \n    We offer free shipping on USA orders
+        over $35.\n\n**Tracking number available within 15 days after parcel ship
+        out.\n   But due\u00a0to\u00a0the\u00a0COVID-19\u00a0pandemic,\u00a0the\u00a0current\u00a0estimated\u00a0delivery\u00a0duration\u00a0is\u00a02-4\u00a0weeks.\n\n~~Thanks
+        for visiting my shop, any question, pls don\u2019t hesitate to contact me~~","creation_tsz":1626721889,"ending_tsz":1637352689,"original_creation_tsz":1625298384,"last_modified_tsz":1626721889,"price":"4.80","currency_code":"USD","quantity":19,"sku":["9.8"],"tags":["Animal
+        Crossing","Nintendo Switch Case","Switch Controller","Switch Thumb Grip","Nintendo
+        Switch Grip","Joycon Grip","Switch Joy Con Grip","Custom Nintendo","Custom
+        Joycons","Custom Controller","Joy Con","Custom Joy Cons","Nintendo Switch
+        Lite"],"materials":["Animal Crossing New Horizons","Coco Animal Crossing","Animal
+        Crossing Print","Animal Crossing Skin","Animal Crossing Marshal","Animal Crossing
+        Leaf","Animal Crossing Logo","Animal Crossing Switch","Animal Crossing Game","Custom
+        Nintendo","Switch Thumb Grip Animal Crossing","Switch Thumb Grip Cover","Monster
+        Hunter Rise"],"shop_section_id":29725319,"featured_rank":null,"state_tsz":1625298384,"url":"https:\/\/www.etsy.com\/listing\/1031860382\/monster-hunter-rise-joystick-caps-for?utm_source=gifty&utm_medium=api&utm_campaign=api","views":32,"num_favorers":7,"shipping_template_id":133531080880,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":984047709,"state":"active","user_id":447522791,"category_id":null,"title":"BT21
+        BTS Nintendo Switch Lite Skin, Mint Blue Tata Mang Chimmy Shooky Cooky Van
+        RJ Koya Cute Kawaii Console Decal Sticker Wrap 3M Vinyl","description":"BT21
+        BTS Nintendo Switch Lite Skin, Mint Blue Tata Mang Chimmy Shooky Cooky Van
+        RJ Koya Cute Kawaii Console Decal Sticker Wrap 3M Vinyl\n\nFEATURES:\n-Premium
+        3M vinyl, guaranteed residue free\n-Vivid eco-solvent inks for best image
+        quality\n-Precision cut for the perfect fitment\n-Air release, bubble free
+        for easy installation \n-Made in Australia \n-FREE delivery with all orders\n\nFULL
+        SET VINYL INCLUDES:\n1x Console vinyl wrap\n\n+Tempered glass *optional","creation_tsz":1626721859,"ending_tsz":1637352659,"original_creation_tsz":1616153064,"last_modified_tsz":1626721859,"price":"28.99","currency_code":"AUD","quantity":2,"sku":[],"tags":["nintendo
+        cover vinyl","Switch lite skin","Pastel Switch Lite","switch lite cover"],"materials":["3M
+        Vinyl"],"shop_section_id":32663318,"featured_rank":null,"state_tsz":1616153064,"url":"https:\/\/www.etsy.com\/listing\/984047709\/bt21-bts-nintendo-switch-lite-skin-mint?utm_source=gifty&utm_medium=api&utm_campaign=api","views":853,"num_favorers":237,"shipping_template_id":130716581462,"processing_min":1,"processing_max":1,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1900,"taxonomy_path":["Electronics
+        & Accessories","Decals & Skins","Laptop","Laptop Skins"],"used_manufacturer":false,"is_vintage":false},{"listing_id":772678858,"state":"active","user_id":262928044,"category_id":null,"title":"Marble
+        Skin For The Nintendo Switch Gaming Accessories Joy Con Dock Pro Gamer Console
+        Decal Joycon Sticker Wrap Nintendo decal gift for girl","description":"Welcome
+        to our store!\n\nAll of my stickers have finish for extra anti-glare and smooth
+        looking surface.\n- Printed on high-quality vinyl\n- Extremely high-quality
+        picture with high resolution\n- Dustproof vinyl stickers\n- Waterproof vinyl
+        stickers\n- Easy to apply and take off, free of residue\n- It will not damage
+        your device.\n\nAverage shipping time\n\nCanada: 12-20 business days\nUnited
+        Kingdom: 10-18 business days\nUnited States: 12-20 business days\nEurope:
+        10-18 business days\nAustralia, New Zealand and Oceania: 16-20 business days\n\nAll
+        orders are ready to ship in 3-5 days.\n\n\u2022 Take attention, that colors
+        can be different. It depend on monitor. But will be sure you&#39;ll get a
+        high-quality product with bright and saturated print.\n\n\u2022 All controversial
+        issues are completely under my responsibility. You can be sure in your customer
+        security.\n\n\u2022 I gladly wait for your questions and custom orders!\n\nPlease,
+        contact me if you have any questions.","creation_tsz":1626721839,"ending_tsz":1637352639,"original_creation_tsz":1584136500,"last_modified_tsz":1626721839,"price":"18.99","currency_code":"USD","quantity":50,"sku":[],"tags":["marble
+        nintendo skin","switch decal","nintendo switch skin","Marble Skin","Gaming
+        Accessories","Joy Con Dock Pro","Gamer Console","Decal Joycon","Sticker Wrap","Nintendo
+        decal","gift for girl skin","vinil skin","granite nintendo"],"materials":["Vinyl","2"],"shop_section_id":28305049,"featured_rank":null,"state_tsz":1610128873,"url":"https:\/\/www.etsy.com\/listing\/772678858\/marble-skin-for-the-nintendo-switch?utm_source=gifty&utm_medium=api&utm_campaign=api","views":121,"num_favorers":21,"shipping_template_id":94750195982,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":663867475,"state":"active","user_id":7186731,"category_id":null,"title":"Space
+        Invaders LGBTQ Pride Cross-Stitch PATTERN ONLY","description":"----ALL PROCEEDS
+        FOR THE MONTH OF JUNE WILL BE DONATED TO GLSEN----\n\n\n~*~ DIGITAL PATTERN
+        ONLY ~*~\nStitch up this fantastic pattern for yourself or as a gift for lovers
+        of old school video games young and old!\n\n\n14 Count Aida \nStitched Design
+        Area: 5.5&quot; x 1.3&quot; (14 x 3.3 cm)\n7 Colors (DMC)\n\n\nAs shown in
+        a 5x7 frame but would also look great finished in a hoop!\n\nPurchase includes
+        2 PDF files, 1 with color and 1 with black and white printing options.\n\n-------------------------------\nThis
+        pattern is intended for personal use only - by purchasing this pattern you
+        agree to not resell the PDF pattern or sell the finished product.\n\nIf you
+        are interested in purchasing a finished piece ready to go, check out my other
+        listing here: https:\/\/www.etsy.com\/listing\/481376128\/space-invaders-cross-stitch-love-nerdy","creation_tsz":1626721836,"ending_tsz":1637352636,"original_creation_tsz":1543765485,"last_modified_tsz":1626721836,"price":"3.00","currency_code":"USD","quantity":18,"sku":[],"tags":["video
+        game art","space invaders gift","geeky cross stitch","video game stitch","old
+        school gamer","rainbow video game","atari arcade","gay cross stitch","videogame
+        lgbt","lgbt gamer","nerdy cross stitch","atari gift","nintendo"],"materials":[],"shop_section_id":25265585,"featured_rank":null,"state_tsz":1577233229,"url":"https:\/\/www.etsy.com\/listing\/663867475\/space-invaders-lgbtq-pride-cross-stitch?utm_source=gifty&utm_medium=api&utm_campaign=api","views":99,"num_favorers":29,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"collective","is_supply":"false","when_made":"2010_2019","item_weight":"13","item_weight_unit":"oz","item_length":"10","item_width":"7","item_height":"4","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":true,"file_data":"2
+        PDF","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":87,"taxonomy_path":["Art
+        & Collectibles","Fiber Arts","Cross Stitch"],"used_manufacturer":false,"is_vintage":false},{"listing_id":560235341,"state":"active","user_id":65730528,"category_id":null,"title":"Mario
+        Party Lunch Napkins\/Nintendo Party Lunch Napkins\/Mario Party Napkins\/Nintendo
+        Themed Lunch Napkins 16 Pk","description":"Each pack contains 16 napkins and
+        they are 2 Ply\n\nLunch sized Mario Napkins. Great for Nintendo, Gamer Party,
+        Mario Party","creation_tsz":1626721810,"ending_tsz":1637352610,"original_creation_tsz":1506287990,"last_modified_tsz":1626721810,"price":"7.25","currency_code":"USD","quantity":11,"sku":["58141"],"tags":["gamer
+        party","mario party","Nintendo Party","80s party","video game party","nintendo
+        party theme","mario party theme"],"materials":[],"shop_section_id":18147720,"featured_rank":null,"state_tsz":1609206598,"url":"https:\/\/www.etsy.com\/listing\/560235341\/mario-party-lunch-napkinsnintendo-party?utm_source=gifty&utm_medium=api&utm_campaign=api","views":106,"num_favorers":7,"shipping_template_id":24312384813,"processing_min":1,"processing_max":2,"who_made":"someone_else","is_supply":"true","when_made":"2020_2021","item_weight":"2","item_weight_unit":"oz","item_length":"6","item_width":"6","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":6858,"taxonomy_path":["Craft
+        Supplies & Tools","Party & Gifting","Party Supplies","Tableware","Napkins"],"used_manufacturer":false,"is_vintage":false},{"listing_id":848880902,"state":"active","user_id":120620908,"category_id":null,"title":"Pokemon
+        Joycon Analog Covers - Nintendo Switch or Switch Lite Thumb Caps Grips","description":"Please
+        READ THE ENTIRE Description and Return Policy before making your purchase\n\nANALOG
+        STICK COVERS\/EXTENDERS FOR NINTENDO SWITCH OR SWITCH LITE. (DOES NOT FIT
+        SWITCH PRO CONTROLLER, XBOX OR PS4 CONTROLLERS - JOYCON\/CONSOLE NOT INCLUDED.
+        THIS IS FOR GRIPS ONLY.)\n\nWHEN PURCHASING:\nPlease use the numbered # photos
+        to help you select the style combination you wish to receive from the drop
+        down menu above. This makes ordering a BREEZE!\nI can do any combination of
+        colors and styles. If you want something different, please message me. Thank
+        you.\n\nNew high Quality and Durable Silicone cover with analog grips (controller
+        not included)\n\nAnalog Controller Thumbstick Grips Thumb Stick Cap Covers
+        For Nintendo switch joycons and switch lite\n\nFeatures:\n\nCompatible with
+        : Nintendo switch joycons and switch lite\n\nSimple application takes only
+        seconds\n\nAdd a little extra grip and comfort to your game play\nMaterial:Silicone\n\n\u2714Easy
+        to Install and Remove \n\n\u2714Non-slip Surface is Great for Providing Better
+        Grip to Enhance Gaming Performance\n\n\u2714 Protects Controller Analog sticks
+        from wear and tear \n\nCelebrate Pokemon Sword and Shield with these cute
+        pokemon themed pikachu and eevee style grips, pikachu and eevee tails, and
+        pokeball style, grips as well! SHIPS FAST FAST FAST and FREE!\n\nThese are
+        the newest gaming accessory that everyone is talking about, the ultimate in
+        analog covers has finally arrived! Now you can take control of your games
+        and elevate performance for console players, These grips are so easy to attach
+        to the analog stick and prevents slippage, enhances feel and sensitivity when
+        playing the game, youll never want to play without them again. Created from
+        exclusive materials that are soft to the touch and feel good on your fingers
+        for extended play time and best of all the extra grip is there when you need
+        it most. These grips were created giving the gamer the competitive edge they
+        demand. Get the best grip out of your console game pads and have the competitive
+        edge you always wanted.\n\nRETURN POLICY\n\nFREE RETURNS (PAID BY SHIPPER)
+        AVAILABLE ON THESE ITEMS ONLY UNDER THE FOLLOWING CIRCUMSTANCES:\n\n1) ITEM
+        NOT AS SHOWN\/DESCRIBED\n2) ITEM NOT FUNCTIONING PROPERLY OR IS DEFECTIVE\n\nTHESE
+        ARE THE ONLY ACCEPTABLE  REASONS FOR RETURN UNDER FREE (SELLER PAID) RETURN
+        SHIPPING FOR THIS LISTING.\n\nWHEN RETURNING, ITEM MUST BE RETURNED IN FLAWLESS
+        PHYSICAL CONDITION WITH NO SIGNS OF WEAR AND  MUST BE RETURNED IN IT&#39;S
+        ENTIRETY \n\n\nCAUTION: CHOKING HAZARD - SMALL PARTS - May not be suitable
+        for children. Parents exercise caution with this product around young children.\n\nIf
+        you have any questions or concerns, please let me know. Thank you for stopping
+        by!","creation_tsz":1626721795,"ending_tsz":1637352595,"original_creation_tsz":1598746092,"last_modified_tsz":1626721795,"price":"6.85","currency_code":"USD","quantity":24,"sku":[],"tags":["grips","nintendo","switch","joycon","accessories","caps","thumb
+        grip","nintendo switch","switch accessories","pokemon","pokemon grip","analog
+        grip","pokemon joycon"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1614809676,"url":"https:\/\/www.etsy.com\/listing\/848880902\/pokemon-joycon-analog-covers-nintendo?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1571,"num_favorers":345,"shipping_template_id":105562186562,"processing_min":1,"processing_max":1,"who_made":"collective","is_supply":"false","when_made":"2020_2021","item_weight":"1","item_weight_unit":"oz","item_length":"8","item_width":"4","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":862309409,"state":"active","user_id":278623092,"category_id":null,"title":"DS
+        Lite Authentic Nintendo DS Lite Handheld NDSL Console with Charger *Pick a
+        Color* -","description":"Nintendo DS Lite in great condition, there might
+        be some minor scuffs or scratches on the screens or shell itself due to the
+        age of these systems\n\nChoose your color preference\n\nEach system works
+        perfectly comes with Stylus and GBA slot cover\n\nScreen might have some minor
+        yellowing and scratches that does not affect gameplay in any way\n\nEach is
+        guaranteed to work!","creation_tsz":1626721739,"ending_tsz":1637352539,"original_creation_tsz":1598659633,"last_modified_tsz":1626721739,"price":"61.99","currency_code":"USD","quantity":22,"sku":["W2ORvMDkxk9pErN4","ZMnd0nvOXJbyVYYd","P8yZMZNpY5k1o26W","25W3o4JyXR7z6V4p","Y0xqENzNpEn6JapJ","pwAVa8dJ3zNqjy0a","yO9PgXV5Pa7xvrbx","dzRmjqydqnmA156L","jEjDYbZm4lA31m0Dq","bmPvJqvL368ab0Vd","5pxbMZMVQJk1JokN","kpgwNND1WVp9QPqL","35RNy7yPbdwjyOAD","k1Y6WX9ZnOq2ag6rQ","J0J3P2kkj19jDyn7","RzPDVlza5v15q0a7","jOkq864DEr0Z0O9P","NwqMR7yJ9LkxmoLL","V2pyN5zQZ2gbpAwP","gM7Yql3wbAdXPpqgN"],"tags":["NDS
+        Lite","Nintendo","NDSL","DSL","DS Lite","Nintendo DSL"],"materials":[],"shop_section_id":30567752,"featured_rank":null,"state_tsz":1626394194,"url":"https:\/\/www.etsy.com\/listing\/862309409\/ds-lite-authentic-nintendo-ds-lite?utm_source=gifty&utm_medium=api&utm_campaign=api","views":13952,"num_favorers":697,"shipping_template_id":89910357985,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"2010_2019","item_weight":"11","item_weight_unit":"oz","item_length":"7","item_width":"4","item_height":"2","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1000413911,"state":"active","user_id":235884230,"category_id":null,"title":"Monster
+        Hunter Wolf and Cat Nintendo Switch & Lite Joy Con Thumb Grips Covers set
+        of 2 | Thumbstick Gaming Accessories","description":"Nintendo Switch Monster
+        Hunter Wolf  and Cat thumb grip covers\n\nThese thumb grips are made from
+        Silicone to ensure they will not slide off when in use.\n\n* Silicone Material\n*
+        Will keep your Switch controller thumb sticks in perfect condition.\n\nYou
+        will receive 2 Thumbstick covers (1 x Wolf & 1 x Cat)","creation_tsz":1626721681,"ending_tsz":1637352481,"original_creation_tsz":1618334643,"last_modified_tsz":1626721681,"price":"2.95","currency_code":"GBP","quantity":4,"sku":[],"tags":["Switch
+        Thumb Grips","Zelda","Animal Crossing","Nintendo Switch","Switch Lite","Joycons","Pokemon","Thumb
+        Sticks","Cute Thumb Grip","Switch Accessories","Joycon Accessories","Switch
+        Case","Monster Hunter"],"materials":["Silicone"],"shop_section_id":27732015,"featured_rank":null,"state_tsz":1624442580,"url":"https:\/\/www.etsy.com\/listing\/1000413911\/monster-hunter-wolf-and-cat-nintendo?utm_source=gifty&utm_medium=api&utm_campaign=api","views":119,"num_favorers":19,"shipping_template_id":77645318344,"processing_min":1,"processing_max":3,"who_made":"someone_else","is_supply":"true","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":986470402,"state":"active","user_id":235884230,"category_id":null,"title":"Monster
+        Hunter Dragon Flame Nintendo Switch & Lite Joy Con Thumb Grips Covers | Thumbstick
+        Gaming Accessories","description":"Nintendo Switch Monster Hunter Dragon thumb
+        grip covers\n\nThese thumb grips are made from Silicone to ensure they will
+        not slide off when in use.\n\n* Silicone Material\n* Will keep your Switch
+        controller thumb sticks in perfect condition.\n\nYou will receive a pack of
+        2 Thumbstick covers (1 Dragon & 1 x Flame)","creation_tsz":1626721680,"ending_tsz":1637352480,"original_creation_tsz":1618336489,"last_modified_tsz":1626721680,"price":"3.25","currency_code":"GBP","quantity":7,"sku":[],"tags":["Switch
+        Thumb Grips","Zelda","Animal Crossing","Nintendo Switch","Switch Lite","Joycons","Pokemon","Thumb
+        Sticks","Cute Thumb Grip","Switch Accessories","Joycon Accessories","Switch
+        Case","Monster Hunter"],"materials":["Silicone"],"shop_section_id":27732015,"featured_rank":null,"state_tsz":1624442585,"url":"https:\/\/www.etsy.com\/listing\/986470402\/monster-hunter-dragon-flame-nintendo?utm_source=gifty&utm_medium=api&utm_campaign=api","views":87,"num_favorers":10,"shipping_template_id":77645318344,"processing_min":1,"processing_max":3,"who_made":"someone_else","is_supply":"true","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1050131809,"state":"active","user_id":330225418,"category_id":null,"title":"PRO
+        CONTROLLER Nintendo Switch Custom Soft-Touch Pro Controller Full Shell Kit
+        - DIY","description":"Nintendo Switch Wireless Pro Controller Shell DIY\nThis
+        is a brand new soft-touch full shell kit used to customize your own Pro Controller.
+        This is a DIY project that requires opening up your Pro Controller to replace
+        the existing stock shell and hand grips.\n\n*This product is ONLY compatible
+        with a genuine Nintendo Switch Pro Controller*\n\nIncludes:\n\u2022 Front
+        & back shell\n\u2022 Hand grips\n\nDoes Not Include:\n\u2022 Buttons\n\u2022
+        Instructions\n\u2022 Switch Console or controllers\n\u2022 Tools: Consists
+        of small Phillips screwdriver & extra screws (This can be selected during
+        purchase)\n\n\n\u2022 Interested in an item that&#39;s out of stock? Click
+        &quot;restock request&quot; and you will be immediately notified when we receive
+        more stock!\n\u2022 Feel free to contact us with any other questions, comments
+        or concerns!\n\u2022 Ships USPS First Class within 1-3 Business Days!\n\n********************************\nWARNING!!
+        Opening Nintendo&#39;s products may void any remaining warranty you have with
+        them. Please only purchase if you have either experience or the patience to
+        learn! We are not responsible for any issues due to improper installation,
+        including stripped screws. We can offer tips, but we cannot give full instructions
+        for liability reasons. There are many helpful instructional videos on YouTube!\n********************************","creation_tsz":1626721679,"ending_tsz":1637352479,"original_creation_tsz":1626064360,"last_modified_tsz":1626721679,"price":"22.00","currency_code":"USD","quantity":5,"sku":[],"tags":["nintendo
+        switch","controller","custom","custom controller","pro controller","controller
+        buttons","custom nintendo","replacement buttons","pro controller DIY","custom
+        soft touch","clear pro controller","pro controller shell","controller shell"],"materials":[],"shop_section_id":30617349,"featured_rank":null,"state_tsz":1626064360,"url":"https:\/\/www.etsy.com\/listing\/1050131809\/pro-controller-nintendo-switch-custom?utm_source=gifty&utm_medium=api&utm_campaign=api","views":46,"num_favorers":8,"shipping_template_id":100214198946,"processing_min":1,"processing_max":3,"who_made":"someone_else","is_supply":"true","when_made":"2020_2021","item_weight":"8","item_weight_unit":"oz","item_length":"6","item_width":"6","item_height":"4","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":895862305,"state":"active","user_id":330225418,"category_id":null,"title":"PRO
+        CONTROLLER Nintendo Switch Custom Pro Controller Control Sticks Thumb Sticks
+        - DIY","description":"Nintendo Switch Wireless Pro Controller Thumb Sticks
+        DIY\nThese are brand new thumb sticks used to customize your personal Nintendo
+        Switch Pro Controller. This is a DIY project that requires opening up your
+        Pro Controller to replace the existing stock thumb sticks.\n\n*These thumb
+        sticks are ONLY compatible with a genuine Nintendo Switch Pro Controller.
+        They are NOT compatible with joycons or any other controller.*\n\nIncludes:\n\u2022
+        Pair of thumb sticks (this is not an analog stick and won&#39;t fix drift
+        issues)\n\nDoes Not Include:\n\u2022 Buttons\n\u2022 Shell\n\u2022 Hand grips\n\u2022
+        Instructions\n\u2022 Switch Console or controllers\n\u2022 Tools: Consists
+        of small Phillips screwdriver & extra screws (This can be selected during
+        purchase)\n\n\n\u2022 Interested in an item that&#39;s out of stock? Click
+        &quot;restock request&quot; and you will be immediately notified when we receive
+        more stock!\n\u2022 Feel free to contact us with any other questions, comments
+        or concerns!\n\u2022 Ships USPS First Class within 1-3 Business Days!\n\n********************************\nWARNING!!
+        Opening Nintendo&#39;s products may void any remaining warranty you have with
+        them. Please only purchase if you have either experience or the patience to
+        learn! We are not responsible for any issues due to improper installation,
+        including stripped screws. We can offer tips, but we cannot give full instructions
+        for liability reasons. There are many helpful instructional videos on YouTube!\n********************************","creation_tsz":1626721679,"ending_tsz":1637352479,"original_creation_tsz":1604096649,"last_modified_tsz":1626721679,"price":"8.00","currency_code":"USD","quantity":12,"sku":[],"tags":["nintendo
+        switch","controller","custom","custom controller","pro controller","controller
+        buttons","custom nintendo","pro controller DIY","pro controller shell","control
+        sticks pro","custom thumb sticks","custom control stick","colored thumb sticks"],"materials":[],"shop_section_id":30617349,"featured_rank":null,"state_tsz":1604096649,"url":"https:\/\/www.etsy.com\/listing\/895862305\/pro-controller-nintendo-switch-custom?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1171,"num_favorers":79,"shipping_template_id":100214198946,"processing_min":1,"processing_max":3,"who_made":"someone_else","is_supply":"true","when_made":"2020_2021","item_weight":"2","item_weight_unit":"oz","item_length":"8","item_width":"4","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":881941544,"state":"active","user_id":330225418,"category_id":null,"title":"PRO
+        CONTROLLER Nintendo Switch Custom Soft-Touch Pro Controller Hand Grips - DIY","description":"Nintendo
+        Switch Wireless Pro Controller Hand Grips DIY\nThese are brand new soft-touch
+        hand grips used to customize your own Pro Controller. This is a DIY project
+        that requires opening up your Pro Controller to replace the existing stock
+        hand grips.\n\n*This product is ONLY compatible with a genuine Nintendo Switch
+        Pro Controller*\n\nIncludes:\n\u2022 Pair of hand grips\n\nDoes Not Include:\n\u2022
+        Shell\n\u2022 Buttons\n\u2022 Instructions\n\u2022 Switch Console or controllers\n\u2022
+        Tools: Consists of small Phillips screwdriver & extra screws (This can be
+        selected during purchase)\n\n\n\u2022 Interested in an item that&#39;s out
+        of stock? Click &quot;restock request&quot; and you will be immediately notified
+        when we receive more stock!\n\u2022 Feel free to contact us with any other
+        questions, comments or concerns!\n\u2022 Ships USPS First Class within 1-3
+        Business Days!\n\n********************************\nWARNING!! Opening Nintendo&#39;s
+        products may void any remaining warranty you have with them. Please only purchase
+        if you have either experience or the patience to learn! We are not responsible
+        for any issues due to improper installation, including stripped screws. We
+        can offer tips, but we cannot give full instructions for liability reasons.
+        There are many helpful instructional videos on YouTube!\n********************************","creation_tsz":1626721678,"ending_tsz":1637352478,"original_creation_tsz":1604097619,"last_modified_tsz":1626721678,"price":"12.00","currency_code":"USD","quantity":4,"sku":[],"tags":["nintendo
+        switch","controller","custom","custom controller","pro controller","controller
+        buttons","custom nintendo","pro controller DIY","pro controller shell","control
+        sticks pro","custom hand grips","clear hand grips","soft touch hand grip"],"materials":[],"shop_section_id":30617349,"featured_rank":null,"state_tsz":1622823935,"url":"https:\/\/www.etsy.com\/listing\/881941544\/pro-controller-nintendo-switch-custom?utm_source=gifty&utm_medium=api&utm_campaign=api","views":2605,"num_favorers":191,"shipping_template_id":100214198946,"processing_min":1,"processing_max":3,"who_made":"someone_else","is_supply":"true","when_made":"2020_2021","item_weight":"2","item_weight_unit":"oz","item_length":"8","item_width":"4","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false}],"params":{"limit":25,"offset":0,"page":null,"keywords":null,"sort_on":"created","sort_order":"down","min_price":null,"max_price":null,"color":null,"color_accuracy":0,"tags":"nintendo","taxonomy_id":null,"location":null,"lat":null,"lon":null,"region":null,"geo_level":"city","accepts_gift_cards":"false","translate_keywords":"false"},"type":"Listing","pagination":{"effective_limit":25,"effective_offset":0,"next_offset":25,"effective_page":1,"next_page":2}}'
+  recorded_at: Mon, 19 Jul 2021 19:24:23 GMT
+recorded_with: VCR 6.0.0

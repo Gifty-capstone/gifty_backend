@@ -1,0 +1,501 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://openapi.etsy.com/v2/listings/active?api_key=<api_key>&tags=nintendo
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.5.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Cloud-Trace-Context:
+      - d32c3b0ef62edf39349769359d75fcad/3182058903287532234;o=1
+      X-Etsy-Request-Uuid:
+      - Eu7Nl_M-RnI3t_-B_2XbEO6Bnq41
+      X-Ratelimit-Limit:
+      - '10000'
+      X-Ratelimit-Remaining:
+      - '9909'
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 19 Jul 2021 19:32:40 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - Transfer-Encoding
+      - keep-alive
+      Set-Cookie:
+      - user_prefs=DXPMuSrP1T6ZygSHCtcs0C8K9bNjZACChK-Xw2F0dF5pTo4OeUQsAwA.; expires=Tue,
+        19-Jul-2022 19:32:39 GMT; Max-Age=31535999; path=/; domain=.etsy.com
+    body:
+      encoding: UTF-8
+      string: '{"count":50100,"results":[{"listing_id":985895899,"state":"active","user_id":192150042,"category_id":null,"title":"My
+        Neighbour\/Pokemon\/Super Mario Joystick Caps for Nintendo Switch\/Nintendo
+        Switch Lite -Thumb Grip Silicone Cover for Joy-con Controller","description":"My
+        Neighbour\/Pokemon\/Super Mario Joystick Caps for Nintendo Switch\/Nintendo
+        Switch Lite -Thumb Grip Silicone Cover for Joy-con Controller\n\nAbout thisThumb
+        Grip Caps For Nintendo Switch\/Nintendo Switch Lite:\n\n**Made of Silicone\uff1aensure
+        they will not slide of\n\n**Ship in 1-5 days\uff08No need to wait a few weeks\uff09\n\n**Customize
+        your Nintendo Switch or Switch Lite with these super cute silicone thumb grips\n\n**Compatible
+        with both Nintendo Switch and Switch Lite\n\n**Perfect accessory to complement
+        your switch console and give a new nice look\n\n**Keep your switch controller
+        thumb sticks in perfect condition and comfortable for game play\n\n**Note:
+        selling joy-con protector & grip cover only, not include the Joy-con\n\n**Please
+        note that the colours may differ slightly due to monitor settings\n\nAbout
+        Shipping\n\n**Check out our other listings for Nintendo Switch thumb grips,
+        skins, cases, covers & game box. \n    We offer free shipping on USA orders
+        over $35.\n\n**Tracking number available within 15 days after parcel ship
+        out.\n   But due\u00a0to\u00a0the\u00a0COVID-19\u00a0pandemic,\u00a0the\u00a0current\u00a0estimated\u00a0delivery\u00a0duration\u00a0is\u00a02-4\u00a0weeks.\n\n~~Thanks
+        for visiting my shop, any question, pls don\u2019t hesitate to contact me~~","creation_tsz":1626722841,"ending_tsz":1637353641,"original_creation_tsz":1616422883,"last_modified_tsz":1626722841,"price":"4.80","currency_code":"USD","quantity":169,"sku":["9.8"],"tags":["Animal
+        Crossing","Nintendo Switch Case","Switch Controller","Switch Thumb Grip","Nintendo
+        Switch Grip","Joycon Grip","Switch Joy Con Grip","Nintendo Switch Lite","Switch
+        lite skin","Switch Lite case","thumb grip caps","Switch Accessories","Sailor
+        Moon"],"materials":["Animal Crossing New Horizons","Nintendo Switch","Nintendo
+        Switch Case","Nintendo Switch Lite","Joycon cap","Switch Joycon caps","thumb
+        grips caps","Switch Thumb Grips","Switch grip cover","Switch grip covers","Switch
+        Lite caps","thumb grip cute","thumb grip caps game"],"shop_section_id":29725319,"featured_rank":null,"state_tsz":1626049850,"url":"https:\/\/www.etsy.com\/listing\/985895899\/my-neighbourpokemonsuper-mario-joystick?utm_source=gifty&utm_medium=api&utm_campaign=api","views":3430,"num_favorers":1735,"shipping_template_id":133531080880,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1030082829,"state":"active","user_id":361967401,"category_id":null,"title":"Bad
+        Fur Day English Version, US Nintendo 64 Games, N64 Games, Free Shipping","description":"Bad
+        Fur Day English Version, US Nintendo 64 Games, N64 Games, Free Shipping\n\n\n-
+        Test and work great.\n- We usually ship orders within 2 day after payment
+        clears in working day\n- Version: English US\/Canada\n- 100% brand new\n-
+        All games are brand new and always tested prior to shipment\n- Package Included:
+        1x Game Card","creation_tsz":1626722838,"ending_tsz":1637353638,"original_creation_tsz":1622695275,"last_modified_tsz":1626722838,"price":"31.99","currency_code":"USD","quantity":6,"sku":["Bad
+        Fur Day"],"tags":["US Nintendo 64 Games","Super Smash Bros","N64 Games","Super
+        Mario Party","Super Mario 64","Mario Party 1","Mario Party 2","Mario Party
+        3","Bad Fur Day","retro game"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1622695275,"url":"https:\/\/www.etsy.com\/listing\/1030082829\/bad-fur-day-english-version-us-nintendo?utm_source=gifty&utm_medium=api&utm_campaign=api","views":80,"num_favorers":3,"shipping_template_id":null,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":572182495,"state":"active","user_id":63492768,"category_id":null,"title":"Crochet
+        Pokemon #069 Weepinbell inspired character adult teen child  beanie hat ear
+        flaps and strings pokeballs","description":"*** Please note that due to Covid-19
+        and in some USA states or other countries; bad weather, USPS is announcing
+        delays with deliveries. Please keep this in mind when ordering as this may
+        affect an orders arrival date which I have no control over. Please ensure
+        that despite these delays, you order ahead of time to allow the delays and
+        still get the order in time.. Expedited shipping is available so please inquire
+        via message before purchasing. If an order arrives late I cannot be held responsible
+        and will not be giving refunds. Thank you for understanding!***\n\n\nThis
+        item is made to order, please allow up to seven business days after payment
+        has posted for the item to be made. Once completed I will notify the customer
+        that the order is done and when it will be shipped. Once the order is marked
+        as shipped, please allow up to an additional three to five more business days
+        for the order to be shipped. Thank you.\n\n****************************************************************************************************************************************************************************\n\nFor
+        orders that need to be rushed, please purchase my rush fee. Current turn around
+        time for rushed items is 2 to 3 days (not including holidays):\n\nhttps:\/\/www.etsy.com\/MrsTsCrochet\/listing\/703844356\/custom-order-rush-order-fee?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1571074145069\n\n****************************************************************************************************************************************************************************\n\nThis
+        crochet Pokemon Weepinbell inspired character hat is handmade. The body of
+        the hat is yellow with three small pink yarn spots on the front of the hat.
+        Weepinbell&#39;s eyes are made with felt and on the sides of the hat are two
+        cute little leaves. On top of the hat is Weepinbell&#39;s little vine that
+        this iconic character loves to hang off of trees with.  The edge of the hat
+        is folded into a dome shape to represent this awesome characters pink mouth.
+        Represent this awesome grass and poison character at your next comic con or
+        cosplay!\n\n*****************************************************************************************************************\n\nStyle
+        & Size Estimation | Head Circumference | Height of Hat (Length)\n\nChild ________________________20&quot;
+        - 21&quot; __________________7&quot;\n\nTeen\/Small Adult ___________21&quot;
+        - 22&quot; __________________7&quot; - 7.5&quot;\n\nMedium\/Large Adult _______22&quot;
+        - 25&quot; _________________7.5&quot; - 8&quot;\n\nCustom Size ______________You
+        choose ______________You choose\n\n\n***Note: This size and estimation chart
+        is just an estimation of size per age range. Hat size varies by age so the
+        best way to get the most accurate size is to measure the intended wearers
+        head with a tape measure. Please keep in mind that I do not give refunds so
+        use this chart as a guideline only before purchasing.\n\n\nIf you need a custom
+        size please select the finish you want then select custom size. Make sure
+        to send me the correct size and length of the hat that you need in the note
+        to seller box. I will contact you if anything else is needed. Once the hat
+        is completed, I will notify you and then ship it. Once the hat is shipped,
+        it is considered complete and cannot be altered so please make sure to give
+        me all information needed before then.\n\n\nPurchasing a gift and interested
+        in an awesomely HANDMADE Pokemon gift box? Look no further!! Please click
+        the link below for Handmade by Mrs T&#39;s Crochet Pokemon gift box:\n\nhttps:\/\/www.etsy.com\/MrsTsCrochet\/listing\/977437496\/pokemon-gift-box-handmade-by-mrs-ts?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1617994916634\n\n****************************************************************************************************************************************************************************\n\nIf
+        purchasing within the US, I would recommend purchasing the additional shipping
+        insurance by Shipsurance. In case of a lost package by the shipping carrier
+        I cannot be held responsible and so will not be giving a refund. Please use
+        the following listing to purchase the shipping insurance:\n\n\nhttps:\/\/www.etsy.com\/MrsTsCrochet\/listing\/703844856\/custom-order-shipsurance-additional?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1595360273211\n\n\nThank
+        you for looking at my products, if you have any questions or are interested
+        in placing a customized order, please contact me directly.","creation_tsz":1626722827,"ending_tsz":1637353627,"original_creation_tsz":1510690242,"last_modified_tsz":1626722827,"price":"30.00","currency_code":"USD","quantity":4,"sku":[],"tags":["crochet
+        handmade","adult teen","character hat","handmade hat","pokemon","pokemon go","weepinbell","grass
+        pokemon","poison pokemon","generation 1","anime nintendo","kids hat","weepinbell
+        hat"],"materials":["yarn","crochet hook","craft scissors","tapestry needle","felt","sewing
+        needle","sewing thread"],"shop_section_id":18070897,"featured_rank":null,"state_tsz":1623789338,"url":"https:\/\/www.etsy.com\/listing\/572182495\/crochet-pokemon-069-weepinbell-inspired?utm_source=gifty&utm_medium=api&utm_campaign=api","views":69,"num_favorers":13,"shipping_template_id":70232199095,"processing_min":10,"processing_max":15,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"8","item_weight_unit":"oz","item_length":"7.5","item_width":"7","item_height":"7.5","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":37,"taxonomy_path":["Accessories","Hats
+        & Caps","Winter Hats","Skull Caps & Beanies"],"used_manufacturer":false,"is_vintage":false},{"listing_id":999667731,"state":"active","user_id":362074440,"category_id":null,"title":"Super
+        Mario - Cookie Cutter - Stamp - Yoshi - Toad - Star - Fondant Cutter","description":"Currently,
+        we are shipping orders next day. (Post Office Closed Sunday) We are the fastest
+        shippers\n\nThe cutter and stamp are separate, that way you don&#39;t have
+        to worry about your dough getting stuck in the cutter! You&#39;ll cut the
+        outer shape first, then stamp in your design as much or as little as you like!
+        Super easy!! :D\n\nWe mostly ship white filament, but colors may vary \n\nHand
+        wash only! Will warp if exposed to heat.\n\nDifferent sizes are available.\n\nUse
+        parchment paper and dip the cutter in flour before cutting cookie dough for
+        the best results!\n\nFor additional tips, you can visit this site\nhttps:\/\/bakingamoment.com\/cutout-cookies-neat-edges\/","creation_tsz":1626722823,"ending_tsz":1637353623,"original_creation_tsz":1618243322,"last_modified_tsz":1626722823,"price":"5.50","currency_code":"USD","quantity":6,"sku":[],"tags":["Cookie
+        cutter","party","fondant","cutter","birthday","Gamer","Geek Gift","stamp","Super
+        mario","Nintendo","yoshi","toad","star"],"materials":["PLA Filament"],"shop_section_id":33534538,"featured_rank":null,"state_tsz":1618243322,"url":"https:\/\/www.etsy.com\/listing\/999667731\/super-mario-cookie-cutter-stamp-yoshi?utm_source=gifty&utm_medium=api&utm_campaign=api","views":227,"num_favorers":16,"shipping_template_id":111201395831,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"true","when_made":"made_to_order","item_weight":"4","item_weight_unit":"oz","item_length":"10","item_width":"6","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":6498,"taxonomy_path":["Craft
+        Supplies & Tools","Kitchen Supplies","Kitchen Tools & Utensils","Cookie Cutters"],"used_manufacturer":false,"is_vintage":false},{"listing_id":998726991,"state":"active","user_id":362074440,"category_id":null,"title":"Super
+        Mario - Cookie Cutter - Stamp - Luigi - Peach - Bowser - Fondant Cutter","description":"Currently,
+        we are shipping orders next day. (Post Office Closed Sunday) We are the fastest
+        shippers\n\nThe cutter and stamp are separate, that way you don&#39;t have
+        to worry about your dough getting stuck in the cutter! You&#39;ll cut the
+        outer shape first, then stamp in your design as much or as little as you like!
+        Super easy!! :D\n\nWe mostly ship white filament, but colors may vary \n\nHand
+        wash only! Will warp if exposed to heat.\n\nDifferent sizes are available.\n\nUse
+        parchment paper and dip the cutter in flour before cutting cookie dough for
+        the best results!\n\nFor additional tips, you can visit this site\nhttps:\/\/bakingamoment.com\/cutout-cookies-neat-edges\/","creation_tsz":1626722823,"ending_tsz":1637353623,"original_creation_tsz":1618096797,"last_modified_tsz":1626722823,"price":"5.50","currency_code":"USD","quantity":3,"sku":[],"tags":["Cookie
+        cutter","party","fondant","cutter","birthday","Gamer","Geek Gift","stamp","Super
+        mario","Nintendo","luigi","bowser","peach"],"materials":["PLA Filament"],"shop_section_id":33534538,"featured_rank":null,"state_tsz":1623510216,"url":"https:\/\/www.etsy.com\/listing\/998726991\/super-mario-cookie-cutter-stamp-luigi?utm_source=gifty&utm_medium=api&utm_campaign=api","views":596,"num_favorers":40,"shipping_template_id":111201395831,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"true","when_made":"made_to_order","item_weight":"4","item_weight_unit":"oz","item_length":"10","item_width":"6","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":6498,"taxonomy_path":["Craft
+        Supplies & Tools","Kitchen Supplies","Kitchen Tools & Utensils","Cookie Cutters"],"used_manufacturer":false,"is_vintage":false},{"listing_id":987924540,"state":"active","user_id":362074440,"category_id":null,"title":"Piranha
+        Plant - Shy Guy - Goomba - Cookie Cutter - Fondant Cutter - Stamp","description":"Currently,
+        we are shipping orders next day. (Post Office Closed Sunday) We are the fastest
+        shippers\n\nThe cutter and stamp are separate, that way you don&#39;t have
+        to worry about your dough getting stuck in the cutter! You&#39;ll cut the
+        outer shape first, then stamp in your design as much or as little as you like!
+        Super easy!! :D\n\nWe mostly ship white filament, but colors may vary \n\nHand
+        wash only! Will warp if exposed to heat.\n\nDifferent sizes are available.\n\nUse
+        parchment paper and dip the cutter in flour before cutting cookie dough for
+        the best results!\n\nFor additional tips, you can visit this site\nhttps:\/\/bakingamoment.com\/cutout-cookies-neat-edges\/","creation_tsz":1626722823,"ending_tsz":1637353623,"original_creation_tsz":1618517909,"last_modified_tsz":1626722823,"price":"5.50","currency_code":"USD","quantity":6,"sku":[],"tags":["Cookie
+        cutter","party","fondant","cutter","birthday","Gamer","Geek Gift","stamp","Super
+        mario","Nintendo","piranha","goomba","shy guy"],"materials":["PLA Filament"],"shop_section_id":33534538,"featured_rank":null,"state_tsz":1618517909,"url":"https:\/\/www.etsy.com\/listing\/987924540\/piranha-plant-shy-guy-goomba-cookie?utm_source=gifty&utm_medium=api&utm_campaign=api","views":155,"num_favorers":20,"shipping_template_id":111201395831,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"true","when_made":"made_to_order","item_weight":"4","item_weight_unit":"oz","item_length":"10","item_width":"6","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":6498,"taxonomy_path":["Craft
+        Supplies & Tools","Kitchen Supplies","Kitchen Tools & Utensils","Cookie Cutters"],"used_manufacturer":false,"is_vintage":false},{"listing_id":630089450,"state":"active","user_id":63492768,"category_id":null,"title":"Crochet
+        Pokemon #028 Sandslash inspired adult teen child character hat ear flaps and
+        strings hands pokeballs","description":"*** Please note that due to Covid-19
+        and in some USA states or other countries; bad weather, USPS is announcing
+        delays with deliveries. Please keep this in mind when ordering as this may
+        affect an orders arrival date which I have no control over. Please ensure
+        that despite these delays, you order ahead of time to allow the delays and
+        still get the order in time.. Expedited shipping is available so please inquire
+        via message before purchasing. If an order arrives late I cannot be held responsible
+        and will not be giving refunds. Thank you for understanding!***\n\n\nThis
+        item is made to order, please allow up to seven business days after payment
+        has posted for the item to be made. Once completed I will notify the customer
+        that the order is done and when it will be shipped. Once the order is marked
+        as shipped, please allow up to an additional three to five more business days
+        for the order to be shipped. Thank you.\n\n****************************************************************************************************************************************************************************\n\nFor
+        orders that need to be rushed, please purchase my rush fee. Current turn around
+        time for rushed items is 2 to 3 days (not including holidays):\n\nhttps:\/\/www.etsy.com\/MrsTsCrochet\/listing\/703844356\/custom-order-rush-order-fee?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1571074145069\n\n****************************************************************************************************************************************************************************\n\nThis
+        awesome Pokemon Sandslash inspired character hat is handmade. The body of
+        the hat is crochet with a sunflower colored yarn. The back of the hat is expertly
+        layered with Sandslash&#39;s trademark spikes. Each spike is stuffed with
+        enough filler to make it look more  three dimensional without standing straight
+        out. On top of the hat are three gold spikes and on the front of the hat are
+        Sandslash&#39;s eyes which are made with felt. Ear flaps, strings and hands
+        can be attached to the hat. This is one spike-tacular hat! \n\n\nThe finish
+        options available for this hat are:\n\nBeanie hat which is just the character
+        beanie hat.\n\nEarflaps\/No strings which is the hat with ear flaps only (no
+        strings attached).\n\nEarflaps and strings which is the character hat with
+        added earflaps and strings. \n\nEarflap\/stri\/hand which is the character
+        hat with earflaps and strings with character hands attached to the bottom
+        of the strings.\n\nEarflap\/stri\/ball which is the character hat with earflaps
+        and strings with pokeball attaches to the bottom of the strings.\n\n\n****************************************************************************************************************************************************************************\n\nStyle
+        & Size Estimation | Head Circumference | Height of Hat (Length)\n\n\nChild
+        _________________________20&quot; - 21&quot; __________________7&quot;\n\nTeen\/Small
+        Adult ___________21&quot; - 22&quot; __________________7&quot; - 7.5&quot;\n\nMedium\/Large
+        Adult _______22&quot; - 25&quot; _________________7.5&quot; - 8&quot;\n\nCustom
+        Size ______________You choose ______________You choose\n\n\n\n***Note: This
+        size and estimation chart is just an estimation of size per age range. Hat
+        size varies by age so the best way to get the most accurate size is to measure
+        the intended wearers head with a tape measure. Please keep in mind that I
+        do not give refunds so use this chart as a guideline only before purchasing.\n\n\nIf
+        you need a custom size please select the finish you want then select custom
+        size. Make sure to send me the correct size and length of the hat that you
+        need in the note to seller box. I will contact you if anything else is needed.
+        Once the hat is completed, I will notify you and then ship it. Once the hat
+        is shipped, it is considered complete and cannot be altered so please make
+        sure to give me all information needed before then.\n\n\nPurchasing a gift
+        and interested in an awesomely HANDMADE Pokemon gift box? Look no further!!
+        Please click the link below for Handmade by Mrs T&#39;s Crochet Pokemon gift
+        box:\n\nhttps:\/\/www.etsy.com\/MrsTsCrochet\/listing\/977437496\/pokemon-gift-box-handmade-by-mrs-ts?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1617994916634\n\n****************************************************************************************************************************************************************************\n\nIf
+        purchasing within the US, I would recommend purchasing the additional shipping
+        insurance by Shipsurance. In case of a lost package by the shipping carrier
+        I cannot be held responsible and so will not be giving a refund. Please use
+        the following listing to purchase the shipping insurance:\n\n\nhttps:\/\/www.etsy.com\/MrsTsCrochet\/listing\/703844856\/custom-order-shipsurance-additional?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1595360273211\n\n\nThank
+        you for looking at my products, if you have any questions or are interested
+        in placing a customized order, please contact me directly.","creation_tsz":1626722695,"ending_tsz":1637353495,"original_creation_tsz":1536955274,"last_modified_tsz":1626722695,"price":"35.00","currency_code":"USD","quantity":20,"sku":[],"tags":["pokemon
+        go","pokemon","crochet character","pokemon hat","anime nintendo","character
+        hat","comic con cosplay","sandslash","mouse pokemon","ground type","ground
+        pokemon","alolan sandslash","kids hat"],"materials":["yarn","crochet hook","craft
+        scissors","tapestry needle","sewing needle","sewing thread","felt","filler"],"shop_section_id":18070897,"featured_rank":null,"state_tsz":1623789339,"url":"https:\/\/www.etsy.com\/listing\/630089450\/crochet-pokemon-028-sandslash-inspired?utm_source=gifty&utm_medium=api&utm_campaign=api","views":192,"num_favorers":20,"shipping_template_id":70232199095,"processing_min":10,"processing_max":15,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"15","item_weight_unit":"oz","item_length":"8","item_width":"7","item_height":"7.5","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":37,"taxonomy_path":["Accessories","Hats
+        & Caps","Winter Hats","Skull Caps & Beanies"],"used_manufacturer":false,"is_vintage":false},{"listing_id":853703901,"state":"active","user_id":39283015,"category_id":null,"title":"Lapras
+        Acrylic Charm - Pokemon Clear Acrylic Keychain","description":"Double-Sided
+        Acrylic Charm of Lapras from Pok\u00e9mon. The back face has Lapras&#39; shiny
+        colors.\n\n6cm x 5cm \/ 2in x 2.5in\n\n* Please contact me if you want to
+        buy multiple items so I can combine the shipping! *","creation_tsz":1626722674,"ending_tsz":1637353474,"original_creation_tsz":1597255917,"last_modified_tsz":1626722674,"price":"6.99","currency_code":"GBP","quantity":22,"sku":[],"tags":["lapras
+        acrylic charm","lapras keychain","pokemon charm","pokemon keychain","nintendo
+        charm","shiny pokemon charm","shiny lapras","chibi pokemon","lapras","acrylic
+        charm","acrylic keychain","loch ness monster","nessie"],"materials":["acrylic"],"shop_section_id":27214955,"featured_rank":null,"state_tsz":1621242578,"url":"https:\/\/www.etsy.com\/listing\/853703901\/lapras-acrylic-charm-pokemon-clear?utm_source=gifty&utm_medium=api&utm_campaign=api","views":406,"num_favorers":140,"shipping_template_id":79164118739,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":165,"taxonomy_path":["Accessories","Keychains
+        & Lanyards","Keychains"],"used_manufacturer":false,"is_vintage":false},{"listing_id":845881329,"state":"active","user_id":66979922,"category_id":null,"title":"Nintendo
+        Switch Lite Skin Decal For Game Console Edition Limited Cameleon","description":"Full
+        Wrap Skin for your Nintendo Switch Lite Device you can add Glitter Overlaminate
+        if you want.\ncustom design are welcome.\n\n*High tech quality material 3M
+        Sticker , adhesive backed vinyl that is precut to fit perfectly\n*Easy Installation
+        , Stylish and fashion design\n*Protect your console and controller from scratches
+        and dust\n*Can be easily and completely removed without leaving residue\n\nThe
+        Full set bundle includes skins for the front , back and side of the Nintendo
+        Switch Lite Console\n\nInstallation Recommendation: Clean up your console
+        with clothes\/towel right before applying decal and use a plastic card when
+        applying to get air bubble out.","creation_tsz":1626722663,"ending_tsz":1637353463,"original_creation_tsz":1595946020,"last_modified_tsz":1626722663,"price":"18.00","currency_code":"USD","quantity":6,"sku":[],"tags":["Sticker","Decal","skins","protector","lite
+        sticker","lite skin","nintendo lite skin","anti-scratch","gloss","glossy","lite
+        gold","glitter","switch lite skins 3m"],"materials":["GLOSS OVERLAMINATE","GLITTER
+        OVERLAMINATE","3M"],"shop_section_id":28507282,"featured_rank":null,"state_tsz":1595946020,"url":"https:\/\/www.etsy.com\/listing\/845881329\/nintendo-switch-lite-skin-decal-for-game?utm_source=gifty&utm_medium=api&utm_campaign=api","views":265,"num_favorers":64,"shipping_template_id":92257518147,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":true,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":886405280,"state":"active","user_id":330225418,"category_id":null,"title":"LITE
+        Custom Nintendo Switch Lite Buttons Replacement Abxy Keys Matte Uv - DIY -
+        Lite ONLY!","description":"Nintendo Switch Lite Replacement Buttons - DIY\nThese
+        are brand new Matte UV replacement buttons used to customize your Nintendo
+        Switch Lite. This is a DIY project that requires opening up your Switch Lite
+        to replace the existing stock buttons.\n\n*This product is ONLY compatible
+        with a genuine Nintendo Switch Lite*\n\nIncludes:\n\u2022 DPAD, ABXY\n\u2022
+        L\/R, ZL\/ZR\n\u2022 Plus, minus, home capture\n\n**SNES 4in1 & Purple 4in1
+        only includes:\n\u2022 ABXY\n\nDoes Not Include:\n\u2022 Tempered glass screen
+        protector\n\u2022 Shell\n\u2022 Instructions\n\u2022 Switch Lite, console
+        or controllers\n\u2022 Tools: Consists of small Phillips screwdriver & extra
+        screws (This can be selected during purchase)\n\n\n\u2022 Interested in an
+        item that&#39;s out of stock? Click &quot;restock request&quot; and you will
+        be immediately notified when we receive more stock!\n\u2022 Feel free to contact
+        us with any other questions, comments or concerns!\n\u2022 Ships USPS First
+        Class within 1-3 Business Days!\n\n********************************\nWARNING!!
+        Opening Nintendo&#39;s products may void any remaining warranty you have with
+        them. Please only purchase if you have either experience or the patience to
+        learn! We are not responsible for any issues due to improper installation,
+        including stripped screws. We can offer tips, but we cannot give full instructions
+        for liability reasons. There are many helpful instructional videos on YouTube!\n********************************","creation_tsz":1626722658,"ending_tsz":1637353458,"original_creation_tsz":1604790168,"last_modified_tsz":1626722658,"price":"12.00","currency_code":"USD","quantity":7,"sku":[],"tags":["nintendo
+        switch","soft touch joycons","custom nintendo","transparent backing","clear
+        Nintendo","Nintendo Switch Lite","Lite Shells","custom lite shells","replacement
+        shell","Nintendo lite button","switch lite buttons","abxy keys","replacement
+        buttons"],"materials":["shell","housing shell","casing"],"shop_section_id":31105321,"featured_rank":null,"state_tsz":1624312889,"url":"https:\/\/www.etsy.com\/listing\/886405280\/lite-custom-nintendo-switch-lite-buttons?utm_source=gifty&utm_medium=api&utm_campaign=api","views":4994,"num_favorers":467,"shipping_template_id":119832181095,"processing_min":1,"processing_max":3,"who_made":"someone_else","is_supply":"true","when_made":"2020_2021","item_weight":"4","item_weight_unit":"oz","item_length":"8","item_width":"4","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1040115050,"state":"active","user_id":98077038,"category_id":null,"title":"Super
+        Smash Bros Ultimate &quot;Show me Your Moves&quot; Glossy Vinyl Sticker","description":"High
+        Quality Glossy Vinyl Sticker printed on Durable quality vinyl paper. They
+        are protected by a Thin Glossy Laminate, These stickers are Water Resistant,
+        but not waterproof\n\nSticker has a strong adhesive, make sure you don&#39;t
+        put sticker where elements can get to it. \n\nStickers are not waterproof.
+        \n\nMade for sticking on your PC Case, Wall, Game Room, Laptop, Etc. \n\nI
+        want to make sure you&#39;re happy with your purchase, if there any issues
+        at all, please contact me and I will try my best to resolve any issues that
+        arise. \n\nThank You for Supporting me &lt;3","creation_tsz":1626722637,"ending_tsz":1637353437,"original_creation_tsz":1626722637,"last_modified_tsz":1626722637,"price":"4.99","currency_code":"USD","quantity":50,"sku":["Smash"],"tags":["Super
+        Smash","Super Smash Bros","Smash Bros Ultimate","Smash Bros Gift","Smash Bro
+        Gift Idea","Nintendo Smash","Nintendo Gift Idea","Smash Bros Character","Smash
+        Bro Melee","Smash Bros Switch","Switch Smash Bros","Smash Bros Gifts","Super
+        Smash Gifts"],"materials":["vinyl","sticker","glossy","glossy vinyl sticker"],"shop_section_id":null,"featured_rank":null,"state_tsz":1626722637,"url":"https:\/\/www.etsy.com\/listing\/1040115050\/super-smash-bros-ultimate-show-me-your?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":135744817116,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":1317,"taxonomy_path":["Paper
+        & Party Supplies","Paper","Stickers, Labels & Tags"],"used_manufacturer":false,"is_vintage":false},{"listing_id":981411861,"state":"active","user_id":25933548,"category_id":null,"title":"Nerdisaurus
+        Small Video Game  Brontosaurus Dinosaur","description":"Handmade and hand
+        sewn small stuffed brontosaurus dinosaur.\n\nDinosaurs are made with fun nerdy
+        themed cotton fabric and stuffed with a Poly-fill stuffing.\n\nThis listing
+        is for 1 SMALL Mario & Friends  brontosaurus dinosaur.\n\nThe size of the
+        dinosaur is:\n\nApproximately 9 inches head to tail.\n\nPlease note before
+        you buy that every dinosaur is sewn by my hands and some of the stitching
+        may have minor imperfections. Also due to different cuts of fabric the exact
+        item pictured might not be the same as what you receive.","creation_tsz":1626722579,"ending_tsz":1637353379,"original_creation_tsz":1615821277,"last_modified_tsz":1626722579,"price":"10.00","currency_code":"USD","quantity":1,"sku":[],"tags":["gift","Dinosaur","stegosaurus","Video
+        Game","Nintendo","toad","koopa troopa","Bowser","Peach","Princess","Mario","Super","Nerdisaurus"],"materials":[],"shop_section_id":21870795,"featured_rank":null,"state_tsz":1626448829,"url":"https:\/\/www.etsy.com\/listing\/981411861\/nerdisaurus-small-video-game?utm_source=gifty&utm_medium=api&utm_campaign=api","views":9,"num_favorers":0,"shipping_template_id":48447819573,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":1629,"taxonomy_path":["Toys
+        & Games","Toys","Stuffed Animals & Plushies"],"used_manufacturer":false,"is_vintage":false},{"listing_id":966428654,"state":"active","user_id":103122026,"category_id":null,"title":"LIMITED
+        EDITION Nintendo Switch Lets Go Pikachu & Eevee Edition Dock ONLY!","description":"LIMITED
+        EDITION Nintendo Switch Lets Go Pikachu & Eevee Edition Dock ONLY! Condition
+        is New.\n\nYou will only get the dock. Absolutely nothing else is included
+        except for the limited edition dock that you see in the pictures.\n\nLIMITED
+        EDITION Nintendo Switch Lets Go Pikachu & Eevee Edition Dock ONLY!. Condition
+        is &quot;Used&quot;. Shipped with USPS First Class.","creation_tsz":1626722570,"ending_tsz":1637353370,"original_creation_tsz":1615666178,"last_modified_tsz":1626722570,"price":"74.99","currency_code":"USD","quantity":3,"sku":[],"tags":["LIMITED
+        EDITION","Nintendo","Nintendo Switch","Lets Go","Pikachu","Eevee","Dock","birthday","kid","accessories"],"materials":[],"shop_section_id":33121334,"featured_rank":null,"state_tsz":1617209012,"url":"https:\/\/www.etsy.com\/listing\/966428654\/limited-edition-nintendo-switch-lets-go?utm_source=gifty&utm_medium=api&utm_campaign=api","views":131,"num_favorers":9,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"collective","is_supply":"false","when_made":"2020_2021","item_weight":"15","item_weight_unit":"oz","item_length":"7","item_width":"6","item_height":"4","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":975596230,"state":"active","user_id":103122026,"category_id":null,"title":"Custom
+        White Animal crossing PRO Controller For the Nintendo Switch","description":"This
+        auction is for one Animal Crossing theme custom pro controller.\n\nA must
+        have for Nintendo Switch gamers.\n\nThis is a custom controller\/shells to
+        resemble animal crossing theme joy cons \ud83d\ude42\n\nCustom White Animal
+        crossing Pro Controller For Nintendo Switch. Condition is &quot;New&quot;.
+        Shipped with USPS First Class.\n\nThis does not include a charger. You can
+        buy one separate or use the switch charger. Uses a usb type c","creation_tsz":1626722569,"ending_tsz":1637353369,"original_creation_tsz":1616879500,"last_modified_tsz":1626722569,"price":"59.99","currency_code":"USD","quantity":3,"sku":["box
+        in living room with charger"],"tags":["pro controller","Animal crossing","wireless
+        controller","JOY CONs","nfc function","new horizons","blue green","nintendo
+        switch","switch controller","animal amiibo","custom controller","tom nook"],"materials":["Plastic"],"shop_section_id":null,"featured_rank":null,"state_tsz":1616879500,"url":"https:\/\/www.etsy.com\/listing\/975596230\/custom-white-animal-crossing-pro?utm_source=gifty&utm_medium=api&utm_campaign=api","views":514,"num_favorers":72,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"collective","is_supply":"false","when_made":"2020_2021","item_weight":"12","item_weight_unit":"oz","item_length":"7","item_width":"7","item_height":"4","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":538786707,"state":"active","user_id":108046095,"category_id":null,"title":"Nintendo
+        (NES) Themed Custom Cornhole Boards Combo Kit - Includes Custom Printed Bags","description":"What&#39;s
+        included:\nA set of 2 premium hand crafted custom cornhole boards, a set of
+        8 matching custom printed bags, Onyx stained frames and a free bags carrying
+        case!\n\nFrame Options:\nBoth of our 1x4 and 2x4 frame options are regulation
+        size 24&quot; x 48&quot; (2&#39; x 4&#39;). 1x4&#39;s are 25% lighter over
+        the 2x4 frame setup. Shipping weight of our 1x4 game sets are 49 pounds and
+        64 pounds for our 2x4 game sets with bags. Each of our custom listings have
+        the size frame in the listings title. If you&#39;re unable to find the right
+        setup, contact us and we&#39;ll answer any questions you have.\n\nBoard Construction:\nLaser
+        template cut 6&quot; holes\nFolding legs secured by carriage bolts, washers
+        and wing nuts\nElite grade wood\nElite grade birch plywood\n\nShipping Information:\nWe
+        ship all cornhole board game sets via insured FedEx Home Delivery which is
+        1 to 5 days for delivery (Tuesday - Saturday) or FedEx Ground (Monday - Friday)
+        for business addresses. If your boards arrive damaged, please contact us within
+        72 hours so that we can open a claim and submit a replacement order for your
+        damaged set.\n\nProduction Time: \nPlease view our listings shipping tab to
+        find our current processing time.\n\nCornhole Board Game Set Addons:\nWe offer
+        a wide variety of addons for our products. A few include; rush processing,
+        LED hole lights, rope handles, drink holders, all weather bags, custom printed
+        bags and scoring strips. Check out our store for full details or submit a
+        custom order request to add additional items.","creation_tsz":1626722566,"ending_tsz":1637353366,"original_creation_tsz":1498336858,"last_modified_tsz":1626722566,"price":"249.99","currency_code":"USD","quantity":440,"sku":[],"tags":["cornhole
+        boards","cornhole board","cornhole","corn hole","bag toss","corn toss","nes","nintendo","game
+        system","gamer","mario brothers","Luigi","duck hunt"],"materials":["Half Inch
+        C2 White Birch Plywood","American Made","ACA Certified","Insured Shipping","White
+        Spruce Frames","Folding Legs","Custom Printed Bags"],"shop_section_id":21809823,"featured_rank":null,"state_tsz":1591565368,"url":"https:\/\/www.etsy.com\/listing\/538786707\/nintendo-nes-themed-custom-cornhole?utm_source=gifty&utm_medium=api&utm_campaign=api","views":3716,"num_favorers":236,"shipping_template_id":78215354576,"processing_min":10,"processing_max":15,"who_made":"collective","is_supply":"false","when_made":"made_to_order","item_weight":"992","item_weight_unit":"oz","item_length":"49","item_width":"25","item_height":"8","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":2379,"taxonomy_path":["Toys
+        & Games","Sports & Outdoor Recreation","Lawn Games","Bean Bag Toss"],"used_manufacturer":false,"is_vintage":false},{"listing_id":946614298,"state":"active","user_id":446197373,"category_id":null,"title":"Gameboy
+        Game Cartridge Display Holder - Multiple Options Available","description":"Display
+        your Game Boy cartridges with pride! These displays are made using high-quality
+        3D printed PLA plastic and made to order! There&#39;s just enough room in
+        each slot to be able to tilt the games and see what each cartridge is. Fits
+        both Game Boy and Game Boy Advance games!\n\nYou can have anywhere from 2-14
+        slots. In addition, there are multiple color options available. Please indicate
+        the Game Boy logo color in the personalization options!\nDon&#39;t see a color
+        you like? Contact me so we can find a color solution you&#39;ll love!\n\nI
+        try hard to eliminate any defects during the printing process. However, small
+        surface defects might be visible in the finished product. My general rule
+        is that if I wouldn\u2019t want to display it myself, it isn\u2019t good enough
+        to ship!\n\nThank you for checking out my shop and please feel free to contact
+        me with any questions!","creation_tsz":1626722507,"ending_tsz":1637353307,"original_creation_tsz":1612986221,"last_modified_tsz":1626722507,"price":"5.49","currency_code":"USD","quantity":2,"sku":[],"tags":["Game
+        Boy","Game Boy Advance","Pokemon","Nintendo","Cartridge","Display","Holder","Game
+        Tray","Stand","GBASP","Gameboy Pocket","Gameboy Color","Cartridge Tray"],"materials":[],"shop_section_id":34070333,"featured_rank":1,"state_tsz":1620534545,"url":"https:\/\/www.etsy.com\/listing\/946614298\/gameboy-game-cartridge-display-holder?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1149,"num_favorers":211,"shipping_template_id":134864907204,"processing_min":10,"processing_max":15,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"5","item_weight_unit":"oz","item_length":"5","item_width":"5","item_height":"5","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":894031803,"state":"active","user_id":369149148,"category_id":null,"title":"Nintendo
+        Game Boy Advance SP GBA SP Acrylic Handheld Console Display Stand","description":"Stands
+        with character!\n\nIF PRESENT, PLEASE PEEL OFF THE PROTECTION FILM FROM THE
+        ARMS BEFORE ASSEMBLY.\n\nThis display stand is designed exclusively for a
+        Game Boy Advance SP. These are laser cut from 3mm PMMA (cast acrylic) and
+        the logos and text are laser engraved.\n\nPlease check the photos for colors
+        and more details. The photos are part of the description.\n\nThe consoles
+        are for demonstration purpose only. These are not included. The display stand
+        will be shipped disassembled. The assembly does not require any type of glue.
+        It\u2019s a tight fit, snap on assembly.\n\nFor large quantities, please contact
+        me.\n\nProduction can take up to 15 days, depending on the quantities.\n\nCombined
+        shipping available.\n\nEverything is tested before shipping.\n\nShipping worldwide
+        from Portugal.\n\nSent by post: registered mail with tracking number.\n\nI
+        prepare the package to be shipped only after payment.\n\nIt may take 10 to
+        21 days (sometimes more) for your package to be delivered depending on your
+        location. I will provide further information concerning the delivery during
+        the shipping process.\n\nI don&#39;t profit from postage.\n\nInternational
+        Buyers - Please Note:\n\nImport duties, taxes, and charges are not included
+        in the item price or shipping cost. These charges are the buyer&#39;s responsibility.
+        I&#39;m not responsible for delays due to customs.\n\nPlease check with your
+        country&#39;s customs office to determine what these additional costs will
+        be prior to bidding or buying.\n\nNo returns accepted.\n\nPlease contact me
+        for additional photos and information.","creation_tsz":1626722507,"ending_tsz":1637353307,"original_creation_tsz":1603826991,"last_modified_tsz":1626722507,"price":"8.54","currency_code":"EUR","quantity":9,"sku":[],"tags":["Nintendo","Display
+        Stand","Handheld","Console","GameBoy","Acrylic","Retrogaming","Display","Stand","Game
+        Boy Advance","GBA","Game Boy Advance SP","GBA SP"],"materials":["Acrylic"],"shop_section_id":32419201,"featured_rank":null,"state_tsz":1626630536,"url":"https:\/\/www.etsy.com\/listing\/894031803\/nintendo-game-boy-advance-sp-gba-sp?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1326,"num_favorers":150,"shipping_template_id":137625112249,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":934862669,"state":"active","user_id":57046022,"category_id":null,"title":"Gris
+        Video Game Art - Digital Download, Gaming Art, Game Room Wall Decor, Indie
+        Game Wall Art, Digital Art Print","description":"Digital art piece of the
+        video game Gris. Features beautiful pinks and reds. \n\nThis piece is meant
+        to be printed at 12&quot;x18&quot; size!\n\nThis is a digital instant download.
+        Here is what you do:\n1. Click purchase and enter payment information.\n2.
+        Go to purchases and reviews section.\n3. Download file.\n4. Print. You can
+        send to a print shop or print at home. I recommend printing this piece sized
+        12&quot;x18&quot;\n5. Frame however you would like!","creation_tsz":1626722480,"ending_tsz":1637353280,"original_creation_tsz":1609541667,"last_modified_tsz":1626722480,"price":"5.00","currency_code":"USD","quantity":97,"sku":[],"tags":["gris","gris
+        game","gamer","gaming","gaming art","game room decor","game room art","nintendo","playstation","xbox","game
+        art","video game","video game art"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1614462923,"url":"https:\/\/www.etsy.com\/listing\/934862669\/gris-video-game-art-digital-download?utm_source=gifty&utm_medium=api&utm_campaign=api","views":111,"num_favorers":17,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":true,"file_data":"1
+        JPG","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":77,"taxonomy_path":["Art
+        & Collectibles","Drawing & Illustration","Digital"],"used_manufacturer":false,"is_vintage":false},{"listing_id":854206183,"state":"active","user_id":333434061,"category_id":null,"title":"Sailor
+        Moon Gameboy Color Cartridge Video Game Stickers Laptop Stickers Water bottle
+        Sticker Macbook Stickers","description":"These glossy Sailor Moon Gameboy
+        Color Cartridge sticker is printed with rich beautiful colors on premium quality
+        vinyl and is great for water bottles, tumblers, macbooks, laptops, skateboards,
+        snowboards and journals.\n\nOur stickers are individually die-cut and made
+        to last against scratches and tear.\n\nEach sticker measures approximately
+        3 inches (7.62 cm) on its longest side.\n\nOur Weatherproof Stickers are meant
+        to last harsh weather and the elements. Not dishwasher safe. Dry immediately
+        after handwashing with a dry towel or paper towel.   \n\nPlease drop us a
+        message if you wish to have a different size or for custom sticker services.","creation_tsz":1626722477,"ending_tsz":1637353277,"original_creation_tsz":1597336796,"last_modified_tsz":1626722477,"price":"2.50","currency_code":"USD","quantity":12,"sku":[],"tags":["Sailor
+        Moon","Sailor Moon Stickers","Gameboy","Gameboy Color","Gameboy Stickers","Nintendo","Nintendo
+        Switch","GAMing","Kawaii","Usagi","Decals","Stickers"],"materials":["Premium
+        ink","Glossy Sticker Paper","Weatherproof Option"],"shop_section_id":30484805,"featured_rank":null,"state_tsz":1614750528,"url":"https:\/\/www.etsy.com\/listing\/854206183\/sailor-moon-gameboy-color-cartridge?utm_source=gifty&utm_medium=api&utm_campaign=api","views":434,"num_favorers":307,"shipping_template_id":127718408357,"processing_min":1,"processing_max":1,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":"1.3","item_weight_unit":"oz","item_length":"7","item_width":"4","item_height":"0.1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1901,"taxonomy_path":["Electronics
+        & Accessories","Decals & Skins","Laptop","Laptop Decals"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1054079085,"state":"active","user_id":98077038,"category_id":null,"title":"Legend
+        of Zelda &quot;I am Not Zelda&quot; Glossy Vinyl Sticker","description":"High
+        Quality Glossy Vinyl Sticker printed on Durable quality vinyl paper. They
+        are protected by a Thin Glossy Laminate, These stickers are Water Resistant,
+        but not waterproof\n\nSticker has a strong adhesive, make sure you don&#39;t
+        put sticker where elements can get to it. \n\nStickers are not waterproof.
+        \n\nMade for sticking on your PC Case, Wall, Game Room, Laptop, Etc. \n\nI
+        want to make sure you&#39;re happy with your purchase, if there any issues
+        at all, please contact me and I will try my best to resolve any issues that
+        arise. \n\nThank You for Supporting me &lt;3","creation_tsz":1626722446,"ending_tsz":1637353246,"original_creation_tsz":1626722446,"last_modified_tsz":1626722447,"price":"4.99","currency_code":"USD","quantity":50,"sku":["I
+        am Not Zelda"],"tags":["Zelda","Legend of Zelda","BOTW","Nintendo","Nintendo
+        Gift Idea","Zelda Gift Idea","Legend of Zelda Link","Link Zelda","Zelda Gift
+        Ideas","Legend of Zelda Gift","Legend of Link","Links Adventure","Nintendo
+        Switch"],"materials":["Sticker","Glossy","Vinyl","Glossy Vinyl Sticker"],"shop_section_id":null,"featured_rank":null,"state_tsz":1626722446,"url":"https:\/\/www.etsy.com\/listing\/1054079085\/legend-of-zelda-i-am-not-zelda-glossy?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":135744817116,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":1317,"taxonomy_path":["Paper
+        & Party Supplies","Paper","Stickers, Labels & Tags"],"used_manufacturer":false,"is_vintage":false},{"listing_id":839952091,"state":"active","user_id":262928044,"category_id":null,"title":"Corgi
+        nintendo skin Little dogs nintendo switch Lite skin Console Dock sticker Pro
+        Controller decal Cute Puppies Corgi skin Full Set skin","description":"Welcome
+        to our store!\n\nAll of my stickers have finish for extra anti-glare and smooth
+        looking surface.\n- Printed on high-quality vinyl\n- Extremely high-quality
+        picture with high resolution\n- Dustproof vinyl stickers\n- Waterproof vinyl
+        stickers\n- Easy to apply and take off, free of residue\n- It will not damage
+        your device.\n\nAverage shipping time\n\nCanada: 12-20 business days\nUnited
+        Kingdom: 10-18 business days\nUnited States: 12-20 business days\nEurope:
+        10-18 business days\nAustralia, New Zealand and Oceania: 16-20 business days\n\nAll
+        orders are ready to ship in 3-5 days.\n\n\u2022 Take attention, that colors
+        can be different. It depend on monitor. But will be sure you&#39;ll get a
+        high-quality product with bright and saturated print.\n\n\u2022 All controversial
+        issues are completely under my responsibility. You can be sure in your customer
+        security.\n\n\u2022 I gladly wait for your questions and custom orders!\n\nPlease,
+        contact me if you have any questions.","creation_tsz":1626722444,"ending_tsz":1637353244,"original_creation_tsz":1594925894,"last_modified_tsz":1626722444,"price":"18.99","currency_code":"USD","quantity":50,"sku":[],"tags":["Puppies
+        nintendo","Little dogs","nintendo switch Lite","Console Dock sticker","Pro
+        Controller decal","Cute Puppies skin","Full Set skin","pastel beige switch","Puppies
+        skin","Corgi skin","Corgi nintendo","dogs switch","Corgi sticker"],"materials":["Vinyl","80"],"shop_section_id":28305049,"featured_rank":null,"state_tsz":1610128873,"url":"https:\/\/www.etsy.com\/listing\/839952091\/corgi-nintendo-skin-little-dogs-nintendo?utm_source=gifty&utm_medium=api&utm_campaign=api","views":371,"num_favorers":49,"shipping_template_id":94750195982,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":817838146,"state":"active","user_id":323182376,"category_id":null,"title":"Happy
+        Pride, Glitter! - Julian- Animal Crossing Stickers","description":"Celebrate
+        love and pride with Julian! This sticker design is printed on a weatherproof
+        sticker paper, perfect for all surfaces. \nShare your love of Animal Crossing
+        by customizing your water bottle, laptop, phone and more with this cute sticker!\n\nThank
+        you for supporting my shop!","creation_tsz":1626722444,"ending_tsz":1637353244,"original_creation_tsz":1593473219,"last_modified_tsz":1626722444,"price":"2.50","currency_code":"USD","quantity":9,"sku":[],"tags":["animal
+        crossing","julian","pride","new horizons","cute stickers","unicorn sticker","nintendo","new
+        leaf","pride sticker"],"materials":["Paper"],"shop_section_id":33029028,"featured_rank":null,"state_tsz":1607016535,"url":"https:\/\/www.etsy.com\/listing\/817838146\/happy-pride-glitter-julian-animal?utm_source=gifty&utm_medium=api&utm_campaign=api","views":18,"num_favorers":5,"shipping_template_id":98264763936,"processing_min":1,"processing_max":1,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"1","item_weight_unit":"oz","item_length":"6","item_width":"4","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":6614,"taxonomy_path":["Craft
+        Supplies & Tools","Party & Gifting","Labels, Stickers & Tags","Stickers"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1040601069,"state":"active","user_id":37212788,"category_id":null,"title":"Silver
+        Wing Feather Enamel Pin","description":"I WILL STILL BE SHIPPING INTERNATIONALLY.
+        Shipping delays are to be expected due to the current COVID-19 situation.
+        \n\nPin Details:\n\n- Hard enamel\n- Gold plating\n- 1.5 inches\n- Double
+        rubber clutch\n- Backed on illustrated card\n\n\n\u2605  SHIPPING INFO \u2605\n\nCanadian
+        standard shipping is with Canada Post, US shipping is with ChitChats\/USPS,
+        and other International shipping is with ChitChats\/Asendia. Outside of Canada
+        it can take about 3-7 weeks to arrive. Tracking is included with US, and some
+        international orders (including United Kingdom, Germany, Singapore, Australia).
+        Tracked Canadian shipping can be selected. Please note that I can\u2019t be
+        held responsible for any mail loss.","creation_tsz":1626722425,"ending_tsz":1637353225,"original_creation_tsz":1624425706,"last_modified_tsz":1626722425,"price":"16.00","currency_code":"CAD","quantity":25,"sku":[],"tags":["pokemon","silver
+        wing","lugia","feather","pikachu","nintendo","enamel pin","lapel pin","shumi
+        collective","ho oh","rainbow wing","video games","heart gold soul"],"materials":[],"shop_section_id":29154623,"featured_rank":null,"state_tsz":1624507065,"url":"https:\/\/www.etsy.com\/listing\/1040601069\/silver-wing-feather-enamel-pin?utm_source=gifty&utm_medium=api&utm_campaign=api","views":55,"num_favorers":30,"shipping_template_id":85276446315,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":41,"taxonomy_path":["Accessories","Patches
+        & Pins","Pins & Pinback Buttons"],"used_manufacturer":false,"is_vintage":false},{"listing_id":862019396,"state":"active","user_id":37212788,"category_id":null,"title":"Rainbow
+        Wing Feather Enamel Pin","description":"I WILL STILL BE SHIPPING INTERNATIONALLY.
+        Shipping delays are to be expected due to the current COVID-19 situation.
+        \n\nPin Details:\n\n- Hard enamel\n- Gold plating\n- 1.5 inches\n- Double
+        rubber clutch\n- Backed on illustrated card\n\nPurchases of $65+ CAD \/ $50+
+        USD (before tax and shipping), which include at least one Feather pin (excluding
+        single Pretty Feather pin*), will automatically receive a FREE Feathers Sticker
+        Sheet! While supplies last.\n\n*If purchasing only Pretty Feather Mini Pin,
+        purchase of AT LEAST TWO Pretty Feather Mini Pins will qualify.\n\n\n\u2605  SHIPPING
+        INFO \u2605\n\nCanadian standard shipping is with Canada Post, US shipping
+        is with ChitChats\/USPS, and other International shipping is with ChitChats\/Asendia.
+        Outside of Canada it can take about 3-7 weeks to arrive. Tracking is included
+        with US, and some international orders (including United Kingdom, Germany,
+        Singapore, Australia). Tracked Canadian shipping can be selected. Please note
+        that I can\u2019t be held responsible for any mail loss.","creation_tsz":1626722425,"ending_tsz":1637353225,"original_creation_tsz":1600928103,"last_modified_tsz":1626722425,"price":"13.00","currency_code":"CAD","quantity":13,"sku":[],"tags":["rainbow
+        wing","ho oh","lugia","pokemon","phoenix","feather","enamel pin","lapel pin","nintendo","video
+        game","shumi collective","pikachu","bird"],"materials":[],"shop_section_id":29154623,"featured_rank":null,"state_tsz":1601018989,"url":"https:\/\/www.etsy.com\/listing\/862019396\/rainbow-wing-feather-enamel-pin?utm_source=gifty&utm_medium=api&utm_campaign=api","views":393,"num_favorers":169,"shipping_template_id":85276446315,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":41,"taxonomy_path":["Accessories","Patches
+        & Pins","Pins & Pinback Buttons"],"used_manufacturer":false,"is_vintage":false},{"listing_id":856734237,"state":"active","user_id":48748438,"category_id":null,"title":"Sakura
+        Shaker Mold A S027 \/ Shaker Mold \/ Silicone Mold","description":"Use with
+        Epoxy Resin\n\n10 mm Thickness\n\n* Through-Cavity Mold.\n\n   Through-Cavity
+        Mold have to pour resin over the surface level of mold.\n\n   I have many
+        molds that design for making more space of cavity so I don&#39;t make the
+        back wall of shaker. \nThe work piece&#39;s cavity depth is 10 mm.\n   Please
+        pour resin over the surface level of mold to create the back side. The surface
+        tension of resin\ncan help you to do that. After cured, you can make another
+        side by film and coating as usall.\n\n   Anyway I have designed the CSM (
+        Cover Sheet Mold ) for an option.\n\nhttps:\/\/www.instagram.com\/p\/CISfLn2grnP\/\nhttps:\/\/www.instagram.com\/p\/CHKPuxeAWkU\/\nhttps:\/\/www.instagram.com\/p\/CCalb5aDAQs\/","creation_tsz":1626722377,"ending_tsz":1637353177,"original_creation_tsz":1597765196,"last_modified_tsz":1626722377,"price":"5.40","currency_code":"USD","quantity":4,"sku":[],"tags":["silicone
+        mold","resin mold","Epoxy Resin mold","shake mold","\ud558\ud2b8 \uc250\uc774\ucee4","\u30b7\u30ea\u30b3\u30f3\u30e2\u30fc\u30eb\u30c9
+        \u30b7\u30a7\u30a4\u30ab\u30fc","Nintendo switch","Game boy mold","Star shaker
+        mold","Heart Shaker Mold","Revolver Gun Mold","Cassette Player Mold","Bow
+        Ribbon Mold"],"materials":["Silicone"],"shop_section_id":27726424,"featured_rank":null,"state_tsz":1613631603,"url":"https:\/\/www.etsy.com\/listing\/856734237\/sakura-shaker-mold-a-s027-shaker-mold?utm_source=gifty&utm_medium=api&utm_campaign=api","views":460,"num_favorers":208,"shipping_template_id":80275696967,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":6227,"taxonomy_path":["Craft
+        Supplies & Tools","Molds"],"used_manufacturer":false,"is_vintage":false}],"params":{"limit":25,"offset":0,"page":null,"keywords":null,"sort_on":"created","sort_order":"down","min_price":null,"max_price":null,"color":null,"color_accuracy":0,"tags":"nintendo","taxonomy_id":null,"location":null,"lat":null,"lon":null,"region":null,"geo_level":"city","accepts_gift_cards":"false","translate_keywords":"false"},"type":"Listing","pagination":{"effective_limit":25,"effective_offset":0,"next_offset":25,"effective_page":1,"next_page":2}}'
+  recorded_at: Mon, 19 Jul 2021 19:32:40 GMT
+recorded_with: VCR 6.0.0
