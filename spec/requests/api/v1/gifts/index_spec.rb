@@ -5,10 +5,10 @@ describe 'Friend Gifts - GET api/v1/gifts' do
     it 'list all  of friend gifts', :vcr do
       user = create :user
       friend1 = create :friend, birthday: '1989-09-29', user: user
-      gift1 = create :gift, status: 0, friend: friend1
+      gift1 = create :gift, status: 0, friend: friend1, name: "nintendo"
       friend2 = create :friend, birthday: '1989-09-29', user: user
-      gift2 = create :gift, status: 0, friend: friend2
-      gift3 = create :gift, status: 0, friend: friend2
+      gift2 = create :gift, status: 0, friend: friend2, name: "chair"
+      gift3 = create :gift, status: 0, friend: friend2, name: "table"
 
       get "/api/v1/users/#{user.id}/friends/#{friend1.id}/gifts"
 
