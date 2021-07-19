@@ -6,10 +6,10 @@ describe 'User Friends show' do
       it 'sends a user friends with gifts', :vcr do
         user = create :user
         friend = create :friend, birthday: '1989-09-29', user: user
-        create :gift, status: 0,  friend: friend
-        create :gift, status: 0,  friend: friend
-        create :gift, status: 0,  friend: friend
-        create :gift, status: 0,  friend: friend
+        create :gift, status: 0,  friend: friend, name: "nintendo"
+        create :gift, status: 0,  friend: friend, name: "napkins"
+        create :gift, status: 0,  friend: friend, name: "table"
+        create :gift, status: 0,  friend: friend, name: "chair"
 
 
         get "/api/v1/users/#{user.id}/friends/#{friend.id}"

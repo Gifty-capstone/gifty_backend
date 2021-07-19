@@ -18,683 +18,357 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Connection:
+      - keep-alive
       Server:
       - Apache
       X-Cloud-Trace-Context:
-      - f896cd500e8fddc66606bf9192807e81/7439718306693252558;o=1
+      - e79fa9d052b913ee27991ddc76fb00fe/17617466572437125018;o=0
       X-Etsy-Request-Uuid:
-      - EutmRXzK92my1UFeTRKG-dU2Ym90
+      - Eufbsi-xELR82wNAMpUJdVVYCUf1
       X-Ratelimit-Limit:
       - '10000'
       X-Ratelimit-Remaining:
-      - '9935'
+      - '9941'
       Cache-Control:
       - private
+      Set-Cookie:
+      - user_prefs=QM76q0ZXcum9kdy5kEM6vBh0IxNjZACChK_bW2F0dF5pTo4OeUQsAwA.; expires=Tue,
+        19-Jul-2022 17:33:57 GMT; Max-Age=31535999; path=/; domain=.etsy.com
       Content-Type:
       - application/json
+      Via:
+      - 1.1 google, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 19 Jul 2021 17:33:58 GMT
+      X-Served-By:
+      - cache-den8279-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1626716038.861951,VS0,VE574
       Vary:
       - Accept-Encoding
-      Date:
-      - Mon, 19 Jul 2021 17:02:16 GMT
       Transfer-Encoding:
       - chunked
-      Connection:
-      - Transfer-Encoding
-      - keep-alive
-      Set-Cookie:
-      - user_prefs=lM7FEC-MO4G88DD2KwqHPGqKiPJjZACChK8bxGF0dF5pTo4OeUQsAwA.; expires=Tue,
-        19-Jul-2022 17:02:15 GMT; Max-Age=31535999; path=/; domain=.etsy.com
     body:
-      encoding: UTF-8
-      string: '{"count":50100,"results":[{"listing_id":1040011614,"state":"active","user_id":92602588,"category_id":null,"title":"Large
-        Retro Video Game Character | Game Room Decor | Nintendo Decor for Boys | Nerd
-        Gifts | Video Game Lovers | Christmas Gift for Gamers","description":"Fire
-        and Ice Mario Flowers from Super Mario. Video game decor, Potted Faux Desk
-        Plant , Super Mario Fan Art\n\nDon&#39;t have a green thumb? No problem!!\n\nThere
-        is no need to water these awesome &quot;faux&quot; potted plants! These are
-        great to display on any shelf or in any room, like a game room or game area,
-        a desk at work, a coffee table, as a center piece at a party, they also make
-        great gifts for your gamer friends!\n\nThe plant sits secured in a tiny clay
-        pot which makes it the perfect decor for your inner geek!\nThis is made from
-        plastic fuse beads \nYou can order them as a pair, or choose one or the other.
-        \n\nApprox Dimensions\n\n6 in x 3 in \n\nNot seeing the design you like? Feel
-        free to place a custom order!\nI have over 180 colors of mini beads, and a
-        creative imagination!\nIt&#39;s possible to order anything such as key chains,
-        pins, magnets, earrings and more. Dont see it just send me a message and I
-        will be happy to create it for you.\n\nCheck out some of the similar items
-        I offer below. \n\nhttps:\/\/etsy.me\/320OeKK\n\nhttps:\/\/etsy.me\/30Uvtas","creation_tsz":1626713922,"ending_tsz":1637344722,"original_creation_tsz":1626710250,"last_modified_tsz":1626713962,"price":"14.95","currency_code":"USD","quantity":3,"sku":[],"tags":["teen
-        boy gifts","nerd gift","gift for gamer","super mario flower","video game decor","boys
-        bathroom art","16 bit character","8 bit flower","video game lovers","retro
-        gaming gift","mario party decor","fire flower nintendo","game room decor"],"materials":[],"shop_section_id":26597900,"featured_rank":null,"state_tsz":1626713707,"url":"https:\/\/www.etsy.com\/listing\/1040011614\/large-retro-video-game-character-game?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":62611002055,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"2010_2019","item_weight":"6","item_weight_unit":"oz","item_length":"6","item_width":"4","item_height":"4","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":130,"taxonomy_path":["Art
-        & Collectibles","Sculpture","Figurines"],"used_manufacturer":false,"is_vintage":false},{"listing_id":510621796,"state":"active","user_id":61928785,"category_id":null,"title":"Nintendo
-        Posters Video Game Art Set of Nintendo Patent Prints Gaming Posters Gaming
-        Decor Gift for Gamer Computer Wall Art Computer WB065","description":"\u2665
-        COLORS \u2665\n5 color backgrounds to choose from:\nChalkboard Black     (1st
-        image)\nParchment                 (2nd image)\nIvory                           (3rd
-        image)\nBlueprint                    (4th image)\nBlack Grid                  (5th
-        image)\n\n\u2665 Buy 2 and get a 3rd FREE \u2665\nAdd 2 prints to your cart
-        and go to the checkout. When purchasing these 2, simply leave the full name
-        of the 3rd FREE print (of the same size or smaller) you would like in the
-        &#39;Add a note to Wallbuddy&#39; box on the checkout page. I will see the
-        note with your order and make sure to include the free print with your purchase:)
-        \n\n\u2665 SIZES \u2665\nWe offer several sizes to suit your needs starting
-        from 2.5 X 3.5 (Wallet Size). Available sizes are shown in the SELECT A SIZE
-        drop down menu above the ADD TO CART button. All the sizes offered are standard
-        sizes and frames can easily be found online and at any frame or craft store
-        once you are ready to hang your prints. The A3 (11.7 X 16.5) and A4 (8.3 X
-        11.7) are standard European sizes.\n\n\u2665 PRINTING \u2665\nAll of our prints
-        are created by a process called Gicl\u00e9e (a French word for &quot;spray&#39;).
-        The inks used in this process have a much higher resistance to fading than
-        normal printing inks, which makes this kind of printing particularly suitable
-        for prints being used in wall decor. I use the best quality printing paper
-        - Epson Premium Lustre Paper and inks - Archival Pigment inks. The specially
-        coated surface of this paper enhances the colour depth and vibrancy of each
-        print. It also comes with a guarantee of lifetime fade resistance. \nPLEASE
-        NOTE: This listing is for the print only, does not include the frame\n\n\u2665
-        SHIPPING \u2665\n2.5 X 3.5, 4 x 6, 5 x 7, 8 x 10 and A4 prints will be shipped
-        flat in a protective, archival sleeve inside a cardboard envelope. Larger
-        prints will be shipped in a sturdy cardboard mailing tube. All prints will
-        reach you in pristine condition.\n\n\u2665 TURNAROUND TIME \u2665\nYour print
-        will be made with care, packaged securely and shipped within 1-2 business
-        days of purchase in a sturdy cardboard mailing tube via An Post Parcel Services,
-        Ireland. It will then be delivered by the national postal service of the destination
-        country e.g. USPS, Canada Post, Royal Mail, Australia Post, NZ Post etc. \n\n\u2665
-        RECENT FEEDBACK \u2665\n*This shop has the highest quality vintage poster
-        prints I&#39;ve purchased on Etsy. Highly recommend!\n*Arrived in outstanding
-        condition and the shipping arrival was right on time. This was an excellent
-        buying experience, and the customer service was amazing. Thank you very much
-        for listing this item.\n*The quality of the prints I ordered are world class.
-        Well worth the wait. Even a 5x7 print I ordered was of stunning quality. I
-        will definitely be back. Thanks :)\n*This is one well made product for the
-        price! I got two in different sizes..they look like museum pieces! I love
-        them!\n*Great print with amazing colours. Fast delivery with very secure packaging!\n*Amazing
-        quality and capture - shipped so quickly. The seller is just aces. Thanks
-        so much!\n*High quality, fast shipment - thank you!\n*Excellent quality and
-        fast delivery! I couldn&#39;t be more pleased :)\n*Prompt delivery, item in
-        excellent condition. Very happy!\n*Beautiful picture and great quality! Love
-        it on my wall!\n*Love this poster. I definitely recommend this seller.","creation_tsz":1626713866,"ending_tsz":1637344666,"original_creation_tsz":1492007058,"last_modified_tsz":1626713866,"price":"7.00","currency_code":"EUR","quantity":66,"sku":["WB065"],"tags":["Set
-        of Nintendo","Nintendo Posters","Video Game Art","Nintendo Patent","Nintendo
-        Patent Prin","Gaming Posters","Gaming Decor","Gift for Gamer","Computer Wall
-        Art","Wall Art Computer","Video Game decor","video game poster","computer
-        game poster"],"materials":["Premium Luster Paper","Archival Inks","Safely
-        Packaged","Fully Tracked","Unframed"],"shop_section_id":19393561,"featured_rank":null,"state_tsz":1573900464,"url":"https:\/\/www.etsy.com\/listing\/510621796\/nintendo-posters-video-game-art-set-of?utm_source=gifty&utm_medium=api&utm_campaign=api","views":3958,"num_favorers":285,"shipping_template_id":14271581040,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"2010_2019","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":121,"taxonomy_path":["Art
-        & Collectibles","Prints","Gicl\u00e9e"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1054003437,"state":"active","user_id":99628037,"category_id":null,"title":"Extra
-        Mods And IPS Backlit LCD GBA Mod Nintendo GameBoy Advance Translucent Ocean
-        Blue","description":"Check out the video of overview of all the mods to see
-        how they work and our gallery of products here:\nhttps:\/\/www.instagram.com\/stories\/highlights\/17909877412934131\/\n\nDESCRIPTION
-        \n\n1. IPS LCD v2\n   + &quot;4 pixels in 1&quot; compare to AGS101 LCD, it
-        means it displays 4 times sharper than AGS101 LCD\n   + Bigger than AGS101
-        LCD but still have proportional image\n   + 10 brightness levels (press on
-        select + L or R button to change the brightness)\n   + Wider viewing angle\n   +
-        Around 10+ hours playing with 1900mah AA battery (brightness level 5, no sound
-        upgrade)\n   You will get the newest version of the LCD, no issues.\n\n2.
-        Extra mods and shipping (Combine the 2 variations to determine the price,
-        choose the &quot;extra mods 1&quot; first) :\n\n  - Louder sound: an amp board
-        is installed to amplify the sound. Most of the GBA speakers in the market
-        now are very quiet. This mod will improve the sound much better.\n\n\n  -
-        OverClocking: Speed up\/down the game. Hardware will be modified so that player
-        can change the speed of the game to 3 levels via a switch which is installed
-        nicely on the top right of the GBA (see picture). 3 speeds are 0.85x, 1x (normal
-        speed) and 1.5x. This mod is for bypassing the long text (games like Pokemon)
-        or slowing down the action moving on the fighting games.\n  Note: 0.85x and
-        1.5x are for genuine game cartridges only. Do not work stably with flashcart
-        at 0.85x and 1.5x (game may freeze). Still functioning with GBA Link Cable
-        when both devices are at the same speed (if the second device has this mod
-        too).\nSee video at my Instagram: https:\/\/www.instagram.com\/p\/B9qgHGFH_Eq\/?igshid=ots3ksxukg3j\n\n  -
-        Rechargeable AAs mod: The device is modified so that player can charge the
-        rechargeable AAs batteries (Nimh batteries) directly from the device via micro
-        usb\/Type C charging port built-in (at the top left of the GBA), please let
-        me know in &quot; Personalization box&quot; which kind of port you would like
-        (Micro usb or Type C port). Can use any phone charge which has 5v out to charge
-        it. (Note that if you choose type C port, it is not compatible with &quot;type
-        C to type C&quot; cable, you please use &quot;type A to Type C&quot; cable).\nIt
-        still works with normal AAs batteries normally.\n\nLED indicator:\nHigh power:
-        green\nLow power: red\nCharged: yellow, when full charged it is off.\n\nOnly
-        charge when the batteries are inserted.\n\n  - Bluetooth mod: this mod lets
-        you be able to get Bluetooth Audio working on your GBA in case you&#39;d like
-        to have your Bluetooth headphones\/speaker work with your favorite handheld.
-        This is how it works:\n      \n     + Slide the switch located at the bottom
-        of the GBA to turn on the bluetooth function whenever you want to use your
-        bluetooth headphones\/speaker, the power led will blink fast in blue and it
-        starts searching your bluetooth headphones\/speaker, after successfully pairing
-        with your headphone, power led will blink slowly in blue (while the green\/red
-        power led of the GBA still works normally)\n     + Turning on the Bluetooth
-        function will disable the speaker and headphone jack of the GBA, all the sound
-        of the game will be transferred to your bluetooth headphones\/speaker. There
-        is a small latency when transferring the sound to the Bluetooth device but
-        it is barely noticeable.\n     + You can use either GBA&#39;s volume wheel
-        or your Bluetooth headphones\/speaker to adjust the volume of the sound.\n     +
-        Connection is good if you keep the the distance between your GBA and your
-        Bluetooth Headphones\/Speaker less than 5 meters.\n     + Make sure your bluetooth
-        device disconnected before making new connection with the GBA. Sometimes you
-        may need to turn on and off the bluetooth to pair succesfully.\n     + Battery
-        life of the GBA when using Bluetooth function: around 7-8 hours with 3000
-        mAh AAs batteries (Brightness at level 5, IPS LCD).\n     + Due to the power
-        supply from just a couple of AA batteries, you will hear noticeable humming
-        sound from your bluetooth device when the GBA in standby mode, the humming
-        sound will be almost covered by the music of the game (don&#39;t worry there
-        is not any background sound from the inner speaker and the headphone jack
-        of the GBA).\n     + It is compatible with most of bluetooth devices in the
-        market now, but I can not test every bluetooth device to say surely it will
-        work with your bluetooth device, if you find out it can not pair with your
-        bluetooth device after receiving the GBA, please try with another bluetooth
-        device.\n\n\n  - Fast shipping: arrive in 10-15 days after shipment. Tracking
-        information will be only available after the package arrives customer&#39;s
-        country (around 7-10 days after shipment).\n        + The item is shipped
-        from Asia. Default shipping is standard method. It takes 15-30 days to arrive,
-        depends on local customs processing and which country customer is living.\n        +
-        Super fast shipping: arrive in 3 - 5 days. Contact me if you want super fast
-        shipping method.\n\n3. Other details of the product:\n\n+ Glass lens with
-        no scratches and very pure.\n\n+ High quality conductive silicone were installed.
-        The Dpad, AB buttons feel great and responsive (Most of normal conductive
-        silicone in the market now make the Dpad,AB buttons really stiff).\n\n+ Shell
-        is modified correctly which makes the shell close properly, two parts of the
-        shell fit well.\n\n***These upgrades need more power so we should use rechargeable
-        AAs battery for better playtime. And the battery life depends on its brandname.\n\n4.
-        Tiny dust may fly to the backside of the lens while being shipped. This is
-        out of my control.\n\n5. No battery, no cartridge, no charger (if you choose
-        rechargeable mod) include.\n \n\nOthers:  \n\n1. We are sorry that we won&#39;t
-        be responsible for any wrong or undeliverable addresses \n\n2. Order will
-        be shipped out within 2-3 business days after receiving cleared payment \n\nInternational
-        Buyers \u2013Please Note: Import duties, taxes,and charges are not included
-        in the item price or shipping cost. These charges are the buyer&#39;s responsibility.
-        Please check with your country&#39;s customs office to determine what these
-        additional costs will be prior to bidding or buying. \n\nWe offer 30-day warranty
-        from the date you receive the package which is shown in the tracking information.
-        This is for repairs or a full refund if you would like to return, and we will
-        cover the shipping cost as well. The warranty is valid only when the device
-        is defective or has problem itself. And it must be kept in condition as when
-        it arrived.\nAfter this period of time, cost may occur and will be quoted
-        based on the repair and you cover all the shipping cost (if you send it back
-        for repair).\n\nOur destiny is bringing you back to your childhood with favorite
-        memories and earn your 5-star review.\n\n \n\n\nCONTACT US \n\nWe have always
-        been trying to provide the best service and reliable products for every customer.
-        However, accident may happen sometimes, please contact us to resolve any issues
-        before leaving a review. Any question please feel free to contact us here
-        via ETSY message center.","creation_tsz":1626713718,"ending_tsz":1637344518,"original_creation_tsz":1626713718,"last_modified_tsz":1626713720,"price":"189.00","currency_code":"USD","quantity":1,"sku":[],"tags":["gameboy","game
-        boy advance","video games","gameboy advance","games","gameboy advance sp","gameboy
-        color","gameboy pocket","gameboy micro","Nintendo Switch","Nintendo Switch
-        skin","video game","gameboy mods"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1626713718,"url":"https:\/\/www.etsy.com\/listing\/1054003437\/extra-mods-and-ips-backlit-lcd-gba-mod?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":74709111618,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":12192,"taxonomy_path":["Electronics
-        & Accessories","Video Games","Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":769921990,"state":"active","user_id":66379768,"category_id":null,"title":"Video
-        Games Invitation - Nintendo switch invitation - Video Game Birthday Party
-        Invitation - EDITABLE- Nintendo - INSTANT DOWNLOAD-","description":"Video
-        Game Birthday Invitation Party - EDITABLE WITH CORJL.COM - . This listing
-        is for an Editable digital Invitation. Nothing personalized or physical will
-        be shipped!\nPlease read all the description before purchasing.\n\nYou can
-        use this invitation for Birthdays or party or anything you want!!\nIf you
-        need any other matching item, or if you prefer to have this design for a different
-        occasion, or anything you need, just contact me and I&#39;ll gladly help you
-        with your needs.\n\n\u2605TRY BEFORE YOU BUY\u2605\n(copy this link and paste
-        it on your navigator)\n\nhttps:\/\/www.corjl.com\/d\/5A33PJ\n\n\n\u2605 HOW
-        DOES THIS WORK? \u2605\n\n1. Purchase 1 item\n\n2. You will receive an email
-        from Corjl within a few minutes with a direct link to access your template.
-        You can also go to corjl.com and sign in with your Etsy email address and
-        Order number (not transaction number).\n\n3. Edit with your info.\n\n*You
-        can use your phone or a computer. With your phone you can change the text,
-        for major edits you&#39;ll need to use a computer.\n*On this template, you
-        CAN change: name, age, party details. Change font sizes, and colors.\n*You
-        CAN&#39;T change: The graphics are embedded on the design and are not editable.\n\n4.
-        Save your changes, and choose your preferred file format: Jpeg with a single
-        invitation or PDF with 2 invites per page.\n\n5. Print your files in your
-        print shop, at home or send it via text or email.\n\n\n\u2714 No software
-        needed\n\u2714 Edit Instantly with your phone or computer (Read the complete
-        item description to see what is editable on this template)\n\u2714 Add text
-        as needed\n\u2714 Change font size, style and color\n\u2714 Add Images\n\u2714
-        Save as jpeg to send via text, email or to print at online printshops and
-        photo labs.\n\u2714 Save as PDF to print at home or at a copy center.\n\n\u2605
-        IMPORTANT \u2605\n*This is a digital file and no physical items will be mailed
-        to you.\n*Colors may vary between online viewing and your actual printed product.
-        All computer monitors display color differently as well as all printers print
-        differently. So please take this into consideration when viewing your design\n*Refunds
-        are not accepted, but please contact me if you have any problem with your
-        order.\n\n\u2605\u2022\u2022\u2605 COPYRIGHT \u2605\u2022\u2022\u2605\nPlease
-        do not copy, amend or steal our designs. As committed members of the Etsy
-        community, we regularly check that our designs are not being used elsewhere
-        without permission and we will report anyone found to be doing so.f you need
-        any other matching item, or if you prefer to have this design for a different
-        occasion, or anything you need, just contact me and I&#39;ll gladly help you
-        with your needs.\n\n\nSince all monitors are a little different in displaying
-        the colors, they may vary in the end product.\n\n\n\ud83d\udda4\ud83d\udda4Thank
-        you for choosing my services :) \ud83d\udda4\ud83d\udda4","creation_tsz":1626713679,"ending_tsz":1637344479,"original_creation_tsz":1583261181,"last_modified_tsz":1626713679,"price":"4.88","currency_code":"USD","quantity":88,"sku":[],"tags":["Video
-        Games Invitation","video game birthday","gaming invitation","video game party","nintendo
-        switch","video game theme","game on party","gamer invitation","nintendo","videogame
-        party","instant download","nintendo birthday"],"materials":[],"shop_section_id":26703744,"featured_rank":3,"state_tsz":1623244860,"url":"https:\/\/www.etsy.com\/listing\/769921990\/video-games-invitation-nintendo-switch?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1614,"num_favorers":112,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":true,"file_data":"4
-        JPG","should_auto_renew":true,"language":"MACHINE_en","has_variations":false,"taxonomy_id":1294,"taxonomy_path":["Paper
-        & Party Supplies","Paper","Invitations & Announcements","Templates"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1013535316,"state":"active","user_id":80452651,"category_id":null,"title":"Fire
-        Emblem New Mystery of the Emblem ENGLISH Translation (*for original DS & DS
-        Lite only*) Heroes of Light and Shadow - Free Shipping!","description":"*
-        Compatible in the original DS & DS Lite only, does not work in the 3DS, 2DS
-        or DSi *\n\nComplete English translation of the Japanese DS game Fire Emblem
-        New Mystery of the Emblem (Fire Emblem Shin Monsh\u014d no Nazo: Hikari to
-        Kage no Eiy\u016b).\n\nThis is a remake of the second part of Fire Emblem:
-        Mystery of the Emblem for SNES and the sequel to Shadow Dragon. For the first
-        time in the series you can create your own playable character who fights alongside
-        Marth.\n\nBONUS: Includes a save file with all DLC content (3 extra chapters
-        and bonus items). This content would otherwise not be accessable as DS online
-        functions are no longer available.\n\nExcellent condition. Tested and saving
-        works. Game only, includes a small protective cart case.\n\nFree economy shipping
-        within the USA and Canada. Express shipping option available at checkout.","creation_tsz":1626713675,"ending_tsz":1637344475,"original_creation_tsz":1622267172,"last_modified_tsz":1626713675,"price":"35.95","currency_code":"CAD","quantity":2,"sku":[],"tags":["DS","Nintendo
-        DS","English Translation","Fire Emblem","New Mystery","Mystery Emblem","Heroes
-        Light Shadow","Marth","Hikari to Kage","Shin Monsho"],"materials":[],"shop_section_id":34144808,"featured_rank":null,"state_tsz":1626663464,"url":"https:\/\/www.etsy.com\/listing\/1013535316\/fire-emblem-new-mystery-of-the-emblem?utm_source=gifty&utm_medium=api&utm_campaign=api","views":558,"num_favorers":41,"shipping_template_id":21515784864,"processing_min":1,"processing_max":1,"who_made":"someone_else","is_supply":"false","when_made":"before_2002","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
-        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":true},{"listing_id":1054002897,"state":"active","user_id":50840176,"category_id":null,"title":"Judge
-        Dredd - (GB) Gameboy Collector&#39;s Game Case","description":"Keep your old
-        school GameBoy, GameBoy Color, AND GameBoy Advance Games clean and safe with
-        these professionally made game cases! Custom made just for your handheld game
-        collections! Show off your collection proudly by sticking your old school
-        collection on the self with all your other great games!\n\nShipping Rates:\n\n----------------------------------------Within
-        the USA------------------------------------\nShipping cost for the first case
-        is $3.50, then only $0.85 each for any additional case added! \n\n-----------------------------------------To
-        Canada-----------------------------------------\nShipping cost for the first
-        case is $10.00, then only $1.75 each for any additional case added! \n\n----------------------------------The
-        Rest of the WORLD--------------------------------\nShipping cost for the first
-        case is $13.00, then only $2.00 each for any additional case added! \n\n\nCase
-        Dimensions:\nLength:5.25&quot;\nHeight:4.875&quot;\nWidth: 0.50&quot;\n\nPlastic
-        Game Case Only. Does not include game cartridge.","creation_tsz":1626713651,"ending_tsz":1637344451,"original_creation_tsz":1626713651,"last_modified_tsz":1626713652,"price":"5.00","currency_code":"USD","quantity":99,"sku":["GB
-        0253"],"tags":["Nintendo","Game cases","Case","Collector","Collector case","Gameboy","retro
-        cases","Game boy","Fun Pak","Chess","Checkers","solitaire","FunPak"],"materials":["PP
-        Plastic"],"shop_section_id":16478098,"featured_rank":null,"state_tsz":1626713651,"url":"https:\/\/www.etsy.com\/listing\/1054002897\/judge-dredd-gb-gameboy-collectors-game?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
-        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":169365072,"state":"active","user_id":12062580,"category_id":null,"title":"BLACK
-        MAGE from Final Fantasy 8 Bit Sprite Vinyl Decal Classic NES Sticker","description":"BLACK
-        MAGE from Final Fantasy vinyl decal sticker.\n\nThis beautifully die-cut vinyl
-        decal is weather proof and can be used on any smooth surface.\nGreat for cars,
-        trucks, boats, laptops and more.\n\nDecal measured by widest dimension unless
-        otherwise noted.\n\nThanks!","creation_tsz":1626713624,"ending_tsz":1637344424,"original_creation_tsz":1384537289,"last_modified_tsz":1626713624,"price":"3.95","currency_code":"USD","quantity":66,"sku":[],"tags":["decals
-        and stickers","bumper stickers","vinyl decals","car stickers","nintendo","8bit","black
-        mage","final fantasy","decal ninja"],"materials":["adhesive vinyl","weatherproof
-        stickers"],"shop_section_id":7620391,"featured_rank":null,"state_tsz":1554340759,"url":"https:\/\/www.etsy.com\/listing\/169365072\/black-mage-from-final-fantasy-8-bit?utm_source=gifty&utm_medium=api&utm_campaign=api","views":2453,"num_favorers":256,"shipping_template_id":1272124180,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"2010_2019","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1,"taxonomy_path":["Accessories"],"used_manufacturer":false,"is_vintage":false},{"listing_id":90085886,"state":"active","user_id":5798391,"category_id":null,"title":"Colorful
-        Mario Question Mark Block Lamp - Nintendo roots","description":"If Mario already
-        lights up your life, why not give him a shot at the end table too?\n\nVery
-        colorful and unique lamp is made of a quarter inch maple plywood frame, colored
-        translucent acrylic to give the center question mark a nice shine, and colored
-        heavy construction paper to add a bit of texture to the bricks on either side.\n\nFeatures:\n-
-        This is our largest lamp at 16.5&quot; x 5.5&quot; x 5.5&quot;\n- Long 15&#39;
-        cord capable of hanging the lamp, standard base size\n- Two openings for easy
-        wall mounting on back of lamp\n\nPerfect for a kid&#39;s room, as well as
-        those who still think they are kids (which is very okay, I definitely have
-        one of these over my desk). Ships fully assembled with one bulb in the US
-        and Canada. For over seas purchases, its worth noting that the lamp has a
-        North American outlet plug, so an adapter will be needed if you live in a
-        region with different electrical standards.\n\nPlease only use fluorescent
-        bulbs with the lamp, as standard incandescent bulbs create much much more
-        heat, and can occasionally cause warping if the lamp is left on for an extended
-        period of time.\n\nEach lamp will be assembled and shipped within 3 to 5 business
-        days. We make them all to order with buckets of love and care.","creation_tsz":1626713545,"ending_tsz":1637344345,"original_creation_tsz":1326082273,"last_modified_tsz":1626713545,"price":"67.00","currency_code":"USD","quantity":3,"sku":["MB"],"tags":["Mario","Nintendo","lamp","question","block","brick","mushroom","video","game","8
-        bit","nerd","geek","art"],"materials":["acrylic","18 gauge cord","60w bulb","colored
-        paper","wood glue","15 foot cord","Standard US plug","standard bulb base","Hemma
-        IKEA Kit","maple"],"shop_section_id":13676508,"featured_rank":5,"state_tsz":1621392796,"url":"https:\/\/www.etsy.com\/listing\/90085886\/colorful-mario-question-mark-block-lamp?utm_source=gifty&utm_medium=api&utm_campaign=api","views":258718,"num_favorers":16129,"shipping_template_id":17156558887,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"48","item_weight_unit":"oz","item_length":"16","item_width":"6","item_height":"6","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":["Retro","Techie"],"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1089,"taxonomy_path":["Home
-        & Living","Lighting","Lamps"],"used_manufacturer":false,"is_vintage":false},{"listing_id":171900752,"state":"active","user_id":5798391,"category_id":null,"title":"Zelda
-        Triforce Lamp MINI - HYRULE LOGO","description":"Each lamp will be assembled
-        and shipped within 3 to 5 business days. We make them all to order with buckets
-        of love and care.\n\nBuilt with a beautiful dark stained wood frame, and acrylic
-        yellow plastic triforce. The sides of the lamp feature the crest of hyrule,
-        casting the iconic logo onto any nearby surface \n\nThe lamp measures 8-inches
-        wide, and about 3.5 inches deep.  The bottom is almost entirely open, allowing
-        easy access to the bulb, and making the lamp perfect for hanging over a table
-        or corner chair. Bulb included is included. Top portion has a secret door,
-        allowing you to move the cord from a hanging style top exit to a table style
-        bottom one. \n\nPiece is built with two 1\/8th inch holes to hang with a small
-        cable (not included). This allows you to make the hanging wire as long as
-        you need it to be, or leave it off entirely if it is going to live on the
-        night stand.\n\n\nMakes a great looking pair with our larger version (pictured
-        together above) located here: \nhttps:\/\/www.etsy.com\/listing\/93652243\/zelda-triforce-lamp-original-hanging-or\n\nLarge
-        Version also available with Hyrule crest:\nhttps:\/\/www.etsy.com\/listing\/126283966\/zelda-triforce-lamp-hyrule-crest-detail?\n\nWall
-        Sconce: https:\/\/www.etsy.com\/listing\/124861680\/triforce-light-wall-mountable-sleek-and?","creation_tsz":1626713545,"ending_tsz":1637344345,"original_creation_tsz":1386265401,"last_modified_tsz":1626713545,"price":"57.00","currency_code":"USD","quantity":28,"sku":["THMini"],"tags":["Zelda","Nintendo","Triforce","video","game","lamp","hanging","yellow","wood","light"],"materials":["poplar","birch","acrylic","bulb","lamp
-        kit","walnut stain","Standard US Plug","6 foot cord"],"shop_section_id":13676508,"featured_rank":null,"state_tsz":1619207174,"url":"https:\/\/www.etsy.com\/listing\/171900752\/zelda-triforce-lamp-mini-hyrule-logo?utm_source=gifty&utm_medium=api&utm_campaign=api","views":12428,"num_favorers":596,"shipping_template_id":17156558887,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"42","item_weight_unit":"oz","item_length":"8","item_width":"8","item_height":"4","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":["Techie","Fantasy"],"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1086,"taxonomy_path":["Home
-        & Living","Lighting"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1040036278,"state":"active","user_id":99628037,"category_id":null,"title":"Extra
-        Mods And IPS Backlit LCD GBA Mod Nintendo GameBoy Advance Kiwi Green","description":"Check
-        out the video of overview of all the mods to see how they work and our gallery
-        of products here:\nhttps:\/\/www.instagram.com\/stories\/highlights\/17909877412934131\/\n\nDESCRIPTION
-        \n\n1. IPS LCD v2\n   + &quot;4 pixels in 1&quot; compare to AGS101 LCD, it
-        means it displays 4 times sharper than AGS101 LCD\n   + Bigger than AGS101
-        LCD but still have proportional image\n   + 10 brightness levels (press on
-        select + L or R button to change the brightness)\n   + Wider viewing angle\n   +
-        Around 10+ hours playing with 1900mah AA battery (brightness level 5, no sound
-        upgrade)\n   You will get the newest version of the LCD, no issues.\n\n2.
-        Extra mods and shipping (Combine the 2 variations to determine the price,
-        choose the &quot;extra mods 1&quot; first) :\n\n  - Louder sound: an amp board
-        is installed to amplify the sound. Most of the GBA speakers in the market
-        now are very quiet. This mod will improve the sound much better.\n\n\n  -
-        OverClocking: Speed up\/down the game. Hardware will be modified so that player
-        can change the speed of the game to 3 levels via a switch which is installed
-        nicely on the top right of the GBA (see picture). 3 speeds are 0.85x, 1x (normal
-        speed) and 1.5x. This mod is for bypassing the long text (games like Pokemon)
-        or slowing down the action moving on the fighting games.\n  Note: 0.85x and
-        1.5x are for genuine game cartridges only. Do not work stably with flashcart
-        at 0.85x and 1.5x (game may freeze). Still functioning with GBA Link Cable
-        when both devices are at the same speed (if the second device has this mod
-        too).\nSee video at my Instagram: https:\/\/www.instagram.com\/p\/B9qgHGFH_Eq\/?igshid=ots3ksxukg3j\n\n  -
-        Rechargeable AAs mod: The device is modified so that player can charge the
-        rechargeable AAs batteries (Nimh batteries) directly from the device via micro
-        usb\/Type C charging port built-in (at the top left of the GBA), please let
-        me know in &quot; Personalization box&quot; which kind of port you would like
-        (Micro usb or Type C port). Can use any phone charge which has 5v out to charge
-        it. (Note that if you choose type C port, it is not compatible with &quot;type
-        C to type C&quot; cable, you please use &quot;type A to Type C&quot; cable).\nIt
-        still works with normal AAs batteries normally.\n\nLED indicator:\nHigh power:
-        green\nLow power: red\nCharged: yellow, when full charged it is off.\n\nOnly
-        charge when the batteries are inserted.\n\n  - Bluetooth mod: this mod lets
-        you be able to get Bluetooth Audio working on your GBA in case you&#39;d like
-        to have your Bluetooth headphones\/speaker work with your favorite handheld.
-        This is how it works:\n      \n     + Slide the switch located at the bottom
-        of the GBA to turn on the bluetooth function whenever you want to use your
-        bluetooth headphones\/speaker, the power led will blink fast in blue and it
-        starts searching your bluetooth headphones\/speaker, after successfully pairing
-        with your headphone, power led will blink slowly in blue (while the green\/red
-        power led of the GBA still works normally)\n     + Turning on the Bluetooth
-        function will disable the speaker and headphone jack of the GBA, all the sound
-        of the game will be transferred to your bluetooth headphones\/speaker. There
-        is a small latency when transferring the sound to the Bluetooth device but
-        it is barely noticeable.\n     + You can use either GBA&#39;s volume wheel
-        or your Bluetooth headphones\/speaker to adjust the volume of the sound.\n     +
-        Connection is good if you keep the the distance between your GBA and your
-        Bluetooth Headphones\/Speaker less than 5 meters.\n     + Make sure your bluetooth
-        device disconnected before making new connection with the GBA. Sometimes you
-        may need to turn on and off the bluetooth to pair succesfully.\n     + Battery
-        life of the GBA when using Bluetooth function: around 7-8 hours with 3000
-        mAh AAs batteries (Brightness at level 5, IPS LCD).\n     + Due to the power
-        supply from just a couple of AA batteries, you will hear noticeable humming
-        sound from your bluetooth device when the GBA in standby mode, the humming
-        sound will be almost covered by the music of the game (don&#39;t worry there
-        is not any background sound from the inner speaker and the headphone jack
-        of the GBA).\n     + It is compatible with most of bluetooth devices in the
-        market now, but I can not test every bluetooth device to say surely it will
-        work with your bluetooth device, if you find out it can not pair with your
-        bluetooth device after receiving the GBA, please try with another bluetooth
-        device.\n\n\n  - Fast shipping: arrive in 10-15 days after shipment. Tracking
-        information will be only available after the package arrives customer&#39;s
-        country (around 7-10 days after shipment).\n        + The item is shipped
-        from Asia. Default shipping is standard method. It takes 15-30 days to arrive,
-        depends on local customs processing and which country customer is living.\n        +
-        Super fast shipping: arrive in 3 - 5 days. Contact me if you want super fast
-        shipping method.\n\n3. Other details of the product:\n\n+ Glass lens with
-        no scratches and very pure.\n\n+ High quality conductive silicone were installed.
-        The Dpad, AB buttons feel great and responsive (Most of normal conductive
-        silicone in the market now make the Dpad,AB buttons really stiff).\n\n+ Shell
-        is modified correctly which makes the shell close properly, two parts of the
-        shell fit well.\n\n***These upgrades need more power so we should use rechargeable
-        AAs battery for better playtime. And the battery life depends on its brandname.\n\n4.
-        Tiny dust may fly to the backside of the lens while being shipped. This is
-        out of my control.\n\n5. No battery, no cartridge, no charger (if you choose
-        rechargeable mod) include.\n \n\nOthers:  \n\n1. We are sorry that we won&#39;t
-        be responsible for any wrong or undeliverable addresses \n\n2. Order will
-        be shipped out within 2-3 business days after receiving cleared payment \n\nInternational
-        Buyers \u2013Please Note: Import duties, taxes,and charges are not included
-        in the item price or shipping cost. These charges are the buyer&#39;s responsibility.
-        Please check with your country&#39;s customs office to determine what these
-        additional costs will be prior to bidding or buying. \n\nWe offer 30-day warranty
-        from the date you receive the package which is shown in the tracking information.
-        This is for repairs or a full refund if you would like to return, and we will
-        cover the shipping cost as well. The warranty is valid only when the device
-        is defective or has problem itself. And it must be kept in condition as when
-        it arrived.\nAfter this period of time, cost may occur and will be quoted
-        based on the repair and you cover all the shipping cost (if you send it back
-        for repair).\n\nOur destiny is bringing you back to your childhood with favorite
-        memories and earn your 5-star review.\n\n \n\n\nCONTACT US \n\nWe have always
-        been trying to provide the best service and reliable products for every customer.
-        However, accident may happen sometimes, please contact us to resolve any issues
-        before leaving a review. Any question please feel free to contact us here
-        via ETSY message center.","creation_tsz":1626713481,"ending_tsz":1637344281,"original_creation_tsz":1626713481,"last_modified_tsz":1626713482,"price":"189.00","currency_code":"USD","quantity":1,"sku":[],"tags":["gameboy","game
-        boy advance","video games","gameboy advance","games","gameboy advance sp","gameboy
-        color","gameboy pocket","gameboy micro","Nintendo Switch","Nintendo Switch
-        skin","video game","gameboy mods"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1626713481,"url":"https:\/\/www.etsy.com\/listing\/1040036278\/extra-mods-and-ips-backlit-lcd-gba-mod?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":74709111618,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":12192,"taxonomy_path":["Electronics
-        & Accessories","Video Games","Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":996849804,"state":"active","user_id":21698303,"category_id":null,"title":"Custom
-        Super Mario Bros Font Name Vinyl Decals","description":"Custom Super Mario
-        Bros Font name vinyl decals available in every color!  (Please one word per
-        decal) The vinyl they are made on is all permanent and varies from matte to
-        glossy depending on the color, please message me if you have a preference.  Most
-        of my colors are listed in a picture with the listing.  Please let me know
-        if you&#39;d like to see a color I have available that isn&#39;t listed!  Every
-        order also includes an alcohol prep pad, as well as a set of instructions
-        for applying your new decal!\n\nExamples pictured are about 6 inches in length.  Please
-        note that as these are words, they will not be very tall!  If exact measurements
-        are needed please reach out to me and I&#39;m happy to help!","creation_tsz":1626713475,"ending_tsz":1637344275,"original_creation_tsz":1619753575,"last_modified_tsz":1626713475,"price":"2.50","currency_code":"USD","quantity":974,"sku":[],"tags":["vinyl
-        decal","car sticker","bumper sticker","video game","custom","personalized","decal","super
-        mario","mario","nintendo","bowser","japan","geek"],"materials":["vinyl","transfer
-        tape"],"shop_section_id":null,"featured_rank":null,"state_tsz":1622840040,"url":"https:\/\/www.etsy.com\/listing\/996849804\/custom-super-mario-bros-font-name-vinyl?utm_source=gifty&utm_medium=api&utm_campaign=api","views":62,"num_favorers":8,"shipping_template_id":143758926857,"processing_min":1,"processing_max":1,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1319,"taxonomy_path":["Paper
-        & Party Supplies","Paper","Stickers, Labels & Tags","Bumper Stickers"],"used_manufacturer":false,"is_vintage":false},{"listing_id":873058806,"state":"active","user_id":324196189,"category_id":null,"title":"Animal
-        Crossing Timmy and Tommy Vinyl Stickers | Laptop Decal, Cute ACNH Stickers,
-        Nintendo Switch Stickers, Bottle Stickers, Nook Twins","description":"Mini
-        ACNH Timmy and Tommy stickers can be stuck on water bottles, laptops, and
-        any surface you want to decorate. Playing this game on the switch inspired
-        me to make these stickers of just one of my favorite characters of Animal
-        Crossing. Buy it for a loved one or keep it to decorate your own personal
-        belongings!\n\n1.0 inch x 2.0 inches\n\nOur vinyl stickers are waterproof
-        with a glossy laminate. Each design in this series was digitally illustrated
-        using Krita, and each sticker is hand-cut.","creation_tsz":1626713439,"ending_tsz":1637344239,"original_creation_tsz":1602707632,"last_modified_tsz":1626713439,"price":"3.00","currency_code":"USD","quantity":12,"sku":[],"tags":["nook
-        twins","nook twins sticker","vinyl sticker","laptop decals","bottle stickers","cute
-        sticker","raccoon sticker","new horizons sticker","animal crossing","nintendo
-        switch","nintendo sticker","cute raccoon","new leaf sticker"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1617170177,"url":"https:\/\/www.etsy.com\/listing\/873058806\/animal-crossing-timmy-and-tommy-vinyl?utm_source=gifty&utm_medium=api&utm_campaign=api","views":29,"num_favorers":4,"shipping_template_id":105058296940,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":"0.5","item_weight_unit":"oz","item_length":"5.5","item_width":"4.5","item_height":"0.25","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":1901,"taxonomy_path":["Electronics
-        & Accessories","Decals & Skins","Laptop","Laptop Decals"],"used_manufacturer":false,"is_vintage":false},{"listing_id":691985915,"state":"active","user_id":189086619,"category_id":null,"title":"Mario
-        Bros Icons SVG Flat","description":"Get all six of these awesome classic SVG
-        of the Mario Bros games. Stick it on your car or anywhere you want.","creation_tsz":1626713410,"ending_tsz":1637344210,"original_creation_tsz":1553031112,"last_modified_tsz":1626713410,"price":"6.00","currency_code":"USD","quantity":13,"sku":[],"tags":["Mario
-        Bros","Mario","Mushroom","Shell","Egg","Star","Flower","Level up","nintendo"],"materials":["SVG","PNG","JPG"],"shop_section_id":26090715,"featured_rank":null,"state_tsz":1565156248,"url":"https:\/\/www.etsy.com\/listing\/691985915\/mario-bros-icons-svg-flat?utm_source=gifty&utm_medium=api&utm_campaign=api","views":627,"num_favorers":54,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"i_did","is_supply":"false","when_made":"2010_2019","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":true,"is_customizable":false,"is_digital":true,"file_data":"1
+      encoding: ASCII-8BIT
+      string: '{"count":50100,"results":[{"listing_id":946614298,"state":"active","user_id":446197373,"category_id":null,"title":"Gameboy
+        Game Cartridge Display Holder - Multiple Options Available","description":"Display
+        your Game Boy cartridges with pride! These displays are made using high-quality
+        3D printed PLA plastic and made to order! There&#39;s just enough room in
+        each slot to be able to tilt the games and see what each cartridge is. Fits
+        both Game Boy and Game Boy Advance games!\n\nYou can have anywhere from 2-14
+        slots. In addition, there are multiple color options available. Please indicate
+        the Game Boy logo color in the personalization options!\nDon&#39;t see a color
+        you like? Contact me so we can find a color solution you&#39;ll love!\n\nI
+        try hard to eliminate any defects during the printing process. However, small
+        surface defects might be visible in the finished product. My general rule
+        is that if I wouldn\u2019t want to display it myself, it isn\u2019t good enough
+        to ship!\n\nThank you for checking out my shop and please feel free to contact
+        me with any questions!","creation_tsz":1626715392,"ending_tsz":1637346192,"original_creation_tsz":1612986221,"last_modified_tsz":1626715392,"price":"5.49","currency_code":"USD","quantity":3,"sku":[],"tags":["Game
+        Boy","Game Boy Advance","Pokemon","Nintendo","Cartridge","Display","Holder","Game
+        Tray","Stand","GBASP","Gameboy Pocket","Gameboy Color","Cartridge Tray"],"materials":[],"shop_section_id":34070333,"featured_rank":1,"state_tsz":1620534545,"url":"https:\/\/www.etsy.com\/listing\/946614298\/gameboy-game-cartridge-display-holder?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1149,"num_favorers":209,"shipping_template_id":134864907204,"processing_min":10,"processing_max":15,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"5","item_weight_unit":"oz","item_length":"5","item_width":"5","item_height":"5","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":990180892,"state":"active","user_id":75103140,"category_id":null,"title":"Legend
+        of Zelda - Mirror Shield Necklace","description":"Legend of Zelda - Mirror
+        Shield Necklace\n\nOwn one of the Unique Legend of Zelda shields from the
+        iconic Series.\n\n\nNecklace Length and Style\n\n\n18&quot; Leather Thong
+        Cord with a Lobster Claw Clasp\n\n20&quot; Link Chain with a Lobster Claw
+        Clasp\n\n20&quot; Silver Snake Chain with a Lobster Claw Clasp\n\n24&quot;
+        Silver Snake Chain with a Lobster Claw Clasp\n\n\nCustom Orders\nWe can make
+        this item as a necklace, bracelet or any variety of jewellery, message me
+        for more details.\n\n\nYour order will be gift wrapped at standard and will
+        be shipped 1-3 days after the order is placed. All orders are shipped via
+        ROYAL MAIL (If you wish for any alternative packaging please ask)\n\nPlease
+        don&#39;t hesitate to contact me if you have any questions and thanks for
+        looking!","creation_tsz":1626715365,"ending_tsz":1637346165,"original_creation_tsz":1618849098,"last_modified_tsz":1626715365,"price":"4.99","currency_code":"GBP","quantity":1,"sku":[],"tags":["Silver","Necklace","Gaming","Legend
+        of Zelda","Zelda","Ocarina","Master sword","majora''s mask","Link","Nintendo","switch","sword","Mirror"],"materials":["Stainless
+        steel"],"shop_section_id":33861716,"featured_rank":null,"state_tsz":1618898612,"url":"https:\/\/www.etsy.com\/listing\/990180892\/legend-of-zelda-mirror-shield-necklace?utm_source=gifty&utm_medium=api&utm_campaign=api","views":33,"num_favorers":7,"shipping_template_id":137749878995,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":1229,"taxonomy_path":["Jewelry","Necklaces","Pendants"],"used_manufacturer":false,"is_vintage":false},{"listing_id":968796911,"state":"active","user_id":79984822,"category_id":null,"title":"Gaming
+        stand to hold remote and Nintendo Switch","description":"Nintendo Swicth Gaming
+        Stand. Holds Switch, two remotes, or one one remote, and a few games. Great
+        for gaming organization","creation_tsz":1626715254,"ending_tsz":1637346054,"original_creation_tsz":1614130040,"last_modified_tsz":1626715254,"price":"35.00","currency_code":"USD","quantity":4,"sku":[],"tags":["remotes","Nintendo","Nintendo
+        switch","gaming storage","storage","gaming"],"materials":["acrylic","wood"],"shop_section_id":null,"featured_rank":null,"state_tsz":1614130040,"url":"https:\/\/www.etsy.com\/listing\/968796911\/gaming-stand-to-hold-remote-and-nintendo?utm_source=gifty&utm_medium=api&utm_campaign=api","views":167,"num_favorers":19,"shipping_template_id":114277498535,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"25","item_weight_unit":"oz","item_length":"16","item_width":"5","item_height":"5","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":875,"taxonomy_path":["Electronics
+        & Accessories","Gadgets"],"used_manufacturer":false,"is_vintage":false},{"listing_id":983543503,"state":"active","user_id":285675202,"category_id":null,"title":"Sea
+        Beach Nintendo Switch Lite 2019 Tide Lines Skin Switch Lite Full Wrap Skin
+        Stickers Green Vinyl Pastel Game Console Gradient Dock Decal","description":"Sea
+        Beach Nintendo Switch Lite 2019 Tide Lines Skin Switch Lite Full Wrap Skin
+        Stickers Green Vinyl Pastel Game Console Gradient Dock Decal\n\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ATTENTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n\nThis
+        product is a vinyl skin, not a hard plastic case.\nAbout our products:\n\n-
+        We use high-quality vinyl skins with a lamination\n- Printed on high quality
+        vinyl, environmentally friendly materials and inks.\n- Protect your device
+        from scratches, dust and stains.\n- Incredible colors! The picture is printed
+        using the latest printing techniques!\n- The color you see in the picture
+        may vary slightly depending on your monitor settings.\n- The skin color will
+        remain bright and beautiful for many years of pleasure.\n- It will not damage
+        your device\n- Dustproof, waterproof.\n- Easy to apply and remove without
+        residue.\n- Removable, but not reusable after application.\n\nProduction\nAll
+        skins are made, we produce to order. Processing time in our store takes 1-3
+        business days.\n\nShipping\nDelivery usually takes 7-21 business days. Please
+        make sure the address you provide is correct.\n\nREMEMBER: production and
+        shipping are 2 different processes. Each process has its own term.\n\nIf you
+        have any questions or suggestions, feel free to message us!\nHave a nice day
+        in a great shopping!","creation_tsz":1626715243,"ending_tsz":1637346043,"original_creation_tsz":1616087899,"last_modified_tsz":1626715243,"price":"24.97","currency_code":"USD","quantity":100,"sku":[],"tags":["Switch
+        Lite Skins","Nintendo Skins","Gaming Skins","Pattern Switch skin","Nintendo
+        Sticker","Console Stickers","Gaming Accessory","Full Wrap vinyl","Sea Beach
+        Nintendo","Tide Lines Stickers","Gradient Dock Decal","Pastel Game Console","Green
+        Vinyl Stickers"],"materials":["Vinyl","Laminating Film"],"shop_section_id":28502949,"featured_rank":null,"state_tsz":1616087899,"url":"https:\/\/www.etsy.com\/listing\/983543503\/sea-beach-nintendo-switch-lite-2019-tide?utm_source=gifty&utm_medium=api&utm_campaign=api","views":8,"num_favorers":0,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":1900,"taxonomy_path":["Electronics
+        & Accessories","Decals & Skins","Laptop","Laptop Skins"],"used_manufacturer":false,"is_vintage":false},{"listing_id":945153966,"state":"active","user_id":68983742,"category_id":null,"title":"Luma
+        plush pastel colors *Made to Order*","description":"Small luma plushies 5
+        & 1\/2 inches tall\n\n**these are handmade and made to order please be mindful
+        of the 3-5 week processing time**\n\n\nMade from smooth minky fabric with
+        machine embroidered eyes .\n\nI can do any color variation just make sure
+        to click which one ^_^ - if you&#39;d like a color I don&#39;t normally do
+        just message me to make sure I do have the color you need in fabric. \n\nYou
+        are also able to purchase from me directly here https:\/\/www.nikkiriddle.com\/store-1\n\n\nThank
+        you\n\nPattern by me\nEmbroidery by me\n\n(C) Nintendo","creation_tsz":1626715241,"ending_tsz":1637346041,"original_creation_tsz":1612805887,"last_modified_tsz":1626715241,"price":"18.00","currency_code":"USD","quantity":25,"sku":[],"tags":["luma","custom
+        plush","nintendo","plushie","sm4sh","nintendo crafts","Luma plushie","Super
+        Mario galaxy","Rosalina and luma"],"materials":["smooth minky","embroidery
+        thread"],"shop_section_id":29184396,"featured_rank":null,"state_tsz":1615623372,"url":"https:\/\/www.etsy.com\/listing\/945153966\/luma-plush-pastel-colors-made-to-order?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1391,"num_favorers":350,"shipping_template_id":96515451750,"processing_min":20,"processing_max":30,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":"7","item_weight_unit":"oz","item_length":"16","item_width":"12","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":true,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1629,"taxonomy_path":["Toys
+        & Games","Toys","Stuffed Animals & Plushies"],"used_manufacturer":false,"is_vintage":false},{"listing_id":780158524,"state":"active","user_id":126822666,"category_id":null,"title":"3D
+        Printed Nintendo Switch 8BitDo SN30 Pro Plus Controller Mount Clip","description":"PLEASE
+        READ! \n\n3D Printed Nintendo Switch 8BitDo SN30 Pro Plus Controller Mount
+        Clip!\n------------------------------------------------------------------------\nController
+        Mount is printed with Black   filament. \n-------------------------------------------------------------------------\n-
+        Controller and Switch fit in it very tightly! \n- May cause some scratches
+        eventually.\n- Optional Bumpers slide in place of where the joy cons are.\n-
+        RBBumpers Option is for Left Red Bumper and Right Blue Bumper\n- Access hole
+        to the USB C port on the Switch and Controller.\n- Alternative fix for the
+        joy-con drift issue.\n---------------------------\nIMPORTANT NOTES: \n---------------------------\n-
+        This mount is 3D Printed which has print lines and may have other other flaws!\n-
+        Does not have the finish of mold injection parts!\n- Made to order, can take
+        up to TWO WEEKS to process depending on how much orders I have. \n\n(Does
+        not come with Switch or Controller)\n\nVideos  showing how to attach the Switch
+        and Controller \n- https:\/\/drive.google.com\/file\/d\/1eTioRbSK_-poBJwi_PislAr2V4Nzopix\/view?usp=sharing\n-
+        https:\/\/drive.google.com\/file\/d\/1p0BpYWaGnFr4aSEZq-xL2Qyc5Kz2Wiav\/view?usp=sharing\n------------------------------------------------------------------------------------------------------------\nDesigned
+        by me.\n\n-UPDATED on 08\/10\/2020 to Polycarbonate Filament, has a more satin
+        clean finish and is \n stronger than the PETG I was using before.\n-UPDATED
+        on 4\/5\/2021 Currently using Matte PLA Filament, I can no longer get my preferred
+        \n Polycarbonate Filament.","creation_tsz":1626715233,"ending_tsz":1637346033,"original_creation_tsz":1586467228,"last_modified_tsz":1626715233,"price":"11.99","currency_code":"USD","quantity":877,"sku":[],"tags":["3d
+        printed","gaming","gifts for him","gifts for her","christmas gift","nintendo
+        accessory","nerdy","birthday gift","8bitdo controller","pro controller","nintendo
+        switch","clip mount","mobile video gaming"],"materials":["Polycarbonate"],"shop_section_id":25060476,"featured_rank":4,"state_tsz":1615661700,"url":"https:\/\/www.etsy.com\/listing\/780158524\/3d-printed-nintendo-switch-8bitdo-sn30?utm_source=gifty&utm_medium=api&utm_campaign=api","views":2923,"num_favorers":90,"shipping_template_id":74688954137,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"8","item_weight_unit":"oz","item_length":"8","item_width":"6","item_height":"4","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1050188441,"state":"active","user_id":281078808,"category_id":null,"title":"Thumb
+        Grip Caps For Switch\/Switch Lite - Planet - Joystick Cap - Joy-con Silicone
+        Cover  - Pack of 4","description":"\ud83d\udd25About Switch Thumb Grip Caps
+        \uff1a\n\n- Pack of 4\n- Made of Silicone\n- For Switch and Switch Lite.\n-
+        Decorate your Switch\/Switch Lite\n- Protect your Switch controller thumb
+        sticks in perfect condition.\n\n\u26a1\ufe0fAbout Our Shipping:\n\n- Due to
+        the outbreak of COVID-19,Delivery may be delayed. If you are in a hurry to
+        receive the order, please consider it before placing an order.\n- Shipping
+        usually takes is about 10-21 business days right now.\n- US\/UK\/Germany:
+        7-10 business days on average.\n\n\u2764\ufe0fShop Policy\uff1a\n\n- Check
+        out our other listings. We offer free shipping on USA orders over $35.\n-
+        If you are not satisfied with the product, please contact me first for replacement
+        or return\n\n\u2764\ufe0fThank you for choosing Coco Koala!","creation_tsz":1626715215,"ending_tsz":1637346015,"original_creation_tsz":1626079727,"last_modified_tsz":1626715215,"price":"66.13","currency_code":"HKD","quantity":33,"sku":["PlanetMZ"],"tags":["Switch
+        Thumb Grip","Switch Paw Print","Nintendo switch lite","Joystick cap","Cute
+        thumb grip","Switch Accessories","thumb Grip cover","thumb grip caps","thumb
+        grip paw","thumb grip pink","Switch lite skin","Switch Lite case","Animal
+        Crossing Skin"],"materials":["Silicone"],"shop_section_id":29293438,"featured_rank":null,"state_tsz":1626079727,"url":"https:\/\/www.etsy.com\/listing\/1050188441\/thumb-grip-caps-for-switchswitch-lite?utm_source=gifty&utm_medium=api&utm_campaign=api","views":403,"num_favorers":352,"shipping_template_id":96202389925,"processing_min":1,"processing_max":5,"who_made":"i_did","is_supply":"true","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1010484395,"state":"active","user_id":288516864,"category_id":null,"title":"Birthday
+        Shirt for Gamers - Level Unlocked Birthday Shirt - Kids Birthday Shirt - Birthday
+        Party Shirt - Personalized birthday shirt","description":"This makes for a
+        great staple t-shirt. It&#39;s made of a thinner, cotton, but it&#39;s still
+        soft. And the double stitching on the neckline and sleeves add more durability
+        to what is sure to be a favorite!\n\n\u2022 100% ringspun cotton\n\u2022 4.5
+        oz (153 g\/m2)\n\u2022 Pre-shrunk\n\u2022 Shoulder-to-shoulder taping\n\u2022
+        Quarter-turned to avoid crease down the center","creation_tsz":1626715204,"ending_tsz":1637346004,"original_creation_tsz":1619713425,"last_modified_tsz":1626715204,"price":"19.99","currency_code":"USD","quantity":945,"sku":["PS-NSwitch-Age"],"tags":["Level
+        unlocked shirt","Birthday Shirt","Birthday Shirt kids","Birthday party shirt","gamer
+        birthday shirt","birthday gamer shirt","Nintendo shirt","custom birthday","custom
+        birthday tee","kids birthday shirt","kids birthday shirts","10 years old shirt","video
+        games shirt"],"materials":[],"shop_section_id":32532813,"featured_rank":null,"state_tsz":1620750768,"url":"https:\/\/www.etsy.com\/listing\/1010484395\/birthday-shirt-for-gamers-level-unlocked?utm_source=gifty&utm_medium=api&utm_campaign=api","views":635,"num_favorers":69,"shipping_template_id":98292508111,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":11165,"taxonomy_path":["Clothing","Unisex
+        Adult Clothing","Tops & Tees","T-shirts","Graphic Tees"],"used_manufacturer":false,"is_vintage":false},{"listing_id":904734898,"state":"active","user_id":391974785,"category_id":null,"title":"FREE
+        EXPRESS SHIPPING | Super Mario Bros |  Happy Birthday Banner | 13 Oz Vinyl
+        Printed Backdrop Banner | Customizable Kids Birthday Banner","description":"Celebrate
+        your birthday with our Super Mario Bros Personalized Birthday Banner!\n\nCUSTOMIZABLE!!\n\n13oz
+        Vinyl Banner - Indoor\/Outdoor Use\n\nMultiple Sizes Available:\n\u201324x36\n\u201330x45\n\u201336x54\n\u201344x66\n\u201372x48\n\nPLEASE
+        INCLUDE EVENT DATE In Check Out Notes in order to make sure we get your order
+        to you in a timely manner.\n\nOur banners are digitally printed on a 13oz
+        banner with hems on all 4 sides. Grommets are included on all four corners
+        for easy hanging. Banners are printed with UV protected ink which make them
+        durable and weatherproof which make them PERFECT for indoor and outdoor use.\n\nCleaning
+        instructions: Clean with water only. Do NOT use any cleaning solution.\n\nDESIGNED
+        & MADE IN THE USA!!\n\nFREE SHIPPING!\n\n*DIGITAL OPTION\n\u2013A JPEG\/PDF
+        format file will be sent to the client. NO physical product will be shipped
+        out.\n\nPLEASE NOTE:\n\n\u2013No changes or cancellations can be made once
+        sign is sent out.\n\n\u2013No Proof\/Preview will be sent. If you need proof,
+        please add a note in the personalization box during checkout. Please be advised
+        that proof&#39;s will delay your order from being sent out to print.\n\n\u2013Banners
+        come with grommets at the 4 corners of the banner unless otherwise requested
+        by the client to have additional grommets placed at the middle top and bottom
+        of the banner.\n\n*Disclaimer: Color may vary due to monitor settings\n\n*Copyright
+        Notice\nPlease note that you are paying for a creative service and the time
+        spent designing and personalizing your item with personal information and\/or
+        photos, which is permitted for one-time PERSONAL USE. This item is not a licensed
+        product. All copyrights, licensed, and trademarks of the character images
+        used in the designs are free and are not being sold. Character copyright is
+        held by the original owner. We DO NOT SELL or claim ownership over the character
+        clipart or graphics. Items purchased are for one-time personal use only and
+        are not to be re-sold for any reason.\n\nPlease let us know your event date
+        so that we can prioritize each order. FedEx Ground Shipping will be the default
+        shipping method.\n\n*PLEASE NOTE: If event dates are not initially provided,
+        we will contact the customer to obtain the event date. If no response is received
+        within 24 hours, we will proceed with delivering the order using the default
+        shipping method\u2013FedEx Ground Shipping. \n\nIn order to be compliant with
+        Etsy&#39;s guidelines for delivery times, we must proceed in this manner.
+        Thank you for your understanding.","creation_tsz":1626715152,"ending_tsz":1637345952,"original_creation_tsz":1607200156,"last_modified_tsz":1626715152,"price":"18.00","currency_code":"USD","quantity":1,"sku":[],"tags":["Disney","Birthday
+        Banner","Happy Birthday","Birthday Decoration","Kids Birthday","Custom Banner","Backdrop
+        Banner","Disney Princess","Nintendo","Super Mario Bros","Mario Luigi","SuperMario","Mario
+        Kart"],"materials":[],"shop_section_id":32511993,"featured_rank":null,"state_tsz":1626057363,"url":"https:\/\/www.etsy.com\/listing\/904734898\/free-express-shipping-super-mario-bros?utm_source=gifty&utm_medium=api&utm_campaign=api","views":526,"num_favorers":35,"shipping_template_id":116244667383,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1334,"taxonomy_path":["Paper
+        & Party Supplies","Party Supplies","Party Decor","Banners & Signs"],"used_manufacturer":false,"is_vintage":false},{"listing_id":826007768,"state":"active","user_id":230689656,"category_id":null,"title":"Earthbound
+        Face mask Earthbound Mask Mr Saturn Fabric Face Mask Saturn Valley Mr Saturn
+        Mask","description":"All of our shirts and merch are made-to-order. We are
+        experiencing production & shipping delays due to Covid-19, as well as an increased
+        volume of sales despite staff being down by 70%. If you need anything done
+        for a birthday or holiday, please order well ahead of time, as we cannot refund
+        orders that are in production. \n\nAdd an extra layer of protection with a
+        personalized touch. These reusable cloth face masks made of 100% Polyester
+        provide a physical barrier around the face. They, however, are not medical-grade,
+        thus, not meant for medical use. Great for everyday use for overall protection.\n.:
+        100% Polyester\n.: Elastic earloops\n.: Two layers of cloth\n.: One size","creation_tsz":1626715149,"ending_tsz":1637345949,"original_creation_tsz":1594920644,"last_modified_tsz":1626715149,"price":"25.00","currency_code":"USD","quantity":987,"sku":["1407591899"],"tags":["Earthbound","Mother","Mother
+        Series","Earthbound Mask","Earthbound Face mask","Mr Saturn","Mr Saturn Mask","Mr
+        Saturn Face mask","Mother 2","Mother 2 mask","Mother 2 face mask","Super nintendo
+        mask","Earthbound Series"],"materials":[],"shop_section_id":30369692,"featured_rank":null,"state_tsz":1615932676,"url":"https:\/\/www.etsy.com\/listing\/826007768\/earthbound-face-mask-earthbound-mask-mr?utm_source=gifty&utm_medium=api&utm_campaign=api","views":508,"num_favorers":36,"shipping_template_id":101715620609,"processing_min":1,"processing_max":7,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":299,"taxonomy_path":["Bath
+        & Beauty","Skin Care","Facial Care","Skin Treatment Masks"],"used_manufacturer":false,"is_vintage":false},{"listing_id":891895177,"state":"active","user_id":107022122,"category_id":null,"title":"Cute
+        Pokemon Picnic Stickers, Starter Pokemon Sticker Set, Food Stickers","description":"Gotta
+        Catch &#39;Em All!\n\nEach sticker is approximately 2.5&quot;\nDie cut, and
+        ready to be stick on to things!\nPrinted on matte vinyl sticker\n\nKanto Set
+        comes with Bulbasaur, Charmander and Squirtle\nJohto Set comes with Chikorita,
+        Cyndaquil and Totodile\nHoenn Set comes with Treecko, Torchic and Mudkip\n\nStickers
+        are illustrated and printed by me in my little studio \u2665\n\nIf you have
+        any questions feel free to contact me :)\n\nWhere to find me:\nInstagram @KyariKreations","creation_tsz":1626715092,"ending_tsz":1637345892,"original_creation_tsz":1603478476,"last_modified_tsz":1626715092,"price":"2.49","currency_code":"USD","quantity":17,"sku":[],"tags":["pokemon
+        sticker","pokemon","nintendo switch","pokemon fanart","pokemon gift","cute
+        pokemon","kyarikreations","pokemon decal","vinyl sticker","starter pokemon","cute
+        stickers","kawaii stickers","bulbasaur"],"materials":["Sticker Paper"],"shop_section_id":21456311,"featured_rank":null,"state_tsz":1626052563,"url":"https:\/\/www.etsy.com\/listing\/891895177\/cute-pokemon-picnic-stickers-starter?utm_source=gifty&utm_medium=api&utm_campaign=api","views":8758,"num_favorers":2200,"shipping_template_id":40466146894,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"0.5","item_weight_unit":"oz","item_length":"7","item_width":"5","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":77,"taxonomy_path":["Art
+        & Collectibles","Drawing & Illustration","Digital"],"used_manufacturer":false,"is_vintage":false},{"listing_id":662092067,"state":"active","user_id":107022122,"category_id":null,"title":"Cute
+        Pikachu And Eevee Stickers","description":"Each Set includes 2 Stickers\n\nPikachu
+        and Eevee\n\nEach sticker is approximately 2&quot;\nDie cut, and ready to
+        be stick on to things!\nPrinted on matte vinyl sticker\n\nStickers are illustrated
+        and printed by me in my little studio \u2665\n\nIf you have any questions
+        feel free to contact me :)\n\nWhere to find me:\nInstagram @KyariKreations","creation_tsz":1626715091,"ending_tsz":1637345891,"original_creation_tsz":1543207372,"last_modified_tsz":1626715091,"price":"2.05","currency_code":"USD","quantity":7,"sku":[],"tags":["cute","pikachu","eevee","pokemon","stationery","Pokemon
+        stickers","eevee sticker","cute sticker","Pikachu sticker","nintendo switch","sword
+        and sheild","nerdy sticker","kyarikreations"],"materials":["Sticker Paper"],"shop_section_id":30266243,"featured_rank":null,"state_tsz":1625020408,"url":"https:\/\/www.etsy.com\/listing\/662092067\/cute-pikachu-and-eevee-stickers?utm_source=gifty&utm_medium=api&utm_campaign=api","views":916,"num_favorers":335,"shipping_template_id":40466146894,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"0.5","item_weight_unit":"oz","item_length":"7","item_width":"5","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":77,"taxonomy_path":["Art
+        & Collectibles","Drawing & Illustration","Digital"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1054013779,"state":"active","user_id":496999322,"category_id":null,"title":"Majora&#39;s
+        Mask  Mask DIY 3D Printed Prop","description":"Majora&#39;s Mask Prop\/Toy\n\nThis
+        item is 3D printed from PLA plastic\n\nThe mask can be painted any style you
+        like\n\nWill require light sanding\/finishing \n\nWe recommend hot glue to
+        assemble. \n\nThis mask is sure to be the centerpiece of your collection.\n\nCan
+        be mounted on the wall \n\nThis is not an officially licensed product from
+        Nintendo. This is considered FAN ART. 3D files are  provided to me by the
+        author&#39;s permission to use for 3D printing sales. All FAN ART is protected
+        under Fair Use. Please contact me before submitting a report to Etsy.\n\nI
+        do not own any Nintendo&#39;s designs. This handmade replica is made specifically
+        for entertainment purposes","creation_tsz":1626715081,"ending_tsz":1637345881,"original_creation_tsz":1626715081,"last_modified_tsz":1626715081,"price":"30.00","currency_code":"USD","quantity":5,"sku":[],"tags":["Majora''s
+        Mask","Cosplay","prop","memorabilia","toy","video game","Nintendo","Zelda"],"materials":["PLA"],"shop_section_id":null,"featured_rank":null,"state_tsz":1626715081,"url":"https:\/\/www.etsy.com\/listing\/1054013779\/majoras-mask-mask-diy-3d-printed-prop?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":null,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"true","when_made":"2020_2021","item_weight":"4","item_weight_unit":"oz","item_length":"11","item_width":"8","item_height":"3","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":70,"taxonomy_path":["Art
+        & Collectibles","Collectibles","Memorabilia"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1038744302,"state":"active","user_id":355051269,"category_id":null,"title":"Zelda
+        & Loftwing Amiibo - Release Day","description":"This listing is for The Legend
+        of Zelda: Skyward Sword HD Amiibo card for Zelda & Loftwing, featuring an
+        original style created by EmalueleBGN!\n\nNote: You are buying the card and
+        the art. Paying to support artists and creators. The Amiibo data provided
+        is only to be used as a backup to your legally owned property. This allows
+        collectors to have usable data without opening their packages or adding wear,
+        ruining their collection&#39;s value. This also allows redundancy in the case
+        of accident, theft, or data corruption.\n\nMy cards are all printed on high
+        quality, matte photo sticker paper, and applied to hotel grade NTAG215 cards.
+        These cards are high quality and a crisp clear image.\n\nShipping will be
+        combined for multiple cards, and free within the US if you hit the shipping
+        limit. Please contact me if you think you overpaid for shipping and I will
+        manually adjust, as Etsy sometimes calculates incorrectly. Typically it&#39;s
+        approximately $5-$8 within the US (based on weight).\n\nEmanuele has offered
+        these designs for free to the public, so if all you need is to download and
+        print your own please do so! He does not make cards, only the art for them.
+        In an effort to offer more styles and help this wonderful artist get recognition
+        and payment for their hard work, all profits from this listing are to be split
+        evenly with the artist. At the time of this listing, this is the only known
+        listing for these styles that is in collaboration with the original artist
+        and using his work with permission. These styles can all be found and downloaded
+        for free from here: https:\/\/mega.nz\/#F!98gAVIoQ!jShhXGdxx3hxdP1g3NmDLA\n\nThank
+        you for supporting artists and creators.","creation_tsz":1626715035,"ending_tsz":1637345835,"original_creation_tsz":1626465321,"last_modified_tsz":1626715035,"price":"5.00","currency_code":"USD","quantity":948,"sku":[],"tags":["Amiibo","Amiibo
+        Cards","Skyward Sword","Legend of Zelda","LOZSS","Zelda","Loftwing","Link","LoZ","Switch","Nintendo"],"materials":["NTAG215
+        Cards","Matte Photo Stickers"],"shop_section_id":30408477,"featured_rank":null,"state_tsz":1626466284,"url":"https:\/\/www.etsy.com\/listing\/1038744302\/zelda-loftwing-amiibo-release-day?utm_source=gifty&utm_medium=api&utm_campaign=api","views":471,"num_favorers":31,"shipping_template_id":108344206303,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"1","item_weight_unit":"oz","item_length":"7","item_width":"5","item_height":"0.5","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":1608,"taxonomy_path":["Toys
+        & Games","Toys","Electronic Toys"],"used_manufacturer":false,"is_vintage":false},{"listing_id":980277747,"state":"active","user_id":19105456,"category_id":null,"title":"Videogame
+        Controller Bundle; Cut Files and Printables","description":"This is a digital
+        download. A physical product will not be shipped to you.  Your downloads will
+        not contain watermarks or example designs.\n\nYou will receive 1 zipped file
+        containing the following files of each design:\nSVG File\nJPG File\nPNG File\n\n\nFiles
+        are compatible with Cricut, Silhouette, and other cutting machines or programs
+        that accept the applicable files.  \n\nPlease note that the SVG file may not
+        be welded together when you upload into your cutting program.  Please remember
+        weld the design before sending it to be cut.\n\nWhile we do not offer refunds,
+        if you have any problems with the files please feel free to send us a message.","creation_tsz":1626714977,"ending_tsz":1637345777,"original_creation_tsz":1615653439,"last_modified_tsz":1626714977,"price":"2.50","currency_code":"USD","quantity":399,"sku":[],"tags":["Popular
+        SVG","Videogame Controller","game Controller SVG","XBOX Controller SVG","GAmeboy
+        Cut Files","Nintendo Vector","Nintendo Controller","Playstation SVG","Gaming
+        Cut Files","Game headphones SVG","Gameboy Decal","Super Nintendo SVG","Joystick
+        Vector"],"materials":["clip art","svg","png","jpg","dxf","vector","Sublimation"],"shop_section_id":31272814,"featured_rank":null,"state_tsz":1625196815,"url":"https:\/\/www.etsy.com\/listing\/980277747\/videogame-controller-bundle-cut-files?utm_source=gifty&utm_medium=api&utm_campaign=api","views":489,"num_favorers":65,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"i_did","is_supply":"true","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":true,"file_data":"1
         ZIP","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":6844,"taxonomy_path":["Craft
         Supplies & Tools","Canvas & Surfaces","Stencils, Templates & Transfers","Clip
-        Art & Image Files"],"used_manufacturer":false,"is_vintage":false},{"listing_id":219257470,"state":"active","user_id":50018982,"category_id":null,"title":"The
-        Legend of Zelda: Majora&#39;s Mask Inspired Majora Mask","description":"This
-        is a full sized replica of the iconic Majora&#39;s Mask from the Legend of
-        Zelda series.\n\nThe mask is designed to look like the ancient and powerful
-        artifact it is, with a wood grain effect and an aged metal band. This mask
-        makes an incredible gift for your Zelda obsessed friends, just be careful
-        they don&#39;t run off and start causing mischief once they have it!\n\nThis
-        item is made from cast polyurethane resin, and is hand-painted with high quality
-        acrylic paints. The horns are held on with strong neodymium magnets and can
-        be removed or rotated.\n\nIt can be hung on a wall with a single hook or nail.\n\n\nThe
-        mask dimensions are 38cm x 35cm x 8.5cm.\n\nEach mask is made to order.","creation_tsz":1626713390,"ending_tsz":1637344190,"original_creation_tsz":1421759720,"last_modified_tsz":1626713390,"price":"130.00","currency_code":"GBP","quantity":221,"sku":[],"tags":["majora","zelda","cosplay","collectable","mask","replica","nintendo","majoras
-        mask","legend","gift","switch","botw","svg"],"materials":["Polyurethane","acrylic
-        paint"],"shop_section_id":null,"featured_rank":1,"state_tsz":1624839915,"url":"https:\/\/www.etsy.com\/listing\/219257470\/the-legend-of-zelda-majoras-mask?utm_source=gifty&utm_medium=api&utm_campaign=api","views":267024,"num_favorers":14864,"shipping_template_id":null,"processing_min":15,"processing_max":20,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":66,"taxonomy_path":["Art
-        & Collectibles"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1040035556,"state":"active","user_id":99628037,"category_id":null,"title":"Extra
-        Mods And IPS Backlit LCD GBA Mod Nintendo GameBoy Advance Tetris","description":"Check
-        out the video of overview of all the mods to see how they work and our gallery
-        of products here:\nhttps:\/\/www.instagram.com\/stories\/highlights\/17909877412934131\/\n\nDESCRIPTION
-        \n\n1. IPS LCD v2\n   + &quot;4 pixels in 1&quot; compare to AGS101 LCD, it
-        means it displays 4 times sharper than AGS101 LCD\n   + Bigger than AGS101
-        LCD but still have proportional image\n   + 10 brightness levels (press on
-        select + L or R button to change the brightness)\n   + Wider viewing angle\n   +
-        Around 10+ hours playing with 1900mah AA battery (brightness level 5, no sound
-        upgrade)\n   You will get the newest version of the LCD, no issues.\n\n2.
-        Extra mods and shipping (Combine the 2 variations to determine the price,
-        choose the &quot;extra mods 1&quot; first) :\n\n  - Louder sound: an amp board
-        is installed to amplify the sound. Most of the GBA speakers in the market
-        now are very quiet. This mod will improve the sound much better.\n\n\n  -
-        OverClocking: Speed up\/down the game. Hardware will be modified so that player
-        can change the speed of the game to 3 levels via a switch which is installed
-        nicely on the top right of the GBA (see picture). 3 speeds are 0.85x, 1x (normal
-        speed) and 1.5x. This mod is for bypassing the long text (games like Pokemon)
-        or slowing down the action moving on the fighting games.\n  Note: 0.85x and
-        1.5x are for genuine game cartridges only. Do not work stably with flashcart
-        at 0.85x and 1.5x (game may freeze). Still functioning with GBA Link Cable
-        when both devices are at the same speed (if the second device has this mod
-        too).\nSee video at my Instagram: https:\/\/www.instagram.com\/p\/B9qgHGFH_Eq\/?igshid=ots3ksxukg3j\n\n  -
-        Rechargeable AAs mod: The device is modified so that player can charge the
-        rechargeable AAs batteries (Nimh batteries) directly from the device via micro
-        usb\/Type C charging port built-in (at the top left of the GBA), please let
-        me know in &quot; Personalization box&quot; which kind of port you would like
-        (Micro usb or Type C port). Can use any phone charge which has 5v out to charge
-        it. (Note that if you choose type C port, it is not compatible with &quot;type
-        C to type C&quot; cable, you please use &quot;type A to Type C&quot; cable).\nIt
-        still works with normal AAs batteries normally.\n\nLED indicator:\nHigh power:
-        green\nLow power: red\nCharged: yellow, when full charged it is off.\n\nOnly
-        charge when the batteries are inserted.\n\n  - Bluetooth mod: this mod lets
-        you be able to get Bluetooth Audio working on your GBA in case you&#39;d like
-        to have your Bluetooth headphones\/speaker work with your favorite handheld.
-        This is how it works:\n      \n     + Slide the switch located at the bottom
-        of the GBA to turn on the bluetooth function whenever you want to use your
-        bluetooth headphones\/speaker, the power led will blink fast in blue and it
-        starts searching your bluetooth headphones\/speaker, after successfully pairing
-        with your headphone, power led will blink slowly in blue (while the green\/red
-        power led of the GBA still works normally)\n     + Turning on the Bluetooth
-        function will disable the speaker and headphone jack of the GBA, all the sound
-        of the game will be transferred to your bluetooth headphones\/speaker. There
-        is a small latency when transferring the sound to the Bluetooth device but
-        it is barely noticeable.\n     + You can use either GBA&#39;s volume wheel
-        or your Bluetooth headphones\/speaker to adjust the volume of the sound.\n     +
-        Connection is good if you keep the the distance between your GBA and your
-        Bluetooth Headphones\/Speaker less than 5 meters.\n     + Make sure your bluetooth
-        device disconnected before making new connection with the GBA. Sometimes you
-        may need to turn on and off the bluetooth to pair succesfully.\n     + Battery
-        life of the GBA when using Bluetooth function: around 7-8 hours with 3000
-        mAh AAs batteries (Brightness at level 5, IPS LCD).\n     + Due to the power
-        supply from just a couple of AA batteries, you will hear noticeable humming
-        sound from your bluetooth device when the GBA in standby mode, the humming
-        sound will be almost covered by the music of the game (don&#39;t worry there
-        is not any background sound from the inner speaker and the headphone jack
-        of the GBA).\n     + It is compatible with most of bluetooth devices in the
-        market now, but I can not test every bluetooth device to say surely it will
-        work with your bluetooth device, if you find out it can not pair with your
-        bluetooth device after receiving the GBA, please try with another bluetooth
-        device.\n\n\n  - Fast shipping: arrive in 10-15 days after shipment. Tracking
-        information will be only available after the package arrives customer&#39;s
-        country (around 7-10 days after shipment).\n        + The item is shipped
-        from Asia. Default shipping is standard method. It takes 15-30 days to arrive,
-        depends on local customs processing and which country customer is living.\n        +
-        Super fast shipping: arrive in 3 - 5 days. Contact me if you want super fast
-        shipping method.\n\n3. Other details of the product:\n\n+ Glass lens with
-        no scratches and very pure.\n\n+ High quality conductive silicone were installed.
-        The Dpad, AB buttons feel great and responsive (Most of normal conductive
-        silicone in the market now make the Dpad,AB buttons really stiff).\n\n+ Shell
-        is modified correctly which makes the shell close properly, two parts of the
-        shell fit well.\n\n***These upgrades need more power so we should use rechargeable
-        AAs battery for better playtime. And the battery life depends on its brandname.\n\n4.
-        Tiny dust may fly to the backside of the lens while being shipped. This is
-        out of my control.\n\n5. No battery, no cartridge, no charger (if you choose
-        rechargeable mod) include.\n \n\nOthers:  \n\n1. We are sorry that we won&#39;t
-        be responsible for any wrong or undeliverable addresses \n\n2. Order will
-        be shipped out within 2-3 business days after receiving cleared payment \n\nInternational
-        Buyers \u2013Please Note: Import duties, taxes,and charges are not included
-        in the item price or shipping cost. These charges are the buyer&#39;s responsibility.
-        Please check with your country&#39;s customs office to determine what these
-        additional costs will be prior to bidding or buying. \n\nWe offer 30-day warranty
-        from the date you receive the package which is shown in the tracking information.
-        This is for repairs or a full refund if you would like to return, and we will
-        cover the shipping cost as well. The warranty is valid only when the device
-        is defective or has problem itself. And it must be kept in condition as when
-        it arrived.\nAfter this period of time, cost may occur and will be quoted
-        based on the repair and you cover all the shipping cost (if you send it back
-        for repair).\n\nOur destiny is bringing you back to your childhood with favorite
-        memories and earn your 5-star review.\n\n \n\n\nCONTACT US \n\nWe have always
-        been trying to provide the best service and reliable products for every customer.
-        However, accident may happen sometimes, please contact us to resolve any issues
-        before leaving a review. Any question please feel free to contact us here
-        via ETSY message center.","creation_tsz":1626713386,"ending_tsz":1637344186,"original_creation_tsz":1626713386,"last_modified_tsz":1626713411,"price":"229.00","currency_code":"USD","quantity":1,"sku":[],"tags":["gameboy","game
-        boy advance","video games","gameboy advance","games","gameboy advance sp","gameboy
-        color","gameboy pocket","gameboy micro","Nintendo Switch","Nintendo Switch
-        skin","video game","gameboy mods"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1626713386,"url":"https:\/\/www.etsy.com\/listing\/1040035556\/extra-mods-and-ips-backlit-lcd-gba-mod?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":74709111618,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":12192,"taxonomy_path":["Electronics
-        & Accessories","Video Games","Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1022142328,"state":"active","user_id":34882123,"category_id":null,"title":"Gen
-        1 Pokepill Sticker Pack","description":"A super cute sticker pack of the original
-        main four Pokemon as Pokepills! Redesigned and even more adorable with a holographic
-        overlay! The stickers range from 2&quot;-2.25&quot; x 1.5&quot;-2&quot; depending
-        on the character and their features (such as Pikachu&#39;s ears or Bulbasaur&#39;s
-        bulb.)","creation_tsz":1626713347,"ending_tsz":1637344147,"original_creation_tsz":1623694538,"last_modified_tsz":1626713347,"price":"4.00","currency_code":"USD","quantity":9,"sku":[],"tags":["Pokemon","Sticker","Cute","Kawaii","Sick","Video
-        Game","Nintendo"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1623694538,"url":"https:\/\/www.etsy.com\/listing\/1022142328\/gen-1-pokepill-sticker-pack?utm_source=gifty&utm_medium=api&utm_campaign=api","views":5,"num_favorers":0,"shipping_template_id":111884789519,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":1317,"taxonomy_path":["Paper
-        & Party Supplies","Paper","Stickers, Labels & Tags"],"used_manufacturer":false,"is_vintage":false},{"listing_id":963889255,"state":"active","user_id":36949205,"category_id":null,"title":"Nintendo
-        Switch Case, Carrying Case Cover Bag - Built-in 12 Game Card Slot, Switch
-        Accessories","description":"\ud83d\udd0e\ud83d\udd2cDesigned for Nintendo
-        Switch \ud83d\udc40 \nPerfectly fit Nintendo Switch Only. Not Compatible with
-        Switch Lite. \n\n\ud83d\udd2512 Game Card Slot\n\ud83d\udd25 Full Body Protection\n\ud83d\udd25
-        Anti Scratch \n\ud83d\udd25 Easy to Use & Install \n\ud83d\udc8e EVA Shockproof
-        Nintendo Switch Case Bag\ud83d\udc8e\n\n\u26a1\ufe0fSHIPPING:\n\nReady to
-        ship in 3 - 7 business days ( Must Provide Tracking Number)\n\n\n\ud83d\udc97Thank
-        you for looking\ud83d\udc97\n\nPlease also check out my store for more ITEM!","creation_tsz":1626713341,"ending_tsz":1637344141,"original_creation_tsz":1613470962,"last_modified_tsz":1626713341,"price":"20.95","currency_code":"USD","quantity":22,"sku":["NTDSWCartoonSTGBGTOTORO"],"tags":["Nintendo
-        Switch Lite","Nintendo Switch","Removable Shoulder","Switch Case Bag","Switch
-        Accessories","Switch Cute Case","Switch Hand Strap","Switch Protective","Nintendo
-        Switch Bag","NS Case","Nintendo Switch Case","Switch Carrying Case"],"materials":["PU"],"shop_section_id":32469580,"featured_rank":null,"state_tsz":1626544860,"url":"https:\/\/www.etsy.com\/listing\/963889255\/nintendo-switch-case-carrying-case-cover?utm_source=gifty&utm_medium=api&utm_campaign=api","views":5444,"num_favorers":2011,"shipping_template_id":107093612058,"processing_min":5,"processing_max":9,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
-        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":892834645,"state":"active","user_id":82757144,"category_id":null,"title":"Sailor
-        Moon  Case For The Nintendo Switch Soft Case Switch Case Switch Protective
-        Cover Switch Lite Case","description":"Welcome to my shop!\n\nSailor Moon  Case
-        For The Nintendo Switch Soft Case Switch Case Switch Protective Cover Switch
-        Lite Case .\n\nNOTE: This is a  protective rubber case, not a replacement
-        accessory.\n\n[Description]\n*Specially designed for Nintendo Switch and Switch
-        Lite.\n*PROTECTION: The case guards your precious Switch device against shock,
-        dropping and scratches.\n*Beautiful case, pretty and easy to apply.\n*Various
-        color options that match your Switch perfectly.\n*Installation instructions
-        included.\n\n\n[Aftermarket Policy]\n\nIf you are not satisfied with our products.
-        After receiving the product, please contact us as soon as possible, we will
-        try to meet your requirements. If our products have quality problems, we can
-        give you a replacement or a full refund.\n\nThank you for choosing us, we
-        will try our best to give you the best service and best quality product.If
-        you have any questions or issues, please don\u2019t hesitate to message me!
-        I\u2019ll do my best to keep you smiling.\nThank you for stopping and have
-        a wonderful day!","creation_tsz":1626713321,"ending_tsz":1637344121,"original_creation_tsz":1603644908,"last_modified_tsz":1626713321,"price":"30.99","currency_code":"USD","quantity":8,"sku":[],"tags":["vinyl
-        decal","Vinyl Skin","Wrap Sticker","Skin For Switch","Nintendo Switch","Switch
-        sticker","Nintendo decal","switch cover","switch skin","switch case","Protective
-        Cover","Switch lite case","Sailor Moon  Case"],"materials":["TPU","switch
-        case"],"shop_section_id":28244825,"featured_rank":3,"state_tsz":1619058703,"url":"https:\/\/www.etsy.com\/listing\/892834645\/sailor-moon-case-for-the-nintendo-switch?utm_source=gifty&utm_medium=api&utm_campaign=api","views":3360,"num_favorers":772,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":873,"taxonomy_path":["Electronics
-        & Accessories","Electronics Cases","Phone Cases"],"used_manufacturer":false,"is_vintage":false},{"listing_id":801196676,"state":"active","user_id":82757144,"category_id":null,"title":"Cute
-        Paw Thumb Grip Caps, Joystick Cap for Nintendo Switch & Lite, Soft Silicone
-        Cover for Joy-Con Controller - Pack of 10","description":"Designed for Nintendo
-        Switch & Switch Lite, perfectly fit Joy-con controller joystick.\n[Description]\n*Pack
-        of 10(2 paw caps and 8 key caps)\n*Specially designed for Nintendo Switch
-        and Switch Lite.\n*PROTECTION: The Thumb Grip guards your precious Switch
-        device against scratches, dirty or other damages.\n*Soft and Comfortable.\n*Various
-        color options that match your Switch perfectly.\n*Cute and beautiful.\n\n[Aftermarket
-        Policy]\nIf you are not satisfied with our products. After receiving the product,
-        please contact us as soon as possible, we will try to meet your requirements.
-        If our products have quality problems, we can give you a replacement or a
-        full refund.\n\nThank you for choosing us, we will try our best to give you
-        the best service and best quality product.If you have any questions or issues,
-        please don\u2019t hesitate to message me! I\u2019ll do my best to keep you
-        smiling.\nThank you for stopping and have a wonderful day!","creation_tsz":1626713320,"ending_tsz":1637344120,"original_creation_tsz":1590507436,"last_modified_tsz":1626713320,"price":"11.99","currency_code":"USD","quantity":11,"sku":[],"tags":["Joy-con","Wrap
-        Sticker","Skin For Switch","Nintendo Switch","switch cover","switch skin","Protective
-        Cover","Thumb Grip Caps","Thumb Grip","Joystick Cap","Paw Thumb Grip"],"materials":[],"shop_section_id":28321245,"featured_rank":null,"state_tsz":1622903966,"url":"https:\/\/www.etsy.com\/listing\/801196676\/cute-paw-thumb-grip-caps-joystick-cap?utm_source=gifty&utm_medium=api&utm_campaign=api","views":8648,"num_favorers":1211,"shipping_template_id":89819048451,"processing_min":2,"processing_max":4,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
-        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":913018833,"state":"active","user_id":82757144,"category_id":null,"title":"New
-        Sailor Moon  Case For The Nintendo Switch Soft Case Switch Case Switch Protective
-        Cover Switch Case","description":"Welcome to my shop!\n\nSailor Moon  Case
-        For The Nintendo Switch Soft Case Switch Case Switch Protective Cover Switch
-        Case .\n\nNOTE: This is a  protective rubber case, not a replacement accessory.\n\n[Description]\n*Specially
-        designed only for Nintendo Switch,not for lite.\n*PROTECTION: The case guards
-        your precious Switch device against shock, dropping and scratches.\n*Beautiful
-        case, pretty and easy to apply.\n*Various color options that match your Switch
-        perfectly.\n*Installation instructions included.\n\n\n[Aftermarket Policy]\n\nIf
-        you are not satisfied with our products. After receiving the product, please
-        contact us as soon as possible, we will try to meet your requirements. If
-        our products have quality problems, we can give you a replacement or a full
-        refund.\n\nThank you for choosing us, we will try our best to give you the
-        best service and best quality product.If you have any questions or issues,
-        please don\u2019t hesitate to message me! I\u2019ll do my best to keep you
-        smiling.\nThank you for stopping and have a wonderful day!","creation_tsz":1626713319,"ending_tsz":1637344119,"original_creation_tsz":1606494732,"last_modified_tsz":1626713319,"price":"9.99","currency_code":"USD","quantity":10,"sku":[],"tags":["vinyl
-        decal","Vinyl Skin","Wrap Sticker","Skin For Switch","Nintendo Switch","Switch
-        sticker","Nintendo decal","switch cover","switch skin","switch case","Protective
-        Cover","Switch lite case","Sailor Moon  Case"],"materials":["TPU","switch
-        case"],"shop_section_id":28244825,"featured_rank":4,"state_tsz":1624999893,"url":"https:\/\/www.etsy.com\/listing\/913018833\/new-sailor-moon-case-for-the-nintendo?utm_source=gifty&utm_medium=api&utm_campaign=api","views":7249,"num_favorers":1958,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":873,"taxonomy_path":["Electronics
-        & Accessories","Electronics Cases","Phone Cases"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1029046607,"state":"active","user_id":82757144,"category_id":null,"title":"Cute
-        Bear Thumb Grip Caps,  Animals Joystick Cap for Nintendo Switch\/ Switch Lite,
-        Soft Silicone Cover for Joy-Con Controller - Pack of 4","description":"Designed
-        for Nintendo Switch & Switch Lite, perfectly fit Joy-con controller joystick.\n[Description]\n*Pack
-        of 4.\n*Specially designed for Nintendo Switch, Switch Lite\n*PROTECTION:
-        The Thumb Grip guards your precious Switch device against scratches, dirty
-        or other damages.\n*Soft and Comfortable.\n*Various color options that match
-        your Switch perfectly.\n*Cute and beautiful.\n\n[Aftermarket Policy]\nIf you
-        are not satisfied with our products. After receiving the product, please contact
-        us as soon as possible, we will try to meet your requirements. If our products
-        have quality problems, we can give you a replacement or a full refund.\n\nThank
-        you for choosing us, we will try our best to give you the best service and
-        best quality product.If you have any questions or issues, please don\u2019t
-        hesitate to message me! I\u2019ll do my best to keep you smiling.\nThank you
-        for stopping and have a wonderful day!","creation_tsz":1626713319,"ending_tsz":1637344119,"original_creation_tsz":1622552868,"last_modified_tsz":1626713319,"price":"6.49","currency_code":"USD","quantity":9,"sku":[],"tags":["Joy-con","Wrap
-        Sticker","Nintendo Switch","switch cover","switch skin","Thumb Grip Caps","Thumb
-        Grip","Joystick Cap","Paw Thumb Grip","sakura thumb grip","sakura cap","PS
-        4 cap","Switch pro cap"],"materials":["high quality silicone"],"shop_section_id":28321245,"featured_rank":null,"state_tsz":1625176966,"url":"https:\/\/www.etsy.com\/listing\/1029046607\/cute-bear-thumb-grip-caps-animals?utm_source=gifty&utm_medium=api&utm_campaign=api","views":2955,"num_favorers":1166,"shipping_template_id":89819048451,"processing_min":2,"processing_max":4,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
-        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":840742651,"state":"active","user_id":281078808,"category_id":null,"title":"Leather
-        Carrying Case For Nintendo Switch & Switch Lite - Switch  Accessories","description":"\ud83d\udd25About
-        Leather Carrying Case For Nintendo Switch\uff1a\n\n-For Switch\n-Perfect Case
-        For Storing Your Switch Game Cards \n-Capacity\uff1a\nNintendo Switch\nGame
-        Cards\nAccessories and charging cable\n\n\u26a1\ufe0fAbout our shipping:\n\n-
-        Provide tracking information\n- Free Shipping\n- Due to the outbreak of COVID-19,Delivery
-        may be delayed. If you are in a hurry to receive the order, please consider
-        it before placing an order.\n- Shipping takes is about 7-10 business days
-        on average in UK\/Germany: \n- Other countries  usually takes is about 11-21
-        business days right now.(7-10 days in normal times)\n- Shipping upgrades available
-        in the cart\n\n\u2764\ufe0fShop Policy\uff1a\n\n- Check out our other listings.
-        We offer free shipping on USA orders over $35.\n- If you are not satisfied
-        with the product, please contact me first for replacement or return\n\n\u2764\ufe0fThank
-        you for choosing Coco Koala!","creation_tsz":1626713310,"ending_tsz":1637344110,"original_creation_tsz":1595060236,"last_modified_tsz":1626713310,"price":"182.01","currency_code":"HKD","quantity":5,"sku":["KBSB0","XB0"],"tags":["Nintendo
-        switch lite","switch accessories","switch lite case","switch carrying case","switch
-        game case","switch shell","game card case","switch travel case","Nintendo
-        switch case","Nintendo switch skin","Cute Switch Case","Switch Case","Switch
-        lite skin"],"materials":["Nylon","Silicone","PU"],"shop_section_id":29307787,"featured_rank":null,"state_tsz":1616354832,"url":"https:\/\/www.etsy.com\/listing\/840742651\/leather-carrying-case-for-nintendo?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1898,"num_favorers":371,"shipping_template_id":96211557545,"processing_min":1,"processing_max":5,"who_made":"i_did","is_supply":"true","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
-        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1053999913,"state":"active","user_id":50840176,"category_id":null,"title":"Jordan
-        vs Bird: One on One - (GB) Gameboy Collector&#39;s Game Case","description":"Keep
+        Art & Image Files"],"used_manufacturer":false,"is_vintage":false},{"listing_id":849142660,"state":"active","user_id":19717615,"category_id":null,"title":"Yoshi
+        Egg -- Nintendo Throwback Embroidered Iron-on NES Mario Brothers Patch","description":"Yoshi&#39;s
+        egg from the Nintendo Mario series.\n\nPatch measures approximately 2.25&quot;
+        wide by 3&quot; tall.\n\nIron-on backing fuses onto any fabric that can withstand
+        ironing.\n\nFor easy fabric application:\n\n1) Position patch on fabric where
+        you would like it to be attached. Press firmly with hand to create a temporary
+        bond.\n \n2) With iron set on high with steam, place a damp cotton cloth (clean
+        t-shirt works great) over the shirt where the  patch is placed and press down
+        firmly for 10-20 seconds to create a permanent bond. Repeat if necessary with
+        a freshly dampened cloth. \n\nMachine washable without fabric softener. Cool
+        iron with garment inside-out when needed.","creation_tsz":1626714952,"ending_tsz":1637345752,"original_creation_tsz":1598806046,"last_modified_tsz":1626714952,"price":"5.50","currency_code":"USD","quantity":11,"sku":[],"tags":["patch","badge","white","baby","gift","custom","iron
+        on","nintendo","mario","NES","block","yoshi"],"materials":["polyester thread","fusible
+        web","recycled polyester felt"],"shop_section_id":12056310,"featured_rank":null,"state_tsz":1614011510,"url":"https:\/\/www.etsy.com\/listing\/849142660\/yoshi-egg-nintendo-throwback-embroidered?utm_source=gifty&utm_medium=api&utm_campaign=api","views":160,"num_favorers":52,"shipping_template_id":3902305924,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":66,"taxonomy_path":["Art
+        & Collectibles"],"used_manufacturer":false,"is_vintage":false},{"listing_id":159489943,"state":"active","user_id":19717615,"category_id":null,"title":"Yoshi
+        -- Embroidered Iron-on Patch from Nintendo&#39;s Mario Brothers","description":"It&#39;s
+        everyone&#39;s favorite video game dinosaur, Yoshi!\r\n\r\nThis patch measures
+        approximately 2&quot; wide by 2.5&quot; tall.\r\n\r\nThe iron-on adhesive
+        backing makes this patch a great addition to a backpack, shirt, hat, or anything
+        you can imagine! \r\n\r\nIron-on backing fuses onto any fabric that can withstand
+        ironing.\r\n\r\nFor easy fabric application:\r\n\r\n1) Position patch on fabric
+        where you would like it to be attached. Press firmly with hand to create a
+        temporary bond.\r\n \r\n2) With iron set on high with steam, place a damp
+        cotton cloth (clean t-shirt works great) over the shirt where the  patch is
+        placed and press down firmly for 10-20 seconds to create a permanent bond.
+        Repeat if necessary with a freshly dampened cloth. \r\n\r\nMachine washable
+        without fabric softener. Cool iron with garment inside-out when needed.","creation_tsz":1626714951,"ending_tsz":1637345751,"original_creation_tsz":1376362890,"last_modified_tsz":1626714951,"price":"5.50","currency_code":"USD","quantity":6,"sku":[],"tags":["patch","badge","gift","iron
+        on","fusible","nintendo","NES","mario","video game","yoshi"],"materials":["polyester
+        thread","fusible web","recycled polyester felt"],"shop_section_id":12056310,"featured_rank":null,"state_tsz":1589992432,"url":"https:\/\/www.etsy.com\/listing\/159489943\/yoshi-embroidered-iron-on-patch-from?utm_source=gifty&utm_medium=api&utm_campaign=api","views":5511,"num_favorers":1085,"shipping_template_id":3902305924,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"2010_2019","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":66,"taxonomy_path":["Art
+        & Collectibles"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1054002041,"state":"active","user_id":326038640,"category_id":null,"title":"Bulk
+        256KB Memory Card Controller Pak for Nintendo 64 Console","description":"An
+        awesome addition to your Nintendo 64 setup!  A high quality Nintendo 64 Controller
+        Memory Card from Next Level Games MN!\n\nIncludes:\n\n1x Memory Card for Nintendo
+        64\n\nCapacity: 256KB\n\nBrand: Next Level Games MN\n\nCondition: New\n\nMany
+        other items similar to this one in stock.  For details, best prices, free
+        shipping $35+, and other discounts check out Next Level Games MN on Facebook
+        for our website and special offers.\n\nTags: Nintendo, Nintendo 64, Controller,
+        Super, NES, SNES, Gameboy, Retro, Console, Cartridge, Wireless, Switch, Mario,
+        Zelda, Goldeneye, Famicom, White, Black, Sega, Atari, GameCube, NGC, SFC,
+        N64, Genesis, Dreamcast, Saturn, Game Gear, Turbografx, TG-16, Japan, Protectors,
+        Xbox, PlayStation, PS, 360, 64, Kong, Link, Kirby, Conkers, Complete, CIB,
+        AV, Audio, Video, Cable, Cord, Adapter, TV, Television, Plug, AC, DC, Power,
+        Supply, OEM, Original, Authentic, RCA, A\/V, Gamepad, Memory, Card, 256, KB","creation_tsz":1626714943,"ending_tsz":1637345743,"original_creation_tsz":1626713539,"last_modified_tsz":1626715657,"price":"9.99","currency_code":"USD","quantity":55,"sku":[],"tags":["Rumble","Jumper","Expansion","Memory","Nintendo","SNES","NES","Super","N64","Sega","Controller","Console","Video
+        Game"],"materials":[],"shop_section_id":30917398,"featured_rank":null,"state_tsz":1626714826,"url":"https:\/\/www.etsy.com\/listing\/1054002041\/bulk-256kb-memory-card-controller-pak?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":null,"processing_min":1,"processing_max":2,"who_made":"collective","is_supply":"false","when_made":"2020_2021","item_weight":"2","item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":12190,"taxonomy_path":["Electronics
+        & Accessories","Video Games","Consoles"],"used_manufacturer":false,"is_vintage":false},{"listing_id":981703066,"state":"active","user_id":443287143,"category_id":null,"title":"Pokemon
+        Pikachu embroidery hoodie pixelart original Gameboy cute mini print 8-bit
+        Nintendo sweet gift for Poke lover Pokemon Go fan","description":"Who&#39;s
+        the cutest, the most adorable little pokemon boi? Well, of course the one
+        you have on your hoodie! With the amazing Pokemon clothing you can show the
+        whole world, who&#39;s the biggest Pokemon fan around. The product has been
+        created using 80% cotton, so it&#39;s soft, super-comfy and perfect for any
+        occasion. You can easly make it a part of your everyday look (casual or business!).
+        The print is very durable, prepared in embroidery method so it will last for
+        a long time looking really good! The Pokemon hoodie is fun, adorable, and
+        soft - perfect as a gift for your loved one or for yourself!\n\nThe hoodie
+        is made with one layer of fabric, it&#39;s soft and nice in touch but it&#39;s
+        the type of the thiner hoodie perfect for warmer periods (like colder summer
+        and spring days!) \n\nPrint made with digital embroidery method, the size
+        od the print is around 3cmx3,6 cm \n________\nHoodie specification:\n- Fabric:
+        80% cotton \/ 20% polyester (Heather Gray: 92% cotton \/ 8% viscose)\n- Weight:
+        280 g \/ m2\n-  Certificates: 100 by OEKO-TEX\u00ae, Fair Wear\n- Non-brushed
+        fabric\n-  Side seams\n-  Long sleeves\n-  Simple cut\n-  Soft, satin label
+        in the side seam\n-  No tag\n-  Hood","creation_tsz":1626714912,"ending_tsz":1637345712,"original_creation_tsz":1617716051,"last_modified_tsz":1626714912,"price":"30.00","currency_code":"EUR","quantity":22,"sku":["CS310-1-S","CS310-6-S","CS310-5-M","CS310-1-L","CS310-6-L","CS310-7-L","CS310-1-XXL","CS310-6-XXL","CS310-5-XXL","CS305-1-S","CS305-6-S","CS305-7-S","CS305-5-S","CS305-1-M","CS305-8-M","CS305-5-M","CS305-1-L","CS305-5-L","CS305-7-XL","CS305-8-XL","CS305-6-XXL","CS305-2-XXL","CS305-5-XXL","CS310-7-S","CS310-8-S","CS310-2-S","CS310-5-S","CS310-1-M","CS310-6-M","CS310-7-M","CS310-8-M","CS310-2-M","CS310-8-L","CS310-2-L","CS310-5-L","CS310-6-XL","CS310-7-XL","CS310-8-XL","CS310-2-XL","CS310-5-XL","CS310-7-XXL","CS310-8-XXL","CS310-2-XXL","CS305-8-S","CS305-2-S","CS305-6-M","CS305-7-M","CS305-2-M","CS305-6-L","CS305-7-L","CS305-8-L","CS305-2-L","CS305-1-XL","CS305-6-XL","CS305-2-XL","CS305-5-XL","CS305-1-XXL","CS305-7-XXL","CS305-8-XXL"],"tags":["Pokemon","Pokeball","8-bit","Gameboy","Nintendo","Embroidery","Anime","GO","Gift","Cute","Sweet","hoodie","Pikachu"],"materials":["Cotton"],"shop_section_id":33175524,"featured_rank":null,"state_tsz":1619544235,"url":"https:\/\/www.etsy.com\/listing\/981703066\/pokemon-pikachu-embroidery-hoodie?utm_source=gifty&utm_medium=api&utm_campaign=api","views":162,"num_favorers":8,"shipping_template_id":130848106629,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1853,"taxonomy_path":["Clothing","Unisex
+        Adult Clothing","Hoodies & Sweatshirts","Hoodies"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1040047272,"state":"active","user_id":50840176,"category_id":null,"title":"Kirby&#39;s
+        Star Stacker - (GB) Gameboy Collector&#39;s Game Case","description":"Keep
         your old school GameBoy, GameBoy Color, AND GameBoy Advance Games clean and
         safe with these professionally made game cases! Custom made just for your
         handheld game collections! Show off your collection proudly by sticking your
@@ -706,117 +380,93 @@ http_interactions:
         case added! \n\n----------------------------------The Rest of the WORLD--------------------------------\nShipping
         cost for the first case is $13.00, then only $2.00 each for any additional
         case added! \n\n\nCase Dimensions:\nLength:5.25&quot;\nHeight:4.875&quot;\nWidth:
-        0.50&quot;\n\nPlastic Game Case Only. Does not include game cartridge.","creation_tsz":1626713253,"ending_tsz":1637344053,"original_creation_tsz":1626713253,"last_modified_tsz":1626713254,"price":"5.00","currency_code":"USD","quantity":99,"sku":["GB
-        0251"],"tags":["Nintendo","Game cases","Case","Collector","Collector case","Gameboy","retro
+        0.50&quot;\n\nPlastic Game Case Only. Does not include game cartridge.","creation_tsz":1626714901,"ending_tsz":1637345701,"original_creation_tsz":1626714901,"last_modified_tsz":1626714902,"price":"5.00","currency_code":"USD","quantity":99,"sku":["GB
+        0270"],"tags":["Nintendo","Game cases","Case","Collector","Collector case","Gameboy","retro
         cases","Game boy","Fun Pak","Chess","Checkers","solitaire","FunPak"],"materials":["PP
-        Plastic"],"shop_section_id":16478098,"featured_rank":null,"state_tsz":1626713253,"url":"https:\/\/www.etsy.com\/listing\/1053999913\/jordan-vs-bird-one-on-one-gb-gameboy?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
-        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":956079159,"state":"active","user_id":356327392,"category_id":null,"title":"Twitch
-        Sub Badges - Zelda sword and shield pack","description":"This emote is for
-        Twitch\/Discord\/youtube channel.\n\nIn this package buyer will receive the
-        sub badges in PNG format in 3 sizes per Twitch specifications (15 sub badges
-        size in total):\n\n\nPNG files with transparent backgrounds\n\n- 72x72 px\n\n-
-        72x72 px\n\n- 18x18 px\n\n\nall in zip file\n\nThese emotes are for personal
-        use only, please do not reupload them anywhere else.\nonly for personal use
-        on your Twitch\/Discord\/youtube channel.\n\nThank you^^","creation_tsz":1626713251,"ending_tsz":1637344051,"original_creation_tsz":1612398132,"last_modified_tsz":1626713251,"price":"250000.00","currency_code":"IDR","quantity":986,"sku":[],"tags":["twitch","twitch
-        emotes","twitch sub badges","sub badge","discord","twitch emote","mixer","youtube","zelda","sword","link","switch","nintendo"],"materials":[],"shop_section_id":31394169,"featured_rank":null,"state_tsz":1626685214,"url":"https:\/\/www.etsy.com\/listing\/956079159\/twitch-sub-badges-zelda-sword-and-shield?utm_source=gifty&utm_medium=api&utm_campaign=api","views":328,"num_favorers":47,"shipping_template_id":null,"processing_min":null,"processing_max":null,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":true,"file_data":"1
-        ZIP","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":77,"taxonomy_path":["Art
-        & Collectibles","Drawing & Illustration","Digital"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1053999833,"state":"active","user_id":99628037,"category_id":null,"title":"Extra
-        Mods And IPS Backlit LCD GBA Mod Nintendo GameBoy Advance Final Fantasy vi","description":"Check
-        out the video of overview of all the mods to see how they work and our gallery
-        of products here:\nhttps:\/\/www.instagram.com\/stories\/highlights\/17909877412934131\/\n\nDESCRIPTION
-        \n\n1. IPS LCD v2\n   + &quot;4 pixels in 1&quot; compare to AGS101 LCD, it
-        means it displays 4 times sharper than AGS101 LCD\n   + Bigger than AGS101
-        LCD but still have proportional image\n   + 10 brightness levels (press on
-        select + L or R button to change the brightness)\n   + Wider viewing angle\n   +
-        Around 10+ hours playing with 1900mah AA battery (brightness level 5, no sound
-        upgrade)\n   You will get the newest version of the LCD, no issues.\n\n2.
-        Extra mods and shipping (Combine the 2 variations to determine the price,
-        choose the &quot;extra mods 1&quot; first) :\n\n  - Louder sound: an amp board
-        is installed to amplify the sound. Most of the GBA speakers in the market
-        now are very quiet. This mod will improve the sound much better.\n\n\n  -
-        OverClocking: Speed up\/down the game. Hardware will be modified so that player
-        can change the speed of the game to 3 levels via a switch which is installed
-        nicely on the top right of the GBA (see picture). 3 speeds are 0.85x, 1x (normal
-        speed) and 1.5x. This mod is for bypassing the long text (games like Pokemon)
-        or slowing down the action moving on the fighting games.\n  Note: 0.85x and
-        1.5x are for genuine game cartridges only. Do not work stably with flashcart
-        at 0.85x and 1.5x (game may freeze). Still functioning with GBA Link Cable
-        when both devices are at the same speed (if the second device has this mod
-        too).\nSee video at my Instagram: https:\/\/www.instagram.com\/p\/B9qgHGFH_Eq\/?igshid=ots3ksxukg3j\n\n  -
-        Rechargeable AAs mod: The device is modified so that player can charge the
-        rechargeable AAs batteries (Nimh batteries) directly from the device via micro
-        usb\/Type C charging port built-in (at the top left of the GBA), please let
-        me know in &quot; Personalization box&quot; which kind of port you would like
-        (Micro usb or Type C port). Can use any phone charge which has 5v out to charge
-        it. (Note that if you choose type C port, it is not compatible with &quot;type
-        C to type C&quot; cable, you please use &quot;type A to Type C&quot; cable).\nIt
-        still works with normal AAs batteries normally.\n\nLED indicator:\nHigh power:
-        green\nLow power: red\nCharged: yellow, when full charged it is off.\n\nOnly
-        charge when the batteries are inserted.\n\n  - Bluetooth mod: this mod lets
-        you be able to get Bluetooth Audio working on your GBA in case you&#39;d like
-        to have your Bluetooth headphones\/speaker work with your favorite handheld.
-        This is how it works:\n      \n     + Slide the switch located at the bottom
-        of the GBA to turn on the bluetooth function whenever you want to use your
-        bluetooth headphones\/speaker, the power led will blink fast in blue and it
-        starts searching your bluetooth headphones\/speaker, after successfully pairing
-        with your headphone, power led will blink slowly in blue (while the green\/red
-        power led of the GBA still works normally)\n     + Turning on the Bluetooth
-        function will disable the speaker and headphone jack of the GBA, all the sound
-        of the game will be transferred to your bluetooth headphones\/speaker. There
-        is a small latency when transferring the sound to the Bluetooth device but
-        it is barely noticeable.\n     + You can use either GBA&#39;s volume wheel
-        or your Bluetooth headphones\/speaker to adjust the volume of the sound.\n     +
-        Connection is good if you keep the the distance between your GBA and your
-        Bluetooth Headphones\/Speaker less than 5 meters.\n     + Make sure your bluetooth
-        device disconnected before making new connection with the GBA. Sometimes you
-        may need to turn on and off the bluetooth to pair succesfully.\n     + Battery
-        life of the GBA when using Bluetooth function: around 7-8 hours with 3000
-        mAh AAs batteries (Brightness at level 5, IPS LCD).\n     + Due to the power
-        supply from just a couple of AA batteries, you will hear noticeable humming
-        sound from your bluetooth device when the GBA in standby mode, the humming
-        sound will be almost covered by the music of the game (don&#39;t worry there
-        is not any background sound from the inner speaker and the headphone jack
-        of the GBA).\n     + It is compatible with most of bluetooth devices in the
-        market now, but I can not test every bluetooth device to say surely it will
-        work with your bluetooth device, if you find out it can not pair with your
-        bluetooth device after receiving the GBA, please try with another bluetooth
-        device.\n\n\n  - Fast shipping: arrive in 10-15 days after shipment. Tracking
-        information will be only available after the package arrives customer&#39;s
-        country (around 7-10 days after shipment).\n        + The item is shipped
-        from Asia. Default shipping is standard method. It takes 15-30 days to arrive,
-        depends on local customs processing and which country customer is living.\n        +
-        Super fast shipping: arrive in 3 - 5 days. Contact me if you want super fast
-        shipping method.\n\n3. Other details of the product:\n\n+ Glass lens with
-        no scratches and very pure.\n\n+ High quality conductive silicone were installed.
-        The Dpad, AB buttons feel great and responsive (Most of normal conductive
-        silicone in the market now make the Dpad,AB buttons really stiff).\n\n+ Shell
-        is modified correctly which makes the shell close properly, two parts of the
-        shell fit well.\n\n***These upgrades need more power so we should use rechargeable
-        AAs battery for better playtime. And the battery life depends on its brandname.\n\n4.
-        Tiny dust may fly to the backside of the lens while being shipped. This is
-        out of my control.\n\n5. No battery, no cartridge, no charger (if you choose
-        rechargeable mod) include.\n \n\nOthers:  \n\n1. We are sorry that we won&#39;t
-        be responsible for any wrong or undeliverable addresses \n\n2. Order will
-        be shipped out within 2-3 business days after receiving cleared payment \n\nInternational
-        Buyers \u2013Please Note: Import duties, taxes,and charges are not included
-        in the item price or shipping cost. These charges are the buyer&#39;s responsibility.
-        Please check with your country&#39;s customs office to determine what these
-        additional costs will be prior to bidding or buying. \n\nWe offer 30-day warranty
-        from the date you receive the package which is shown in the tracking information.
-        This is for repairs or a full refund if you would like to return, and we will
-        cover the shipping cost as well. The warranty is valid only when the device
-        is defective or has problem itself. And it must be kept in condition as when
-        it arrived.\nAfter this period of time, cost may occur and will be quoted
-        based on the repair and you cover all the shipping cost (if you send it back
-        for repair).\n\nOur destiny is bringing you back to your childhood with favorite
-        memories and earn your 5-star review.\n\n \n\n\nCONTACT US \n\nWe have always
-        been trying to provide the best service and reliable products for every customer.
-        However, accident may happen sometimes, please contact us to resolve any issues
-        before leaving a review. Any question please feel free to contact us here
-        via ETSY message center.","creation_tsz":1626713241,"ending_tsz":1637344041,"original_creation_tsz":1626713241,"last_modified_tsz":1626713271,"price":"244.00","currency_code":"USD","quantity":1,"sku":[],"tags":["gameboy","game
-        boy advance","video games","gameboy advance","games","gameboy advance sp","gameboy
-        color","gameboy pocket","gameboy micro","Nintendo Switch","Nintendo Switch
-        skin","video game","gameboy mods"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1626713241,"url":"https:\/\/www.etsy.com\/listing\/1053999833\/extra-mods-and-ips-backlit-lcd-gba-mod?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":74709111618,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":12192,"taxonomy_path":["Electronics
-        & Accessories","Video Games","Games"],"used_manufacturer":false,"is_vintage":false}],"params":{"limit":25,"offset":0,"page":null,"keywords":null,"sort_on":"created","sort_order":"down","min_price":null,"max_price":null,"color":null,"color_accuracy":0,"tags":"nintendo","taxonomy_id":null,"location":null,"lat":null,"lon":null,"region":null,"geo_level":"city","accepts_gift_cards":"false","translate_keywords":"false"},"type":"Listing","pagination":{"effective_limit":25,"effective_offset":0,"next_offset":25,"effective_page":1,"next_page":2}}'
-  recorded_at: Mon, 19 Jul 2021 17:02:16 GMT
+        Plastic"],"shop_section_id":16478098,"featured_rank":null,"state_tsz":1626714901,"url":"https:\/\/www.etsy.com\/listing\/1040047272\/kirbys-star-stacker-gb-gameboy?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1054012047,"state":"active","user_id":50840176,"category_id":null,"title":"Kirby&#39;s
+        Pinball Land - (GB) Gameboy Collector&#39;s Game Case","description":"Keep
+        your old school GameBoy, GameBoy Color, AND GameBoy Advance Games clean and
+        safe with these professionally made game cases! Custom made just for your
+        handheld game collections! Show off your collection proudly by sticking your
+        old school collection on the self with all your other great games!\n\nShipping
+        Rates:\n\n----------------------------------------Within the USA------------------------------------\nShipping
+        cost for the first case is $3.50, then only $0.85 each for any additional
+        case added! \n\n-----------------------------------------To Canada-----------------------------------------\nShipping
+        cost for the first case is $10.00, then only $1.75 each for any additional
+        case added! \n\n----------------------------------The Rest of the WORLD--------------------------------\nShipping
+        cost for the first case is $13.00, then only $2.00 each for any additional
+        case added! \n\n\nCase Dimensions:\nLength:5.25&quot;\nHeight:4.875&quot;\nWidth:
+        0.50&quot;\n\nPlastic Game Case Only. Does not include game cartridge.","creation_tsz":1626714862,"ending_tsz":1637345662,"original_creation_tsz":1626714862,"last_modified_tsz":1626714863,"price":"5.00","currency_code":"USD","quantity":99,"sku":["GB
+        0269"],"tags":["Nintendo","Game cases","Case","Collector","Collector case","Gameboy","retro
+        cases","Game boy","Fun Pak","Chess","Checkers","solitaire","FunPak"],"materials":["PP
+        Plastic"],"shop_section_id":16478098,"featured_rank":null,"state_tsz":1626714862,"url":"https:\/\/www.etsy.com\/listing\/1054012047\/kirbys-pinball-land-gb-gameboy?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":null,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":953017799,"state":"active","user_id":117775689,"category_id":null,"title":"Nintendo
+        Switch Logo Vinyl Decal","description":"Nintendo Switch Logo Vinyl Sticker.
+        Facy changing the colout of the Nitendo Switch logo on your dock or the back
+        of you consoles? now is your chance with 9 colours available. \n\nComes in
+        a number of colours\n\nGloss Gold\nGloss Red\n\nMatte Gold\nMatte Silver\nMatte
+        White\nMatte Black\nMatte Red \nMatte Blue\nMatte Yellow\n\n3 sizes to choose
+        from. \n\nSmall 3.4cm (for the back of the console)\nMedium 5.4 (The size
+        of the dock)\nLarge 7.4cm ( anywhere you want. \n\nNintendo switch and dock
+        not included. \n\n1 vinyl sticker is supplied","creation_tsz":1626714860,"ending_tsz":1637345660,"original_creation_tsz":1612023149,"last_modified_tsz":1626714860,"price":"3.00","currency_code":"GBP","quantity":5,"sku":[],"tags":["nerd","geek","retro","tablet","laptop","breath
+        of the wild","Zelda","Nintendo","switch","sticker","vinyl"],"materials":["Vinyl"],"shop_section_id":32415994,"featured_rank":null,"state_tsz":1612023149,"url":"https:\/\/www.etsy.com\/listing\/953017799\/nintendo-switch-logo-vinyl-decal?utm_source=gifty&utm_medium=api&utm_campaign=api","views":317,"num_favorers":13,"shipping_template_id":90101322675,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1905,"taxonomy_path":["Electronics
+        & Accessories","Decals & Skins","Tablet","Tablet Decals"],"used_manufacturer":false,"is_vintage":false},{"listing_id":916461826,"state":"active","user_id":330225418,"category_id":null,"title":"Nintendo
+        Switch Custom Soft-Touch Face Plate \/ Dockplate for Nintendo Switch Dock
+        - DIY","description":"Nintendo Switch Dock Plate DIY\nThese are Brand New
+        soft-touch dock plates used to customize your Nintendo Switch Dock. This is
+        DIY project that consists of removing the OEM dock plate on the dock to replace
+        it with a custom one. This is not a sticker and requires taking apart the
+        dock.\n\nIncludes:\n\u2022 1 Dock Plate\n\nDoes Not Include:\n\u2022 Dock\n\u2022
+        Instructions\n\u2022 Switch Console or Controllers\n\u2022 Tools: Consists
+        of small Phillips and Triwing screwdrivers & extra screws (Unless selected
+        during purchase, of course)\n\n\n\u2022 If you see an item you&#39;d like
+        that&#39;s out of stock - click request restock! We will add these items to
+        our next order and you will be notified when they are available. This usually
+        takes around a week. You can also message us and we will reserve the item
+        for you!\n\u2022 Feel free to contact us with any other questions, comments
+        or concerns!\n\u2022 Ships USPS First Class within 1 Business Day!\n\n******************************************************\nWARNING!!:
+        Opening up Nintendo&#39;s products may void any remaining warranty you have
+        with them. Please only purchase if you have either experience or the patience
+        to learn! We are not responsible for any issues due to improper installation,
+        including stripped screws. We can offer tips, but we cannot offer full instructions
+        for liability reasons. There are many helpful instructional videos on YouTube!\n*****************************************************","creation_tsz":1626714860,"ending_tsz":1637345660,"original_creation_tsz":1608778947,"last_modified_tsz":1626714860,"price":"16.00","currency_code":"USD","quantity":6,"sku":[],"tags":["nintendo
+        switch","joycon","custom joycons","custom nintendo","custom switch","switch
+        backplate","switch back plates","front plate nintendo","switch frontplate","soft
+        touch dockplate","soft touch dock","nintendo switch dock","nintendo dockplate"],"materials":["shell","housing
+        shell","casing"],"shop_section_id":31832848,"featured_rank":null,"state_tsz":1616395745,"url":"https:\/\/www.etsy.com\/listing\/916461826\/nintendo-switch-custom-soft-touch-face?utm_source=gifty&utm_medium=api&utm_campaign=api","views":396,"num_favorers":52,"shipping_template_id":100214198946,"processing_min":1,"processing_max":3,"who_made":"someone_else","is_supply":"true","when_made":"2020_2021","item_weight":"6","item_weight_unit":"oz","item_length":"8","item_width":"4","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":894832390,"state":"active","user_id":330225418,"category_id":null,"title":"Nintendo
+        Switch Custom Soft-Touch Full Shell Kits - Joycon Shell & Console Backplate
+        - DIY","description":"Nintendo Switch Console and Joy-Cons Full Shell Kit
+        DIY\nThese are Brand New soft-touch full shell kits used to customize your
+        Nintendo Switch Console and Joycons. This is a DIY project that consists of
+        removing the existing stock backplate on the Switch Tablet and the stock Joy-Con
+        shells to replace them.\n\n*These items are only compatible with genuine Nintendo
+        Switch Joycons and Tablet. This is not compatible with the Switch Lite!*\n\nIncludes:\n\u2022
+        Pair of Joycon shells\n\u2022 Middle frames\n\u2022 Console Backplate\n\u2022
+        Kickstand\n\u2022 1x Adhesive sponge pad\n\u2022 2x Dustproof speaker nets\n\n\nDoes
+        Not Include:\n\u2022 Buttons - Stock photo is used as an example only\n\u2022
+        Instructions\n\u2022 Switch Console or Controllers\n\u2022 All Tools: Consists
+        of Phillips and Triwing screwdrivers & extra springs and screws for the joycons
+        & extra screws for the backplate (This can be selected during purchase)\n\n\n\u2022
+        Interested in an item that&#39;s out of stock? Click &quot;restock request&quot;
+        and you will be immediately notified when we receive more stock!\n\u2022 Feel
+        free to contact us with any other questions, comments or concerns!\n\u2022
+        Ships USPS First Class within 1-3 Business Days!\n\n********************************\nWARNING!!
+        Opening Nintendo&#39;s products may void any remaining warranty you have with
+        them. Please only purchase if you have either experience or the patience to
+        learn! We are not responsible for any issues due to improper installation,
+        including stripped screws. We can offer tips, but we cannot give full instructions
+        for liability reasons. There are many helpful instructional videos on YouTube!\n********************************","creation_tsz":1626714860,"ending_tsz":1637345660,"original_creation_tsz":1605923467,"last_modified_tsz":1626714860,"price":"27.00","currency_code":"USD","quantity":6,"sku":[],"tags":["nintendo
+        switch","custom joycons","joycon housing","custom backplate","custom switch","switch
+        backplate","switch back plates","soft touch backplate","soft touch switch","joycon
+        shells","joy con shells","full shell kits","custom joycon shell"],"materials":["shell","housing
+        shell","casing"],"shop_section_id":31361624,"featured_rank":null,"state_tsz":1621039288,"url":"https:\/\/www.etsy.com\/listing\/894832390\/nintendo-switch-custom-soft-touch-full?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1702,"num_favorers":153,"shipping_template_id":100214198946,"processing_min":1,"processing_max":3,"who_made":"someone_else","is_supply":"true","when_made":"2020_2021","item_weight":"10","item_weight_unit":"oz","item_length":"8","item_width":"4","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":890,"taxonomy_path":["Electronics
+        & Accessories","Video Games"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1036867577,"state":"active","user_id":489321504,"category_id":null,"title":"Shoe
+        Charms For Crocs","description":"Shoe Charms For Crocs","creation_tsz":1626714832,"ending_tsz":1637345632,"original_creation_tsz":1623803711,"last_modified_tsz":1626714832,"price":"3.00","currency_code":"USD","quantity":33,"sku":[],"tags":["shoe
+        charms","charms for crocs","charms for shoes","crocs","croc charms","Nintendo
+        shoe charms","marsh mellow charms","Martin shoe charms","fresh shoe charms","croc
+        jibbitz","Martin shoe charm","Kaws shoe charms","clog charms"],"materials":[],"shop_section_id":null,"featured_rank":null,"state_tsz":1626132027,"url":"https:\/\/www.etsy.com\/listing\/1036867577\/shoe-charms-for-crocs?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1107,"num_favorers":109,"shipping_template_id":141930900289,"processing_min":1,"processing_max":3,"who_made":"i_did","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":6426,"taxonomy_path":["Craft
+        Supplies & Tools","Beads, Gems & Cabochons","Charms & Pendants","Charms"],"used_manufacturer":false,"is_vintage":false}],"params":{"limit":25,"offset":0,"page":null,"keywords":null,"sort_on":"created","sort_order":"down","min_price":null,"max_price":null,"color":null,"color_accuracy":0,"tags":"nintendo","taxonomy_id":null,"location":null,"lat":null,"lon":null,"region":null,"geo_level":"city","accepts_gift_cards":"false","translate_keywords":"false"},"type":"Listing","pagination":{"effective_limit":25,"effective_offset":0,"next_offset":25,"effective_page":1,"next_page":2}}'
+  recorded_at: Mon, 19 Jul 2021 17:33:58 GMT
 recorded_with: VCR 6.0.0

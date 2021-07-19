@@ -4,7 +4,7 @@ RSpec.describe 'edit Gift - POST api/v1/gifts' do
   before do
     @user = create :user
     @friend1 = create :friend, birthday: '1989-09-29', user: @user
-    @gift = create :gift, status: 0, friend: @friend1
+    @gift = create :gift, status: 0, friend: @friend1, name: "nintendo"
   end
 
   describe 'happy path' do
