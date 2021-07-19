@@ -9,8 +9,6 @@ class Api::V1::EtsyController < ApplicationController
   private
 
   def validate_params
-    if params[:tag].blank?
-      render json: { error: "Must provide keyword" }, status: :bad_request
-    end
+    render json: { error: 'Must provide keyword' }, status: :bad_request if params[:tag].blank?
   end
 end
