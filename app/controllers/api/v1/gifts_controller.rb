@@ -3,11 +3,15 @@ class Api::V1::GiftsController < ApplicationController
   before_action :find_gift, only: %i[show destroy update]
 
   def index
-    render json: FriendSerializer.new(@friend, include: [:gifts])
+    Rails.cache.fetch(@friend.to_s, expires_in: 2.minutes) do
+      render json: FriendSerializer.new(@friend, include: [:gifts])
+    end
   end
 
   def show
+    Rails.cache.fetch("#{@gift}", expires_in: 2.minutes) do
     render json: GiftSerializer.new(@gift)
+    end 
   end
 
   def create

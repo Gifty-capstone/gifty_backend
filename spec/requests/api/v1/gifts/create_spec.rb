@@ -7,7 +7,7 @@ RSpec.describe 'Create Gift - POST api/v1/gifts' do
   end
 
   describe 'happy path' do
-    it 'creates a gift with correct params' do
+    it 'creates a gift with correct params', :vcr do
       gift1 = create :gift, status: 0, friend: @friend1
 
       post "/api/v1/users/#{@user.id}/friends/#{@friend1.id}/gifts",
