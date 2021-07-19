@@ -1,0 +1,914 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://openapi.etsy.com/v2/listings/active?api_key=<api_key>&tags=name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.5.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - Apache
+      X-Cloud-Trace-Context:
+      - 9546bceda093a3a8c1d9a5d951f2db47/11662775389666190718;o=0
+      X-Etsy-Request-Uuid:
+      - Eu5xj2ZDYLMS3iOM0dcIKNEMyPf3
+      X-Ratelimit-Limit:
+      - '10000'
+      X-Ratelimit-Remaining:
+      - '9964'
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - user_prefs=fKBl-hFZp2F5C4WFpKHLhYVPFqpjZACChK89qTA6Oq80J0eHPCKWAQA.; expires=Tue,
+        19-Jul-2022 14:29:57 GMT; Max-Age=31535999; path=/; domain=.etsy.com
+      Content-Type:
+      - application/json
+      Via:
+      - 1.1 google, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 19 Jul 2021 14:29:58 GMT
+      X-Served-By:
+      - cache-den8253-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1626704998.984898,VS0,VE727
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":50100,"results":[{"listing_id":711181537,"state":"active","user_id":54449130,"category_id":null,"title":"Sterling
+        silver personalised disc pendant with tree of life pendant - engraved necklace
+        - silver necklace - TP\/AC0414\/PER","description":"Sterling silver (.925)
+        personalised disc pendant with tree of life pendant. Available in sterling
+        silver (.925),  9ct yellow gold plate over sterling silver (.925) or 9ct rose
+        gold plate over sterling silver (.925).\n\nMake your gift memorable by adding
+        a personalised touch. Personalisation can be added to the front and back with
+        up to 35 characters on each, making it perfect for a meaningful message for
+        a loved one or even yourself. \n\nSterling silver (.925) pendant\nSterling
+        silver (.925) diamond cut curb chain\nThe disc measures 18mm (h) x 18mm (w)\nThe
+        charm measures 16mm (h) x 16mm (w)\nGift box included\n\n\nWe plate our own
+        jewellery to make sure there are no traces of nickel or lead, and to ensure
+        a long lasting finish. \n\nPlease review our shop&#39;s policy page before
+        placing your order.","creation_tsz":1626704863,"ending_tsz":1637335663,"original_creation_tsz":1559553549,"last_modified_tsz":1626704863,"price":"22.95","currency_code":"GBP","quantity":323,"sku":["AC2207\/AC0414-14IN-SIL-CURB","AC2207\/AC0414-18IN-SIL-CURB","AC2207\/AC0414-20IN-SIL-CURB","AC2207\/AC0414\/Y-14IN-PLGOLD-CURB","AC2207\/AC0414\/Y-16IN-PLGOLD-CURB","AC2207\/AC0414\/Y-18IN-PLGOLD-CURB","AC2207\/AC0414\/R-16IN-PLROSE-CURB","AC2207\/AC0414\/R-NOCHAIN","AC2207\/AC0414-16IN-SIL-CURB","AC2207\/AC0414-NOCHAIN","AC2207\/AC0414\/Y-20IN-PLGOLD-CURB","AC2207\/AC0414\/Y-NOCHAIN","AC2207\/AC0414\/R-14IN-PLROSE-CURB","AC2207\/AC0414\/R-18IN-PLROSE-CURB","AC2207\/AC0414\/R-20IN-PLROSE-CURB"],"tags":["Silver
+        necklace","gold necklace","personalised gift","custom necklace","customized
+        necklace","engraved necklace","disc pendant","name necklace","date necklace","tree
+        of life","family necklace","Mother''s Day gift","gift for mum"],"materials":["Silver","Rose
+        gold","Gold"],"shop_section_id":25863702,"featured_rank":null,"state_tsz":1615331152,"url":"https:\/\/www.etsy.com\/listing\/711181537\/sterling-silver-personalised-disc?utm_source=gifty&utm_medium=api&utm_campaign=api","views":2637,"num_favorers":85,"shipping_template_id":70350823483,"processing_min":1,"processing_max":2,"who_made":"collective","is_supply":"false","when_made":"2020_2021","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1229,"taxonomy_path":["Jewelry","Necklaces","Pendants"],"used_manufacturer":false,"is_vintage":false},{"listing_id":851010760,"state":"active","user_id":23073284,"category_id":null,"title":"Custom
+        Name Bead Bracelet | Heishi Bracelet","description":"This listing is for one
+        bracelet. \n\nThe standard size for the bracelets is 6.75 inches. You may
+        request custom sizes in the personalization box. We can make bracelets for
+        children as well, but please measure their wrists for the most accurate sizing.
+        Please reference the chart posted in the photos if you are unsure of size,
+        but know it may not be a perfect fit unless you provide exact measurements.
+        \n\nOrders cannot be changed once they have been placed due to the high volume
+        and quick turnaround we work hard to maintain. Please double check spelling
+        and all details of the order before placing your order. Since each bracelet
+        is custom made, all sales are final and no refunds will be issued. \n\nPlease
+        know that the gold letters may vary slightly in color.\n\nIf you&#39;d like
+        any designs or patterns not shown in this listing, please visit the link below
+        to purchase our &quot;super custom&quot; bracelet listing. This includes color
+        accents on either side of the bracelet, custom &quot;rainbow&quot; patterns,
+        etc. \nhttps:\/\/www.etsy.com\/listing\/888298988\/super-custom-name-beaded-bracelet-heishi
+        \n\nThese bracelets are perfect for stacking or wearing alone! They make great
+        gifts for bridal showers, baby showers, bridesmaids, Mother\u2019s Day, sorority
+        sisters, bachelorette parties, birthdays, hospital gifts for new mamas, etc.\n\nCheck
+        out our listings for accent bracelets to pair with your custom bracelet: \nhttps:\/\/www.etsy.com\/listing\/868902296\/heishi-bracelet-with-gold-cylinder
+        \nhttps:\/\/www.etsy.com\/listing\/865538507\/heishi-bracelet-beaded-bracelet\n\n**Due
+        to the nature of the material of the beads, we recommend keeping your bracelets
+        dry and away from water or chemicals. The white and light color beads will
+        show wear and tear\/dirt quicker than the darker colors. Keeping the bracelets
+        dry and away from lotions, chemicals, etc. will help keep them looking new
+        for much longer. :)","creation_tsz":1626704860,"ending_tsz":1637335660,"original_creation_tsz":1599099039,"last_modified_tsz":1626704860,"price":"12.00","currency_code":"USD","quantity":483,"sku":[],"tags":["birthday
+        gift","party favor","bridesmaid gift","Heishi Bead","Custom Name Bracelet","Name
+        Bracelet","Personalized","Bracelet","Friendship Bracelet","Rainbow Bracelet","woman
+        gift","bead bracelet","mama"],"materials":["Heishi Beads","Clay Disc Beads","Gold
+        Beads","Letter Beads"],"shop_section_id":30710786,"featured_rank":1,"state_tsz":1626637147,"url":"https:\/\/www.etsy.com\/listing\/851010760\/custom-name-bead-bracelet-heishi?utm_source=gifty&utm_medium=api&utm_campaign=api","views":85627,"num_favorers":9546,"shipping_template_id":106973202030,"processing_min":1,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"1","item_weight_unit":"oz","item_length":"4","item_width":"4","item_height":"0.25","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1195,"taxonomy_path":["Jewelry","Bracelets","Beaded
+        Bracelets"],"used_manufacturer":false,"is_vintage":false},{"listing_id":933366574,"state":"active","user_id":423424355,"category_id":null,"title":"Pack
+        Organic Muslin MullCloth Spitcloth Cuddly Cloth Heart Embroidered Personalized
+        Gift Birth \/ Baby Party \/ Babyshower \/ Baptism","description":"Children&#39;s
+        dreams in pastel \u2013 the timeless Danish design can be found in cute bedding,
+        minimalist home accessories for children and baby accessories.\n\nLiving style:
+        natural, simple, sweet\n\nThe soft muslin made of organic cotton in our range
+        is a must-have for every baby room! Every day, whether as a cuddle or as a
+        spitting cloth, they make your everyday life easier. The cuddly towel is available
+        in different pastel colours in our range. The cute cloth guarantees a good
+        mood for young and old. An ideal gift for birth, baptism or baby party.\n\nThe
+        special feature: On request, we are happy to embroider personal data such
+        as the child&#39;s name of the new citizen of the earth on the soft mullcloth.
+        Thus, the mullcloth is a great gift for the parents-to-be.\n\nWe pack the
+        mull cloth for you as a nice gift \u2013 ready to give away and make you happy!\n\n\nPacking:\nOrganic
+        muslin mull cloth (embroidered with name-writing heart or without name) of
+        your choice, selectable for personalization requests\n\n\nmaterial\n100% Organic
+        Cotton\nCare\nWashable at 60\u00b0C | Ironing at 150 \u00b0C | Dryer suitable
+        at 80 \u00b0C\nColour in pastel: see above\n\n\nmetrics\nLength: 65 cm | Width:
+        65 cm\nThe decorative items shown in the picture are not included in the price.\n\n\n\n\nSafety\n\nThe
+        following additional safety instructions are available for this product\n\nAttention:
+        Use under the direct supervision of adults","creation_tsz":1626704830,"ending_tsz":1637335630,"original_creation_tsz":1611304572,"last_modified_tsz":1626704830,"price":"4.59","currency_code":"EUR","quantity":1889,"sku":[],"tags":["Spitting
+        cloth","personalization","Gift Baby","Gift for Baptism","Gift Baby Party","Organic
+        cotton spitting cloth","Spitting cloth with name","Mull diapers","embroidered
+        spitting cloth","Organic mullcloth","muslin","Gift for birth","Babyshower"],"materials":[],"shop_section_id":32108899,"featured_rank":null,"state_tsz":1624349737,"url":"https:\/\/www.etsy.com\/listing\/933366574\/pack-organic-muslin-mullcloth-spitcloth?utm_source=gifty&utm_medium=api&utm_campaign=api","views":32865,"num_favorers":1947,"shipping_template_id":null,"processing_min":1,"processing_max":1,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"MACHINE_en","has_variations":true,"taxonomy_id":2087,"taxonomy_path":["Bath
+        & Beauty","Baby & Child Care","Bibs & Burping","Bibs"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1006508370,"state":"active","user_id":208270998,"category_id":null,"title":"Custom
+        Metal Nursery Name sign | Monogram sign | Bedroom name sign | Gold name sign
+        | First and middle name sign","description":"This is a beautiful custom metal
+        name sign. Would be perfect for a nursery or children\u2019s room. \n\nThis
+        listing is for first and middle name together. \n\nMade from heavy duty, 14
+        gauge steel and powder coated for a lasting finish. \n\nPlease message us
+        with any custom requests.","creation_tsz":1626704830,"ending_tsz":1637335630,"original_creation_tsz":1621219921,"last_modified_tsz":1626704830,"price":"60.00","currency_code":"USD","quantity":141,"sku":[],"tags":["nursery
+        decor","cursive name","baby shower gift","Fathers Day","baby name monogram","childrens
+        decor","custom room decor","monogram","metal name sign","name sign","nursery
+        name sign","nursery sign","custom name sign"],"materials":["Metal","Steel"],"shop_section_id":null,"featured_rank":null,"state_tsz":1626055635,"url":"https:\/\/www.etsy.com\/listing\/1006508370\/custom-metal-nursery-name-sign-monogram?utm_source=gifty&utm_medium=api&utm_campaign=api","views":337,"num_favorers":24,"shipping_template_id":111489227246,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":2844,"taxonomy_path":["Home
+        & Living","Home Decor","Wall Decor","Wall Hangings","Signs"],"used_manufacturer":false,"is_vintage":false},{"listing_id":675184196,"state":"active","user_id":45737681,"category_id":null,"title":"Deer
+        Waterproof Labels, Boy Name Labels, Rustic Wood Waterproof Stickers, Boy waterproof
+        Stickers for school","description":"Deer Rustic Name Labels\n\nDishwasher
+        Safe Waterproof Labels to label all of your kids items - bottles, sippy cups,
+        tupper ware, lunch boxes, toys, diaper bag etc...\n**If you are intending
+        to use these on baby bottles, please be aware that certain bottles have ridges
+        and are grooved - these labels really need to be on a flat smooth surface
+        for best results.**\n\n\u2665 INFORMATION \u2665 \nWaterproof Label Size is
+        1&quot; x 2.625&quot;\n30 labels total\nPrinted on professional printers\nMatte
+        labels\nWrapped in cellophane bag\n\n\u2665 ORDERING\u2665 \nPlace sticker
+        design in your cart\nPersonalize them in the notes to seller section\n\n\u2665
+        SHIPPING\u2665 \nAll stickers are sent in a sturdy, non-bendable mailer\nStickers
+        will ship within 3-5 business days via First Class Mail\n\nPlease message
+        me with any concerns or comments.","creation_tsz":1626704822,"ending_tsz":1637335622,"original_creation_tsz":1552071364,"last_modified_tsz":1626704822,"price":"7.00","currency_code":"USD","quantity":43,"sku":[],"tags":["waterproof
+        stickers","waterproof labels","dishwasher safe","daycare labels","personalized
+        sticker","school labels","boy name label","deer stickers","deer name labels","rustic
+        name labels","boy name labels","deer labels","name labels boy"],"materials":[],"shop_section_id":15213251,"featured_rank":null,"state_tsz":1605633426,"url":"https:\/\/www.etsy.com\/listing\/675184196\/deer-waterproof-labels-boy-name-labels?utm_source=gifty&utm_medium=api&utm_campaign=api","views":225,"num_favorers":46,"shipping_template_id":18466064251,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":"children","occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":1322,"taxonomy_path":["Paper
+        & Party Supplies","Paper","Stickers, Labels & Tags","Labels"],"used_manufacturer":false,"is_vintage":false},{"listing_id":675180932,"state":"active","user_id":45737681,"category_id":null,"title":"Girl
+        Waterproof Labels | Girl Name Labels| Personalized Waterproof Labels | Floral
+        Wood Rustic Name Stickers, Woodland","description":"Rustic Floral Wooden Waterproof
+        Stickers\n\nWaterproof Labels are Fabulous for labeling your kids important
+        items.  Especially for bottles, sippy cups, tupperware, lunch bags, beach
+        toys, toys, daycare items, camp items, inside of shoes etc.. Basically, anywhere
+        there is a flat smooth surface.  \n\nOur labels can go through the dishwasher
+        and microwave. \nThey last for 30-45 washings before fading. Great way to
+        label whatever it may be that you need labeled permanently.\nDaycare, camps
+        and schools require them.\n\n**If you are intending to use these on baby bottles,
+        please be aware that certain bottles have ridges and are grooved - these labels
+        really need to be on a flat smooth surface for best results.**\n\nWaterproof
+        Label Size is 1&quot; x 2.625&quot;\n30 labels total\n\nPlace sticker design
+        in your cart\nPersonalize them in the notes to seller section\nPlease triple
+        check spelling and add in any specific comments you may have.\n\nAll stickers
+        are packaged in clear cellophane and sent in a sturdy, non-bendable mailer\nStickers
+        will ship within 3-5 business days via First Class Mail\n\nPlease message
+        me with any concerns or comments.","creation_tsz":1626704822,"ending_tsz":1637335622,"original_creation_tsz":1552070606,"last_modified_tsz":1626704822,"price":"7.00","currency_code":"USD","quantity":719,"sku":[],"tags":["waterproof
+        stickers","personalized","custom name labels","name labels","floral name label","wood
+        name labels","girls name labels","waterproof labels","name labels girl","daycare
+        labels","girl waterproof","rustic label","woodland"],"materials":[],"shop_section_id":19609051,"featured_rank":null,"state_tsz":1609386021,"url":"https:\/\/www.etsy.com\/listing\/675180932\/girl-waterproof-labels-girl-name-labels?utm_source=gifty&utm_medium=api&utm_campaign=api","views":227,"num_favorers":57,"shipping_template_id":18466064251,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":"children","occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":6614,"taxonomy_path":["Craft
+        Supplies & Tools","Party & Gifting","Labels, Stickers & Tags","Stickers"],"used_manufacturer":false,"is_vintage":false},{"listing_id":828983683,"state":"active","user_id":93019817,"category_id":null,"title":"Custom
+        Beaded Name Keychain","description":"Read Entire Description Box Before Ordering!\n\nOur
+        brand new customizable keychain with any name and choose from 36 color options!(We
+        have letter and red heart beads)\n\nPerfect for to match your college, your
+        favorite color, or with your friends!\n\nJust pick your number that corresponds
+        with the color and leave your name or phrase in the name box! (Scroll through
+        pictures to find corresponding numbers and colors).\n\n\ufeffThere are 36
+        Color Options to choose from please do NOT put a different color in the name
+        box than the one you select! The example pictures all have corresponding numbers!
+        The Popular &#39;Jenna&#39; Style keychain is number 34!\n\nIMPORTANT: If
+        you would like more than one color you HAVE to click the &#39;Custom Pattern&#39;
+        option. If you select one color and request for multiple I will still charge
+        the extra amount or CANCEL your order! \n\n\n*Due to high volumes of orders
+        estimated processing time is between 1-14 days* Message me for current update
+        on these times.","creation_tsz":1626704821,"ending_tsz":1637335621,"original_creation_tsz":1592984531,"last_modified_tsz":1626704821,"price":"9.00","currency_code":"USD","quantity":560,"sku":[],"tags":["beaded
+        keychain","custom","custom name keychain","keychain","rainbow","pride","trendy","teen","gift","girl","jewelry","summer","key
+        chain"],"materials":[],"shop_section_id":29307434,"featured_rank":null,"state_tsz":1626462446,"url":"https:\/\/www.etsy.com\/listing\/828983683\/custom-beaded-name-keychain?utm_source=gifty&utm_medium=api&utm_campaign=api","views":20934,"num_favorers":4161,"shipping_template_id":70803629349,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"0.1","item_weight_unit":"oz","item_length":"4","item_width":"2","item_height":"0.5","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":165,"taxonomy_path":["Accessories","Keychains
+        & Lanyards","Keychains"],"used_manufacturer":false,"is_vintage":false},{"listing_id":793933278,"state":"active","user_id":108611347,"category_id":null,"title":"Name
+        Necklace - Gold Name Necklace - Pave Name Necklace - Personalized Jewelry
+        -Mother&#39;s Day Gift - Custom Name Necklace - Bridesmaid Gift","description":"Personalized
+        Name Necklace will be handmade with your desired name in this script font.
+        You will love this simple yet fashion name necklace. This will be great personalized
+        bridesmaid gift; birthday gift or a gift for yourself\n\n\n%100 Handmade for
+        your size in my workshop\nThis choker necklace is 925K Sterling Silver and
+        14K Gold Filled\n\n\n\n\u25ba HOW TO ORDER;\n\nLeave a message in the message
+        box when you check out on following 2 things!\n\n1) Please write your preffered
+        name as a note during check out.\n\n2) Length : Standart length is 16 inch\n\n\n\n\u25ba
+        FEATURES;\n\nMaterial Options: 925k Sterling Silver & Rose Gold Filled Over
+        Silver & Yellow Gold Filled Over Silver, 8K White Gold, 8K Yellow Gold, 8K
+        Rose Gold, 14K White Gold, 14K Yellow Gold, 14K Rose Gold, 18K White Gold,
+        18K Yellow Gold, 18K Rose Gold\n\n\n- The item will come with a gift box,
+        ready to be gifted. \n- Multiples are available also for bridal parties or
+        as bridesmaids gift sets (don&#39;t forget to ask about special discounts
+        before ordering)\n- Special offer for Multiple Orders (more than 5 items)    -
+        Contact us for coupon code discount!!! -\n- Please read shipping & policies
+        section for additional shipping information, return-exchange policy and more.\n\n\n\n\nDELIVERY:\nAll
+        items purchased will be shipped within 3-5 business days via Turkish Mail
+        Service with a tracking number. If you wish to upgrade your shipping feel
+        free to contact me.\nPlease see my policies section for shipping and return
+        information\n\n\n\n\nWhat is 14k Gold Fill ?\nGold filled components contain
+        100+ times more real gold than gold plated components and are very durable
+        and tarnish resistant. Gold filled jewelry is a beautiful, affordable alternative
+        to solid gold, and can be worn by people with sensitive skin.\n\n\n\nENTER
+        MY SHOP HERE:\n\nhttps:\/\/www.etsy.com\/shop\/SiaJewelryDesigns\n\n\n\n\u25ba
+        PROCESSING & SHIPPING\n\n- Your order will be handmade in 3-5 business days.\n-
+        You can upgrade your shipping to UPS Express during check out if you want
+        it quicker\n- Standard Shipping Time:  8-21 business days\n- Express Shipping
+        Time:  1-3 business days.\n\n\n\n- Thank you for your interest -\n\n- Please
+        check out our other items and be sure to add us to your favorites -","creation_tsz":1626704817,"ending_tsz":1637335617,"original_creation_tsz":1589241105,"last_modified_tsz":1626704817,"price":"65.00","currency_code":"USD","quantity":665,"sku":[],"tags":["personalized
+        jewelry","personalized","handmade jewelry","name necklace","custom name necklace","name
+        plate jewelry","gold name necklace","mothers day gift","Bridesmaids Gift","Valentine''s
+        Day Gift","pave necklace","necklace","bestseller"],"materials":["Silver"],"shop_section_id":21409555,"featured_rank":3,"state_tsz":1622990260,"url":"https:\/\/www.etsy.com\/listing\/793933278\/name-necklace-gold-name-necklace-pave?utm_source=gifty&utm_medium=api&utm_campaign=api","views":3599,"num_favorers":465,"shipping_template_id":41072181263,"processing_min":5,"processing_max":7,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":1227,"taxonomy_path":["Jewelry","Necklaces","Monogram
+        & Name Necklaces"],"used_manufacturer":false,"is_vintage":false},{"listing_id":945603086,"state":"active","user_id":430586914,"category_id":null,"title":"Custom
+        Neon Sign| Neon Sign light| Neon sign bedroom| Neon Sign| Led Neon Sign| Wedding
+        sign| Party Sign| Neon Sign Lights| Neon Sign bar","description":"**Please
+        contact us before placing order to get a mock-up & accurate quote.**\n\nDesign
+        your custom neon sign and get it made by us by placing your order. You can
+        describe to us about your neon sign at the time of placing an order and getting
+        a quote in messages, or you can send us a picture of your design. We will
+        make your imagination a reality with our own hands.\n\n\nAll the signs we
+        make are handmade and colorful. Neon Sign will be finished finally, so everyone
+        who had a glance at it will love it. I bet it will make your place look 100
+        times better than before.\n\n\nYou can see our recent projects in the images
+        section.\n\nFeatures\n--------------------------------\n- Durable\n- Bright\n-
+        Colorful\n- Personalized\n- Waterproof\n- Ready to use\n- Your design\n\nSpecification\n----------------------------\n12V
+        voltage throughout the sign.\n\nPackaging\n----------------------------\nYour
+        designed neon sign will come bubble wrapped in a cardboard box.\n\nShipping\n----------------------------\nWe
+        usually ship in 1-2 working days, and shipment is FREE worldwide :D\n\n\nOrder
+        Now and receive your neon sign in 1-2 business days :)","creation_tsz":1626704816,"ending_tsz":1637335616,"original_creation_tsz":1612862105,"last_modified_tsz":1626704816,"price":"40.00","currency_code":"USD","quantity":66,"sku":[],"tags":["Neon","Sign","Neon
+        sign","Neon signs","Neon sign bedroom","Wedding neon sign","Custom neon sign","Neon
+        sign custom","Custom logo","Name neon","Neon lights","Home decor","Wall decor"],"materials":["Acrylic"],"shop_section_id":null,"featured_rank":1,"state_tsz":1626465868,"url":"https:\/\/www.etsy.com\/listing\/945603086\/custom-neon-sign-neon-sign-light-neon?utm_source=gifty&utm_medium=api&utm_campaign=api","views":498,"num_favorers":24,"shipping_template_id":129991085016,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":2844,"taxonomy_path":["Home
+        & Living","Home Decor","Wall Decor","Wall Hangings","Signs"],"used_manufacturer":false,"is_vintage":false},{"listing_id":687779825,"state":"active","user_id":108611347,"category_id":null,"title":"Gothic
+        Name Choker Necklace - Gothic Choker Necklace - Choker Necklace - Gothic Choker
+        - Silver Choker - Bridesmaid Gift - Mother&#39;s Day Gift","description":"Gothic
+        Name Choker Necklace will be personalized with your preffered name. \u2665
+        \nI hope you will love this fashion yet stylish name necklace with a personalized
+        touch.\nA minimalist personalized jewelry makes a unique gift for her. \nIt
+        is means it will be with you forever... \u2661 \n\n\n%100 Handmade \n\n\u25ba
+        HOW TO ORDER;\n\nLeave a message in the message box when you check out on
+        following 2 things!\n\n1) Please enter your personalized initials,names you
+        want for your necklace \u2665 (\n\n2) Chain length\n\n**Please write your
+        preferred initial(s) or icon(s) in the order you want for your each necklace.\u2028\n\n
+        A B C D E F G H I J K L M N O P Q R S T U V W X V Z\u2028-0 1 2 3 4 5 6 7
+        8 9\n\n- Heart (\u2665)\u2028- Cross (\u2020)\u2028- Ampersand (&)\u2028-
+        Clover\u2028- Evil Eye Protection\n\nMaterial:\n\n925K Sterling Silver ( Yellow
+        Gold Filled-Rose Gold Filled-Silver options are avaible )\n14K Gold  ( Yellow
+        Gold-White Gold-Rose Gold options are avaible )\n\n\nFeatures\u2028\u2022
+        Made to Order\u2028\u2022 \n\nMaterial Options: High Quality 925K Sterling
+        Silver, 14K Solid Gold\nColor Options: Yellow Gold, Rose Gold, White Gold\u2028\nProduction
+        Techniques: Handmade and Laser Cutting\nPackage: Jewelry Box\u2028\u2028\n\n---14
+        inches: Tightly around the neck; a common length for choker necklaces\u00a0\nWorn
+        Best With: Open necklines such as scoop, V-neck, off-the-shoulder, and boatneck\u00a0\n---16
+        inches :Around the base of the throat\u00a0\nWorn Best With: Almost everything\u00a0\u2028\u2028\n---18
+        inches: On or just below the collarbone; most common length\u00a0\nWorn Best
+        With: Almost everything\u00a0\n\u2028---20 to 24 inches: Between the collarbone
+        and the bust\u00a0\nWorn Best With: Higher necklines and collared shirts\u00a0\n\n\nDelivery:\n\u2028High
+        Quality Materials\u2028 Delivery in 15-21 Business Days \/\/ Express Delivery
+        in 2-3 business days\u00a0\n **Contact me about any problems related to the
+        products\u2028\n\nENTER MY SHOP HERE:\n\nhttps:\/\/www.etsy.com\/shop\/SiaJewelryDesigns\n\n-
+        Thank you for your interest -\n\n- Please check out our other items and be
+        sure to add us to your favorites -","creation_tsz":1626704816,"ending_tsz":1637335616,"original_creation_tsz":1551687897,"last_modified_tsz":1626704816,"price":"33.00","currency_code":"USD","quantity":970,"sku":[],"tags":["silver
+        choker","charm choker","custom choker","gold choker","personalized jewelry","name
+        choker","custom name choker","Bridesmaids Gift","Valentine''s Day Gift","Anniversary
+        Gift","Gothic Choker","Personalized Choker","Gothic Name Necklace"],"materials":["Silver","Gold","Rose
+        gold","White gold"],"shop_section_id":21398338,"featured_rank":null,"state_tsz":1594815244,"url":"https:\/\/www.etsy.com\/listing\/687779825\/gothic-name-choker-necklace-gothic?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1681,"num_favorers":131,"shipping_template_id":41072181263,"processing_min":5,"processing_max":7,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":1223,"taxonomy_path":["Jewelry","Necklaces","Chokers"],"used_manufacturer":false,"is_vintage":false},{"listing_id":510104106,"state":"active","user_id":108611347,"category_id":null,"title":"Name
+        Earrings \u2022 Minimalist Earrings \u2022 Personalized Earrings \u2022 Personalized
+        Jewelry \u2022 Stud Earring \u2022 Gift for Her \u2022 BridesMaid Gift","description":"%100
+        Handmade for your size in my workshop\nThis necklace is 925K Sterling Silver
+        and 14K Gold Filled \n\n\n\u25ba HOW TO ORDER;\n\nLeave a message in the message
+        box when you check out on following 1 thing!\n\n1) Please write your preffered
+        name as a note during check out.\n\n\n\u25ba FEATURES;\n\nMaterial Options:
+        925k Sterling Silver, Rose Gold Filled Over Silver, Yellow Gold Filled Over
+        Silver, 8K Yellow Gold, 8K White Gold, 8K Rose Gold, 14K Yellow Gold, 14K
+        White Gold, 14K Rose Gold\n\n\n\n- The item will come with a gift box, ready
+        to be gifted. \n- Multiples are available also for bridal parties or as bridesmaids
+        gift sets (don&#39;t forget to ask about special discounts before ordering)\n-
+        Special offer for Multiple Orders (more than 5 items)    - Contact us for
+        coupon code discount!!! -\n- Please read shipping & policies section for additional
+        shipping information, return-exchange policy and more.\n\n\n\n\nDELIVERY:\nAll
+        items purchased will be shipped within 3-5 business days via Turkish Mail
+        Service with a tracking number. If you wish to upgrade your shipping feel
+        free to contact me.\nPlease see my policies section for shipping and return
+        information\n\n\n\n\nWhat is 14k Gold Fill ?\nGold filled components contain
+        100+ times more real gold than gold plated components and are very durable
+        and tarnish resistant. Gold filled jewelry is a beautiful, affordable alternative
+        to solid gold, and can be worn by people with sensitive skin.\n\n\n\n\nENTER
+        MY SHOP HERE:\n\nhttps:\/\/www.etsy.com\/shop\/SiaJewelryDesigns\n\n\n\n\u25ba
+        PROCESSING & SHIPPING\n\n- Your order will be handmade in 3-5 business days.\n-
+        You can upgrade your shipping to UPS Express during check out if you want
+        it quicker\n- Standard Shipping Time:  8-21 business days\n- Express Shipping
+        Time:  1-3 business days.\n\n\n\n- Thank you for your interest -\n\n- Please
+        check out our other items and be sure to add us to your favorites -","creation_tsz":1626704816,"ending_tsz":1637335616,"original_creation_tsz":1491777299,"last_modified_tsz":1626704816,"price":"40.00","currency_code":"USD","quantity":665,"sku":[],"tags":["name
+        earrings","stud earring","gift for her","14k gold earring","earcuff","personalized
+        jewelry","14k earring","bredesmaid gift"],"materials":["Silver","Gold","Rose
+        gold","White gold"],"shop_section_id":21424644,"featured_rank":6,"state_tsz":1596604780,"url":"https:\/\/www.etsy.com\/listing\/510104106\/name-earrings-minimalist-earrings?utm_source=gifty&utm_medium=api&utm_campaign=api","views":12356,"num_favorers":1657,"shipping_template_id":41072181263,"processing_min":5,"processing_max":7,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":1207,"taxonomy_path":["Jewelry","Earrings","Cuff
+        & Wrap Earrings"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1039972258,"state":"active","user_id":465281716,"category_id":null,"title":"Custom
+        Name Die Cut Stickers\/Custom Name Stickers\/Personalized Stickers\/Guitar
+        Stickers","description":"Welcome to Call of Cutie Co!\n\nCustom Name Die Cut
+        Sticker. You can choose the size of your custom sticker. Tell me what name
+        you want your sticker to say in the options above. Please double check your
+        spelling!!! Also choose if you want your name sticker with the pink guitar
+        or not.\n\n***3 Inch Sticker Approx: 1 1\/2-2 in H  x 3in W\n\nThese are approximate
+        measurements. The height will be based on the name you choose.\n \nThis listing
+        is for 1 Custom Name Die Cut Sticker printed on Glossy Sticker Paper.\n\nColors
+        will vary on different monitors\/screens.\n\nCheck out our shop for more stickers,
+        bracelets, color pages and more!","creation_tsz":1626704807,"ending_tsz":1637335607,"original_creation_tsz":1626704807,"last_modified_tsz":1626704981,"price":"3.65","currency_code":"USD","quantity":100,"sku":[],"tags":["custom
+        name","name sticker","glossy stickers","guitar stickers","name die cut","laptop
+        sticker","rocker sticker","rock sticker","pink guitar","emoji guitar","kawaii
+        guitar"],"materials":[],"shop_section_id":33405582,"featured_rank":null,"state_tsz":1626704807,"url":"https:\/\/www.etsy.com\/listing\/1039972258\/custom-name-die-cut-stickerscustom-name?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":136437894863,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1317,"taxonomy_path":["Paper
+        & Party Supplies","Paper","Stickers, Labels & Tags"],"used_manufacturer":false,"is_vintage":false},{"listing_id":825584828,"state":"active","user_id":8179894,"category_id":null,"title":"Teacher
+        Name Personalized Teacher desk decal classroom decor vinyl wall decal teacher
+        decal growth mindset farmhouse style-S-126","description":"This would be great
+        in any classroom, library, or school. *Please put the name and grade that
+        you would like in the personalization box*.  Instead of grade, you can also  put
+        a &quot;special&#39; like, &#39;School Counselor&#39;.\n\nVinyl wall lettering
+        is very thin, about the thickness of three coats of paint, and it is applied
+        like a sticker. Your vinyl wall sayings will be sent to you as pre-spaced,
+        pre-pasted letters. Cut the lettering into pieces or sections if you want,
+        and press onto your wall, tile, window, or other flat surface.\n\nAll of our
+        products are made with high grade removable vinyl. This product will last
+        longer than most paints and creates a hand painted finished look. \n\nWe ship
+        with in 1-3 business days, through the Post Office.\n\n~If you need a different
+        size, please convo us to find about price.~\nIf you order a size bigger than
+        23 inches, it will come in 2 sections.  But once placed on the wall it will
+        be seamless!\n\n***Vinyl will have difficulty sticking to walls that have
+        paint that has &quot;stain resistant paint&quot;, &quot;easy care paint&quot;,
+        paint with Teflon, or low or no VOC&#39;s.  It will stick to lightly textured
+        walls like &quot;Orange Peel&quot; walls.  If you are concerned with the vinyl
+        sticking, please ask us you to send you a vinyl sample free of charge. ***\n\nThanks
+        for stopping by!","creation_tsz":1626704807,"ending_tsz":1637335607,"original_creation_tsz":1594846003,"last_modified_tsz":1626704807,"price":"16.99","currency_code":"USD","quantity":94,"sku":[],"tags":["vinyl
+        lettering","vinyl art","wall art","wall decal","wall words","wall quotes","reading
+        decal","school decal","classroom decal","teacher decal","teacher name","teacher
+        desk","Personalized teacher"],"materials":["vinyl lettering with adhesive
+        backing"],"shop_section_id":24836803,"featured_rank":null,"state_tsz":1626616045,"url":"https:\/\/www.etsy.com\/listing\/825584828\/teacher-name-personalized-teacher-desk?utm_source=gifty&utm_medium=api&utm_campaign=api","views":970,"num_favorers":93,"shipping_template_id":14122119,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":true,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1028,"taxonomy_path":["Home
+        & Living","Home Decor","Wall Decor","Wall Decals & Murals"],"used_manufacturer":false,"is_vintage":false},{"listing_id":651120199,"state":"active","user_id":6213701,"category_id":null,"title":"Custom
+        Word, Personalized Wood Sign, Wooden Name, Rustic Cursive Word, Room Decoration,
+        Nursery, Wall hanging, Unfinished Wood, Script","description":"POSSIBLE SHIPPING
+        DELAYS DUE TO COVID-19. \n\nHere is a custom script sign just for you! You
+        can use these as place cards at weddings, cake decorations, wall hangings
+        and so much more! The uses are limited only to your imagination.  This is
+        just for the name - it does not come with the wooden background.\n\nPLEASE
+        READ BELOW WHEN ORDERING:\n\nPlease leave the name or word you want in the
+        Notes to Seller Section when ordering. Your name will come exactly as you
+        type. If you type the first letter uppercase then that is how we will cut
+        it.  The sample shown is an uppercase first letter and all lowercase letters
+        after. Please check out the second and third pictures to see what the letters
+        for the upper and lowercase look like. All dots above the &quot;i&quot; will
+        come attached to stem unless you specifically say you want them separate.
+        You can request a preview before we cut in the Notes to Seller section.\n\nWant
+        it painted? Here is the add on link!\n\nhttps:\/\/www.etsy.com\/listing\/767495662\/custom-word-personalized-wood-sign?ref=shop_home_active_1&frs=1\n\nALL
+        PAINTED NAME SIGNS WILL HAVE A BURN EDGE.\n\nYou have several choices of sizes.
+        The height of the sign will vary with the length. Here are the approximate
+        length and heights in inches:\n\n8x4\n10x5\n12x6\n14x7\n16x8\n18x9\n20x10\n22x11\n24x12\n26x13\n28x14\n\n\nAll
+        signs are made from 1\/4 inch Baltic Birch. If you want a smaller name in
+        thinner wood please contact us for the cost!\n\nYour custom sign will come
+        in natural wood ready to paint. It is cut by a laser so there will be a burned
+        edge which give it a rustic, country look.\n\nSHIPPING\nWe do our best to
+        make sure your item is shipped by the correct ship date. If you need your
+        item before the day it is scheduled to ship out you will need to add the &quot;Rush&quot;
+        addition (link below). This will cut your order to the front of our cut &quot;line&quot;
+        and it will ship out from us within 24 hours of you ordering. Remember that
+        shipping takes 2-3 days so, example, your order is scheduled to go out May
+        24. You need it for an event on May 26. It won&#39;t get there in time. You
+        would need to add on the &quot;Rush&quot; order. ONCE A PACKAGE IS DELIVERED
+        TO THE POST OFFICE IT IS OUT OF OUR CONTROL. WE ARE NOT RESPONSIBLE FOR LOST
+        PACKAGES.\n\nhttps:\/\/www.etsy.com\/listing\/539153793\/rushed-order-addition?ref=shop_home_active_20&crt=1\n\n\nAll
+        orders ship within 1 week of payment.\n\nWe want all of our buyers to be completely
+        satisfied. If you are not please contact us within 14 days of shipment.\n\nIf
+        product is damaged, spelled incorrectly or or not the size ordered please
+        contact us and we will arrange a replacement. Due to the customization of
+        this item we cannot accept returns if it was ordered incorrectly (ie. size
+        or spelling).","creation_tsz":1626704798,"ending_tsz":1637335598,"original_creation_tsz":1539566315,"last_modified_tsz":1626704798,"price":"19.00","currency_code":"USD","quantity":952,"sku":[],"tags":["script
+        word","wood sign","rustic word","room decoration","wall hanging","house warming","wedding
+        gift","personalized sign","wooden name","cursive word","custom script word","custom
+        name","wedding decoration"],"materials":["wood"],"shop_section_id":20892534,"featured_rank":null,"state_tsz":1607620814,"url":"https:\/\/www.etsy.com\/listing\/651120199\/custom-word-personalized-wood-sign?utm_source=gifty&utm_medium=api&utm_campaign=api","views":3217,"num_favorers":148,"shipping_template_id":35968856970,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"true","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1002,"taxonomy_path":["Home
+        & Living","Home Decor"],"used_manufacturer":false,"is_vintage":false},{"listing_id":994313612,"state":"active","user_id":444239440,"category_id":null,"title":"Personalized
+        Name Bracelet, Anklet, Your Name, Custom Dainty Bracelet,Beautiful Birthday
+        Gift For Women, Bridesmaid,Name Plate,Name Bracelet","description":"These
+        bracelet beautifully catch the light and leave a gleaming impression! Energetic,
+        unique, and wonderfully dynamic. Absolutely perfect for everyday wear as well
+        as in the shower. Like you, our Necklace is full of personality! It makes
+        for a glorious gift or a personal treat for yourself. :)\n\nAvailable in;
+        14K Gold, Silver, Rose Gold, Gold\n\nChain type; Stainless Steel\n\nChain
+        Adjustable Length; \n\nAnklet: 18cm + 5cm (extender chain)  \nBracelet 15cm
+        + 3cm (extender chain)\n\nAll items are nicely packaged ready to gift in elegant
+        jewelry boxes.\n\nEach item is made to order.\n\nYou will absolutely love
+        it because; This bracelet is right on-trend, and it\u2019s the perfect reminder
+        of what truly matters. All our jewelry is custom made by hand with Love and
+        Care in our workshop","creation_tsz":1626704794,"ending_tsz":1637335594,"original_creation_tsz":1619416229,"last_modified_tsz":1626704794,"price":"31.50","currency_code":"USD","quantity":817,"sku":[],"tags":["dainty
+        minimalist","custom name necklace","personalized jewelry","Name jewelry","silver
+        custom name","birthday gift","name pendant","bridesmaid gift","bracelet for
+        women","bracelet chain","anklet name","custom bracelet","tiny custom bracelet"],"materials":["Titanium"],"shop_section_id":33223158,"featured_rank":null,"state_tsz":1625124177,"url":"https:\/\/www.etsy.com\/listing\/994313612\/personalized-name-bracelet-anklet-your?utm_source=gifty&utm_medium=api&utm_campaign=api","views":3912,"num_favorers":386,"shipping_template_id":null,"processing_min":5,"processing_max":15,"who_made":"collective","is_supply":"false","when_made":"made_to_order","item_weight":"2","item_weight_unit":"oz","item_length":"2","item_width":"2","item_height":"2","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":1196,"taxonomy_path":["Jewelry","Bracelets","Chain
+        & Link Bracelets"],"used_manufacturer":false,"is_vintage":false},{"listing_id":900125207,"state":"active","user_id":19959204,"category_id":null,"title":"Stethoscope
+        ID Tag Silver, Stethoscope Name Band, Stethoscope ID Ring, Personalized Littmann
+        Tag, Stethoscope Name Tag, Gift for Nurse 1\/2&quot;","description":"Stethoscope
+        ID Tag Silver, Stethoscope Name Band, Stethoscope ID Ring, Personalized Littmann
+        Tag, Stethoscope Name Tag, Gift for Nurse 1\/2&quot;\n\nThis stethoscope ring
+        can be textured for an antiqued look or nice and shiny.  It is 1\/2 of an
+        inch wide and hand stamped with the desired NAME, DESIGN, CREDENTIALS. \n\n*Design
+        charm sold separately.\n\nHOW TO ORDER:\n\u25cf Choose Your Font\n\u25cf Choose
+        Your Design (58-71 are larger for the 1\/2&quot; tags)\n\u25cf Type personalization
+        details (name, credentials, color choice, etc) \n\u25cf Add To Cart\n\nIt
+        is simple to apply!  Instructions on how to securely attach it to your stethoscope
+        without removing the bell is included with every order.\n\n\u25cf~~~~\u25cf
+        THE FINE PRINT \u25cf~~~~\u25cf\nIt is made from pure aluminum. It is lightweight,
+        hypoallergenic, and will not tarnish or rust.  However, since it is a soft
+        metal it is prone to scratches and scuffs.\n\nAll items are individually hand
+        stamped so no two items will be alike. There will be variations in letter
+        placement and some letters may be deeper than others. All variations should
+        not be considered flaws, but rather unique characteristics of your item. \n\nWe
+        do our best to assure long lasting font\/design color, however nothing we
+        place on the ID tag is considered permanent.  While placing your ID tag on
+        your stethoscope the coloring can come off.  Color touch ups will be required,
+        and can easily be done with a sharpie marker and a magic eraser.\n\nPlease
+        be sure to check our Policies\/FAQ section if you are needing more details.
+        By ordering this piece of jewelry I agree to Patricia Ray Studio&#39;s policies.
+        \n\nBe sure to check out our wrap rings: https:\/\/www.etsy.com\/shop\/PatriciaRayStudio?ref=seller-platform-mcnav&section_id=19001520\n\nOr
+        our stainless steel hand stamped rings: https:\/\/www.etsy.com\/shop\/PatriciaRayStudio?ref=seller-platform-mcnav&section_id=11728539","creation_tsz":1626704782,"ending_tsz":1637335582,"original_creation_tsz":1604765388,"last_modified_tsz":1626704782,"price":"8.95","currency_code":"USD","quantity":10,"sku":[],"tags":["Stethoscope
+        ring","Stethoscope ID ring","Stethoscope tag","Nurse gift","Stethoscope name
+        tag","stethoscope bling","RN gift","Respiratory therapis","nurse appreciation","PatriciaRay","medical
+        gifts","Silver Stethoscope","Littmann ID tag"],"materials":[],"shop_section_id":20206245,"featured_rank":null,"state_tsz":1626704782,"url":"https:\/\/www.etsy.com\/listing\/900125207\/stethoscope-id-tag-silver-stethoscope?utm_source=gifty&utm_medium=api&utm_campaign=api","views":1604,"num_favorers":55,"shipping_template_id":55899103681,"processing_min":8,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":166,"taxonomy_path":["Accessories","Keychains
+        & Lanyards","Lanyards & Badge Holders"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1037913384,"state":"active","user_id":111329204,"category_id":null,"title":"Personalised
+        Christmas Dinner 14cm Medium Pet Puppy Dog Bowl - Personalised Christmas Pet
+        Gift - Christmas Dinner Bowl","description":"Personalised Christmas Dinner
+        14cm Medium Pet Puppy Dog Bowl - Personalised Christmas Pet Gift - Christmas
+        Dinner Bowl\n\nThis fun and practical ceramic pet bowl is perfect for a pet&#39;s
+        Christmas dinner!\n\nThis Personalised Any Name 14cm Medium White Pet Bowl
+        can be personalised with a name up to 12 characters.\n\n&#39;Christmas Dinner&#39;
+        is fixed\n\nAll text is case sensitive and will appear as entered.\n\nThe
+        pet bowl is ceramic.\n\nDimensions:\n\nHeight 15 cm\n\nWidth 15 cm\n\nDepth
+        5.6 cm \n\nPerfect for a pet&#39;s birthdays, Christmas or just a general
+        treat! \n\n\n** NOTE ** Please double check your personalisation as how it
+        appears here will be how it appears on the product, including spacing and
+        punctuation. \n\nPlease do not include accents and special symbols as some
+        of our processes will not allow this. Many thanks.","creation_tsz":1626704781,"ending_tsz":1637335581,"original_creation_tsz":1626335251,"last_modified_tsz":1626704782,"price":"19.99","currency_code":"GBP","quantity":10,"sku":["P0805K85"],"tags":["Pet
+        Feeding Bowl","Food Bowl","Personalised Bowl","Pet Bowl","Dog Bowl","Medium
+        Bowl","Pet Gift","Gift for my Pet","Custom Pet Dish","Christmas Bowl","Christmas
+        Dinner","Pets Christmas","Pets Name Bowl"],"materials":[],"shop_section_id":34651531,"featured_rank":null,"state_tsz":1626335252,"url":"https:\/\/www.etsy.com\/listing\/1037913384\/personalised-christmas-dinner-14cm?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":87552241929,"processing_min":1,"processing_max":3,"who_made":"someone_else","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":false,"taxonomy_id":1390,"taxonomy_path":["Pet
+        Supplies","Pet Feeding","Pet Bowls"],"used_manufacturer":false,"is_vintage":false},{"listing_id":679662191,"state":"active","user_id":89242899,"category_id":null,"title":"Wheelie
+        Bin Numbers X4! Custom House And Road Street Name Stickers (BN-24B)","description":"1
+        set of 4 Identical Bin Numbers (4 stickers)\n\nMeasuring: \n150mm x 100mm\n\nOn
+        This Sign:\nYou can have your house number and street name, Just your House
+        Number or upto 4 lines of text.\nWording\n\nHow to order:\nPlease add the
+        details of what you want on the house sign into the PAYPAL \u201cADD NOTES
+        TO SELLER\u201d Its very important you then click ADD after writing. Alternatively
+        you can send an en EBAY message after the sale with the details.\n\nThe Sign:\nThe
+        sign you will receive is EXACTLY as per the advert in its style and colour.
+        All that we change per sale is the customisation (Address).","creation_tsz":1626704779,"ending_tsz":1637335579,"original_creation_tsz":1549025737,"last_modified_tsz":1626704779,"price":"2.55","currency_code":"GBP","quantity":924,"sku":["BN-24B"],"tags":["House
+        Signs","House Numbers","Door Plaques","Door Numbers","Modern house signs","Numbers","House
+        name sign","house name plaque","decorative plaque","Acrylic house signs","Bin
+        Numbers","Wheelie Bin Stickers","Bin Stickers"],"materials":["Perspex"],"shop_section_id":null,"featured_rank":14,"state_tsz":1615728362,"url":"https:\/\/www.etsy.com\/listing\/679662191\/wheelie-bin-numbers-x4-custom-house-and?utm_source=gifty&utm_medium=api&utm_campaign=api","views":873,"num_favorers":22,"shipping_template_id":null,"processing_min":1,"processing_max":2,"who_made":"collective","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":1174,"taxonomy_path":["Home
+        & Living","Storage & Organization","Recycling & Trash"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1039972062,"state":"active","user_id":271507098,"category_id":null,"title":"Got
+        Jesus? It&#39;s Hell Without Him Embroidered Patch Iron-on\/Sew-on Badge for
+        Vest Jacket Clothing Jeans - Christian Bikers - Funny Applique","description":"Funny
+        Humor Sayings \/ Sew on or Hook & Loop Fastener Patches\nOur family business
+        is veteran owned. (Air Force & Army Vets)\nI make and sell only the highest
+        quality embroidered patches.  Buy American Made - Made in Tennessee - Help
+        support American Businesses.\nWe design patches for Apple TV, Netflix Movies,
+        Company Logo&#39;s, etc.\nHigh quality Embroidered patch with Premium Stitching\nEvery
+        aspect of life is an exploration. We all dream about travels to new places,
+        new photos we want to take, new people to meet. This patch will be your constant
+        reminder to grab your bag and live and adventurous life of capturing precious
+        moments. This iron-on patch is the perfect companion on any trip.\u00a0\nPremium
+        Detailed Patch - Patches for Vest Jacket Clothing Cap Hat Backpack Bag - Travel
+        Souvenir - Great Gift - Craft & Hobby - Uniform & Gear - Novelty DIY Embroidery\u00a0Decorative\u00a0Applique
+        - Embroidered Patch Iron\/Sew\/Hook\nShow your love of Christ with this premium
+        detailed patch.  Perfect for Christian Bikers!!\nLeviticus 19:18 \u201c\u2018Do
+        not seek revenge or bear a grudge against anyone among your people, but love
+        your neighbor as yourself. I am the Lord.&quot;\nJames 2:19 &quot;You believe
+        that there is one God. Good! Even the demons believe that\u2014and shudder.&quot;\nEphesians
+        6:10 The Armor of God\nEphesians 6:10 &quot;Finally, be strong in the Lord
+        and in his mighty power.&quot;\nEphesians 2:8 &quot;Saved by Grace&quot;\nMatthew
+        6:33 &quot; But seek first his kingdom and his righteousness, and all these
+        things will be given to you as well.&quot;\nJoshua 1:9 &quot;Have I not commanded
+        you? Be strong and courageous. Do not be afraid; do not be discouraged, for
+        the Lord your God will be with you wherever you go.\u201d\nEzekiel 7:25 &quot;When
+        terror comes, they will seek peace in vain.&quot;\nEphesians 2:8 &quot;For
+        it is by grace you have been saved, through faith\u2014and this is not from
+        yourselves, it is the gift of God&quot;\n1 Samuel 3:9 &quot;So Eli told Samuel,
+        \u201cGo and lie down, and if he calls you, say, \u2018Speak, Lord, for your
+        servant is listening.\u2019\u201d So Samuel went and lay down in his place.&quot;\n1
+        Peter 5:7 &quot;Cast all your anxiety on him because he cares for you.&quot;\n1
+        John 1:5 &quot;This is the message we have heard from him and declare to you:
+        God is light; in him there is no darkness at all.&quot;\nRuth 1:16 &quot;
+        But Ruth replied, \u201cDon\u2019t urge me to leave you or to turn back from
+        you. Where you go I will go, and where you stay I will stay. Your people will
+        be my people and your God my God.&quot;\nPsalm 118:8 &quot;It is better to
+        take refuge in the Lord than to trust in humans.&quot;\nJeremiah 29:11 &quot;For
+        I know the plans I have for you,\u201d declares the Lord, \u201cplans to prosper
+        you and not to harm you, plans to give you hope and a future.&quot;\n2 Timothy
+        1:7 - &quot;For God hath not given us the spirit of fear; but of power, and
+        of love, and of a sound mind.&quot;\n\n\ud83d\ude00:\u00a0\u00a0We do custom
+        orders on designs, sizes, and colors. Please contact us directly and we&#39;ll
+        be happy to work with you!\u00a0\n\ud83d\ude00:\u00a0\u00a0Our family business
+        is veteran owned. (Air Force & Army Vets)\u00a0\n\ud83d\ude00:\u00a0 Customize
+        your gear and clothing!!\n\ud83d\ude00:\u00a0\u00a0Check out our collage pictures
+        showing our themes & quality!\u00a0\n\ud83d\ude00:\u00a0\u00a0Proudly Made
+        in Tennessee\u00a0\n\ud83d\ude00:\u00a0\u00a0High quality Embroidered patch.
+        Premium Stitching\u00a0\n\ud83d\ude00:\u00a0\u00a0Heat Seal Backing for Iron-On
+        Patches. \/\u00a0\ud83d\ude00:\u00a0\u00a0Ironed-On Patches Will Not Come
+        Off!\u00a0\n\ud83d\ude00:\u00a0\u00a0We offer a full line of Custom Embroidery.
+        Need a patch made. Contact us and we will make it.\u00a0\n\ud83d\ude00:\u00a0\u00a0(If
+        an Iron-On Patch) There is an iron-on backing on the patch\u00a0 [cover with
+        cloth, iron on wool, heavy steam 10-15 seconds], but it is recommended to
+        SEW the patch on to be permanent.\u00a0\n\ud83d\ude00:\u00a0\u00a0Customizable
+        \/ Custom Gifts ~ Personalized Gifts & Great Gifts for under $10\u00a0\n\ud83d\ude00:\u00a0\u00a0Great
+        for Scrapbooks & Photo Albums\u00a0\n\ud83d\ude00:\u00a0\u00a0Embroidered
+        patches, Religious patches, Faith patches, Awareness Ribbon patches, biker
+        badge emblem, patches, military patches, flag patches, iron-on patches, funny
+        patches, animal patches, kids patches, souvenir patches, cryptid patches,
+        nature patches, superhero genre patches, logo patches, cartoon patches, Greek
+        Mythological creature patches, dinosaur patches, Jurassic Park Movie Logo
+        patches, Ghostbusters patches, Christmas gifts, personalized name tags, stocking
+        custom tags, and more!\u00a0\n\ud83d\ude00:\u00a0 Show off your personality
+        with a custom & unique embroidered patch designed exclusively by Ares Designs.\n\ud83d\ude00:\u00a0
+        Camping Enthusiast, Traveler, Outdoor Lover, Hiking Trails, Keep it Simple,
+        Mountains & Valleys, Forest & Trees, Solitude, Recharging & Mental Reset,
+        Road Trip, Adventure Seeker, Stoked on Life, Lakes & Rivers, Canoes & Kayaks,
+        Boating Lover, Lake Life, Nautical Compass.\n\ud83d\ude00:\u00a0 Every aspect
+        of life is an exploration. We all dream about travels to new places, new photos
+        we want to take, new people to meet. This patch will be your constant reminder
+        to grab your bag and live and adventurous life of capturing precious moments.
+        This iron-on patch is the perfect companion on any trip.\u00a0\n\n\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\n\n**  Personalized
+        custom gift & a Great gift for under $10\u00a0\n**  Made in Tennessee\u00a0\n**  Veteran
+        owned family business\u00a0\n**  sew-on or iron-on available\n**  hook & loop
+        backing for easy application available\u00a0\n**  made to handle the elements\u00a0\n**  Durable
+        Premium Quality Outdoor\/Indoor Clothing\/Gear Patches\n**  iron-on or sew-on
+        \/ hook & Loop \/ all styles available\n**  outdoor gear clothing embroidery
+        novelty patch\n**  best quality and prices online!!\u00a0\n\n\n\ud83d\ude00:\u00a0
+        We offer unique designs for the following themes: National Parks, national
+        forests, roman warriors, Spartans, classical Greek gods, outdoor and nature
+        trails, rafting, fishing, bears, wolves, animals & wildlife, Africa, water
+        sports, astronaut, rockets, ancient aliens, stars, moon, mountains, parks,
+        rivers, lakes, beaches, flip flops, tactical, sayings, Christmas, zoos, ski
+        resorts, endangered species, NASA, planets, rivers, aquariums, tourist resorts,
+        US flags, retro vintage, hipster, boho, hippie, peace symbol, classic monsters,
+        biker emblem, movies & films, movie trailers, tv series, sci-fi, states, bigfoot,
+        sasquatch, cryptid beasts, Lock Ness, Nessie, ancient wonders of the world,
+        kayak, trekking, trails, trek, road trip, cartoon, Halloween, Easter, holiday,
+        ocean, manatee, dolphins, ancient Greek mythology and more! King Leonidas
+        I  - Come and Take It - Ancient Warriors - Spartans, Greek City States, Romans,
+        Persians - Roman War Caesar SPQR 300 Movie Decorative Patches -  Battle of
+        Thermopylae\n\n\n\ud83d\ude00:\u00a0 Explore Nature, Bears, Wolves, Lions,
+        Tigers, Elephants, Grizzly, Black Bear, Polar Bears, Mountain Lions, Coyotes,
+        Elk, Moose, Deer, Animals, Woods, Mountains, Rivers, Streams, Hiking, Camping,
+        Tent, Relaxing, Challenging. Moon, Stars, Freshwater, Lakes, Rivers, Hippie,
+        Tactical, Humor Funny Sayings, Biker designs, Girl Power, Ribbon Patches,
+        Mason, Shriner Designs, Knight Templar, Ancient Warrior Series, National Parks,
+        National Monuments, Seek Adventure Patch Designs, Ice Age Animal Series, X-Files
+        Type Designs, Bigfoot Designs.. Keep what matters, Mason Jar, Wanderlust,
+        Explorer, Bears, Arctic, Keep it Wild, Enjoy the Ride, Stay 2 Wander, Sports,
+        Keep What Matters, Stoked on Life, Seek Balance, Traveler, Life of Adventure,
+        Out to Live, Rivers, Creeks, Vacation, Family, Friends, Memories, National
+        Parks, Nature, Lost in the Right Direction, Free Spirit, Stay Humble, Live
+        Simple, Do your Best, My Happy Place, Karma, Serenity, Hiking, Camping, Not
+        All Who Wander Are Lost, You Can&#39;t Delegate Thinking, Explore More, Adventure
+        Awaits, Camping, Hiking, Wander, Climbing, Road Trip, Explorer, Wild & Free,
+        Craving Wilderness, Take A Hike, Be the Light, Meet me in the Mountains, Great
+        Outdoors, Discover, I hiked it!!, Live Simply, Explore, Life&#39;s Better
+        in the Mountains, Lost in the Right Direction. Harley Quinn, The Joker, Gotham
+        Villains, Robin, Green Arrow, Flash, Speed Force, Batman, Scout Guide, Pumpkin
+        Patch, Movie Day, Movie Night, Theatre, Park Clean Up, Cub, Scouts, Scout
+        Guide, Date Night, Fun and Cute, Paw Print, Boy, Girl, Hike, Hiker, Trip,
+        Trail, Fun, Crests, Guides, Scouts Hiking, Scuba Diving Gear, Jacket \/ Baseball
+        Cap \/ Graphic Tee \/ Hoodie, Diver, Tropical Islands, Sew-On, Iron-On, Applique,
+        Novelty, Travel & Places, Owl, Panda, Turtle, Lion, Black Panther, Earth,
+        NASA, Planets, Science, Skeletons & Skulls, Signs & Symbols, Stars & Sky,
+        Universities & Colleges, Cartoons, TV & Movie Characters, Cowboy & Western,
+        Beach & Nautical, Cartoons & Anime, Lady bugs & Butterfly, Flowers & Plants,
+        Flowers - Sunflower, Flags & Political, Racing Flag, Car, Corvette, Princess,
+        Fairytale & Fantasy, Clothing, Handbags & Shoes, Celestial & Horoscope, Explore
+        More, Wander Often, Palm Trees, Sand, Cooler, Tiki Bar, Hotel, Condo, Beach
+        House, Storm, Rain, Wind, Lobster, Crabs, Shopping, Flip flops, Sandals, Blankets
+        \/ Towels \/ Beach Gear, Gear \/ Bags \/ Backpacks \/ Quilted Bags,\u00a0
+        Ball Cap \/ Baseball Cap \/ Trucker Hat, Beanies \/ Watch Caps \/ Hats \/
+        Caps, Christmas Gifts \/ Stocking Stuffer Presents, Halloween Costume \/ Cosplay
+        \/ Comic Con, Clothing \/ Vests \/ Shirts \/ Shorts \/ Denim, Conventions
+        \/ Tournaments \/ Chess Matches, Graphic Tee&#39;s \/ T-Shirts \/ Hoodies,
+        Scrapbooking, Fishing, Pier, Dock, Boardwalk, Shops, Purses, Wallets, Swim
+        Trunks, Bathing Suit, Swimming Pool, Bucket, Flash Light, Good Food, Seafood,
+        Steak, Oysters, Dolphins, Cruises, Jet Skis, Sailing, Ships, Boats, Yachts,
+        Resorts, Condo, Time Share, Beach Front, Vacation Home, Souvenirs, Kids, Children,
+        Whales, Sharks, Scuba Diving, Swimming, Trip, Famous Beaches, Florida, California,
+        Outdoor enthusiasts, Biker Motorcycle Patch, South Carolina, Alabama, Texas,
+        North Carolina, Maine, , Biker Funny Humor Sayings, Beach, Sandals, Flip Flops,
+        Sand, Dock, Pier, Fishing, Bucket, Sailing, Boating, Condo, Vacation, Hotel,
+        Summer House, Lodge, Temple, Service, Bicycle, New Jersey, New York, Mexico,
+        Bermuda, Islands, Tropical, Warm Weather, Virgin Islands, Tropical Fish, Shovel
+        & Bucket, Fishing Rod & Gear, Military & Weaponry, Animals & Insects, Awareness,
+        Jack Frost, Penguin, Holiday, Christmas, Gift, Stocking Stuffer, Christmas
+        Vacation, Classic Anime Christmas Cartoons, Hallmark Movies, Little Drummer
+        Boy, Rudolph the Red-Nosed Reindeer, Love & Hearts, The Santa Claus, Tim Allen,
+        Christmas with the Kranks, Chevy Chase, Elf, Four Christmases, Hobbies & Crafts,
+        Music, Gothic, Hippie, Humor, Bee, Beer, Family & Friends, Home Alone, Grinch,
+        Wild Hogs, Angel Falls Trail Tennessee - Chimney Tops Trail, Clingmans Dome,
+        Cuyahoga, Denali, Glacier, Montana, Katmai, Alaska, Kenai Fjords, Kings Canyon,
+        Bears, Wolves, Moose, Elk, Cougar, Olympic, Rocky Mountains, Military, Veteran,
+        Police, SWAT, Deus Vult, Bigfoot, Sasquatch, Yeti, Unexplained Mysteries,
+        X-Files, Sequoia, Shenandoah, Grand Teton, Yosemite, I Hiked It!, I Trekked
+        It!!, Medic EMT 1st Responder Combat Medical Hospital, Comics, Cartoons, Retro,
+        Characters, Anime, Manga, Big Bend, Katmai, Crater Lake, Lake Tahoe, Cryptids,
+        Strange News \/ Unexplained Mysteries \/ Bermuda \/ Pyramids, Monsters, Horror,
+        Science Fiction, Washington, California, Oregon, Acadia, Trek, Backpack, Hiking,
+        Walking Stick, Templar Knights, Legendary Warriors, Mountains, Moon, Stars,
+        Trees, Christian Bikers, Postcards, Posters, Prints, National Parks, Smoky
+        Mountains, Yellowstone, AMERICAN REVOLUTION, Temple, Lodge, Free Masons, Founding
+        Fathers, National Treasure Movie, Masons, Biker Clubs, MC, Nature, Thin Blue
+        Line, Wander, Texas Star, Protect our Border, The Irish - We Drink and We
+        Fight, Proud To Be An American, Lost, Trek, Deere, Kubota, New Holland, Ford,
+        Masey, Trekking, Hiking, Souvenir, Travel, Vacation, Road Trip, Journey, Tourist,
+        Outdoors, Explore Nature, Wanderlust, Seek Freedom, Journey, Passion, Military
+        & Weaponry, US CONSTITUTION, GUN RIGHTS, Animals, Dogs, Cats, Labs, X large
+        Vests Jacket Back Patches, Politics Political 2nd Amendment Theme, Tactical
+        Morale Patches, Biker Emblems, Cosplay, Motif, Decorative, Fabric, Embroidery,
+        Embroidered, National Parks, Jacket, Vests, Denim, Jeans, Gear, Ball Cap,
+        Baseball, Romans, Egyptians, Assyrians, Persians, Carthage, Celts, Franks,
+        Germans, Huns, Greeks, Macedonia, Athens, Sparta, NFL, Sports, NBA, Taco Tuesday,
+        James, Kobe, Jordan, Curry, Davis, Shaq, Bird, MLB, NHL, Hockey, Basketball,
+        Football, Brady, Baseball Cap, Graphic Tee, Hoodie, State Parks, US Flags,
+        State Flags, World Flags, Monuments, Volcano, Rivers, Lakes, Lake Life, Great
+        Smoky Mountains, Yellowstone, Acadia, Ski Resorts, Ski Lift, Cabins, Retro,
+        Vintage, Comics, Cartoons, Science Fiction, NASA, Planets, Telescope, Stars,
+        Moon, Bears, Wolves, Coyote, Buffalo, Elk, Moose, Big Cats, Outdoors, Grand
+        Canyon, UFO, Area 51, Southwestern, Iron On, Utah, Redwoods, Wildlife, Souvenir,
+        Travel, Vacation, Vintage Patches for Jackets, Pirates, Spain, Portugal, British,
+        Irish, Spanish, Aztecs, Skeletons, Skulls, Self Defense, Carry Permit, Compass
+        embroidered Patch, Wolf, Joshua Tree, Iron, Hawaiian, Banff, Bigfoot, Maltese
+        Iron Cross, Skulls, Christian Cross, Christian Fish Symbol, Sasquatch, yeti,
+        unexplained mysteries, twin peaks, compass, Rattlesnake, American Flags, Gadsden
+        Flag, US Flag, Come and Take, Tyranny, Citizen, History, Molon Labe, Spartan,
+        Not all Who wander are lost, fall, spring, Halloween, costume, cosplay, Christmas,
+        stocking stuffer, gifts, presents, Santa, medusa, Big Sur, Australia, sharks,
+        dolphins, whales, mountain, reefs, divers, diving, Carlsbad, 2nd amendment,
+        Emblem Biker, Helmet, Back Patch, Shoulder, custom gun, great sand dunes,
+        Custer park, biker patches for vests, Proud to be, hats, caps, baseball cap,
+        graphic tee, superhero, comics, cartoons, cryptids, movies, TV series. Bible
+        Verse, Prayer, Faith, Honor, Character, Sayings, Custom Name Tag Badge Emblems,
+        Jeep Wrangler, Rubicon, Top Off, Traveler, Desert Travel, Mudding, Gun Patch,
+        Liberty, Punisher Skull, Tubing, Skiing, Compass, Jurassic Park, Dinosaurs,
+        Lost World, Wanderlust, Music Fest, Woodstock, Peace, Love, Dove, Man of God,
+        NFL Football, NBA Basketball, MLB Baseball, NHL Hockey, NCAA Sports, Licensed
+        Sports Jewelry, Girls, Women, Boys, Men, Earrings French Wire, Stud Post Earrings,
+        Drop Dangles, Charm Bracelets, Pendant Charm Necklace, Swirl Hearts Designs.
+        Superhero, Marvel Comics, DC Comics, Justice League, Avengers, Movie, TV Series,
+        Cartoon, Anime, Star Wars, Comic Book, Gaming, Villains, Gotham, Deadpool,
+        Science Fiction, Hufflepuff, Fantasy, Horror, Monsters, Suicide Squad, Joker,
+        X-Men, Gotham Villains, King Kong, Captain America, Doctor Strange, Kirk,
+        Spock, Warhammer 40K, Horus Heresy, Legend of Zelda, Captain America Civil
+        War, Wolverine, Robin, Resident Evil, Daredevil, Punisher, Zombie, Hook and
+        Loop Fastener, Logo, Tactical, Morale, Jurassic Park, Guardians of the Galaxy,
+        Arrow TV Series, Green Arrow, Flash TV Series, Supergirl, Ravenclaw, Last
+        Ship, Zoo, Embroidery, Collectible, Science Fiction, Fantasy, World of Warcraft,
+        Ironman, Black Widow, Dr. Seuss&#39; The Cat In The Hat, Gryffindor, Slytherin,
+        Thor, Hulk, Doctor Strange, The Walking Dead, Doctor Who, NASA, Space Explorer,
+        Superhero, Super Heroes, Star Trek, Star Wars, Wonder Woman, Batman VS Superman,
+        Superheroes, Comics, Patches, Application, Costume, Cape, Super Hero Applique
+        Decorative Novelty Theme Costume Fashion Unisex Accessory. The Flintstones,
+        Dino, Bamm-Bamm, Scooby-Doo, Jetsons, Retro Classic Cartoons, Jonny Quest,
+        Alligator, Dolphin, Elephant, Giraffe, Koala, Lion, Monkey, Panda, Tiger,
+        Frog, Moose, Fox, Kitty, Cat, National Parks, Avengers End Game, Marry Poppins,
+        Superhero, Marvel Comics, DC Comics, Justice League, Avengers, Movie, TV Series,
+        Cartoon, Anime, Star Wars, Comic Book, Gaming, Villains, Gotham, Deadpool,
+        Science Fiction, Hufflepuff, Fantasy, Horror, Monsters, Suicide Squad, Joker,
+        X-Men, Gotham Villains, King Kong, Captain America, Doctor Strange, Kirk,
+        Spock, Warhammer 40K, Horus Heresy, Legend of Zelda, Captain America Civil
+        War, Wolverine, Robin, Resident Evil, Daredevil, Punisher, Zombie, VELCRO\u00ae,
+        Logo, Tactical, Morale, Jurassic Park, Guardians of the Galaxy, Arrow TV Series,
+        Green Arrow, Halloween Costume, Scooby-Doo, Where Are You!, Looney Tunes,
+        SuperFriends 1973, Hong Kong Phooey, The Pink Panther Show, Fred Flintstone
+        and Friends, Wacky Races, Yogi Bear, Fat Albert and the Cosby Kids, Schoolhouse
+        Rock, Speed Buggy, Underdog, Speed Racer, Popeye the Sailor, Space Ghost,
+        The Woody Woodpecker Show, The Bugs Bunny Show, Josie and the Pussycats, The
+        Great Grape Ape Show, The Muppet Show, The Scooby-Doo Show, The Magilla Gorilla
+        Show, Yogi&#39;s Gang, The New Scooby-Doo Movies, Land of the Lost, H.R. Pufnstuf,
+        The Herculoids, The Porky Pig Show, The Archie Show, Thundarr the Barbarian,
+        Laff-a-Lympics, The Electric Company, The Banana Splits Adventure Hour, Top
+        Cat, Challenge of the Super Friends, Help!... It&#39;s the Hair Bear Bunch!,
+        Atom Ant, The New Adventures of Mighty Mouse and Heckle & Jeckle, Groovie
+        Goolies, The Pebbles and Bamm-Bamm Show, Dynomutt, Dog Wonder, The New Adventures
+        of Batman, Archie&#39;s TV Funnies, Scooby-Doo and Scrappy-Doo, Inch High,
+        Private Eye, The Flintstone Comedy Hour, Wheelie and the Chopper Bunch, The
+        New Fantastic Four, The New Adventures of Flash Gordon, Battle of the Planets,
+        Tarzan, Lord of the Jungle, Harlem Globetrotters, Godzilla, The New Adventures
+        of Gilligan, Jeannie, Valley of the Dinosaurs, Misterjaw, Spider-Woman, The
+        Brady Kids, Batman\/Tarzan Adventure Hour, Star Blazers, G-Force: Guardians
+        of Space, Space Sentinels, Partridge Family 2200 A.D. Star Wars, Luke Skywalker,
+        Yoda, Jedi, Sith, Empire, Rebels, The Emperor, Darth Vader, Leia, C-3PO, R2-D2,
+        Anakin Skywalker, Padm\u00e9 Amidala, Rebel Alliance, Death Star, Rogue One,
+        New Republic starfighter pilot, Wedge Antilles, Clone Wars, Galactic Republic,
+        stormtroopers, Count Dooku, Dark Lord, Han Solo, Millennium Falcon, Wookiee,
+        Chewbacca, Mace Windu, Jabba the Hutt, Bounty hunter, Boba Fett, Jango Fett,
+        Clone Trooper, Astromech droid, Droids. Rudolph the Red-nosed Reindeer, Snowman,
+        Snow Flake, Frosty, Christmas Tree, Stocking Stuffer, Family, Lights, Eating
+        food, Turkey, Ham, Presents, Memories, Decorations, Snow, Hallmark Movies,
+        Fireplace, Ornaments, Wrapping Paper, Tree Skirt, Tinsel, Mistletoe, Wreath,
+        Flowers, Trip to see family, festive get-together, candy cane, Thanksgiving,
+        White Christmas party, ugly sweater party, dessert, Bad Santa, lots of dancing,
+        lots of kissing under the mistletoe, Christmas holiday-themed costumes, gingerbread
+        house, karaoke machine, Mariah Carey, Christmas games, Christmas holiday music,
+        It\u2019s A Wonderful Life, Groundhog Day, A Christmas Prince, One Magic Christmas,
+        Last Holiday, White Reindeer, Office Christmas Party, The Night Before, Happy
+        Christmas, The Holiday, Love Actually, The Family Stone, Silent Night, Deadly
+        Night, Edward Scissorhands, A Very Harold and Kumar Christmas, Die Hard, While
+        You Were Sleeping, Kiss Kiss Bang Bang, Lethal Weapon and Iron Man 3, Gremlins,
+        The Shop Around the Corner, Jimmy Stewart, A Christmas Tale, Black Christmas,
+        The Best Man Holiday, Meet Me in St. Louis, Have Yourself a Merry Little Christmas,
+        Rudolph the Red-Nosed Reindeer, A Charlie Brown Christmas, Elf, Will Ferrell,
+        The Nightmare Before Christmas, A Christmas Carol, Charles Dickens&#39; legendary
+        tale, Christmas Eve, Christmas past, present, and future, The Muppet Christmas
+        Carol, Bad Santa, Miracle on 34th Street, Scrooged, Home Alone, White Christmas,
+        A Christmas Story, National Lampoon&#39;s Christmas Vacation, Clark (Chevy
+        Chase), Ellen (Beverly D&#39;Angelo), Audrey (Juliette Lewis), and Rusty Griswold&#39;s
+        (Johnny Galecki), define Christmas like Frank Capra&#39;s 1946 fantasy starring
+        Jimmy Stewart as George Bailey, The Santa Clause, Tim Allen, Four Christmases,
+        Vince Vaughn, Sleigh, Elves, Santa&#39;s Workshop, Letter to Santa. Superhero
+        Anime Manga TV Series - My Hero Academia, Black Butler, Fruits Basket, One
+        Punch Man, Rilakkuma and Kaoru, Mob Psycho 100 II (Crunchyroll), Ride Your
+        Wave, The Promised Neverland, Vinland Saga, Boogiepop Never Laughs, Saga of
+        Tanya the Evil, Dororo. Pinocchio, Snow White, Cinderella, Aladdin, The Lion
+        King, Jumanji, Dumbo, Scooby Doo, Jetsons, Classic Kids Movies. Horror Theme:
+        Pennywise, Freddy Krueger, Jason Voorhees Mask,\u00a0 Chucky, Scream, Voorhees
+        Mask, Chucky Pennywise, Clowns, Halloween, Jason Voorhees, Scream, Scary,
+        It, Classic Horror Movies, The Thing, Hockey Mask. Science Fiction, Daniel
+        Jackson, Colonel Jack O&#39;Neil, Samantha Carter, Teal&#39;c and George Hammond,
+        Asgard, Ancients, Goa&#39;uld. A team of explorers made up of soldiers and
+        scientists travels through a Stargate, an ancient portal to other planets.
+        They use the Stargate to explore new worlds, forge ties with friendly civilizations
+        and protect Earth from hostile forces. Recreation, sportsmen, campers, hunters,
+        fishermen, the military and travelers. Compass Wander and Explore National
+        Parks Lakes & Rivers Explore More Wander & Get Lost, Jeep Wrangler 4X4 Mudding,
+        Off Road.","creation_tsz":1626704779,"ending_tsz":1637335579,"original_creation_tsz":1626704780,"last_modified_tsz":1626704781,"price":"4.75","currency_code":"USD","quantity":999,"sku":["PAR-SAY-X-HELL-1747-RD-1801","PAR-SAY-X-HELL-1747-RD-1801-hk"],"tags":["Funny
+        Humor Sayings","Animals Nature","Camping Hiking Trail","Beach Nautical","Flags
+        Tactical USA","Mountain Lake River","Costume Cosplay","Anime Manga Cartoon","Logo
+        Adventure Sport","Outdoors Explore","Custom Name Tag","Travel Souvenir","DIY
+        Craft Applique"],"materials":["polyester twill fabric thread cotton","unique
+        personalized custom gifts","clothes sweatpants sweatshirts gear","backpacks
+        bags shirts denim hats caps","Iron on Backing Sew On","costume uniform name
+        tag","hook and loop fastener","hoodie jacket vest graphic t shirt","DIY craft
+        projects hobby","Christmas Holiday Halloween","apparel purses blankets towels","birthday
+        business handcrafted gift","Great gifts under 10"],"shop_section_id":30401507,"featured_rank":null,"state_tsz":1626704780,"url":"https:\/\/www.etsy.com\/listing\/1039972062\/got-jesus-its-hell-without-him?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":null,"processing_min":1,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"3","item_weight_unit":"oz","item_length":"9","item_width":"6","item_height":"0.25","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":40,"taxonomy_path":["Accessories","Patches
+        & Pins","Patches"],"used_manufacturer":false,"is_vintage":false},{"listing_id":727804639,"state":"active","user_id":6245712,"category_id":null,"title":"Stethoscope
+        ID Tag - Stethoscope Name Tag - Nurse Appreciation Gift - Stethoscope Charm
+        - Nurse Graduation Gift - Pinning Ceremony - RN -BSN","description":"Stethoscope
+        ID Tag - Stethoscope ID Ring - Littmann ID Tag - Stethoscope Charm - Personalized
+        Stethoscope Name Tag - Nurse Graduation Gift\n\nPersonalized stethoscope ID
+        tag charm makes a great nurse\/doctor graduation gift, pinning ceremony gift
+        or a fun accessory for your stethoscope!\n\nTag measures 1\/2&quot; wide.\n\nChoose
+        aluminum, brass, or copper. Aluminum is the silver color, brass is the gold
+        color and copper is the rose gold color.\n\nTo attach this to your stethoscope,
+        simply slip over the earpiece if you want it in the upper tubing section and
+        slide it down to the desired section or to put on the bottom portion, you
+        can remove the bell and slide on. Once your tag is on, you can squeeze it
+        closed.\n\nInstructions: Choose metal from the drop down box and leave your
+        personalization instructions including optional picture stamp choice in the
+        personalization box. 15 character max for the text including spaces. Picture
+        stamps can be seen in pictures 5 and 6 and fonts can be seen in picture 7.  If
+        you have additional things to say that won&#39;t fit in the personalization
+        instructions, please leave them in the note box at checkout.  If you do not
+        choose a picture stamp, we will only stamp your text.\n\nPicture Stamps -
+        Please note if you pick a larger picture stamp, it may have to fit on the
+        side of the charm and not underneath the name. We have over 600 picture stamps.
+        If you want flowers, trees, mountains or other pictures you don&#39;t see
+        in the picture choices, send us a message to see if we have it! \n\nFonts
+        - Sample picture Sophia is typewriter font. Tiny upper and lower are VERY
+        tiny. We do not recommend this font on this item. Devious is only available
+        in uppercase letters.\n\nOptional gift wrap available at checkout - see last
+        photo.\n\nHand stamping involves striking a steel stamp with a letter on the
+        end with a hammer into metal. Each letter may not line up perfectly straight
+        or even or be the same depth as the other letters. Any uneven letters are
+        not a defect in your piece.","creation_tsz":1626704972,"ending_tsz":1637335772,"original_creation_tsz":1565400095,"last_modified_tsz":1626704972,"price":"8.95","currency_code":"USD","quantity":635,"sku":[],"tags":["stethoscope
+        ID tag","stethoscope ID ring","littmann id tag","stethoscope charm","personalized","stethoscope
+        name tag","nurse gift","graduation gift","gift for nurse","gift for doctor","stethoscope
+        bling","stethoscope band","RN gift"],"materials":["brass","aluminum","copper"],"shop_section_id":18893759,"featured_rank":1,"state_tsz":1625267685,"url":"https:\/\/www.etsy.com\/listing\/727804639\/stethoscope-id-tag-stethoscope-name-tag?utm_source=gifty&utm_medium=api&utm_campaign=api","views":148177,"num_favorers":13547,"shipping_template_id":88198407530,"processing_min":5,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"2","item_weight_unit":"oz","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":166,"taxonomy_path":["Accessories","Keychains
+        & Lanyards","Lanyards & Badge Holders"],"used_manufacturer":false,"is_vintage":false},{"listing_id":694618050,"state":"active","user_id":19959204,"category_id":null,"title":"Stacking
+        Name Rings, Personalized Ring For Mom, Custom Gift for Mom, Stackable Rings,
+        Mothers Rings, Stackable Rings, Round Front Ring","description":"Shiny Curved
+        Front Stacker\n\nThese cute little stacker rings can be worn singly or stacked
+        with multiples, and are personalized to your specifications.  Have them stamped
+        with the your children&#39;s names, or inspirational words.  These make great
+        gifts for new mom&#39;s, birthdays, and anniversaries. \n\nEach ring is 3mm
+        wide and is made from stainless steel which is a very strong durable metal
+        that will not tarnish fade or turn your finger green, and is great for those
+        with metal sensitivities.\n\n\n~~ HOW TO ORDER ~~\n\u25cf Select your quantity
+        (these rings are sold individually)\n\u25cf Choose your size\n\u25cf Choose
+        your band color\n\u25cf Add to Cart\n\nWe can stamp up to 25 characters on
+        each ring. Characters include; letters, numbers, spaces, dots, dashes, and
+        symbols (Heart, Star, Moon, Cross, Infinity, Flower, Paw Print, and Angel
+        Wings).\n\nWe are not able to stamp\/engrave the inside of the rings.\n\n\u25cf~~~~~~~\u25cf
+        \u2665 Patricia Ray \u2665 \u25cf~~~~~~~\u25cf\n\nPlease remember all our
+        rings are individually hand stamped so no two rings will be a like, which
+        only adds to the character and uniqueness of your ring. There may be some
+        variation to the stamping placement on your ring which should not be considered
+        design flaws but merely individuality of your ring. We do our best to assure
+        the highest quality and longest lasting font coloring however over time they
+        made fade. Fading can easily be touched up at home. \n\nPlease note that these
+        rings are 3 mm wide, the font is also between 2.5 and 3 mm tall. The lower
+        case &quot;hanging&quot; letters like g and y CANNOT drop down like in standard
+        typing. There is no place for the letter to go--they will be equal height
+        of the Upper case or full height letters like l and t. \n\n\nFor the flat
+        surface stacking rings check here:\nhttps:\/\/www.etsy.com\/listing\/243292900\/personalized-stacking-ring-3-mm-wide?ref=shop_home_active_1\n\nI
+        also have this style of ring in a gold finish:\nhttps:\/\/www.etsy.com\/listing\/107545529\/stacking-ring-name-ring-gold-tone?ref=shop_home_active_16\n\nBe
+        sure to check back often for new additions \n\nBack to my home page? https:\/\/www.etsy.com\/shop\/patriciaraystudio","creation_tsz":1626704772,"ending_tsz":1637335572,"original_creation_tsz":1558582941,"last_modified_tsz":1626704772,"price":"11.99","currency_code":"USD","quantity":15,"sku":[],"tags":["Jewelry","stacking
+        ring","name ring","stackable ring","mothers jewelry","stainless steel ring","personalized
+        ring","hand stamped ring","personalized name","snow mountain design","silver
+        ring","gift for her","personalized jewelry"],"materials":["Stainless steel"],"shop_section_id":11728539,"featured_rank":null,"state_tsz":1626704772,"url":"https:\/\/www.etsy.com\/listing\/694618050\/stacking-name-rings-personalized-ring?utm_source=gifty&utm_medium=api&utm_campaign=api","views":21583,"num_favorers":2051,"shipping_template_id":55899103681,"processing_min":8,"processing_max":10,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"2","item_weight_unit":"oz","item_length":"6","item_width":"4","item_height":"1","item_dimensions_unit":"in","is_private":false,"recipient":"women","occasion":null,"style":["Modern"],"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":1232,"taxonomy_path":["Jewelry","Rings","Bands"],"used_manufacturer":false,"is_vintage":false},{"listing_id":1053937387,"state":"active","user_id":249094416,"category_id":null,"title":"Neutral
+        Baby Clothes Wooden Personalised Kids Door Name Plaque Sign","description":"Modern
+        custom made children\u2019s wooden door name sign, painted white, featuring
+        watercolour handpainted cute little baby clothing print. Gender neutral colour
+        and styling. Gift idea for baby shower or new baby!\n\nPERSONALISED\nWe can
+        add any name or names.\n\nWe add the word \u2018ROOM\u2019 as standard. If
+        you\u2019d like something different (Bedroom, Nursery, Playroom, or name only
+        for example) please request this when ordering.\n\nMADE TO ORDER\nEach name
+        plaque is cut from mdf and spray painted in our UK workshop, before we print
+        the personalised wording and design of your choice into the painted surface.\nNote,
+        this is a professionally crafted wooden product, not a sticker, glued on paper,
+        or plastic vinyl.\n\nSIZE\nCut from chunky 1cm thick mdf.\n19cm length x 9cm
+        tall x 1cm depth\n\nSHIPPING\nMade to order item. However, it usually takes
+        on average ONLY 2 BUSINESS DAYS for the manufacture of your personalised name
+        sign.\nCarrier: Royal Mail 1st class tracked.\n\nFIXINGS\nComplete with sticky
+        fixers on the back.\n\nIntended for indoor use only.","creation_tsz":1626704771,"ending_tsz":1637335571,"original_creation_tsz":1626704771,"last_modified_tsz":1626704772,"price":"8.99","currency_code":"GBP","quantity":64,"sku":[],"tags":["Baby
+        Name","Baby Gift","Child''s gift","Unusual Gift Child","Wooden Gift","Wooden
+        Baby Sign","New Baby Gift","nursery door plaque","neutral nursery","baby shower
+        gift","personalised baby","baby name gift","gender neutral"],"materials":["mdf","paint","wooden"],"shop_section_id":null,"featured_rank":null,"state_tsz":1626704771,"url":"https:\/\/www.etsy.com\/listing\/1053937387\/neutral-baby-clothes-wooden-personalised?utm_source=gifty&utm_medium=api&utm_campaign=api","views":0,"num_favorers":0,"shipping_template_id":110239570971,"processing_min":2,"processing_max":2,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":false,"taxonomy_id":1931,"taxonomy_path":["Home
+        & Living","Home Decor","Wreaths & Door Hangers","Door Hangers"],"used_manufacturer":false,"is_vintage":false},{"listing_id":897244522,"state":"active","user_id":352221423,"category_id":null,"title":"Personalised
+        Cadbury\u2019s Dairy Milk Chocolate Bar Birthday Gift Anniversary Missing
+        You Valentines","description":"Send a chocolatey gift that they\u2019re sure
+        to love, because who doesn\u2019t love chocolate \u2013 especially when it
+        has their name on it! A delicious Cadbury dairy milk chocolate bar wrapped
+        in a personalised sleeve; it makes the perfect gift to show your loved one
+        how much they mean to you! \n\nAdd any name up to 15 charterers long.\n\nPLEASE
+        NOTE: This is a personalised paper wrapper around a standard 110g bar of Dairy
+        Milk. It does not come with a personalised foil wrapper.","creation_tsz":1626704764,"ending_tsz":1637335564,"original_creation_tsz":1606245197,"last_modified_tsz":1626704764,"price":"4.99","currency_code":"GBP","quantity":73,"sku":[],"tags":["get
+        well","thank you","gift","anniversary","birthday","dairymilk","name","personalised","chocolate
+        bar","chocolate","cadbury","cadburys","dairy milk"],"materials":[],"shop_section_id":31424150,"featured_rank":37,"state_tsz":1625938414,"url":"https:\/\/www.etsy.com\/listing\/897244522\/personalised-cadburys-dairy-milk?utm_source=gifty&utm_medium=api&utm_campaign=api","views":13514,"num_favorers":611,"shipping_template_id":130136321449,"processing_min":1,"processing_max":1,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":false,"is_digital":false,"file_data":"","should_auto_renew":true,"language":"en-US","has_variations":true,"taxonomy_id":943,"taxonomy_path":["Home
+        & Living","Food & Drink","Candy","Chocolates"],"used_manufacturer":false,"is_vintage":false},{"listing_id":125156272,"state":"active","user_id":17376992,"category_id":null,"title":"CoWorker
+        Gift Desk NamePlate Personalized Professional Office Gift 10 x 2.5","description":"Desk
+        Name Plates by GaroSigns \u2013 A true mark of the business professional.
+        These personalized office name plates are made with solid Poplar wood which
+        is one of the highest grade woods used for painting furniture in the U.S.
+        \n\nBuying in BULK: Refer to &quot;step 1&quot; in the listing images. &quot;Office10&quot;
+        and &quot;OFFICE20&quot; coupon codes for 10% - 20% off of bulk purchases.
+        Message us for more information. We offer competitive prices for bulk ordering!\n\nPoplar
+        is the perfect wood for our modern collection of nameplates! It&#39;s distinguished
+        grain pattern combined with it&#39;s ability to absorb paint well helps to
+        display the natural character of the wood even with a high gloss durable finish.
+        \n\nYES! We also do LOGO&#39;s. We have a new technology that allows us to
+        print (goodbye vinyl lettering) with virtually no limitations. For an additional
+        $6 just select the logo option during checkout and send us an email attaching
+        your desired logo. We&#39;ll import the logo into your name plate design and
+        send you a proof before we ship.\n\n~~~~~~~~What You Are Getting ~~~~~~~~\n\n-10
+        inch x 2.5 inch solid wood base\n-Shatter resistant fogged acrylic glass nameplate
+        that slides into base\n-Beautiful gloss finish. \n-Personalized name, title
+        and even a logo\n- Printed Lettering & Logo (not vinyl)\n\nWill NOT split,
+        crack or warp over time! These signs are solid and made to last until you
+        retire or finally get that promotion. We are confident that you will be extremely
+        pleased with the finished product.\nWe respond quickly to e-mail and will
+        keep in touch with you until you receive your order and are completely satisfied.
+        We look forward to working with you in creating the perfect office sign your
+        co-workers will envy.\n\nClick here to see all our signs!... https:\/\/www.etsy.com\/shop\/GaroSigns\n\nNeed
+        this in a RUSH:\nhttps:\/\/www.etsy.com\/listing\/269429758\/rush-order-for-garo-signs\n\nNeed
+        a REPLACEMENT acrylic:\nhttps:\/\/www.etsy.com\/listing\/269316235\/replacement-acrylic-for-your-garo-signs\n\n~~~~~~~~
+        Purchasing Instructions~~~~~~~~\n\n1. - Use the &quot;Add to Cart&quot; Button
+        to purchase the above sign and follow the check out\ninstructions.\n2. - At
+        checkout there will be a box called &quot;Leave a Note to Seller&quot;\nBe
+        sure to leave this information: \n-----&gt; Would you like ONE or TWO lines\n-----&gt;
+        Name and Title and Logo (if necessary)\n-----&gt; Specific Font Type (or I
+        can suggest popular fonts)\n-----&gt;Specify Color Finish: Black, Cherry,
+        Light, Sapwood, Espresso or White\n3. \u2013 We\u2019ll work with you to create
+        a proof and once approved we\u2019ll create your sign and ship it right out!\n\nThanks
+        so much!","creation_tsz":1626704763,"ending_tsz":1637335563,"original_creation_tsz":1362194788,"last_modified_tsz":1626704763,"price":"23.99","currency_code":"USD","quantity":408,"sku":[],"tags":["office
+        sign","business sign","professional sign","office","personalized sign","gift","Christmas","Name
+        Plate","Desk","Mothers Day","CoWorker Gift","GaroSigns","Garo Signs"],"materials":["wood","frosted
+        acrylic glass","gloss paint","printed lettering"],"shop_section_id":13132990,"featured_rank":null,"state_tsz":1626529852,"url":"https:\/\/www.etsy.com\/listing\/125156272\/coworker-gift-desk-nameplate?utm_source=gifty&utm_medium=api&utm_campaign=api","views":48614,"num_favorers":4812,"shipping_template_id":74685402118,"processing_min":4,"processing_max":7,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":"12","item_weight_unit":"oz","item_length":"10","item_width":"3","item_height":"3","item_dimensions_unit":"in","is_private":false,"recipient":null,"occasion":null,"style":["Modern"],"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":1101,"taxonomy_path":["Home
+        & Living","Office","Office & Desk Storage"],"used_manufacturer":false,"is_vintage":false},{"listing_id":970622038,"state":"active","user_id":274840845,"category_id":null,"title":"Custom
+        Acrylic Name Sign  Choose Your Font - living room decor, party decoration,
+        baby name sign, nursery decor, mirror gold sign","description":"Pesonalized
+        Wedding Names Acrylic Mirror Gold Wood Signs Custom Name Sign Decor Wedding
+        Letters Babyshower Baby Name Nursery \n\n *PLEASE NOTE: If you opt for two
+        names in a single sign, the letter height will be much smaller \n\nSize availables:
+        20cm-100cm length\n\nMaterial: 4mm\nusuable indoor and outdoor. waterproof\n\nLarge
+        Mirror Acrylic Personalised Name Wall Sign Plaque Letters | Nursery Decor\n\nMade
+        bespoke to you, our acrylic signs instantly add character - ideal to place
+        over a cot, crib, bed or anywhere in the home! Why not use as a party or event
+        decor piece?\n\nOur new mounted acrylic signs are cut from premium mirror
+        acrylic and then mounted to premium grain 6mm wood to make the sign sturdy
+        and thick and giving an overall more 3D effect. They are three times the thickness
+        of our standard acrylic signs.\n\n(please note: the height will vary depending
+        on the length of the name as it is scaled to size) Sizes shown are overall
+        width:","creation_tsz":1626704759,"ending_tsz":1637335559,"original_creation_tsz":1616219376,"last_modified_tsz":1626704759,"price":"48.00","currency_code":"USD","quantity":939,"sku":[],"tags":["mirrored
+        name sign","acrylic name sign","mirrored signs","gold name sign","mirror wall
+        stickers","gold mirror name","mirrors acrylic name","mirror name sign","door
+        sign","babyshower decor","gold name wall","acrylic mirror name","acrylic name
+        sticker"],"materials":["Metal","Aluminum"],"shop_section_id":28136014,"featured_rank":null,"state_tsz":1626659253,"url":"https:\/\/www.etsy.com\/listing\/970622038\/custom-acrylic-name-sign-choose-your?utm_source=gifty&utm_medium=api&utm_campaign=api","views":33542,"num_favorers":3584,"shipping_template_id":85900279105,"processing_min":3,"processing_max":5,"who_made":"i_did","is_supply":"false","when_made":"made_to_order","item_weight":null,"item_weight_unit":"g","item_length":null,"item_width":null,"item_height":null,"item_dimensions_unit":"mm","is_private":false,"recipient":null,"occasion":null,"style":null,"non_taxable":false,"is_customizable":true,"is_digital":false,"file_data":"","should_auto_renew":false,"language":"en-US","has_variations":true,"taxonomy_id":2844,"taxonomy_path":["Home
+        & Living","Home Decor","Wall Decor","Wall Hangings","Signs"],"used_manufacturer":false,"is_vintage":false}],"params":{"limit":25,"offset":0,"page":null,"keywords":null,"sort_on":"created","sort_order":"down","min_price":null,"max_price":null,"color":null,"color_accuracy":0,"tags":"name","taxonomy_id":null,"location":null,"lat":null,"lon":null,"region":null,"geo_level":"city","accepts_gift_cards":"false","translate_keywords":"false"},"type":"Listing","pagination":{"effective_limit":25,"effective_offset":0,"next_offset":25,"effective_page":1,"next_page":2}}'
+  recorded_at: Mon, 19 Jul 2021 14:29:58 GMT
+recorded_with: VCR 6.0.0
