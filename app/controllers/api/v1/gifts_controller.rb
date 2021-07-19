@@ -9,9 +9,9 @@ class Api::V1::GiftsController < ApplicationController
   end
 
   def show
-    Rails.cache.fetch("#{@gift}", expires_in: 2.minutes) do
-    render json: GiftSerializer.new(@gift)
-    end 
+    Rails.cache.fetch(@gift.to_s, expires_in: 2.minutes) do
+      render json: GiftSerializer.new(@gift)
+    end
   end
 
   def create

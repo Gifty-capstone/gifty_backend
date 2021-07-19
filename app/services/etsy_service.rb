@@ -17,5 +17,3 @@ class EtsyService
     end
   end
 end
-
-
