@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'Friend Gifts show - GET api/v1/gifts' do
   describe  'Happy path' do
-    it 'Shows a specific gift of the friend' do
+    it 'Shows a specific gift of the friend', :vcr do
       user = create :user
       friend = create :friend, birthday: '1989-09-29', user: user
       gift1 = create :gift, status: 0, friend: friend
@@ -18,6 +18,8 @@ describe 'Friend Gifts show - GET api/v1/gifts' do
       expect(gifts).to have_key(:name)
       expect(gifts).to have_key(:description)
       expect(gifts).to have_key(:status)
+      expect(gifts).to have_key(:products)
+      expect(gifts[:products].count).to eq(3)
     end
   end
 
