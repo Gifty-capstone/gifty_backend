@@ -1,7 +1,7 @@
 class Friend < ApplicationRecord
   validates :name, :birthday, presence: true
   belongs_to :user
-  has_many :gifts
+  has_many :gifts, dependent: :destroy
 
   def need_gift
     this_years_bday = Date.new(Time.zone.now.year, birthday.month, birthday.day)
