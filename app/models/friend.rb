@@ -5,7 +5,12 @@ class Friend < ApplicationRecord
 
   def need_gift
     this_years_bday = Date.new(Time.zone.now.year, birthday.month, birthday.day)
-    need = gifts.where(updated_at: this_years_bday.prev_year..this_years_bday)
-    need.count.zero?
-  end
+   if Date.today > this_years_bday
+     need = gifts.where(updated_at: this_years_bday..this_years_bday + 1.year, status: "purchased")
+     need.count.zero?
+   else
+     need = gifts.where(updated_at: this_years_bday.prev_year..this_years_bday, status: "purchased")
+     need.count.zero?
+   end
+ end
 end
