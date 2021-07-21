@@ -221,3 +221,18 @@ All tests live within the spec folder to run the tests from your command line ru
 ![Screen Shot 2021-07-15 at 11 12 19 PM](https://user-images.githubusercontent.com/75232735/125895328-f335dfb6-936a-477f-a12a-68fa960c9d3a.png)
 
 ## Developers 
+* Kendall Haworth
+  *  https://www.linkedin.com/in/kendallhaworth/
+  *  https://github.com/kendallha
+* Melanie Daoheuang
+  * https://www.linkedin.com/in/daoheuang/
+  * https://github.com/daomeow
+* Rachel Hendricks
+  * https://www.linkedin.com/in/rachel-hendricks92/
+  * https://github.com/rhen92
+* Brisa Garcia
+  *  https://www.linkedin.com/in/brisa-garcia/
+  *  https://github.com/brisag/brisag
+* Joey Haas
+  *  https://www.linkedin.com/in/haasjoseph/
+  *  https://github.com/joeyh92989  
